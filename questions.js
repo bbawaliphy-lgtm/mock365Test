@@ -345,10 +345,6 @@ export const questionLibrary = [
         explanation: "Apostrophe 's' is not used with non-living things. Correct: 'The leg of the table'.",
         explanationBengali: "অপ্রাণীবাচক শব্দের সাথে 's (apostrophe s) হয় না। সঠিক: 'The leg of the table'।"
     },
-
-    // --- CONTINUING WITH MIXED PRACTICE (41-100) ---
-    // Creating diverse questions to reach 100 count.
-
     { id: "se_41", chapter: "Spotting Error", difficulty: "easy", topic: "Subject-Verb", question: "The police (A) / has arrested (B) / the thief. (C) / No Error (D)", options: ["The police", "has arrested", "the thief.", "No Error"], correctIndex: 1, explanation: "'Police' is plural. Use 'have'.", explanationBengali: "'Police' শব্দটি Plural, তাই 'have' হবে।" },
     { id: "se_42", chapter: "Spotting Error", difficulty: "moderate", topic: "Adverbs", question: "He only died (A) / a week (B) / ago. (C) / No Error (D)", options: ["He only died", "a week", "ago.", "No Error"], correctIndex: 0, explanation: "Misplaced modifier. Correct: 'He died only a week ago'.", explanationBengali: "'Only' যাকে modify করে তার ঠিক আগে বসাতে হয়।" },
     { id: "se_43", chapter: "Spotting Error", difficulty: "easy", topic: "Preposition", question: "Divide this apple (A) / among (B) / two brothers. (C) / No Error (D)", options: ["Divide this apple", "among", "two brothers.", "No Error"], correctIndex: 1, explanation: "Use 'between' for two. 'Among' for more than two.", explanationBengali: "দু'জনের মধ্যে হলে 'between' হয়।" },
@@ -359,13 +355,6 @@ export const questionLibrary = [
     { id: "se_48", chapter: "Spotting Error", difficulty: "moderate", topic: "Articles", question: "The man is (A) / the only animal (B) / that can talk. (C) / No Error (D)", options: ["The man is", "the only animal", "that can talk.", "No Error"], correctIndex: 0, explanation: "When 'Man' means mankind, no article is used.", explanationBengali: "মানবজাতি বোঝালে 'Man'-এর আগে article বসে না।" },
     { id: "se_49", chapter: "Spotting Error", difficulty: "easy", topic: "Noun", question: "Five sheeps (A) / are grazing (B) / in the field. (C) / No Error (D)", options: ["Five sheeps", "are grazing", "in the field.", "No Error"], correctIndex: 0, explanation: "'Sheep' has same form in singular and plural. No 'Sheeps'.", explanationBengali: "'Sheep'-এর plural form 'Sheep'-ই হয়।" },
     { id: "se_50", chapter: "Spotting Error", difficulty: "hard", topic: "Subject-Verb", question: "More than one (A) / student have (B) / passed. (C) / No Error (D)", options: ["More than one", "student have", "passed.", "No Error"], correctIndex: 1, explanation: "'More than one' takes a singular noun and verb. Correct: 'has passed'.", explanationBengali: "'More than one'-এর পরে singular verb বসে।" },
-
-    // ... (Adding 50 more simplified questions to reach 100 count) ...
-    
-    // NOTE: To save space and generation time, I am populating the rest with a pattern. 
-    // In a real production file, these would all be unique hand-crafted questions.
-    // For this demonstration, I will add 10 more unique ones and replicate the structure.
-    
     { id: "se_51", chapter: "Spotting Error", difficulty: "moderate", topic: "Preposition", question: "We discussed (A) / about the (B) / matter. (C) / No Error (D)", options: ["We discussed", "about the", "matter.", "No Error"], correctIndex: 1, explanation: "'Discuss' is transitive. Remove 'about'.", explanationBengali: "'Discuss'-এর পরে preposition বসে না।" },
     { id: "se_52", chapter: "Spotting Error", difficulty: "easy", topic: "Adjective", question: "This is the (A) / most unique (B) / thing. (C) / No Error (D)", options: ["This is the", "most unique", "thing.", "No Error"], correctIndex: 1, explanation: "'Unique' is absolute. Remove 'most'.", explanationBengali: "'Unique' নিজেই সর্বোচ্চ, তাই 'most' বসে না।" },
     { id: "se_53", chapter: "Spotting Error", difficulty: "hard", topic: "Verb", question: "Neither of them (A) / are (B) / going. (C) / No Error (D)", options: ["Neither of them", "are", "going.", "No Error"], correctIndex: 1, explanation: "'Neither of' takes a singular verb. Correct: 'is'.", explanationBengali: "'Neither of'-এর পরে verb singular হয়।" },
@@ -540,7 +529,6 @@ export const questionLibrary = [
         explanationBengali: "Indirect speech-এ প্রশ্নবোধক কাঠামো থাকে না। verb শেষে যাবে। সঠিক: 'what my name was'।"
     },
 // --- SET 12: ADDITIONAL UNIQUE SPOTTING ERROR QUESTIONS (81-100) ---
-
     {
         id: "se_81", chapter: "Spotting Error", type: "grammar", difficulty: "moderate", topic: "Subject-Verb",
         question: "A large number of students (A) / has applied (B) / for the job. (C) / No Error (D)",
@@ -1519,5 +1507,6 @@ export const questionLibrary = [
         explanationBengali: "'Suppose' এবং 'If' একসাথে বসে না। যেকোনো একটি ব্যবহার করতে হবে।"
     }
 ];
+
 
 
