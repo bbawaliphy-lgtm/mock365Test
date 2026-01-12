@@ -538,7 +538,7 @@ export const questionLibrary = [
         correctIndex: 1,
         explanation: "In indirect speech, the statement order (Subject + Verb) is used, not question order. Correct: 'what my name was'.",
         explanationBengali: "Indirect speech-এ প্রশ্নবোধক কাঠামো থাকে না। verb শেষে যাবে। সঠিক: 'what my name was'।"
-    }
+    },
 // --- SET 12: ADDITIONAL UNIQUE SPOTTING ERROR QUESTIONS (81-100) ---
 
     {
@@ -700,7 +700,7 @@ export const questionLibrary = [
         correctIndex: 2, // No Error
         explanation: "For sentences starting with 'Let us' or 'Let's', the tag is 'shall we?'. This is correct.",
         explanationBengali: "'Let's' বা 'Let us' থাকলে question tag হয় 'shall we?'। এটি সঠিক।"
-    }
+    },
 // --- SET 14: ADDITIONAL SENTENCE IMPROVEMENT QUESTIONS (101-120) ---
 
     {
@@ -862,7 +862,7 @@ export const questionLibrary = [
         correctIndex: 0,
         explanation: "Dangling participle. The subject of 'walking' must be 'he'. Passive voice fixes this: 'he was bitten'.",
         explanationBengali: "Dangling modifier ঠিক করতে subject 'he'-কে শুরুতে আনতে হবে (Passive Voice)।"
-    }
+    },
 // --- SET 15: ADDITIONAL SENTENCE IMPROVEMENT QUESTIONS (121-140) ---
 
     {
@@ -1025,7 +1025,7 @@ export const questionLibrary = [
         correctIndex: 0,
         explanation: "Dangling participle. The car wasn't walking. Correct: 'While he was walking'.",
         explanationBengali: "Dangling modifier ঠিক করতে subject উল্লেখ করতে হবে।"
-    }
+    },
 // --- SET 16: ADDITIONAL SENTENCE IMPROVEMENT QUESTIONS (141-160) ---
 
     {
@@ -1187,7 +1187,7 @@ export const questionLibrary = [
         correctIndex: 0,
         explanation: "The subject is 'quality' (singular), not 'mangoes'. Correct: 'is'.",
         explanationBengali: "আসল subject হলো 'quality' (singular), তাই verb 'is' হবে।"
-    }
+    },
 // --- SET 17: ADDITIONAL SENTENCE IMPROVEMENT QUESTIONS (161-180) ---
 
     {
@@ -1353,7 +1353,7 @@ export const questionLibrary = [
         correctIndex: 0,
         explanation: "Plural measurements of distance/amount/time take a singular verb. Correct: 'is'.",
         explanationBengali: "দূরত্ব বা পরিমাণ বোঝালে plural subject হলেও verb singular হয়।"
-    }
+    },
 // --- SET 18: ADDITIONAL SENTENCE IMPROVEMENT QUESTIONS (181-200) ---
 
     {
@@ -1519,4 +1519,5 @@ export const questionLibrary = [
         explanationBengali: "'Suppose' এবং 'If' একসাথে বসে না। যেকোনো একটি ব্যবহার করতে হবে।"
     }
 ];
+
 
