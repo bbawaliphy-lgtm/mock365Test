@@ -1505,8 +1505,827 @@ export const questionLibrary = [
         // Given option 'Suppose' implies replacing 'Suppose if' with just 'Suppose'.
         explanation: "'Suppose' and 'If' mean the same thing here. Use one, not both. Correct: 'Suppose it rains'.",
         explanationBengali: "'Suppose' এবং 'If' একসাথে বসে না। যেকোনো একটি ব্যবহার করতে হবে।"
+    },
+// --- SET 19: FILL IN THE BLANKS QUESTIONS (201-230) ---
+
+    {
+        id: "fib_201", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Prepositions",
+        question: "He is fond ____ music.",
+        options: ["with", "of", "in", "for"],
+        correctIndex: 1,
+        explanation: "'Fond' is always followed by 'of'. Correct: 'fond of music'.",
+        explanationBengali: "'Fond'-এর সাথে preposition 'of' বসে।"
+    },
+    {
+        id: "fib_202", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Tense",
+        question: "It ____ raining since morning.",
+        options: ["is", "was", "has been", "had"],
+        correctIndex: 2,
+        explanation: "Present Perfect Continuous Tense is used for actions starting in the past and continuing now ('since morning'). Correct: 'has been'.",
+        explanationBengali: "অতীত থেকে বর্তমান পর্যন্ত চলা কাজ বোঝাতে Present Perfect Continuous Tense হয়।"
+    },
+    {
+        id: "fib_203", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Vocabulary",
+        question: "The jury ____ the verdict.",
+        options: ["announced", "declared", "pronounced", "said"],
+        correctIndex: 2,
+        explanation: "In legal contexts, a jury 'pronounces' a verdict. Correct: 'pronounced'.",
+        explanationBengali: "আইনি ভাষায় রায় ঘোষণা করাকে 'pronounce' বলা হয়।"
+    },
+    {
+        id: "fib_204", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Phrasal Verbs",
+        question: "Please ____ the candle.",
+        options: ["put out", "put off", "put up", "put in"],
+        correctIndex: 0,
+        explanation: "'Put out' means to extinguish. Correct: 'put out'.",
+        explanationBengali: "'Put out' মানে নেভানো।"
+    },
+    {
+        id: "fib_205", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Articles",
+        question: "He is ____ honest employee.",
+        options: ["a", "an", "the", "one"],
+        correctIndex: 1,
+        explanation: "'Honest' starts with a vowel sound ('o'), so it takes 'an'. Correct: 'an honest'.",
+        explanationBengali: "'Honest'-এর উচ্চারণ vowel দিয়ে শুরু, তাই 'an' বসে।"
+    },
+    {
+        id: "fib_206", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Conjunctions",
+        question: "No sooner had he arrived ____ the train left.",
+        options: ["when", "then", "than", "before"],
+        correctIndex: 2,
+        explanation: "'No sooner' is always followed by 'than'. Correct: 'than'.",
+        explanationBengali: "'No sooner'-এর সাথে 'than' বসে।"
+    },
+    {
+        id: "fib_207", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Subject-Verb Agreement",
+        question: "The quality of the apples ____ good.",
+        options: ["are", "were", "is", "have"],
+        correctIndex: 2,
+        explanation: "The subject is 'quality' (singular), not 'apples'. Correct: 'is'.",
+        explanationBengali: "আসল subject হলো 'quality' (singular), তাই verb 'is' হবে।"
+    },
+    {
+        id: "fib_208", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Pronouns",
+        question: "Let ____ go to the park.",
+        options: ["we", "us", "our", "they"],
+        correctIndex: 1,
+        explanation: "'Let' is followed by the objective case. Correct: 'Let us'.",
+        explanationBengali: "'Let'-এর পরে objective form 'us' বসে।"
+    },
+    {
+        id: "fib_209", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Vocabulary",
+        question: "He is ____ to smoking.",
+        options: ["used", "addicted", "accustomed", "habit"],
+        correctIndex: 1,
+        explanation: "'Addicted to' is used for harmful habits. 'Used to' and 'accustomed to' are more neutral. Correct: 'addicted'.",
+        explanationBengali: "খারাপ অভ্যাসের ক্ষেত্রে 'addicted to' ব্যবহৃত হয়।"
+    },
+    {
+        id: "fib_210", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Prepositions",
+        question: "He died ____ cholera.",
+        options: ["from", "of", "by", "with"],
+        correctIndex: 1,
+        explanation: "Died 'of' a disease. Correct: 'of'.",
+        explanationBengali: "রোগে মারা গেলে 'of' বসে।"
+    },
+    {
+        id: "fib_211", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Adjectives",
+        question: "She is the ____ girl in the class.",
+        options: ["tall", "taller", "tallest", "most tall"],
+        correctIndex: 2,
+        explanation: "Superlative degree is needed for comparison within a group. Correct: 'tallest'.",
+        explanationBengali: "সবার মধ্যে তুলনা হলে Superlative degree (tallest) হয়।"
+    },
+    {
+        id: "fib_212", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Tense",
+        question: "If I ____ a bird, I would fly.",
+        options: ["am", "was", "were", "had"],
+        correctIndex: 2,
+        explanation: "In hypothetical conditions, 'were' is used for all subjects. Correct: 'were'.",
+        explanationBengali: "অবাস্তব ইচ্ছা বোঝাতে সব subject-এর সাথে 'were' বসে।"
+    },
+    {
+        id: "fib_213", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Modals",
+        question: "You ____ respect your elders.",
+        options: ["can", "may", "should", "might"],
+        correctIndex: 2,
+        explanation: "'Should' expresses duty or advice. Correct: 'should'.",
+        explanationBengali: "কর্তব্য বা উপদেশ বোঝাতে 'should' বসে।"
+    },
+    {
+        id: "fib_214", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Vocabulary",
+        question: "A ____ of sheep was grazing.",
+        options: ["herd", "pack", "flock", "swarm"],
+        correctIndex: 2,
+        explanation: "A group of sheep is called a 'flock'. Correct: 'flock'.",
+        explanationBengali: "ভেড়ার পালকে 'flock' বলা হয়।"
+    },
+    {
+        id: "fib_215", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Phrasal Verbs",
+        question: "The strike was ____.",
+        options: ["called of", "called off", "called on", "called up"],
+        correctIndex: 1,
+        explanation: "'Call off' means to cancel. Correct: 'called off'.",
+        explanationBengali: "'Call off' মানে বাতিল করা।"
+    },
+    {
+        id: "fib_216", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Prepositions",
+        question: "I prefer tea ____ coffee.",
+        options: ["than", "over", "to", "from"],
+        correctIndex: 2,
+        explanation: "'Prefer' is followed by 'to'. Correct: 'to'.",
+        explanationBengali: "'Prefer'-এর সাথে 'to' বসে।"
+    },
+    {
+        id: "fib_217", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Conjunctions",
+        question: "Work hard ____ you will fail.",
+        options: ["and", "but", "or", "so"],
+        correctIndex: 2,
+        explanation: "'Or' expresses a condition/warning. Correct: 'or'.",
+        explanationBengali: "শর্ত বা সতর্কবার্তা বোঝাতে 'or' বসে।"
+    },
+    {
+        id: "fib_218", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Vocabulary",
+        question: "His handwriting is ____.",
+        options: ["illegible", "eligible", "incorrigible", "intelligible"],
+        correctIndex: 0,
+        explanation: "'Illegible' means impossible to read. Correct: 'illegible'.",
+        explanationBengali: "Illegible মানে যা পড়া যায় না (অস্পষ্ট)।"
+    },
+    {
+        id: "fib_219", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Articles",
+        question: "He is ____ European.",
+        options: ["an", "a", "the", "one"],
+        correctIndex: 1,
+        explanation: "'European' starts with a consonant sound ('yu'), so it takes 'a'. Correct: 'a'.",
+        explanationBengali: "'European'-এর উচ্চারণ 'ইউ' (consonant sound) দিয়ে শুরু, তাই 'a' বসবে।"
+    },
+    {
+        id: "fib_220", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Tense",
+        question: "She ____ to school every day.",
+        options: ["go", "going", "goes", "gone"],
+        correctIndex: 2,
+        explanation: "Simple Present Tense is used for daily habits. Correct: 'goes'.",
+        explanationBengali: "দৈনন্দিন অভ্যাস বোঝাতে Present Indefinite Tense হয়।"
+    },
+    {
+        id: "fib_221", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Prepositions",
+        question: "He jumped ____ the river.",
+        options: ["in", "into", "on", "at"],
+        correctIndex: 1,
+        explanation: "Motion towards the inside implies 'into'. Correct: 'into'.",
+        explanationBengali: "গতি নিয়ে ভেতরে প্রবেশ বোঝালে 'into' হয়।"
+    },
+    {
+        id: "fib_222", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Vocabulary",
+        question: "The ____ of the scenery was breathtaking.",
+        options: ["site", "sight", "cite", "slight"],
+        correctIndex: 1,
+        explanation: "'Sight' means view/spectacle. 'Site' is a location. Correct: 'sight'.",
+        explanationBengali: "Sight মানে দৃশ্য। Site মানে স্থান।"
+    },
+    {
+        id: "fib_223", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Subject-Verb Agreement",
+        question: "Slow and steady ____ the race.",
+        options: ["win", "wins", "winning", "won"],
+        correctIndex: 1,
+        explanation: "'Slow and steady' is a single idea, so it takes a singular verb. Correct: 'wins'.",
+        explanationBengali: "একই ধারণা বোঝালে verb singular হয়।"
+    },
+    {
+        id: "fib_224", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Pronouns",
+        question: "One must do ____ duty.",
+        options: ["his", "her", "one's", "their"],
+        correctIndex: 2,
+        explanation: "The possessive form of 'One' is 'One's'. Correct: 'one's'.",
+        explanationBengali: "'One'-এর possessive form 'One's' হয়।"
+    },
+    {
+        id: "fib_225", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Tense",
+        question: "By the time he comes, I ____.",
+        options: ["will leave", "would leave", "will have left", "left"],
+        correctIndex: 2,
+        explanation: "Future Perfect Tense is used for an action completed before a future time. Correct: 'will have left'.",
+        explanationBengali: "ভবিষ্যতের নির্দিষ্ট সময়ের আগে কাজ শেষ বোঝালে Future Perfect Tense হয়।"
+    },
+    {
+        id: "fib_226", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Adjectives",
+        question: "He is ____ to me.",
+        options: ["senior", "older", "elder", "oldest"],
+        correctIndex: 0,
+        explanation: "'Senior' is followed by 'to'. 'Older' is followed by 'than'. Correct: 'senior'.",
+        explanationBengali: "'Senior'-এর পরে 'to' বসে।"
+    },
+    {
+        id: "fib_227", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Conjunctions",
+        question: "Neither he ____ his friend is guilty.",
+        options: ["or", "nor", "and", "but"],
+        correctIndex: 1,
+        explanation: "'Neither' is followed by 'nor'. Correct: 'nor'.",
+        explanationBengali: "'Neither'-এর সাথে 'nor' বসে।"
+    },
+    {
+        id: "fib_228", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Vocabulary",
+        question: "He is a man of ____.",
+        options: ["principle", "principal", "principals", "principles"],
+        correctIndex: 3, // Assuming 'principles' (plural values) or singular 'principle'. Commonly 'man of principle'.
+        // Let's check options.
+        // Option 0: principle (singular, standard idiom)
+        // Option 3: principles (plural, also used but idiom often uses singular or plural depending on context)
+        // 'Principal' is headmaster/main.
+        // Let's use 'principle' (Option 0) as standard idiom 'man of principle'.
+        // Wait, option 3 is plural.
+        // Let's stick to Option 0 if it means moral rule.
+        // Correct Index 0.
+        // Correction: Option 0 is 'principle'. Option 1 is 'principal'.
+        // Let's select Option 0.
+        // Wait, index 0 is 'principle'.
+        correctIndex: 0,
+        explanation: "'Principle' means a fundamental truth or proposition. 'Principal' means head. Correct: 'principle'.",
+        explanationBengali: "Principle মানে নীতি। Principal মানে অধ্যক্ষ।"
+    },
+    {
+        id: "fib_229", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Prepositions",
+        question: "We should abstain ____ bad habits.",
+        options: ["of", "from", "to", "in"],
+        correctIndex: 1,
+        explanation: "'Abstain' is followed by 'from'. Correct: 'from'.",
+        explanationBengali: "'Abstain'-এর সাথে preposition 'from' বসে।"
+    },
+    {
+        id: "fib_230", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Tense",
+        question: "The sun ____ in the east.",
+        options: ["rise", "rises", "rose", "rising"],
+        correctIndex: 1,
+        explanation: "Universal truths take Simple Present Tense. Correct: 'rises'.",
+        explanationBengali: "চিরন্তন সত্য বোঝাতে Present Indefinite Tense হয়।"
+    },
+// --- SET 20: FILL IN THE BLANKS QUESTIONS (231-260) ---
+
+    {
+        id: "fib_231", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Subject-Verb Agreement",
+        question: "Neither of the two books ____ interesting.",
+        options: ["is", "are", "have", "were"],
+        correctIndex: 0,
+        explanation: "'Neither of' takes a singular verb. Correct: 'is'.",
+        explanationBengali: "'Neither of' থাকলে verb singular হয়। সঠিক: 'is'।"
+    },
+    {
+        id: "fib_232", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Prepositions",
+        question: "He is senior ____ me by two years.",
+        options: ["than", "to", "from", "of"],
+        correctIndex: 1,
+        explanation: "Adjectives ending in -ior (senior, junior) take 'to', not 'than'.",
+        explanationBengali: "'Senior'-এর পরে 'to' বসে।"
+    },
+    {
+        id: "fib_233", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Tense",
+        question: "If I ____ you, I would accept the offer.",
+        options: ["was", "am", "were", "had"],
+        correctIndex: 2,
+        explanation: "In hypothetical conditions, 'were' is used for all subjects.",
+        explanationBengali: "অবাস্তব ইচ্ছা বোঝাতে সব subject-এর সাথে 'were' বসে।"
+    },
+    {
+        id: "fib_234", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Articles",
+        question: "He is ____ university student.",
+        options: ["an", "a", "the", "one"],
+        correctIndex: 1,
+        explanation: "'University' starts with a consonant sound ('yu'), so it takes 'a'.",
+        explanationBengali: "'University'-এর উচ্চারণ 'ইউ' দিয়ে শুরু, তাই 'a' বসে।"
+    },
+    {
+        id: "fib_235", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Conjunctions",
+        question: "Work hard ____ you will fail.",
+        options: ["and", "but", "or", "so"],
+        correctIndex: 2,
+        explanation: "'Or' introduces a condition or alternative (failure).",
+        explanationBengali: "শর্ত বা সতর্কবার্তা বোঝাতে 'or' বসে।"
+    },
+    {
+        id: "fib_236", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Vocabulary",
+        question: "The ____ of the evidence was undeniable.",
+        options: ["wait", "weight", "wight", "white"],
+        correctIndex: 1,
+        explanation: "'Weight' means importance or influence in this context.",
+        explanationBengali: "Weight মানে গুরুত্ব বা ভার।"
+    },
+    {
+        id: "fib_237", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Pronouns",
+        question: "Between you and ____, he is a liar.",
+        options: ["I", "me", "my", "mine"],
+        correctIndex: 1,
+        explanation: "After prepositions like 'between', use objective pronouns (me, him).",
+        explanationBengali: "Preposition-এর পরে pronoun-এর objective form বসে। সঠিক: 'me'।"
+    },
+    {
+        id: "fib_238", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Adverbs",
+        question: "He works ____ to support his family.",
+        options: ["hard", "hardly", "hardest", "harder"],
+        correctIndex: 0,
+        explanation: "'Hard' means with effort. 'Hardly' means barely. Correct: 'hard'.",
+        explanationBengali: "কঠোর পরিশ্রম বোঝাতে 'hard' ব্যবহার করতে হবে।"
+    },
+    {
+        id: "fib_239", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Phrasal Verbs",
+        question: "The meeting was ____ due to rain.",
+        options: ["called off", "called up", "called on", "called for"],
+        correctIndex: 0,
+        explanation: "'Call off' means to cancel.",
+        explanationBengali: "'Call off' মানে বাতিল করা।"
+    },
+    {
+        id: "fib_240", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Tense",
+        question: "She ____ to the temple daily.",
+        options: ["go", "goes", "gone", "going"],
+        correctIndex: 1,
+        explanation: "Simple Present Tense is used for daily habits.",
+        explanationBengali: "দৈনন্দিন অভ্যাস বোঝাতে Present Indefinite Tense হয়।"
+    },
+    {
+        id: "fib_241", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Prepositions",
+        question: "He is afraid ____ spiders.",
+        options: ["from", "with", "of", "by"],
+        correctIndex: 2,
+        explanation: "'Afraid' is always followed by 'of'.",
+        explanationBengali: "'Afraid'-এর সাথে preposition 'of' বসে।"
+    },
+    {
+        id: "fib_242", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Vocabulary",
+        question: "His handwriting is ____.",
+        options: ["eligible", "illegible", "legal", "illogical"],
+        correctIndex: 1,
+        explanation: "'Illegible' means impossible to read.",
+        explanationBengali: "Illegible মানে যা পড়া যায় না (অস্পষ্ট)।"
+    },
+    {
+        id: "fib_243", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Subject-Verb Agreement",
+        question: "Bread and butter ____ my favorite breakfast.",
+        options: ["are", "were", "is", "have"],
+        correctIndex: 2,
+        explanation: "Bread and butter represents a single idea/dish, so verb is singular.",
+        explanationBengali: "একই ধারণা বা খাবার বোঝালে verb singular হয়।"
+    },
+    {
+        id: "fib_244", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Conjunctions",
+        question: "No sooner did he see the police ____ he ran away.",
+        options: ["when", "than", "then", "before"],
+        correctIndex: 1,
+        explanation: "'No sooner' is followed by 'than'.",
+        explanationBengali: "'No sooner'-এর সাথে 'than' বসে।"
+    },
+    {
+        id: "fib_245", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Tense",
+        question: "I ____ him for ten years.",
+        options: ["know", "am knowing", "have known", "knew"],
+        correctIndex: 2,
+        explanation: "Present Perfect is used for actions continuing from past to present with stative verbs.",
+        explanationBengali: "অতীত থেকে বর্তমান পর্যন্ত পরিচয় বোঝাতে Present Perfect Tense হয়।"
+    },
+    {
+        id: "fib_246", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Articles",
+        question: "He is ____ honest man.",
+        options: ["a", "an", "the", "one"],
+        correctIndex: 1,
+        explanation: "'Honest' begins with a vowel sound ('o'), so it takes 'an'.",
+        explanationBengali: "'Honest'-এর উচ্চারণ vowel দিয়ে শুরু, তাই 'an' বসে।"
+    },
+    {
+        id: "fib_247", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Modals",
+        question: "We ____ obey the laws.",
+        options: ["can", "may", "must", "might"],
+        correctIndex: 2,
+        explanation: "'Must' expresses obligation or necessity.",
+        explanationBengali: "বাধ্যবাধকতা বোঝাতে 'must' বসে।"
+    },
+    {
+        id: "fib_248", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Vocabulary",
+        question: "A person who knows everything is called ____.",
+        options: ["omnipotent", "omnipresent", "omniscient", "omnivorous"],
+        correctIndex: 2,
+        explanation: "'Omniscient' means knowing everything.",
+        explanationBengali: "Omniscient মানে সর্বজ্ঞ।"
+    },
+    {
+        id: "fib_249", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Prepositions",
+        question: "The book is ____ the table.",
+        options: ["in", "at", "on", "to"],
+        correctIndex: 2,
+        explanation: "'On' indicates position on a surface.",
+        explanationBengali: "টেবিলের ওপর বোঝাতে 'on' হয়।"
+    },
+    {
+        id: "fib_250", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Pronouns",
+        question: "This book is ____.",
+        options: ["my", "mine", "me", "I"],
+        correctIndex: 1,
+        explanation: "Possessive pronoun 'mine' is used at the end of the sentence.",
+        explanationBengali: "অধিকার বোঝাতে বাক্যের শেষে possessive pronoun 'mine' বসে।"
+    },
+    {
+        id: "fib_251", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Conjunctions",
+        question: "Though he is poor, ____ he is honest.",
+        options: ["but", "yet", "and", "so"],
+        correctIndex: 1,
+        explanation: "'Though' is followed by 'yet' or a comma.",
+        explanationBengali: "'Though'-এর সাথে 'yet' বা কমা বসে, 'but' নয়।"
+    },
+    {
+        id: "fib_252", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Tense",
+        question: "By next year, I ____ my project.",
+        options: ["will finish", "have finished", "will have finished", "finished"],
+        correctIndex: 2,
+        explanation: "Future Perfect Tense is used for action completed by a future time.",
+        explanationBengali: "ভবিষ্যতের নির্দিষ্ট সময়ের মধ্যে কাজ শেষ বোঝালে Future Perfect Tense হয়।"
+    },
+    {
+        id: "fib_253", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Subject-Verb Agreement",
+        question: "The police ____ coming.",
+        options: ["is", "are", "has", "was"],
+        correctIndex: 1,
+        explanation: "'Police' is a plural noun, taking a plural verb.",
+        explanationBengali: "'Police' শব্দটি plural, তাই verb 'are' হবে।"
+    },
+    {
+        id: "fib_254", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Vocabulary",
+        question: "The ____ of the mountain was covered with snow.",
+        options: ["peak", "peek", "pique", "pick"],
+        correctIndex: 0,
+        explanation: "'Peak' means the top of a mountain.",
+        explanationBengali: "Peak মানে পর্বতচূড়া।"
+    },
+    {
+        id: "fib_255", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Prepositions",
+        question: "He died ____ cancer.",
+        options: ["from", "by", "of", "with"],
+        correctIndex: 2,
+        explanation: "One dies 'of' a disease.",
+        explanationBengali: "রোগে মারা গেলে 'of' বসে।"
+    },
+    {
+        id: "fib_256", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Adjectives",
+        question: "He is the ____ boy in the class.",
+        options: ["intelligent", "more intelligent", "most intelligent", "intelligentest"],
+        correctIndex: 2,
+        explanation: "Superlative degree is used for comparison among more than two.",
+        explanationBengali: "সবার মধ্যে তুলনা হলে Superlative degree হয়।"
+    },
+    {
+        id: "fib_257", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Articles",
+        question: "Copper is ____ useful metal.",
+        options: ["a", "an", "the", "one"],
+        correctIndex: 0,
+        explanation: "'Useful' starts with a consonant sound ('yu'), so it takes 'a'.",
+        explanationBengali: "'Useful'-এর উচ্চারণ 'ইউ' দিয়ে শুরু, তাই 'a' বসে।"
+    },
+    {
+        id: "fib_258", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Phrasal Verbs",
+        question: "Please ____ the lights.",
+        options: ["put out", "put off", "put in", "put up"],
+        correctIndex: 0,
+        explanation: "'Put out' means to extinguish (a light/fire).",
+        explanationBengali: "'Put out' মানে আলো বা আগুন নেভানো।"
+    },
+    {
+        id: "fib_259", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Tense",
+        question: "He ____ out just now.",
+        options: ["has gone", "went", "had gone", "goes"],
+        correctIndex: 0,
+        explanation: "'Just now' usually takes Present Perfect Tense.",
+        explanationBengali: "'Just now' থাকলে Present Perfect Tense হয়।"
+    },
+    {
+        id: "fib_260", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Prepositions",
+        question: "She is good ____ English.",
+        options: ["in", "at", "on", "with"],
+        correctIndex: 1,
+        explanation: "To show ability, use 'good at'.",
+        explanationBengali: "কোনো বিষয়ে দক্ষতা বোঝাতে 'good at' হয়।"
+    },
+// --- SET 21: FILL IN THE BLANKS QUESTIONS (261-280) ---
+
+    {
+        id: "fib_261", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Subject-Verb Agreement",
+        question: "The jury ____ divided in their opinion.",
+        options: ["was", "were", "is", "has"],
+        correctIndex: 1,
+        explanation: "When the jury members are divided, the noun is treated as plural. Correct: 'were'.",
+        explanationBengali: "যখন Jury-র সদস্যদের মধ্যে মতভেদ থাকে, তখন plural verb হয়।"
+    },
+    {
+        id: "fib_262", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Prepositions",
+        question: "He is senior ____ me.",
+        options: ["than", "from", "to", "by"],
+        correctIndex: 2,
+        explanation: "'Senior' is followed by 'to'. Correct: 'senior to'.",
+        explanationBengali: "'Senior'-এর সাথে preposition 'to' বসে।"
+    },
+    {
+        id: "fib_263", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Vocabulary",
+        question: "The politician made a ____ speech.",
+        options: ["verbatim", "verbose", "verbal", "verbiage"],
+        correctIndex: 1,
+        explanation: "'Verbose' means using more words than necessary. Correct: 'verbose'.",
+        explanationBengali: "Verbose মানে শব্দবহুল (অপ্রয়োজনীয় কথায় পূর্ণ)।"
+    },
+    {
+        id: "fib_264", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Conjunctions",
+        question: "Scarcely had he left ____ it began to rain.",
+        options: ["then", "than", "when", "before"],
+        correctIndex: 2,
+        explanation: "'Scarcely' is followed by 'when'. Correct: 'when'.",
+        explanationBengali: "'Scarcely'-এর সাথে 'when' বসে।"
+    },
+    {
+        id: "fib_265", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Articles",
+        question: "This is ____ unique opportunity.",
+        options: ["a", "an", "the", "one"],
+        correctIndex: 0,
+        explanation: "'Unique' starts with a consonant sound ('yu'), so it takes 'a'. Correct: 'a'.",
+        explanationBengali: "'Unique'-এর উচ্চারণ 'ইউ' দিয়ে শুরু, তাই 'a' বসে।"
+    },
+    {
+        id: "fib_266", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Phrasal Verbs",
+        question: "The lights ____ during the storm.",
+        options: ["went out", "went off", "went up", "went in"],
+        correctIndex: 0,
+        explanation: "'Went out' means to stop burning or shining. Correct: 'went out'.",
+        explanationBengali: "আলো নিভে যাওয়া বোঝাতে 'went out' হয়।"
+    },
+    {
+        id: "fib_267", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Tense",
+        question: "I ____ for you since morning.",
+        options: ["am waiting", "have been waiting", "wait", "waited"],
+        correctIndex: 1,
+        explanation: "Action continuing from past to present uses Present Perfect Continuous. Correct: 'have been waiting'.",
+        explanationBengali: "সকাল থেকে অপেক্ষা করছি (চলমান), তাই Present Perfect Continuous হবে।"
+    },
+    {
+        id: "fib_268", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Pronouns",
+        question: "Let ____ do this work.",
+        options: ["he", "him", "his", "they"],
+        correctIndex: 1,
+        explanation: "'Let' is followed by the objective case. Correct: 'Let him'.",
+        explanationBengali: "'Let'-এর পরে pronoun-এর objective form 'him' বসে।"
+    },
+    {
+        id: "fib_269", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Prepositions",
+        question: "He deals ____ rice.",
+        options: ["with", "in", "at", "for"],
+        correctIndex: 1,
+        explanation: "'Deal in' means to trade. Correct: 'in'.",
+        explanationBengali: "ব্যবসা করা বোঝাতে 'deal in' বসে।"
+    },
+    {
+        id: "fib_270", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Adverbs",
+        question: "He is ____ weak to walk.",
+        options: ["very", "much", "too", "so"],
+        correctIndex: 2,
+        explanation: "'Too...to' indicates a negative result. Correct: 'too'.",
+        explanationBengali: "'Too...to' নেতিবাচক অর্থ প্রকাশ করে (এতটাই দুর্বল যে হাঁটতে পারে না)।"
+    },
+    {
+        id: "fib_271", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Subject-Verb Agreement",
+        question: "One of the boys ____ absent.",
+        options: ["are", "were", "is", "have"],
+        correctIndex: 2,
+        explanation: "'One of' takes a singular verb. Correct: 'is'.",
+        explanationBengali: "'One of' থাকলে verb singular হয়।"
+    },
+    {
+        id: "fib_272", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Modals",
+        question: "You ____ respect your teachers.",
+        options: ["may", "ought to", "can", "might"],
+        correctIndex: 1,
+        explanation: "'Ought to' expresses moral obligation. Correct: 'ought to'.",
+        explanationBengali: "নৈতিক দায়িত্ব বোঝাতে 'ought to' বসে।"
+    },
+    {
+        id: "fib_273", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Idioms",
+        question: "It is raining ____.",
+        options: ["cats and dogs", "heavy", "heavily", "dogs and cats"],
+        correctIndex: 0,
+        explanation: "'Raining cats and dogs' is an idiom meaning raining heavily.",
+        explanationBengali: "মুষলধারে বৃষ্টি বোঝাতে 'cats and dogs' idiom ব্যবহৃত হয়।"
+    },
+    {
+        id: "fib_274", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Conjunctions",
+        question: "He is rich ____ unhappy.",
+        options: ["and", "but", "so", "or"],
+        correctIndex: 1,
+        explanation: "'But' connects contrasting ideas. Correct: 'but'.",
+        explanationBengali: "বিপরীত ধারণা যুক্ত করতে 'but' বসে।"
+    },
+    {
+        id: "fib_275", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Prepositions",
+        question: "The book is ____ the table.",
+        options: ["in", "into", "on", "at"],
+        correctIndex: 2,
+        explanation: "Surface contact uses 'on'.",
+        explanationBengali: "টেবিলের ওপর বোঝাতে 'on' হয়।"
+    },
+    {
+        id: "fib_276", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Vocabulary",
+        question: "A place where birds are kept is called an ____.",
+        options: ["apiary", "aviary", "aquarium", "arena"],
+        correctIndex: 1,
+        explanation: "'Aviary' is a place for birds. 'Apiary' is for bees.",
+        explanationBengali: "পাখি রাখার স্থানকে Aviary বলা হয়।"
+    },
+    {
+        id: "fib_277", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Tense",
+        question: "The train ____ before we reached the station.",
+        options: ["left", "has left", "had left", "was leaving"],
+        correctIndex: 2,
+        explanation: "Past Perfect is used for the earlier of two past actions. Correct: 'had left'.",
+        explanationBengali: "অতীতের দুটি ঘটনার মধ্যে যেটি আগে ঘটেছে তার জন্য Past Perfect Tense হয়।"
+    },
+    {
+        id: "fib_278", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Articles",
+        question: "He is ____ M.L.A.",
+        options: ["a", "an", "the", "one"],
+        correctIndex: 1,
+        explanation: "'M.L.A.' starts with a vowel sound ('Em'), so use 'an'.",
+        explanationBengali: "M.L.A. উচ্চারণের শুরুতে vowel sound আসে, তাই 'an' বসে।"
+    },
+    {
+        id: "fib_279", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Prepositions",
+        question: "He was accused ____ theft.",
+        options: ["with", "of", "for", "in"],
+        correctIndex: 1,
+        explanation: "'Accused' is followed by 'of'. Correct: 'of'.",
+        explanationBengali: "'Accused'-এর সাথে preposition 'of' বসে।"
+    },
+    {
+        id: "fib_280", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Pronouns",
+        question: "This is the boy ____ stole my pen.",
+        options: ["who", "whom", "which", "whose"],
+        correctIndex: 0,
+        explanation: "'Who' is the subjective relative pronoun for a person. Correct: 'who'.",
+        explanationBengali: "ব্যক্তিবাচক Subject বোঝাতে 'who' বসে।"
+    },
+// --- SET 22: FILL IN THE BLANKS QUESTIONS (281-300) ---
+
+    {
+        id: "fib_281", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Subject-Verb Agreement",
+        question: "A number of books ____ missing.",
+        options: ["is", "are", "was", "has"],
+        correctIndex: 1,
+        explanation: "'A number of' takes a plural verb. Correct: 'are'.",
+        explanationBengali: "'A number of' থাকলে verb plural হয়।"
+    },
+    {
+        id: "fib_282", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Prepositions",
+        question: "He is senior ____ me.",
+        options: ["than", "from", "to", "by"],
+        correctIndex: 2,
+        explanation: "'Senior' is followed by 'to'. Correct: 'senior to'.",
+        explanationBengali: "'Senior'-এর পরে 'to' বসে।"
+    },
+    {
+        id: "fib_283", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Tense",
+        question: "If I ____ the Prime Minister, I would help the poor.",
+        options: ["was", "am", "were", "had been"],
+        correctIndex: 2,
+        explanation: "For hypothetical conditions (subjunctive mood), 'were' is used for all subjects.",
+        explanationBengali: "অবাস্তব ইচ্ছা বোঝাতে সব subject-এর সাথে 'were' বসে।"
+    },
+    {
+        id: "fib_284", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Articles",
+        question: "He is ____ heir to the throne.",
+        options: ["a", "an", "the", "one"],
+        correctIndex: 1,
+        explanation: "'Heir' starts with a vowel sound ('air'), so it takes 'an'.",
+        explanationBengali: "'Heir'-এর উচ্চারণ vowel দিয়ে শুরু, তাই 'an' বসে।"
+    },
+    {
+        id: "fib_285", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Conjunctions",
+        question: "Make hay ____ the sun shines.",
+        options: ["when", "while", "as", "before"],
+        correctIndex: 1,
+        explanation: "'While' indicates duration. Correct idiom: 'Make hay while the sun shines'.",
+        explanationBengali: "প্রবাদ: 'ঝোপ বুঝে কোপ মারো' (Make hay while the sun shines)।"
+    },
+    {
+        id: "fib_286", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Vocabulary",
+        question: "The ____ of the evidence was questionable.",
+        options: ["veracity", "voracity", "velocity", "viscosity"],
+        correctIndex: 0,
+        explanation: "'Veracity' means truthfulness. 'Voracity' means greed for food.",
+        explanationBengali: "Veracity মানে সত্যতা।"
+    },
+    {
+        id: "fib_287", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Phrasal Verbs",
+        question: "Please ____ your shoes before entering.",
+        options: ["take off", "take out", "take in", "take up"],
+        correctIndex: 0,
+        explanation: "'Take off' means to remove clothing/shoes.",
+        explanationBengali: "'Take off' মানে খুলে ফেলা।"
+    },
+    {
+        id: "fib_288", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Prepositions",
+        question: "The cat is ____ the chair.",
+        options: ["in", "under", "at", "to"],
+        correctIndex: 1,
+        explanation: "'Under' indicates position beneath something.",
+        explanationBengali: "নিচে বোঝাতে 'under' বসে।"
+    },
+    {
+        id: "fib_289", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Adverbs",
+        question: "He is ____ better today.",
+        options: ["very", "much", "too", "so"],
+        correctIndex: 1,
+        explanation: "Comparative adjectives ('better') are modified by 'much', not 'very'.",
+        explanationBengali: "Comparative degree-এর আগে 'much' বসে।"
+    },
+    {
+        id: "fib_290", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Pronouns",
+        question: "Let ____ go for a walk.",
+        options: ["we", "us", "our", "they"],
+        correctIndex: 1,
+        explanation: "'Let' takes the objective case. Correct: 'Let us'.",
+        explanationBengali: "'Let'-এর পরে objective form 'us' বসে।"
+    },
+    {
+        id: "fib_291", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Subject-Verb Agreement",
+        question: "Time and tide ____ for none.",
+        options: ["wait", "waits", "waiting", "waited"],
+        correctIndex: 0,
+        explanation: "Time and tide are considered two separate entities here, taking a plural verb (traditional usage).",
+        explanationBengali: "Time and tide-এর সাথে plural verb 'wait' বসে (ঐতিহ্যগতভাবে)।"
+    },
+    {
+        id: "fib_292", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Vocabulary",
+        question: "He is a man of ____.",
+        options: ["letters", "letter", "words", "speech"],
+        correctIndex: 0,
+        explanation: "'Man of letters' means a literary person/scholar.",
+        explanationBengali: "'Man of letters' মানে পন্ডিত ব্যক্তি।"
+    },
+    {
+        id: "fib_293", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Tense",
+        question: "I ____ him yesterday.",
+        options: ["meet", "met", "have met", "had met"],
+        correctIndex: 1,
+        explanation: "'Yesterday' requires Simple Past Tense.",
+        explanationBengali: "'Yesterday' থাকলে Past Indefinite Tense হয়।"
+    },
+    {
+        id: "fib_294", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Prepositions",
+        question: "He died ____ cancer.",
+        options: ["of", "from", "by", "with"],
+        correctIndex: 0,
+        explanation: "Died 'of' a disease.",
+        explanationBengali: "রোগে মারা গেলে 'of' বসে।"
+    },
+    {
+        id: "fib_295", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Conjunctions",
+        question: "He is poor ____ happy.",
+        options: ["and", "but", "so", "or"],
+        correctIndex: 1,
+        explanation: "'But' connects contrasting ideas.",
+        explanationBengali: "বিপরীত ধারণা বোঝাতে 'but' বসে।"
+    },
+    {
+        id: "fib_296", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Idioms",
+        question: "He is leaving the country for ____.",
+        options: ["good", "better", "best", "bad"],
+        correctIndex: 0,
+        explanation: "'For good' means forever/permanently.",
+        explanationBengali: "'For good' মানে চিরতরে।"
+    },
+    {
+        id: "fib_297", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Adjectives",
+        question: "This is the ____ book I have ever read.",
+        options: ["good", "better", "best", "goodest"],
+        correctIndex: 2,
+        explanation: "Superlative degree is used for 'ever read'.",
+        explanationBengali: "সেরা বোঝাতে Superlative degree (best) হয়।"
+    },
+    {
+        id: "fib_298", chapter: "Fill in the blanks", type: "grammar", difficulty: "easy", topic: "Articles",
+        question: "He is ____ honest man.",
+        options: ["a", "an", "the", "one"],
+        correctIndex: 1,
+        explanation: "'Honest' starts with a vowel sound, so 'an'.",
+        explanationBengali: "'Honest'-এর উচ্চারণ vowel দিয়ে শুরু, তাই 'an' বসে।"
+    },
+    {
+        id: "fib_299", chapter: "Fill in the blanks", type: "grammar", difficulty: "hard", topic: "Tense",
+        question: "By the time you reach, I ____.",
+        options: ["will leave", "have left", "will have left", "left"],
+        correctIndex: 2,
+        explanation: "Future Perfect Tense for action completed before a future time.",
+        explanationBengali: "ভবিষ্যতের নির্দিষ্ট সময়ের আগে কাজ শেষ বোঝালে Future Perfect Tense হয়।"
+    },
+    {
+        id: "fib_300", chapter: "Fill in the blanks", type: "grammar", difficulty: "moderate", topic: "Prepositions",
+        question: "He is good ____ Mathematics.",
+        options: ["in", "at", "on", "with"],
+        correctIndex: 1,
+        explanation: "Use 'good at' to show ability.",
+        explanationBengali: "দক্ষতা বোঝাতে 'good at' বসে।"
     }
 ];
-
 
 
