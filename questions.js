@@ -1,11 +1,5 @@
 export const questionLibrary = [
 
-    // =================================================================
-    // CHAPTER 1: SPOTTING ERROR (100 Questions)
-    // Topics Covered: Subject-Verb Agreement, Nouns, Pronouns, Adjectives, 
-    // Adverbs, Prepositions, Conjunctions, Tense, Articles, Superfluous
-    // =================================================================
-
     // --- SET 1: Subject-Verb Agreement (Easy/Moderate) ---
     {
         id: "se_1", chapter: "Spotting Error", type: "grammar", difficulty: "easy", topic: "Subject-Verb Agreement",
@@ -2327,5 +2321,6 @@ export const questionLibrary = [
         explanationBengali: "দক্ষতা বোঝাতে 'good at' বসে।"
     }
 ];
+
 
 
