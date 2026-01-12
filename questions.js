@@ -375,7 +375,7 @@ export const questionLibrary = [
     { id: "se_57", chapter: "Spotting Error", difficulty: "moderate", topic: "Adverb", question: "He is (A) / too glad (B) / to see you. (C) / No Error (D)", options: ["He is", "too glad", "to see you.", "No Error"], correctIndex: 1, explanation: "'Too' implies negative. Use 'very glad'.", explanationBengali: "'Too' নেতিবাচক অর্থে বসে। এখানে 'very' হবে।" },
     { id: "se_58", chapter: "Spotting Error", difficulty: "easy", topic: "Preposition", question: "He sat (A) / besides (B) / me. (C) / No Error (D)", options: ["He sat", "besides", "me.", "No Error"], correctIndex: 1, explanation: "'Beside' means next to. 'Besides' means in addition to. Correct: 'Beside'.", explanationBengali: "পাশে বসা বোঝাতে 'Beside' হয়।" },
     { id: "se_59", chapter: "Spotting Error", difficulty: "hard", topic: "Subject-Verb", question: "The number of boys (A) / are (B) / fifty. (C) / No Error (D)", options: ["The number of boys", "are", "fifty.", "No Error"], correctIndex: 1, explanation: "'The number of' takes a singular verb. Correct: 'is'.", explanationBengali: "'The number of' থাকলে verb singular হয়।" },
-    { id: "se_60", chapter: "Spotting Error", difficulty: "moderate", topic: "Pronoun", question: "Each of the (A) / boys have (B) / done his work. (C) / No Error (D)", options: ["Each of the", "boys have", "done his work.", "No Error"], correctIndex: 1, explanation: "'Each' takes a singular verb. Correct: 'has'.", explanationBengali: "'Each' থাকলে verb singular হয়।" }
+    { id: "se_60", chapter: "Spotting Error", difficulty: "moderate", topic: "Pronoun", question: "Each of the (A) / boys have (B) / done his work. (C) / No Error (D)", options: ["Each of the", "boys have", "done his work.", "No Error"], correctIndex: 1, explanation: "'Each' takes a singular verb. Correct: 'has'.", explanationBengali: "'Each' থাকলে verb singular হয়।" },
 
 // --- SET 11: MORE UNIQUE QUESTIONS (61-80) ---
 
@@ -1519,3 +1519,4 @@ export const questionLibrary = [
         explanationBengali: "'Suppose' এবং 'If' একসাথে বসে না। যেকোনো একটি ব্যবহার করতে হবে।"
     }
 ];
+
