@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSC English - Error Spotting Practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+        import { getAuth, signInAnonymously } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        import { getFirestore, doc, setDoc, getDoc, updateDoc, collection, getDocs, deleteDoc, enableIndexedDbPersistence } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+        
+        // --- 1. QUESTION DATA (Fallback & Loader) ---
+        // This FALLBACK list ensures the app works locally even if 'questions.js' is blocked by CORS.
+        const FALLBACK_QUESTIONS = [
+             { id: "e1", type: "error_spotting", difficulty: "easy", topic: "Subject-Verb Agreement", question: "The list of items (A) / are on the desk (B) / near the window. (C) / No Error (D)", options: ["The list of items", "are on the desk", "near the window.", "No Error"], correctIndex: 1, explanation: "The subject is 'list' (singular), not 'items'. It should be 'is on the desk'.", explanationBengali: "এখানে Subject হলো 'list' (singular), 'items' নয়। তাই 'are'-এর বদলে 'is' হবে।" },
+             { id: "e2", type: "error_spotting", difficulty: "easy", topic: "Articles", question: "He is (A) / a best student (B) / in the class. (C) / No Error (D)", options: ["He is", "a best student", "in the class.", "No Error"], correctIndex: 1, explanation: "Superlative adjectives like 'best' take the definite article 'the', not 'a'. Correct: 'the best student'.", explanationBengali: "Superlative degree (best)-এর আগে always 'the' বসে, 'a' নয়।" },
+             { id: "e3", type: "error_spotting", difficulty: "easy", topic: "Prepositions", question: "She is (A) / married with (B) / a doctor. (C) / No Error (D)", options: ["She is", "married with", "a doctor.", "No Error"], correctIndex: 1, explanation: "The correct preposition with 'married' is 'to', not 'with'. Correct: 'married to'.", explanationBengali: "'Married'-এর সাথে preposition 'to' বসে, 'with' নয়।" },
+             { id: "e4", type: "error_spotting", difficulty: "easy", topic: "Nouns", question: "Cattles (A) / are grazing (B) / in the field. (C) / No Error (D)", options: ["Cattles", "are grazing", "in the field.", "No Error"], correctIndex: 0, explanation: "'Cattle' is already plural. There is no word like 'Cattles'.", explanationBengali: "'Cattle' শব্দটি নিজেই plural। 'Cattles' বলে কোনো শব্দ নেই।" },
+             { id: "e5", type: "error_spotting", difficulty: "easy", topic: "Tense", question: "I have (A) / seen him (B) / yesterday. (C) / No Error (D)", options: ["I have", "seen him", "yesterday.", "No Error"], correctIndex: 0, explanation: "When a specific past time ('yesterday') is mentioned, use Simple Past Tense ('saw'), not Present Perfect ('have seen').", explanationBengali: "অতীতের নির্দিষ্ট সময় (yesterday) থাকলে Simple Past Tense হয়। 'I saw him' সঠিক।" },
+             { id: "e6", type: "error_spotting", difficulty: "easy", topic: "Pronouns", question: "Me and him (A) / went to (B) / the market. (C) / No Error (D)", options: ["Me and him", "went to", "the market.", "No Error"], correctIndex: 0, explanation: "Subjective pronouns should be used as the subject. Correct: 'He and I'.", explanationBengali: "Subject হিসেবে always Subjective Pronoun বসে। সঠিক হলো 'He and I'।" },
+             { id: "e7", type: "error_spotting", difficulty: "easy", topic: "Adjectives", question: "She is (A) / more taller (B) / than her sister. (C) / No Error (D)", options: ["She is", "more taller", "than her sister.", "No Error"], correctIndex: 1, explanation: "Double comparatives ('more taller') are incorrect. Use 'taller'.", explanationBengali: "Double comparative (more taller) ভুল। শুধু 'taller' হবে।" },
+             { id: "e8", type: "error_spotting", difficulty: "easy", topic: "Subject-Verb Agreement", question: "One of the (A) / boy is (B) / missing. (C) / No Error (D)", options: ["One of the", "boy is", "missing.", "No Error"], correctIndex: 1, explanation: "'One of the' is followed by a plural noun. Correct: 'One of the boys'.", explanationBengali: "'One of the'-এর পরে Noun সবসময় Plural হয়। তাই 'boys' হবে।" },
+             { id: "e9", type: "error_spotting", difficulty: "easy", topic: "Prepositions", question: "He is (A) / angry on (B) / me. (C) / No Error (D)", options: ["He is", "angry on", "me.", "No Error"], correctIndex: 1, explanation: "You are angry 'with' a person, not 'on'. Correct: 'angry with me'.", explanationBengali: "কারোর ওপর রাগ করলে 'angry with' হয়, 'on' নয়।" },
+             { id: "e10", type: "error_spotting", difficulty: "easy", topic: "Conjunctions", question: "No sooner did (A) / I reach the station (B) / when the train left. (C) / No Error (D)", options: ["No sooner did", "I reach the station", "when the train left.", "No Error"], correctIndex: 2, explanation: "'No sooner' is always followed by 'than', not 'when'.", explanationBengali: "'No sooner'-এর সাথে সবসময় 'than' বসে, 'when' নয়।" },
+             { id: "e11", type: "error_spotting", difficulty: "easy", topic: "Adverbs", question: "He works (A) / hardly (B) / to succeed. (C) / No Error (D)", options: ["He works", "hardly", "to succeed.", "No Error"], correctIndex: 1, explanation: "'Hardly' means 'barely'. To mean 'with effort', use 'hard'.", explanationBengali: "'Hardly' মানে 'প্রায় না'। কঠোর পরিশ্রম বোঝাতে 'hard' ব্যবহার করতে হবে।" },
+             { id: "e12", type: "error_spotting", difficulty: "easy", topic: "Tense", question: "I am (A) / knowing (B) / him well. (C) / No Error (D)", options: ["I am", "knowing", "him well.", "No Error"], correctIndex: 1, explanation: "Stative verbs like 'know' are generally not used in continuous forms. Correct: 'I know him'.", explanationBengali: "'Know' একটি Stative verb, এর continuous form হয় না। সঠিক: 'I know him'." },
+             { id: "e13", type: "error_spotting", difficulty: "easy", topic: "Articles", question: "I saw (A) / an one-eyed (B) / man. (C) / No Error (D)", options: ["I saw", "an one-eyed", "man.", "No Error"], correctIndex: 1, explanation: "'One' starts with a 'wa' sound (consonant sound), so use 'a', not 'an'.", explanationBengali: "'One' উচ্চারণের শুরুতে 'ওয়া' (consonant sound) আসে, তাই 'a' বসবে, 'an' নয়।" },
+             { id: "e14", type: "error_spotting", difficulty: "easy", topic: "Nouns", question: "My hairs (A) / are (B) / black. (C) / No Error (D)", options: ["My hairs", "are", "black.", "No Error"], correctIndex: 0, explanation: "'Hair' is used as an uncountable noun for the head. Correct: 'My hair is black'.", explanationBengali: "মাথার চুল বোঝাতে 'Hair' সবসময় Singular Uncountable Noun হিসেবে ব্যবহৃত হয়।" },
+             { id: "e15", type: "error_spotting", difficulty: "easy", topic: "Prepositions", question: "Divide this (A) / apple among (B) / two brothers. (C) / No Error (D)", options: ["Divide this", "apple among", "two brothers.", "No Error"], correctIndex: 1, explanation: "Use 'between' for two people, 'among' for more than two.", explanationBengali: "দু'জনের মধ্যে বোঝালে 'between' হয়, দুইয়ের বেশি হলে 'among' হয়।" },
+             { id: "m1", type: "error_spotting", difficulty: "moderate", topic: "Conditional Sentences", question: "If I was (A) / a bird, (B) / I would fly. (C) / No Error (D)", options: ["If I was", "a bird,", "I would fly.", "No Error"], correctIndex: 0, explanation: "In hypothetical/imaginary situations, use 'were' for all subjects. Correct: 'If I were'.", explanationBengali: "কাল্পনিক বা অসম্ভব ইচ্ছা বোঝাতে সব Subject-এর সাথে 'were' বসে।" },
+             { id: "m2", type: "error_spotting", difficulty: "moderate", topic: "Inversion", question: "Hardly I had (A) / reached the station (B) / when it began to rain. (C) / No Error (D)", options: ["Hardly I had", "reached the station", "when it began to rain.", "No Error"], correctIndex: 0, explanation: "When starting with 'Hardly', use inversion: 'Hardly had I'.", explanationBengali: "'Hardly' দিয়ে বাক্য শুরু হলে Inversion হয়, অর্থাৎ verb আগে আসে। সঠিক: 'Hardly had I'." },
+             { id: "m3", type: "error_spotting", difficulty: "moderate", topic: "Parallelism", question: "He likes (A) / swimming, reading (B) / and to run. (C) / No Error (D)", options: ["He likes", "swimming, reading", "and to run.", "No Error"], correctIndex: 2, explanation: "Maintain parallelism. 'Swimming' and 'reading' are gerunds, so 'to run' should be 'running'.", explanationBengali: "Parallelism বজায় রাখতে হবে। বাকিগুলো Gerund (ing) তাই শেষেরটিও 'running' হবে।" },
+             { id: "m4", type: "error_spotting", difficulty: "moderate", topic: "Nouns", question: "The sceneries (A) / of Kashmir (B) / are enchanting. (C) / No Error (D)", options: ["The sceneries", "of Kashmir", "are enchanting.", "No Error"], correctIndex: 0, explanation: "'Scenery' is an uncountable noun and cannot be pluralized. Correct: 'The scenery... is'.", explanationBengali: "'Scenery' একটি Uncountable Noun, এর plural হয় না।" },
+             { id: "m5", type: "error_spotting", difficulty: "moderate", topic: "Verbs", question: "He made (A) / me to (B) / do it. (C) / No Error (D)", options: ["He made", "me to", "do it.", "No Error"], correctIndex: 1, explanation: "The causative verb 'make' is followed by the bare infinitive (without 'to'). Correct: 'made me do it'.", explanationBengali: "Causative verb 'make'-এর পর bare infinitive বসে (to বসে না)।" },
+             { id: "m6", type: "error_spotting", difficulty: "moderate", topic: "Subject-Verb Agreement", question: "Many a (A) / students have (B) / failed the test. (C) / No Error (D)", options: ["Many a", "students have", "failed the test.", "No Error"], correctIndex: 1, explanation: "'Many a' is followed by a singular noun and singular verb. Correct: 'student has'.", explanationBengali: "'Many a'-এর পরে Singular Noun এবং Singular Verb বসে।" },
+             { id: "m7", type: "error_spotting", difficulty: "moderate", topic: "Adjectives", question: "He is (A) / senior than (B) / me by two years. (C) / No Error (D)", options: ["He is", "senior than", "me by two years.", "No Error"], correctIndex: 1, explanation: "Latin adjectives like 'senior', 'junior', 'superior' take 'to', not 'than'.", explanationBengali: "'Senior', 'junior' ইত্যাদির পর 'to' বসে, 'than' নয়।" },
+             { id: "m8", type: "error_spotting", difficulty: "moderate", topic: "Prepositions", question: "Despite of (A) / working hard, (B) / he failed. (C) / No Error (D)", options: ["Despite of", "working hard,", "he failed.", "No Error"], correctIndex: 0, explanation: "'Despite' does not take 'of'. 'In spite of' takes 'of'. Correct: 'Despite working'.", explanationBengali: "'Despite'-এর পর 'of' বসে না। কিন্তু 'In spite'-এর পর 'of' বসে।" },
+             { id: "m9", type: "error_spotting", difficulty: "moderate", topic: "Pronouns", question: "Let you (A) / and I (B) / go there. (C) / No Error (D)", options: ["Let you", "and I", "go there.", "No Error"], correctIndex: 1, explanation: "'Let' is followed by objective case pronouns. Correct: 'Let you and me'.", explanationBengali: "'Let'-এর পরে Pronoun-এর Objective case (me, him, her) বসে।" },
+             { id: "m10", type: "error_spotting", difficulty: "moderate", topic: "Tense", question: "It is time (A) / we go (B) / home. (C) / No Error (D)", options: ["It is time", "we go", "home.", "No Error"], correctIndex: 1, explanation: "The phrase 'It is time' + subject is followed by the past tense. Correct: 'we went'.", explanationBengali: "'It is time'-এর পর subject থাকলে verb-এর Past form বসে।" },
+             { id: "m11", type: "error_spotting", difficulty: "moderate", topic: "Question Tags", question: "Everyone has (A) / come, (B) / hasn't he? (C) / No Error (D)", options: ["Everyone has", "come,", "hasn't he?", "No Error"], correctIndex: 2, explanation: "For 'Everyone', the tag pronoun is 'they', and the verb becomes plural. Correct: 'haven't they?'.", explanationBengali: "'Everyone' থাকলে Question Tag-এ pronoun 'they' হয় এবং verb plural হয়।" },
+             { id: "m12", type: "error_spotting", difficulty: "moderate", topic: "Conjunctions", question: "Although he worked hard, (A) / but he (B) / failed. (C) / No Error (D)", options: ["Although he worked hard,", "but he", "failed.", "No Error"], correctIndex: 1, explanation: "'Although' is followed by 'yet' or a comma, never 'but'.", explanationBengali: "'Although'-এর সাথে 'but' বসে না, কমা (,) অথবা 'yet' বসে।" },
+             { id: "m13", type: "error_spotting", difficulty: "moderate", topic: "Superfluous", question: "He returned (A) / back form (B) / Delhi. (C) / No Error (D)", options: ["He returned", "back form", "Delhi.", "No Error"], correctIndex: 1, explanation: "'Return' means 'come back'. Using 'back' with it is superfluous. Remove 'back'.", explanationBengali: "'Return' মানেই ফিরে আসা। এর সাথে 'back' ব্যবহার করা ভুল (Superfluous)।" },
+             { id: "m14", type: "error_spotting", difficulty: "moderate", topic: "Nouns", question: "The police (A) / has arrested (B) / the thief. (C) / No Error (D)", options: ["The police", "has arrested", "the thief.", "No Error"], correctIndex: 1, explanation: "'Police' is a plural noun. Correct: 'have arrested'.", explanationBengali: "'Police' শব্দটি Plural, তাই verb-ও Plural (have) হবে।" },
+             { id: "m15", type: "error_spotting", difficulty: "moderate", topic: "Prepositions", question: "The cat (A) / jumped (B) / on the table. (C) / No Error (D)", options: ["The cat", "jumped", "on the table.", "No Error"], correctIndex: 2, explanation: "For movement onto a surface, use 'upon'. 'On' suggests rest. Correct: 'upon the table'.", explanationBengali: "গতি নিয়ে কোনো কিছুর ওপরে ঝাঁপ দিলে 'upon' ব্যবহৃত হয়।" },
+             { id: "h1", type: "error_spotting", difficulty: "hard", topic: "Participles", question: "Being a rainy day, (A) / I decided (B) / to stay at home. (C) / No Error (D)", options: ["Being a rainy day,", "I decided", "to stay at home.", "No Error"], correctIndex: 0, explanation: "Dangling participle. The subject 'I' is not the 'rainy day'. Add a subject 'It'. Correct: 'It being a rainy day'.", explanationBengali: "Dangling Participle-এর ভুল। 'Being'-এর আগে Subject 'It' বসাতে হবে, কারণ 'I' বৃষ্টি হতে পারে না।" },
+             { id: "h2", type: "error_spotting", difficulty: "hard", topic: "Subject-Verb Agreement", question: "More than one (A) / students have (B) / passed the exam. (C) / No Error (D)", options: ["More than one", "students have", "passed the exam.", "No Error"], correctIndex: 1, explanation: "'More than one' is followed by a singular noun and singular verb. Correct: 'student has'.", explanationBengali: "'More than one'-এর পর Singular Noun এবং Singular Verb বসে।" },
+             { id: "h3", type: "error_spotting", difficulty: "hard", topic: "Inversion", question: "Not only did he help her, (A) / but also (B) / dropped her home. (C) / No Error (D)", options: ["Not only did he help her,", "but also", "dropped her home.", "No Error"], correctIndex: 2, explanation: "Parallelism issue. 'Did he help' matches with 'he dropped'. The second part needs a subject if the first part inverted the subject. Or better: 'but he also dropped'.", explanationBengali: "Structure ঠিক রাখতে 'but he also dropped' বা 'but also dropped' (if subject implies same). Here 'dropped' acts as V2, matching 'help' (V1 due to did)." },
+             { id: "h4", type: "error_spotting", difficulty: "hard", topic: "Adverbs", question: "He is (A) / enough tall (B) / to touch the ceiling. (C) / No Error (D)", options: ["He is", "enough tall", "to touch the ceiling.", "No Error"], correctIndex: 1, explanation: "Adverbs of degree 'enough' come *after* the adjective they modify. Correct: 'tall enough'.", explanationBengali: "'Enough' শব্দটি Adjective-এর পরে বসে। সঠিক: 'tall enough'।" },
+             { id: "h5", type: "error_spotting", difficulty: "hard", topic: "Possessive Case", question: "The table's leg (A) / has been (B) / broken. (C) / No Error (D)", options: ["The table's leg", "has been", "broken.", "No Error"], correctIndex: 0, explanation: "Apostrophe 's' is generally not used with non-living things. Correct: 'The leg of the table'.", explanationBengali: "অপ্রাণীবাচক শব্দের সাথে 's (apostrophe s) হয় না। 'The leg of the table' সঠিক।" },
+             { id: "h6", type: "error_spotting", difficulty: "hard", topic: "Verbs", question: "I laid (A) / under the tree (B) / for an hour. (C) / No Error (D)", options: ["I laid", "under the tree", "for an hour.", "No Error"], correctIndex: 0, explanation: "'Laid' is the past of 'lay' (to place). Past of 'lie' (to recline) is 'lay'. Correct: 'I lay under'.", explanationBengali: "শুয়ে থাকা বোঝালে 'Lie'-এর Past tense 'Lay' হয়। 'Laid' মানে কিছু রাখা।" },
+             { id: "h7", type: "error_spotting", difficulty: "hard", topic: "Conditional Sentences", question: "If I would have (A) / known the truth, (B) / I would have told you. (C) / No Error (D)", options: ["If I would have", "known the truth,", "I would have told you.", "No Error"], correctIndex: 0, explanation: "In 3rd conditional, the 'If' clause takes Past Perfect ('had known'), not 'would have'.", explanationBengali: "Third Conditional-এর 'If' অংশটিতে Past Perfect Tense (had known) হয়, 'would have' নয়।" },
+             { id: "h8", type: "error_spotting", difficulty: "hard", topic: "Adjectives", question: "Of the two sisters, (A) / she is (B) / the best. (C) / No Error (D)", options: ["Of the two sisters,", "she is", "the best.", "No Error"], correctIndex: 2, explanation: "When comparing two, use the comparative degree ('better'), not superlative ('best'). Correct: 'the better'.", explanationBengali: "দু'জনের মধ্যে তুলনা হলে Comparative degree (better) হয়।" },
+             { id: "h9", type: "error_spotting", difficulty: "hard", topic: "Nouns", question: "He gave me (A) / two informations (B) / about the crime. (C) / No Error (D)", options: ["He gave me", "two informations", "about the crime.", "No Error"], correctIndex: 1, explanation: "'Information' is uncountable. Use 'two pieces of information'.", explanationBengali: "'Information' Uncountable, তাই এর plural হয় না। 'Two pieces of information' বলতে হবে।" },
+             { id: "h10", type: "error_spotting", difficulty: "hard", topic: "Prepositions", question: "We discussed (A) / about the (B) / matter yesterday. (C) / No Error (D)", options: ["We discussed", "about the", "matter yesterday.", "No Error"], correctIndex: 1, explanation: "'Discuss' is a transitive verb and takes a direct object. Remove 'about'.", explanationBengali: "'Discuss'-এর পর কোনো Preposition (about) বসে না।" },
+             { id: "h11", type: "error_spotting", difficulty: "hard", topic: "Conjunctions", question: "The reason why (A) / he failed is (B) / because he was lazy. (C) / No Error (D)", options: ["The reason why", "he failed is", "because he was lazy.", "No Error"], correctIndex: 2, explanation: "'The reason why' is followed by 'that', not 'because'. Correct: 'is that he was lazy'.", explanationBengali: "'The reason why' থাকলে পরে 'that' বসে, 'because' বসে না।" },
+             { id: "h12", type: "error_spotting", difficulty: "hard", topic: "Pronouns", question: "One should (A) / keep (B) / his promises. (C) / No Error (D)", options: ["One should", "keep", "his promises.", "No Error"], correctIndex: 2, explanation: "The possessive form of 'One' is 'One's', not 'his'.", explanationBengali: "'One' Subject হলে Possessive case-এ 'One's' হয়, 'his' নয়।" },
+             { id: "h13", type: "error_spotting", difficulty: "hard", topic: "Tense", question: "By the time (A) / he reaches home, (B) / the guests will leave. (C) / No Error (D)", options: ["By the time", "he reaches home,", "the guests will leave.", "No Error"], correctIndex: 2, explanation: "Action completed before a future time requires Future Perfect Tense. Correct: 'will have left'.", explanationBengali: "ভবিষ্যতের কোনো সময়ের মধ্যে কাজ শেষ বোঝালে Future Perfect Tense (will have left) হয়।" },
+             { id: "h14", type: "error_spotting", difficulty: "hard", topic: "Articles", question: "The man is (A) / the only animal (B) / that can talk. (C) / No Error (D)", options: ["The man is", "the only animal", "that can talk.", "No Error"], correctIndex: 0, explanation: "When 'Man' refers to mankind/humanity, no article is used. Correct: 'Man is'.", explanationBengali: "'Man' যখন মানবজাতি বোঝায়, তখন তার আগে Article বসে না।" },
+             { id: "h15", type: "error_spotting", difficulty: "hard", topic: "Verbs", question: "I am looking (A) / forward to (B) / meet you. (C) / No Error (D)", options: ["I am looking", "forward to", "meet you.", "No Error"], correctIndex: 2, explanation: "'Look forward to' is a phrase where 'to' is a preposition, followed by a gerund. Correct: 'meeting you'.", explanationBengali: "'Look forward to'-এর পর verb-এর সাথে 'ing' যুক্ত হয় (Gerund)।" },
+             { id: "h16", type: "error_spotting", difficulty: "hard", topic: "Agreement", question: "The Secretary (A) / and Treasurer (B) / were present. (C) / No Error (D)", options: ["The Secretary", "and Treasurer", "were present.", "No Error"], correctIndex: 2, explanation: "If article 'The' is used only once, it refers to one person holding two posts. Verb should be singular 'was'.", explanationBengali: "Article 'The' একবার থাকলে একজন ব্যক্তিকেই বোঝায়, তাই Verb singular (was) হবে।" },
+             { id: "h17", type: "error_spotting", difficulty: "hard", topic: "Order of Words", question: "He only died (A) / a week (B) / ago. (C) / No Error (D)", options: ["He only died", "a week", "ago.", "No Error"], correctIndex: 0, explanation: "Misplaced modifier 'only'. It should modify 'a week ago'. Correct: 'He died only a week ago'.", explanationBengali: "'Only' যাকে modify করে তার ঠিক আগে বসাতে হয়।" },
+             { id: "h18", type: "error_spotting", difficulty: "hard", topic: "Prepositions", question: "He entered (A) / into the (B) / room. (C) / No Error (D)", options: ["He entered", "into the", "room.", "No Error"], correctIndex: 1, explanation: "'Enter' (meaning to go in) does not take 'into'. Correct: 'entered the room'.", explanationBengali: "'Enter'-এর পর 'into' বসে না (যখন প্রবেশ করা বোঝায়)।" },
+             { id: "h19", type: "error_spotting", difficulty: "hard", topic: "Nouns", question: "All his (A) / sister-in-laws (B) / are married. (C) / No Error (D)", options: ["All his", "sister-in-laws", "are married.", "No Error"], correctIndex: 1, explanation: "Plural of compound nouns is formed on the principal word. Correct: 'sisters-in-law'.", explanationBengali: "Compound Noun-এর প্রধান শব্দের সাথে 's' যুক্ত করে plural করতে হয়। সঠিক: 'sisters-in-law'।" },
+             { id: "h20", type: "error_spotting", difficulty: "hard", topic: "Adjectives", question: "I prefer (A) / tea than (B) / coffee. (C) / No Error (D)", options: ["I prefer", "tea than", "coffee.", "No Error"], correctIndex: 1, explanation: "'Prefer' takes the preposition 'to', never 'than'. Correct: 'tea to coffee'.", explanationBengali: "'Prefer'-এর সাথে 'to' বসে, 'than' নয়।" }
+        ];
+
+        let questionLibrary = [];
+
+        // LOAD LOGIC: Try external file, failover to FALLBACK
+        (async function loadQuestions() {
+            try {
+                // Try importing the separate file
+                const module = await import('./questions.js');
+                questionLibrary = module.questionLibrary;
+                console.log("SUCCESS: Loaded questions.js");
+            } catch (e) {
+                // If CORS blocks it (file://), use fallback
+                console.warn("CORS/File Error: Switching to embedded fallback questions.");
+                questionLibrary = FALLBACK_QUESTIONS;
+            }
+        })();
+
+        // --- FIREBASE CONFIG (EXACTLY AS PROVIDED BY USER) ---
+        const firebaseConfig = {
+            apiKey: "AIzaSyBsjdMiR5Sm22NHyCRUJnSgcziSFobxORw",
+            authDomain: "paid-ai-test-series.firebaseapp.com",
+            projectId: "paid-ai-test-series",
+            storageBucket: "paid-ai-test-series.firebasestorage.app",
+            messagingSenderId: "132297579024",
+            appId: "1:132297579024:web:8e70b891ed4f709efec895"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        const db = getFirestore(app);
+        const appId = typeof __app_id !== 'undefined' ? __app_id : 'ssc-english-v1';
+
+        // --- STATE ---
+        const state = {
+            user: null,
+            questions: [],
+            currentTest: null,
+            timerInterval: null,
+            localDeviceId: localStorage.getItem('ssc_device_id') || crypto.randomUUID(),
+            userStats: {
+                weakTopics: [] 
+            }
+        };
+
+        if (!localStorage.getItem('ssc_device_id')) localStorage.setItem('ssc_device_id', state.localDeviceId);
+
+        // --- DOM & NAVIGATION ---
+        const views = {
+            login: document.getElementById('view-login'),
+            dashboard: document.getElementById('view-dashboard'),
+            test: document.getElementById('view-test'),
+            analysis: document.getElementById('view-analysis'),
+            profile: document.getElementById('view-profile'),
+            locked: document.getElementById('view-locked'),
+            expired: document.getElementById('view-expired'),
+            adminDashboard: document.getElementById('view-admin-dashboard'),
+            adminUsers: document.getElementById('view-admin-users')
+        };
+
+        function navigate(viewName) {
+            console.log("Navigating to:", viewName);
+            Object.values(views).forEach(el => el && el.classList.add('hidden'));
+            
+            const target = document.getElementById(`view-${viewName}`);
+            if (target) {
+                target.classList.remove('hidden');
+                target.classList.add('fade-in');
+            }
+            
+            // Trigger View Specific Logic
+            if (viewName === 'dashboard') loadDashboard();
+            if (viewName === 'admin-dashboard') loadAdminDashboard();
+            if (viewName === 'admin-users') loadAdminUsers();
+        }
+
+        // --- LOGIC: AUTHENTICATION ---
+        async function handleLogin(e) {
+            e.preventDefault();
+            const usernameInput = document.getElementById('login-username').value.trim();
+            const passwordInput = document.getElementById('login-password').value.trim();
+            const errorMsg = document.getElementById('login-error');
+            errorMsg.classList.add('hidden');
+            errorMsg.innerText = "";
+
+            // Hardcoded Admin Access (Works without DB if needed for UI test)
+            if (usernameInput === 'admin' && passwordInput === 'admin123') {
+                state.user = { username: 'admin', name: 'Super Admin', role: 'admin' };
+                navigate('admin-dashboard');
+                return;
+            }
+
+            try {
+                // Ensure we are authenticated (Anonymous or otherwise)
+                if (!auth.currentUser) {
+                     try {
+                        await signInAnonymously(auth);
+                     } catch(authErr) {
+                         console.error("Auth Failed:", authErr);
+                         let customMsg = "Database Connection Failed.";
+                         
+                         // Check for specific "Configuration Not Found" error
+                         if(authErr.message && authErr.message.includes("configuration-not-found")) {
+                             customMsg = "SETUP ERROR: 'Anonymous Auth' is not enabled in Firebase Console. Please enable it.";
+                         } else if (authErr.message && authErr.message.includes("offline")) {
+                             customMsg = "Connection Error: You seem to be offline.";
+                         }
+
+                         throw new Error(customMsg);
+                     }
+                }
+
+                const userRef = doc(db, 'artifacts', appId, 'public', 'data', 'app_users', usernameInput);
+                const userSnap = await getDoc(userRef);
+
+                if (!userSnap.exists()) throw new Error("User ID not found.");
+                const userData = userSnap.data();
+
+                if (userData.password !== passwordInput) throw new Error("Incorrect password.");
+                
+                const today = new Date();
+                if (new Date(userData.validUntil) < today) {
+                    navigate('expired');
+                    return;
+                }
+
+                // Device Lock Logic
+                if (userData.role === 'student') {
+                    if (userData.deviceId && userData.deviceId !== state.localDeviceId) {
+                        navigate('locked');
+                        return;
+                    }
+                    if (!userData.deviceId) {
+                        await updateDoc(userRef, { deviceId: state.localDeviceId });
+                        userData.deviceId = state.localDeviceId;
+                    }
+                }
+
+                state.user = { ...userData, username: usernameInput };
+                navigate('dashboard');
+            } catch (err) {
+                console.error(err);
+                errorMsg.innerText = err.message || "Login failed.";
+                errorMsg.classList.remove('hidden');
+            }
+        }
+
+        // --- LOGIC: ADAPTIVE TEST GENERATION ---
+        function getAdaptiveQuestions() {
+            // Use the library (which is either the imported file OR the fallback)
+            if (!questionLibrary || questionLibrary.length === 0) {
+                alert("Critical Error: No questions loaded.");
+                return [];
+            }
+
+            // 1. Separation by Difficulty
+            const easyQ = questionLibrary.filter(q => q.difficulty === 'easy');
+            const modQ = questionLibrary.filter(q => q.difficulty === 'moderate');
+            const hardQ = questionLibrary.filter(q => q.difficulty === 'hard');
+
+            // 2. Counts (Total 25)
+            const countEasy = 7;     // ~30%
+            const countMod = 8;      // ~30%
+            const countHard = 10;    // 40%
+
+            // 3. Selection Helper with Weakness Bias
+            const selectQuestions = (pool, count) => {
+                let shuffled = pool.sort(() => 0.5 - Math.random());
+                
+                // Prioritize weak topics
+                const weakMatches = shuffled.filter(q => state.userStats.weakTopics.includes(q.topic));
+                const others = shuffled.filter(q => !state.userStats.weakTopics.includes(q.topic));
+                
+                // Combine: Weak first, then random others
+                let selected = [...weakMatches, ...others].slice(0, count);
+                
+                // Shuffle the final selection so weak questions aren't always first
+                return selected.sort(() => 0.5 - Math.random()); 
+            };
+
+            const selectedEasy = selectQuestions(easyQ, countEasy);
+            const selectedMod = selectQuestions(modQ, countMod);
+            const selectedHard = selectQuestions(hardQ, countHard);
+
+            return [...selectedEasy, ...selectedMod, ...selectedHard];
+        }
+
+        async function startTest() {
+            const btn = document.getElementById('btn-start-test');
+            const originalText = btn.innerText;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Preparing Set...';
+            btn.disabled = true;
+            
+            setTimeout(() => {
+                const testSet = getAdaptiveQuestions();
+                
+                if (testSet.length === 0) {
+                    btn.innerHTML = originalText;
+                    btn.disabled = false;
+                    return;
+                }
+
+                state.questions = testSet;
+                state.currentTest = {
+                    answers: {},
+                    startTime: new Date(),
+                    timeLeft: 20 * 60 // 20 mins
+                };
+
+                renderTest();
+                navigate('test');
+                startTimer();
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+            }, 800); 
+        }
+
+        function renderTest() {
+            const container = document.getElementById('test-questions-container');
+            container.innerHTML = '';
+            state.questions.forEach((q, index) => {
+                let diffBadge = '';
+                if(q.difficulty === 'easy') diffBadge = 'bg-green-100 text-green-800';
+                else if(q.difficulty === 'moderate') diffBadge = 'bg-yellow-100 text-yellow-800';
+                else diffBadge = 'bg-red-100 text-red-800';
+
+                const qEl = document.createElement('div');
+                qEl.className = 'mb-8 p-5 bg-white rounded-xl shadow-sm border border-gray-100';
+                qEl.innerHTML = `
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="flex space-x-2">
+                            <span class="bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-1 rounded">Q${index + 1}</span>
+                            <span class="${diffBadge} text-xs font-bold px-2.5 py-1 rounded capitalize">${q.difficulty}</span>
+                            <span class="bg-gray-100 text-gray-600 text-xs font-semibold px-2.5 py-1 rounded truncate max-w-[100px]">${q.topic}</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-800 font-medium mb-5 text-lg leading-relaxed font-serif">${q.question}</p>
+                    <div class="space-y-3">
+                        ${q.options.map((opt, i) => `
+                            <label class="flex items-center p-3 border-2 border-transparent bg-gray-50 rounded-lg cursor-pointer hover:bg-blue-50 hover:border-blue-200 transition-all option-label-${index}" onclick="selectAnswer('${q.id}', ${i}, ${index})">
+                                <div class="w-5 h-5 flex items-center justify-center border-2 border-gray-300 rounded-full mr-3 text-blue-600 bg-white">
+                                    <div class="w-2.5 h-2.5 rounded-full bg-current opacity-0 transition-opacity check-dot"></div>
+                                </div>
+                                <span class="text-gray-700">${opt}</span>
+                            </label>
+                        `).join('')}
+                    </div>
+                `;
+                container.appendChild(qEl);
+            });
+        }
+
+        window.selectAnswer = (qId, optionIndex, uiIndex) => {
+            state.currentTest.answers[qId] = optionIndex;
+            // Visual Update
+            const labels = document.querySelectorAll(`.option-label-${uiIndex}`);
+            labels.forEach(l => {
+                l.classList.remove('bg-blue-100', 'border-blue-500', 'ring-1', 'ring-blue-500');
+                l.querySelector('.check-dot').classList.add('opacity-0');
+            });
+            const selected = labels[optionIndex];
+            selected.classList.add('bg-blue-100', 'border-blue-500');
+            selected.querySelector('.check-dot').classList.remove('opacity-0');
+        };
+
+        function startTimer() {
+            const timerEl = document.getElementById('test-timer');
+            state.timerInterval = setInterval(() => {
+                state.currentTest.timeLeft--;
+                const m = Math.floor(state.currentTest.timeLeft / 60);
+                const s = state.currentTest.timeLeft % 60;
+                timerEl.innerText = `${m}:${s < 10 ? '0' : ''}${s}`;
+                if (state.currentTest.timeLeft <= 0) submitTest();
+            }, 1000);
+        }
+
+        async function submitTest() {
+            clearInterval(state.timerInterval);
+            let score = 0;
+            let attempted = 0;
+            const topicPerformance = {}; 
+
+            const details = state.questions.map(q => {
+                const userAnswer = state.currentTest.answers[q.id];
+                const isCorrect = userAnswer === q.correctIndex;
+                
+                if (!topicPerformance[q.topic]) topicPerformance[q.topic] = { total: 0, correct: 0 };
+                topicPerformance[q.topic].total++;
+                
+                if (userAnswer !== undefined) {
+                    attempted++;
+                    if (isCorrect) {
+                        score++;
+                        topicPerformance[q.topic].correct++;
+                    }
+                }
+
+                return { ...q, userAnswer, isCorrect };
+            });
+
+            // Analyze Weaknesses
+            const newWeakTopics = [];
+            for (const [topic, stats] of Object.entries(topicPerformance)) {
+                if ((stats.correct / stats.total) < 0.5) {
+                    newWeakTopics.push(topic);
+                }
+            }
+            state.userStats.weakTopics = newWeakTopics;
+
+            // Render Results
+            document.getElementById('score-display').innerText = `${score} / 25`;
+            document.getElementById('accuracy-display').innerText = attempted > 0 ? `${Math.round((score/attempted)*100)}% Accuracy` : '0% Accuracy';
+            
+            const analysisList = document.getElementById('analysis-list');
+            analysisList.innerHTML = details.map((d, i) => `
+                <div class="bg-white p-4 rounded-xl shadow-sm border-l-4 ${d.isCorrect ? 'border-green-500' : 'border-red-500'} mb-4">
+                    <div class="flex justify-between mb-2">
+                        <span class="text-xs font-bold text-gray-400 uppercase tracking-wide">${d.topic}</span>
+                        <span class="text-xs px-2 py-0.5 rounded bg-gray-100">${d.difficulty}</span>
+                    </div>
+                    <p class="font-bold text-gray-800 text-lg mb-3">Q${i+1}: ${d.question}</p>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
+                        <div class="p-2 rounded ${d.isCorrect ? 'bg-green-50 border border-green-100' : 'bg-red-50 border border-red-100'}">
+                            <p class="text-xs text-gray-500 uppercase">Your Answer</p>
+                            <p class="${d.isCorrect ? 'text-green-700' : 'text-red-700'} font-bold">
+                                ${d.userAnswer !== undefined ? d.options[d.userAnswer] : 'Skipped'}
+                            </p>
+                        </div>
+                        <div class="p-2 rounded bg-gray-50 border border-gray-100">
+                            <p class="text-xs text-gray-500 uppercase">Correct Answer</p>
+                            <p class="text-gray-800 font-bold">${d.options[d.correctIndex]}</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-blue-50 p-4 rounded-lg text-sm text-gray-700 border border-blue-100">
+                        <p class="mb-2"><strong class="text-blue-800">🇬🇧 English:</strong> ${d.explanation}</p>
+                        <div class="h-px bg-blue-200 my-2"></div>
+                        <p><strong class="text-blue-800">🇧🇩 Bengali:</strong> <span class="font-bengali">${d.explanationBengali}</span></p>
+                    </div>
+                </div>
+            `).join('');
+
+            navigate('analysis');
+        }
+
+        // --- ADMIN FUNCTIONS ---
+        
+        // This function was missing in previous version causing the Admin Panel to break
+        async function loadAdminDashboard() {
+            try {
+                // Fetch stats
+                const usersSnap = await getDocs(collection(db, 'artifacts', appId, 'public', 'data', 'app_users'));
+                const totalUsers = usersSnap.size;
+                
+                let activeDevices = 0;
+                let expiredUsers = 0;
+                const today = new Date();
+
+                usersSnap.forEach(doc => {
+                    const u = doc.data();
+                    if(u.deviceId) activeDevices++;
+                    if(new Date(u.validUntil) < today) expiredUsers++;
+                });
+
+                document.getElementById('stat-total-users').innerText = totalUsers;
+                document.getElementById('stat-active-devices').innerText = activeDevices;
+                document.getElementById('stat-expired-users').innerText = expiredUsers;
+            } catch (err) {
+                console.error("Admin stats error:", err);
+            }
+        }
+
+        async function loadAdminUsers() {
+            const list = document.getElementById('user-list-body');
+            list.innerHTML = '<tr><td colspan="5" class="p-4 text-center text-gray-500">Loading users...</td></tr>';
+            try {
+                const snap = await getDocs(collection(db, 'artifacts', appId, 'public', 'data', 'app_users'));
+                let html = '';
+                if (snap.empty) {
+                    html = '<tr><td colspan="5" class="p-4 text-center text-gray-500">No users found. Create one above.</td></tr>';
+                } else {
+                    snap.forEach(d => {
+                        const u = d.data();
+                        const isExpired = new Date(u.validUntil) < new Date();
+                        html += `
+                            <tr class="border-b text-sm hover:bg-gray-50 transition">
+                                <td class="p-3 font-medium text-gray-800">${u.name}</td>
+                                <td class="p-3 text-blue-600 font-mono">${d.id}</td>
+                                <td class="p-3 font-mono text-gray-500">${u.password}</td>
+                                <td class="p-3">
+                                    ${u.deviceId 
+                                        ? '<span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-red-100 text-red-800"><i class="fas fa-lock mr-1"></i> Locked</span>' 
+                                        : '<span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-green-100 text-green-800">Open</span>'}
+                                    ${isExpired ? '<span class="ml-1 px-2 py-0.5 rounded text-xs bg-gray-200 text-gray-600">Expired</span>' : ''}
+                                </td>
+                                <td class="p-3">
+                                    <button onclick="resetDevice('${d.id}')" class="text-indigo-600 hover:text-indigo-900 font-medium text-xs border border-indigo-200 px-2 py-1 rounded hover:bg-indigo-50">
+                                        Reset Device
+                                    </button>
+                                </td>
+                            </tr>`;
+                    });
+                }
+                list.innerHTML = html;
+            } catch(err) {
+                console.error(err);
+                list.innerHTML = '<tr><td colspan="5" class="p-4 text-center text-red-500">Error loading data.</td></tr>';
+            }
+        }
+
+        async function createUser(e) {
+            e.preventDefault();
+            const form = e.target;
+            const btn = form.querySelector('button');
+            const originalBtnText = btn.innerText;
+            btn.innerText = "Creating...";
+            btn.disabled = true;
+
+            const phone = form.phone.value.trim();
+            const name = form.name.value.trim();
+            const days = parseInt(form.validity.value);
+
+            if(!phone || !name) {
+                alert("Please fill all fields");
+                btn.innerText = originalBtnText;
+                btn.disabled = false;
+                return;
+            }
+
+            const validUntil = new Date();
+            validUntil.setDate(validUntil.getDate() + days);
+            
+            // Generate simple password
+            const password = Math.random().toString(36).slice(-6).toUpperCase();
+            
+            const userData = {
+                name: name,
+                password: password,
+                role: 'student',
+                validUntil: validUntil.toISOString().split('T')[0],
+                deviceId: null,
+                createdAt: new Date().toISOString()
+            };
+            
+            try {
+                await setDoc(doc(db, 'artifacts', appId, 'public', 'data', 'app_users', phone), userData);
+                alert(`✅ SUCCESS\n\nUser: ${name}\nID: ${phone}\nPassword: ${password}`);
+                form.reset();
+                loadAdminUsers();
+                loadAdminDashboard(); // Refresh stats
+            } catch(err) {
+                console.error(err);
+                alert("Error creating user: " + err.message);
+            } finally {
+                btn.innerText = originalBtnText;
+                btn.disabled = false;
+            }
+        }
+
+        window.resetDevice = async (uid) => {
+            if(confirm(`Are you sure you want to reset the device lock for User ID: ${uid}?`)) {
+                try {
+                    await updateDoc(doc(db, 'artifacts', appId, 'public', 'data', 'app_users', uid), { deviceId: null });
+                    loadAdminUsers(); // Refresh table
+                    loadAdminDashboard(); // Refresh stats
+                    alert("Device reset successfully.");
+                } catch(err) {
+                    alert("Error resetting device: " + err.message);
+                }
+            }
+        };
+
+        function logout() {
+            state.user = null;
+            document.getElementById('login-username').value = '';
+            document.getElementById('login-password').value = '';
+            navigate('login');
+        }
+
+        // Expose functions
+        window.logout = logout;
+        window.startTest = startTest;
+        window.submitTest = submitTest;
+        window.navigate = navigate;
+        window.loadAdminUsers = loadAdminUsers;
+
+        async function init() {
+            try { 
+                if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) {
+                   // Custom token auth if needed
+                } else {
+                    await signInAnonymously(auth); 
+                }
+            } catch(e) { console.error("Auth Error", e); }
+            
+            document.getElementById('login-form').addEventListener('submit', handleLogin);
+            document.getElementById('create-user-form').addEventListener('submit', createUser);
+            
+            navigate('login');
+        }
+
+        init();
+        
+        async function loadDashboard() {
+            document.getElementById('student-name').innerText = state.user.name;
+            const diff = Math.ceil((new Date(state.user.validUntil) - new Date()) / (1000 * 3600 * 24));
+            const daysEl = document.getElementById('days-left');
+            daysEl.innerText = `${diff} Days Left`;
+            
+            if(diff <= 5) {
+                daysEl.className = "ml-1 font-bold text-red-300";
+            } else {
+                daysEl.className = "ml-1 font-bold text-green-300";
+            }
+        }
+
+    </script>
+
+    <style>
+        body { font-family: 'Poppins', 'Noto Sans Bengali', sans-serif; background-color: #f3f4f6; }
+        .font-bengali { font-family: 'Noto Sans Bengali', sans-serif; }
+        .fade-in { animation: fadeIn 0.3s ease-in-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+</head>
+<body class="text-gray-800 h-screen overflow-hidden flex flex-col font-sans">
+
+    <!-- HEADER -->
+    <header class="bg-indigo-900 text-white shadow-lg z-50 shrink-0">
+        <div class="max-w-md mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-indigo-900 font-bold border-2 border-yellow-400 shadow-md">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div>
+                    <h1 class="font-bold text-sm leading-tight tracking-wide">SSC INSIGHT BENGALI</h1>
+                    <p class="text-[10px] text-indigo-200">Error Spotting Specialist</p>
+                </div>
+            </div>
+            <button onclick="logout()" class="text-indigo-200 hover:text-white text-sm transition"><i class="fas fa-sign-out-alt fa-lg"></i></button>
+        </div>
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <main class="flex-grow overflow-y-auto relative max-w-md mx-auto w-full bg-gray-50 shadow-2xl">
+
+        <!-- VIEW: LOGIN -->
+        <div id="view-login" class="h-full flex flex-col justify-center px-8 bg-gradient-to-br from-indigo-900 via-blue-900 to-indigo-800 text-white">
+            <div class="text-center mb-10">
+                <div class="w-24 h-24 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center mx-auto mb-6 border border-white/20 shadow-xl">
+                    <i class="fas fa-book-reader text-4xl text-yellow-400"></i>
+                </div>
+                <h2 class="text-3xl font-bold mb-1">Student Portal</h2>
+                <p class="text-indigo-200 text-sm">SSC English Error Spotting</p>
+            </div>
+            
+            <form id="login-form" class="space-y-5">
+                <div>
+                    <label class="block text-xs uppercase text-indigo-300 font-bold mb-1 ml-1">Mobile Number</label>
+                    <div class="relative">
+                        <span class="absolute left-4 top-3.5 text-indigo-300"><i class="fas fa-phone-alt"></i></span>
+                        <input type="text" id="login-username" class="w-full pl-10 pr-4 py-3 rounded-xl bg-white/10 border border-indigo-400/30 text-white placeholder-indigo-400 focus:outline-none focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400 transition shadow-inner" placeholder="Enter ID" required>
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs uppercase text-indigo-300 font-bold mb-1 ml-1">Password</label>
+                    <div class="relative">
+                        <span class="absolute left-4 top-3.5 text-indigo-300"><i class="fas fa-key"></i></span>
+                        <input type="password" id="login-password" class="w-full pl-10 pr-4 py-3 rounded-xl bg-white/10 border border-indigo-400/30 text-white placeholder-indigo-400 focus:outline-none focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400 transition shadow-inner" placeholder="••••••" required>
+                    </div>
+                </div>
+                
+                <div id="login-error" class="hidden text-red-200 bg-red-900/40 p-3 rounded-lg text-sm text-center border border-red-500/30"></div>
+
+                <button type="submit" class="w-full py-4 bg-yellow-400 text-indigo-900 font-bold rounded-xl shadow-lg hover:bg-yellow-300 transform transition active:scale-95">
+                    Start Learning <i class="fas fa-arrow-right ml-2"></i>
+                </button>
+            </form>
+
+            <div class="mt-10 text-center text-xs text-indigo-300 opacity-80">
+                <p class="flex items-center justify-center"><i class="fas fa-shield-alt mr-2"></i> Secure Device Lock Active</p>
+            </div>
+        </div>
+
+        <!-- VIEW: DASHBOARD -->
+        <div id="view-dashboard" class="hidden p-5 space-y-6 min-h-full">
+            <!-- ID Card -->
+            <div class="bg-gradient-to-r from-blue-600 to-indigo-700 rounded-2xl p-6 text-white shadow-xl relative overflow-hidden">
+                <div class="absolute -right-6 -top-6 text-white/10 text-9xl"><i class="fas fa-id-card"></i></div>
+                <div class="relative z-10">
+                    <p class="text-sm text-indigo-100">Welcome back,</p>
+                    <h2 class="text-2xl font-bold truncate mb-3" id="student-name">Student</h2>
+                    <div class="inline-flex items-center bg-white/20 px-3 py-1.5 rounded-lg text-xs backdrop-blur-sm border border-white/10">
+                        <i class="fas fa-hourglass-half mr-2 text-yellow-300"></i> Validity: <span id="days-left" class="ml-1 font-bold">-- Days</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Card -->
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+                <div class="p-4 border-b bg-gray-50 flex items-center">
+                    <div class="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center mr-3">
+                        <i class="fas fa-calendar-day"></i>
+                    </div>
+                    <h3 class="font-bold text-gray-800">Today's Target</h3>
+                </div>
+                <div class="p-5">
+                    <div class="flex items-center justify-between mb-2">
+                        <div>
+                            <h4 class="font-bold text-gray-800 text-lg">Error Spotting Test</h4>
+                            <p class="text-xs text-gray-500">25 Questions • Adaptive Level</p>
+                        </div>
+                        <span class="bg-blue-50 text-blue-600 text-xs font-bold px-2 py-1 rounded">20 Mins</span>
+                    </div>
+                    <p class="text-xs text-gray-500 mb-4">Questions are selected based on your weak areas from previous tests.</p>
+                    <button id="btn-start-test" onclick="startTest()" class="w-full py-3 bg-blue-600 text-white text-sm font-bold rounded-xl shadow-md hover:bg-blue-700 transition flex items-center justify-center">
+                        Start Daily Test <i class="fas fa-play ml-2"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Profile Button -->
+            <button onclick="navigate('profile')" class="w-full py-4 bg-white border border-gray-200 text-gray-600 rounded-xl font-medium hover:bg-gray-50 transition shadow-sm flex items-center justify-center">
+                <i class="fas fa-user-circle mr-2 text-xl"></i> View Profile
+            </button>
+        </div>
+
+        <!-- VIEW: TEST -->
+        <div id="view-test" class="hidden h-full flex flex-col bg-white">
+            <div class="bg-white border-b p-4 flex justify-between items-center sticky top-0 z-20 shadow-sm">
+                <div class="flex items-center text-red-600 bg-red-50 px-3 py-1.5 rounded-lg border border-red-100">
+                    <i class="fas fa-stopwatch mr-2 animate-pulse"></i>
+                    <span id="test-timer" class="font-mono font-bold text-lg">20:00</span>
+                </div>
+                <button onclick="submitTest()" class="bg-green-600 text-white px-5 py-2 rounded-lg text-sm font-bold shadow hover:bg-green-700 transition">
+                    Submit Test
+                </button>
+            </div>
+            <div id="test-questions-container" class="flex-grow overflow-y-auto p-4 select-none bg-gray-50" oncontextmenu="return false;">
+                <!-- Questions injected here -->
+            </div>
+        </div>
+
+        <!-- VIEW: ANALYSIS -->
+        <div id="view-analysis" class="hidden h-full flex flex-col bg-gray-50">
+            <div class="p-8 bg-indigo-900 text-white text-center rounded-b-[2rem] shadow-xl shrink-0">
+                <h2 class="text-indigo-200 text-sm font-bold uppercase tracking-widest mb-2">Test Complete</h2>
+                <div class="text-6xl font-bold mb-2 text-yellow-400 tracking-tight" id="score-display">--</div>
+                <div class="inline-block bg-white/10 backdrop-blur px-4 py-1 rounded-full text-sm font-medium border border-white/20" id="accuracy-display">--% Accuracy</div>
+            </div>
+            <div class="flex-grow overflow-y-auto p-4 -mt-4">
+                <div id="analysis-list" class="space-y-4 pb-8"></div>
+                <button onclick="navigate('dashboard')" class="w-full py-4 mt-4 bg-gray-800 text-white rounded-xl font-bold shadow-lg hover:bg-gray-700 transition">
+                    Back to Dashboard
+                </button>
+            </div>
+        </div>
+
+        <!-- VIEW: LOCKED -->
+        <div id="view-locked" class="hidden h-full flex flex-col items-center justify-center p-8 bg-gray-100 text-center">
+            <div class="w-20 h-20 bg-red-100 text-red-500 rounded-full flex items-center justify-center text-3xl mb-6 shadow-inner">
+                <i class="fas fa-lock"></i>
+            </div>
+            <h2 class="text-2xl font-bold text-gray-800">Device Locked</h2>
+            <p class="text-gray-600 text-sm mt-3 leading-relaxed">
+                Your account is bound to another device.<br>
+                For security, one account = one device.
+            </p>
+            <div class="mt-8 p-4 bg-white rounded-lg border border-gray-200 text-xs text-left w-full text-gray-500 shadow-sm">
+                <strong>How to fix?</strong><br>
+                Contact the Admin via WhatsApp to request a "Device Reset" if you have changed your phone.
+            </div>
+            <button onclick="logout()" class="mt-8 text-blue-600 font-bold hover:underline">Return to Login</button>
+        </div>
+        
+        <!-- VIEW: EXPIRED -->
+        <div id="view-expired" class="hidden h-full flex flex-col items-center justify-center p-8 text-center bg-gray-50">
+             <i class="fas fa-calendar-times text-5xl text-gray-300 mb-4"></i>
+             <h2 class="text-2xl font-bold text-gray-800">Subscription Expired</h2>
+             <p class="text-gray-500 mt-2 text-sm">Please renew to continue practicing.</p>
+             <button onclick="logout()" class="mt-8 px-6 py-2 border border-gray-300 rounded-lg text-gray-600 hover:bg-white transition">Logout</button>
+        </div>
+
+        <!-- VIEW: PROFILE -->
+        <div id="view-profile" class="hidden h-full p-6 bg-gray-50">
+            <h2 class="text-2xl font-bold text-indigo-900 mb-6">Profile Details</h2>
+            <div class="bg-white p-6 rounded-2xl shadow-sm space-y-6 border border-gray-100">
+                <div>
+                    <label class="text-xs font-bold text-gray-400 uppercase">Institute</label>
+                    <p class="text-gray-800 font-semibold mt-1">SSC INSIGHT BENGALI</p>
+                </div>
+                <div>
+                    <label class="text-xs font-bold text-gray-400 uppercase">Security Status</label>
+                    <p class="text-green-600 font-bold mt-1 flex items-center"><i class="fas fa-check-circle mr-2"></i> Device Bound</p>
+                    <p class="text-xs text-gray-400 mt-1">Your account is secure on this phone.</p>
+                </div>
+                <div>
+                    <label class="text-xs font-bold text-gray-400 uppercase">App Version</label>
+                    <p class="text-gray-600 text-sm mt-1">v2.0 (Adaptive Engine)</p>
+                </div>
+            </div>
+            <button onclick="navigate('dashboard')" class="w-full mt-6 py-3 bg-gray-200 text-gray-700 rounded-xl font-bold hover:bg-gray-300 transition">Back</button>
+        </div>
+
+        <!-- VIEW: ADMIN DASHBOARD -->
+        <div id="view-admin-dashboard" class="hidden h-full flex flex-col bg-gray-50">
+            <div class="bg-gray-900 text-white p-6 pb-12 rounded-b-3xl shrink-0">
+                <div class="flex justify-between items-center mb-6">
+                    <h2 class="text-xl font-bold">Admin Panel</h2>
+                    <button onclick="logout()" class="text-gray-400 hover:text-white"><i class="fas fa-sign-out-alt"></i></button>
+                </div>
+                
+                <!-- Stats Cards (Restored) -->
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-gray-800 p-4 rounded-xl border border-gray-700">
+                        <h3 class="text-gray-400 text-[10px] uppercase font-bold tracking-wider">Total Students</h3>
+                        <p class="text-2xl font-bold text-blue-400 mt-1" id="stat-total-users">--</p>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-xl border border-gray-700">
+                        <h3 class="text-gray-400 text-[10px] uppercase font-bold tracking-wider">Active Devices</h3>
+                        <p class="text-2xl font-bold text-green-400 mt-1" id="stat-active-devices">--</p>
+                    </div>
+                     <div class="bg-gray-800 p-4 rounded-xl border border-gray-700 col-span-2 flex justify-between items-center">
+                        <div>
+                             <h3 class="text-gray-400 text-[10px] uppercase font-bold tracking-wider">Expired Accounts</h3>
+                             <p class="text-xl font-bold text-red-400 mt-1" id="stat-expired-users">--</p>
+                        </div>
+                        <div class="text-gray-600 text-2xl"><i class="fas fa-user-clock"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-6 -mt-8 grid gap-4">
+                <button onclick="navigate('admin-users')" class="bg-white p-5 rounded-xl shadow-lg hover:shadow-xl transition flex items-center justify-between group">
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-xl mr-4 group-hover:scale-110 transition">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <div class="text-left">
+                            <h3 class="font-bold text-gray-800">Manage Users</h3>
+                            <p class="text-xs text-gray-500">Create IDs, Reset Devices</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right text-gray-300"></i>
+                </button>
+
+                <div class="bg-white p-5 rounded-xl shadow border border-gray-100">
+                    <div class="flex items-center mb-2">
+                         <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 mr-3">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-bold text-gray-800">Question Library</h3>
+                            <p class="text-xs text-gray-500">Managed via 'questions.js'</p>
+                        </div>
+                    </div>
+                    <div class="text-xs text-gray-400 bg-gray-50 p-2 rounded">
+                        <i class="fas fa-info-circle mr-1"></i> Admin cannot add questions manually here. Update the file on the server directly.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- VIEW: ADMIN USERS -->
+        <div id="view-admin-users" class="hidden h-full flex flex-col bg-white">
+            <div class="p-4 border-b flex justify-between items-center bg-gray-50 shrink-0">
+                <button onclick="navigate('admin-dashboard')" class="text-gray-600 w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-200"><i class="fas fa-arrow-left"></i></button>
+                <h2 class="font-bold text-gray-800">User Management</h2>
+                <div class="w-8"></div>
+            </div>
+            
+            <!-- Create User Form -->
+            <div class="p-5 bg-blue-50 border-b shrink-0">
+                <h3 class="text-xs font-bold text-blue-800 uppercase mb-3"><i class="fas fa-user-plus mr-1"></i> Create New Student</h3>
+                <form id="create-user-form" class="space-y-3">
+                    <input name="name" type="text" placeholder="Full Name" class="w-full p-3 rounded-lg text-sm border border-blue-200 focus:outline-none focus:border-blue-500" required>
+                    <div class="flex space-x-3">
+                        <div class="w-2/3">
+                            <input name="phone" type="tel" placeholder="Mobile Number" class="w-full p-3 rounded-lg text-sm border border-blue-200 focus:outline-none focus:border-blue-500" required>
+                        </div>
+                        <div class="w-1/3">
+                            <input name="validity" type="number" value="30" placeholder="Days" class="w-full p-3 rounded-lg text-sm border border-blue-200 focus:outline-none focus:border-blue-500" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg text-sm font-bold shadow hover:bg-blue-700 transition">
+                        Generate ID & Password
+                    </button>
+                </form>
+            </div>
+            
+            <!-- List -->
+            <div class="flex-grow overflow-y-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="bg-gray-100 text-xs text-gray-500 uppercase sticky top-0">
+                        <tr>
+                            <th class="p-3 pl-4">Name/ID</th>
+                            <th class="p-3">Pass</th>
+                            <th class="p-3">Status</th>
+                            <th class="p-3 text-right pr-4">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="user-list-body" class="divide-y divide-gray-100">
+                        <!-- JS Injection -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
