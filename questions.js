@@ -1,6 +1,5 @@
 export const questionLibrary = [
 
-    // --- SET 1: Subject-Verb Agreement (Easy/Moderate) ---
     {
         id: "se_1", chapter: "Spotting Error", type: "grammar", difficulty: "easy", topic: "Subject-Verb Agreement",
         question: "The list of items (A) / are on the desk (B) / near the window. (C) / No Error (D)",
@@ -2319,8 +2318,819 @@ export const questionLibrary = [
         correctIndex: 1,
         explanation: "Use 'good at' to show ability.",
         explanationBengali: "দক্ষতা বোঝাতে 'good at' বসে।"
+    },
+// --- SET 23: VOICE CHANGE QUESTIONS (301-340) ---
+
+    {
+        id: "vc_301", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Present",
+        question: "Change to Passive: 'She writes a letter.'",
+        options: ["A letter is written by her.", "A letter was written by her.", "A letter has written by her.", "A letter is being written by her."],
+        correctIndex: 0,
+        explanation: "In Simple Present (Subject + V1 + Object), Passive is: Object + am/is/are + V3 + by + Subject.",
+        explanationBengali: "Present Indefinite Tense-এর Passive Voice-এ am/is/are + V3 ব্যবহৃত হয়।"
+    },
+    {
+        id: "vc_302", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Present Continuous",
+        question: "Change to Passive: 'I am playing cricket.'",
+        options: ["Cricket was played by me.", "Cricket is being played by me.", "Cricket has been played by me.", "Cricket is played by me."],
+        correctIndex: 1,
+        explanation: "In Present Continuous, 'being' is added before V3. Structure: Object + am/is/are + being + V3 + by + Subject.",
+        explanationBengali: "Continuous Tense-এ passive করার সময় 'being' যোগ করতে হয়।"
+    },
+    {
+        id: "vc_303", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Imperative",
+        question: "Change to Passive: 'Open the door.'",
+        options: ["Let the door be opened.", "The door should be opened.", "Let the door opened.", "Open the door please."],
+        correctIndex: 0,
+        explanation: "Imperative sentences usually follow: Let + Object + be + V3.",
+        explanationBengali: "Imperative sentence (আদেশ/অনুরোধ) প্যাসিভ করতে 'Let + Obj + be + V3' গঠন ব্যবহৃত হয়।"
+    },
+    {
+        id: "vc_304", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Past Simple",
+        question: "Change to Passive: 'Who broke the glass?'",
+        options: ["By whom was the glass broken?", "Who was the glass broken?", "By whom is the glass broken?", "The glass was broken by who?"],
+        correctIndex: 0,
+        explanation: "Questions starting with 'Who' change to 'By whom' in passive voice. Tense changes to past (was/were).",
+        explanationBengali: "'Who' থাকলে প্যাসিভ ভয়েসে 'By whom' দিয়ে বাক্য শুরু হয়।"
+    },
+    {
+        id: "vc_305", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Present Perfect",
+        question: "Change to Passive: 'He has done the work.'",
+        options: ["The work was done by him.", "The work has been done by him.", "The work had been done by him.", "The work is done by him."],
+        correctIndex: 1,
+        explanation: "Present Perfect Passive: Object + has/have + been + V3 + by + Subject.",
+        explanationBengali: "Perfect Tense-এ প্যাসিভ করার সময় 'been' যোগ করতে হয়।"
+    },
+    {
+        id: "vc_306", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Modals",
+        question: "Change to Passive: 'She might visit us.'",
+        options: ["We might be visited by her.", "We may be visited by her.", "We might have visited by her.", "We might visited by her."],
+        correctIndex: 0,
+        explanation: "Modals (might, can, should) take 'be' in passive. Structure: Modal + be + V3.",
+        explanationBengali: "Modal verb-এর সাথে প্যাসিভ ভয়েসে 'be' যুক্ত হয়।"
+    },
+    {
+        id: "vc_307", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Double Object",
+        question: "Change to Passive: 'He gave me a pen.'",
+        options: ["I was given a pen by him.", "A pen is given to me by him.", "I gave a pen by him.", "A pen was gave to me."],
+        correctIndex: 0,
+        explanation: "Sentences with two objects can be changed in two ways. Starting with the person ('I') is more common. Structure: Subject + was/were + V3 + Object 2 + by + Agent.",
+        explanationBengali: "দুটি Object থাকলে ব্যক্তিবাচক Object-কে subject করা শ্রেয়।"
+    },
+    {
+        id: "vc_308", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Infinitive",
+        question: "Change to Passive: 'I am to do it.'",
+        options: ["It is to be done by me.", "It was to be done by me.", "It has to be done by me.", "It should be done by me."],
+        correctIndex: 0,
+        explanation: "Infinitive 'to do' changes to 'to be done'. Structure: Subject + am/is/are + to be + V3.",
+        explanationBengali: "To + Verb থাকলে প্যাসিভ ভয়েসে To + be + V3 হয়।"
+    },
+    {
+        id: "vc_309", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Past Continuous",
+        question: "Change to Passive: 'He was writing a book.'",
+        options: ["A book was writing by him.", "A book was being written by him.", "A book is written by him.", "A book had been written by him."],
+        correctIndex: 1,
+        explanation: "Past Continuous Passive: Object + was/were + being + V3 + by + Subject.",
+        explanationBengali: "Past Continuous-এ 'being' যুক্ত হয়।"
+    },
+    {
+        id: "vc_310", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Prepositional Verb",
+        question: "Change to Passive: 'They laughed at him.'",
+        options: ["He was laughed by them.", "He was laughed at by them.", "He was laughed at them.", "He laughed at by them."],
+        correctIndex: 1,
+        explanation: "The preposition 'at' must remain with the verb. Structure: Subject + was/were + V3 + preposition + by + Agent.",
+        explanationBengali: "Verb-এর সাথে থাকা preposition প্যাসিভ ভয়েসেও রাখতে হয়।"
+    },
+    {
+        id: "vc_311", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Past Simple",
+        question: "Change to Passive: 'The cat killed the mouse.'",
+        options: ["The mouse is killed by the cat.", "The mouse was killed by the cat.", "The mouse has been killed by the cat.", "The mouse had been killed by the cat."],
+        correctIndex: 1,
+        explanation: "Past Simple Passive: Object + was/were + V3 + by + Subject.",
+        explanationBengali: "Past Indefinite Tense-এ was/were + V3 হয়।"
+    },
+    {
+        id: "vc_312", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Future Simple",
+        question: "Change to Passive: 'I shall help you.'",
+        options: ["You will be helped by me.", "You shall be helped by me.", "You are helped by me.", "You would be helped by me."],
+        correctIndex: 0, // 'You' generally takes 'will' in modern English, though 'shall' is traditional with I/We.
+        // Let's stick to 'will be' as standard for 2nd person.
+        explanation: "Future Simple Passive: Object + will/shall + be + V3 + by + Subject.",
+        explanationBengali: "Future Indefinite-এ will/shall + be + V3 হয়।"
+    },
+    {
+        id: "vc_313", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Interrogative",
+        question: "Change to Passive: 'Did you see him?'",
+        options: ["Was he seen by you?", "Is he seen by you?", "Had he seen by you?", "Did he seen by you?"],
+        correctIndex: 0,
+        explanation: "For 'Did' questions, use Was/Were + Subject + V3.",
+        explanationBengali: "'Did' দিয়ে প্রশ্ন থাকলে প্যাসিভ ভয়েসে Was/Were দিয়ে বাক্য শুরু হয়।"
+    },
+    {
+        id: "vc_314", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Perfect Continuous (Rare)",
+        question: "Change to Passive: 'They had won the match.'", // Changed to Past Perfect as Perfect Continuous passive is awkward/rare
+        // Wait, requested 301-340. Let's provide solid Past Perfect.
+        options: ["The match has been won by them.", "The match had been won by them.", "The match was won by them.", "The match is won by them."],
+        correctIndex: 1,
+        explanation: "Past Perfect Passive: Object + had + been + V3 + by + Subject.",
+        explanationBengali: "Past Perfect Tense-এ 'had been' + V3 হয়।"
+    },
+    {
+        id: "vc_315", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Present",
+        question: "Change to Passive: 'Manoj eats an apple.'",
+        options: ["An apple is eaten by Manoj.", "An apple was eaten by Manoj.", "An apple has eaten by Manoj.", "An apple eats Manoj."],
+        correctIndex: 0,
+        explanation: "Simple Present Passive: Object + is + V3 + by + Subject.",
+        explanationBengali: "Present Indefinite-এ is/am/are + V3 হয়।"
+    },
+    {
+        id: "vc_316", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Imperative with Advice",
+        question: "Change to Passive: 'Respect your elders.'",
+        options: ["Your elders should be respected.", "Let your elders be respected.", "Your elders must be respected.", "Respect to elders."],
+        correctIndex: 0,
+        explanation: "For advice/moral duty, 'should be' is preferred over 'Let'.",
+        explanationBengali: "উপদেশ বা কর্তব্য বোঝালে 'should be' ব্যবহার করা ভালো।"
+    },
+    {
+        id: "vc_317", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Modal Perfect",
+        question: "Change to Passive: 'You should have done it.'",
+        options: ["It should be done by you.", "It should have been done by you.", "It should had been done by you.", "It must have been done by you."],
+        correctIndex: 1,
+        explanation: "Modal Perfect (should have) becomes Modal Perfect Passive (should have been).",
+        explanationBengali: "'Should have' থাকলে 'should have been' + V3 হয়।"
+    },
+    {
+        id: "vc_318", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Present Continuous",
+        question: "Change to Passive: 'She is cooking food.'",
+        options: ["Food is being cooked by her.", "Food was being cooked by her.", "Food is cooked by her.", "Food has been cooked by her."],
+        correctIndex: 0,
+        explanation: "Object (Food) + is + being + V3 (cooked) + by + Subject (her).",
+        explanationBengali: "Continuous Tense-এ 'being' + V3 বসে।"
+    },
+    {
+        id: "vc_319", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Quasi-Passive",
+        question: "Change to Passive: 'Honey tastes sweet.'",
+        options: ["Honey is sweet when it is tasted.", "Honey is tasted sweet.", "Honey was sweet when tasted.", "Sweet is tasted by honey."],
+        correctIndex: 0,
+        explanation: "Adjective complements usually change to: Subject + Verb + Adjective + when + Pronoun + Passive Verb.",
+        explanationBengali: "Quasi-passive বাক্যে 'when it is V3' গঠন ব্যবহৃত হয়।"
+    },
+    {
+        id: "vc_320", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Past Continuous",
+        question: "Change to Passive: 'They were playing football.'",
+        options: ["Football was being played by them.", "Football were being played by them.", "Football is being played by them.", "Football played by them."],
+        correctIndex: 0,
+        explanation: "Past Continuous: Object + was/were + being + V3.",
+        explanationBengali: "Past Continuous-এ was/were + being + V3 হয়।"
+    },
+    {
+        id: "vc_321", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Past",
+        question: "Change to Passive: 'He wrote a poem.'",
+        options: ["A poem is written by him.", "A poem was written by him.", "A poem has written by him.", "A poem had written by him."],
+        correctIndex: 1,
+        explanation: "Simple Past: Object + was/were + V3.",
+        explanationBengali: "Past Indefinite-এ was/were + V3 হয়।"
+    },
+    {
+        id: "vc_322", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Future Perfect",
+        question: "Change to Passive: 'I will have finished the work.'",
+        options: ["The work will have been finished by me.", "The work will be finished by me.", "The work would have been finished by me.", "The work is finished by me."],
+        correctIndex: 0,
+        explanation: "Future Perfect: Object + will have + been + V3.",
+        explanationBengali: "Future Perfect Tense-এ 'will have been' + V3 হয়।"
+    },
+    {
+        id: "vc_323", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Complex Sentence",
+        question: "Change to Passive: 'People say that he is a spy.'",
+        options: ["It is said that he is a spy.", "He is said to be a spy.", "Both A and B.", "That he is a spy is said by people."],
+        correctIndex: 2, // Both are correct standard forms.
+        // Let's refine options to pick the 'best' one or allow both. Usually 'It is said' is simplest. 
+        // Option B 'He is said to be' is more advanced.
+        // Let's stick to option A as primary or make option C valid.
+        // Let's make option 2 (index) correct which says "Both A and B".
+        explanation: "Either 'It is said that...' or 'He is said to be...' are correct passive forms for beliefs/rumors.",
+        explanationBengali: "এই ধরনের বাক্যে 'It is said that...' বা 'He is said to be...' দুটোই সঠিক।"
+    },
+    {
+        id: "vc_324", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Negative",
+        question: "Change to Passive: 'I do not know him.'",
+        options: ["He is not known to me.", "He is not known by me.", "He was not known to me.", "He does not known to me."],
+        correctIndex: 0,
+        explanation: "'Known' is followed by 'to', not 'by'.",
+        explanationBengali: "'Known'-এর পরে 'to' বসে, 'by' নয়।"
+    },
+    {
+        id: "vc_325", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Present",
+        question: "Change to Passive: 'She helps the poor.'",
+        options: ["The poor are helped by her.", "The poor is helped by her.", "The poor was helped by her.", "The poor were helped by her."],
+        correctIndex: 0,
+        explanation: "'The poor' is a plural noun (meaning poor people), so it takes 'are'.",
+        explanationBengali: "'The poor' বলতে গরিব মানুষদের বোঝায় (Plural), তাই 'are' হবে।"
+    },
+    {
+        id: "vc_326", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Imperative Negative",
+        question: "Change to Passive: 'Do not insult the weak.'",
+        options: ["Let the weak not be insulted.", "The weak should not be insulted.", "Do not let the weak insulted.", "Both A and B."],
+        correctIndex: 3, // Both valid forms.
+        explanation: "Imperative negative can use 'Let...not be' or 'Should not be'.",
+        explanationBengali: "নেতিবাচক আদেশে 'Let...not be' বা 'Should not be' দুটোই ব্যবহার করা যায়।"
+    },
+    {
+        id: "vc_327", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Let",
+        question: "Change to Passive: 'Let me do this.'",
+        options: ["Let this be done by me.", "Let this done by me.", "Let this do by me.", "I may be allowed to do this."],
+        correctIndex: 0,
+        explanation: "Structure: Let + Object + be + V3 + by + Agent.",
+        explanationBengali: "'Let' যুক্ত বাক্যে 'Let + Obj + be + V3 + by + Agent' গঠন হয়।"
+    },
+    {
+        id: "vc_328", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Past Perfect",
+        question: "Change to Passive: 'She had cooked dinner.'",
+        options: ["Dinner had been cooked by her.", "Dinner has been cooked by her.", "Dinner was cooked by her.", "Dinner is cooked by her."],
+        correctIndex: 0,
+        explanation: "Past Perfect Passive: Object + had + been + V3.",
+        explanationBengali: "Past Perfect-এ 'had been' + V3 হয়।"
+    },
+    {
+        id: "vc_329", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Reflexive",
+        question: "Change to Passive: 'He hurt himself.'",
+        options: ["He was hurt by himself.", "Himself was hurt by him.", "He hurt by himself.", "He was hurt himself."],
+        correctIndex: 0,
+        explanation: "Reflexive objects generally keep the subject. 'He was hurt by himself'.",
+        explanationBengali: "Reflexive pronoun (himself) থাকলে 'by himself' শেষে বসে।"
+    },
+    {
+        id: "vc_330", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Interrogative",
+        question: "Change to Passive: 'Can you solve this?'",
+        options: ["Can this be solved by you?", "Could this be solved by you?", "Can this solved by you?", "Can you be solved by this?"],
+        correctIndex: 0,
+        explanation: "Modal Question: Modal + Object + be + V3 + by + Subject.",
+        explanationBengali: "Modal দিয়ে প্রশ্ন থাকলে 'Modal + Obj + be + V3' হয়।"
+    },
+    {
+        id: "vc_331", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Future",
+        question: "Change to Passive: 'They will announce the results.'",
+        options: ["The results will be announced by them.", "The results would be announced by them.", "The results will announce by them.", "The results are announced by them."],
+        correctIndex: 0,
+        explanation: "Future Simple Passive: Will + be + V3.",
+        explanationBengali: "Future Indefinite-এ 'will be' + V3 হয়।"
+    },
+    {
+        id: "vc_332", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Prepositional Verb",
+        question: "Change to Passive: 'The mother looks after the child.'",
+        options: ["The child is looked after by the mother.", "The child is looked by the mother.", "The child looks after by the mother.", "The child was looked after by the mother."],
+        correctIndex: 0,
+        explanation: "'Look after' is a phrasal verb. The preposition 'after' must be kept. Tense is present.",
+        explanationBengali: "'Look after' (দেখশোনা করা) একটি ফ্রেজ, তাই 'after' বাদ দেওয়া যাবে না।"
+    },
+    {
+        id: "vc_333", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Infinitive",
+        question: "Change to Passive: 'It is time to take tea.'",
+        options: ["It is time for tea to be taken.", "It is time tea to be taken.", "It is time for tea taken.", "Tea should be taken."],
+        correctIndex: 0,
+        explanation: "Structure: It is time + for + Object + to be + V3.",
+        explanationBengali: "'It is time to' থাকলে 'It is time for + Obj + to be + V3' হয়।"
+    },
+    {
+        id: "vc_334", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Order/Command",
+        question: "Change to Passive: 'Shut the window.'",
+        options: ["Let the window be shut.", "Let the window be shutted.", "The window should be shut.", "Let window be shut."],
+        correctIndex: 0,
+        explanation: "Imperative: Let + Object + be + V3. Note: V3 of 'shut' is 'shut'.",
+        explanationBengali: "'Shut'-এর V3 'shut'-ই হয়, 'shutted' নয়।"
+    },
+    {
+        id: "vc_335", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Present Continuous",
+        question: "Change to Passive: 'He is buying a car.'",
+        options: ["A car is being bought by him.", "A car was being bought by him.", "A car is bought by him.", "A car has being bought by him."],
+        correctIndex: 0,
+        explanation: "Present Continuous: Object + is + being + V3.",
+        explanationBengali: "Present Continuous-এ 'being' + V3 হয়।"
+    },
+    {
+        id: "vc_336", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Object Complement",
+        question: "Change to Passive: 'They elected him Chairman.'",
+        options: ["He was elected Chairman by them.", "Chairman was elected him by them.", "He elected Chairman by them.", "Chairman elected him."],
+        correctIndex: 0,
+        explanation: "The indirect object 'him' becomes the subject 'He'. The complement 'Chairman' stays after the verb.",
+        explanationBengali: "Object (him) সাবজেক্ট হবে, কিন্তু Complement (Chairman) ভার্বের পরেই থাকবে।"
+    },
+    {
+        id: "vc_337", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Modal",
+        question: "Change to Passive: 'One should keep one's promises.'",
+        options: ["Promises should be kept.", "One's promises should be kept.", "Promises should be kept by one.", "Promises must be kept."],
+        correctIndex: 0, // 'By one' is usually omitted.
+        explanation: "When the subject is vague ('One'), the agent 'by one' is usually omitted in passive.",
+        explanationBengali: "Subject 'One' থাকলে প্যাসিভ ভয়েসে 'by one' সাধারণত উহ্য থাকে।"
+    },
+    {
+        id: "vc_338", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Past Continuous",
+        question: "Change to Passive: 'She was singing a song.'",
+        options: ["A song was being sung by her.", "A song was singing by her.", "A song is being sung by her.", "A song was sung by her."],
+        correctIndex: 0,
+        explanation: "Past Continuous: Object + was + being + V3 (sung).",
+        explanationBengali: "Past Continuous-এ 'was being' + V3 (sung) হয়।"
+    },
+    {
+        id: "vc_339", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Surprise",
+        question: "Change to Passive: 'His behavior surprised me.'",
+        options: ["I was surprised at his behavior.", "I was surprised by his behavior.", "I was surprised with his behavior.", "I am surprised at his behavior."],
+        correctIndex: 0,
+        explanation: "'Surprised' takes the preposition 'at', not 'by'.",
+        explanationBengali: "'Surprised'-এর সাথে preposition 'at' বসে, 'by' নয়।"
+    },
+    {
+        id: "vc_340", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Passive to Active",
+        question: "Change to Active: 'The letter was written by him.'",
+        options: ["He wrote the letter.", "He writes the letter.", "He had written the letter.", "He was writing the letter."],
+        correctIndex: 0,
+        explanation: "Reverse of Past Simple Passive (was written) is Past Simple Active (wrote).",
+        explanationBengali: "প্যাসিভ থেকে অ্যাক্টিভ করা হচ্ছে। 'Was written' পরিবর্তিত হয়ে 'wrote' হবে।"
+    },
+// --- SET 24: ADDITIONAL VOICE CHANGE QUESTIONS (341-370) ---
+
+    {
+        id: "vc_341", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Present Perfect",
+        question: "Change to Passive: 'They have built a house.'",
+        options: ["A house has been built by them.", "A house had been built by them.", "A house was built by them.", "A house is built by them."],
+        correctIndex: 0,
+        explanation: "Present Perfect Passive: Object + has/have + been + V3. 'A house' is singular, so 'has'.",
+        explanationBengali: "Present Perfect-এ 'has/have been' + V3 হয়।"
+    },
+    {
+        id: "vc_342", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Modal",
+        question: "Change to Passive: 'You must do it.'",
+        options: ["It must be done by you.", "It should be done by you.", "It can be done by you.", "It has to be done by you."],
+        correctIndex: 0,
+        explanation: "Modal Passive: Modal + be + V3. 'Must do' becomes 'must be done'.",
+        explanationBengali: "Modal verb-এর সাথে 'be' যুক্ত হয়।"
+    },
+    {
+        id: "vc_343", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Double Passive",
+        question: "Change to Passive: 'The police arrested the thief and sent him to jail.'",
+        options: ["The thief was arrested and sent to jail by the police.", "The thief was arrested and sending to jail.", "The thief arrested and sent to jail.", "The police was arrested the thief."],
+        correctIndex: 0,
+        explanation: "Both verbs (arrested, sent) share the same subject (The thief) in passive. 'Was arrested and (was) sent'.",
+        explanationBengali: "দুটি verb-ই passive হবে। 'The thief' হলো subject।"
+    },
+    {
+        id: "vc_344", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Past",
+        question: "Change to Passive: 'Did she write a letter?'",
+        options: ["Was a letter written by her?", "Is a letter written by her?", "Had a letter written by her?", "Did a letter written by her?"],
+        correctIndex: 0,
+        explanation: "Past Simple Question: Was/Were + Object + V3 + by + Subject.",
+        explanationBengali: "'Did' দিয়ে প্রশ্ন থাকলে 'Was/Were' দিয়ে বাক্য শুরু হয়।"
+    },
+    {
+        id: "vc_345", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Going To",
+        question: "Change to Passive: 'I am going to buy a car.'",
+        options: ["A car is going to be bought by me.", "A car is being bought by me.", "A car will be bought by me.", "A car was going to be bought."],
+        correctIndex: 0,
+        explanation: "'Going to' structure: Object + am/is/are + going to be + V3.",
+        explanationBengali: "'Going to' থাকলে 'going to be' + V3 হয়।"
+    },
+    {
+        id: "vc_346", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Prepositional Phrase",
+        question: "Change to Passive: 'They made fun of him.'",
+        options: ["He was made fun of by them.", "He was made fun by them.", "Fun was made of him.", "He made fun of by them."],
+        correctIndex: 0,
+        explanation: "The phrase 'made fun of' must be kept together. 'Of' remains after 'fun'.",
+        explanationBengali: "Phrasal verb-এর preposition (of) বাদ দেওয়া যাবে না।"
+    },
+    {
+        id: "vc_347", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Imperative",
+        question: "Change to Passive: 'Do not tell a lie.'",
+        options: ["Let a lie not be told.", "A lie should not be told.", "Do not let a lie be told.", "Both A and B."],
+        correctIndex: 3, // Both valid
+        explanation: "Imperative negative can be 'Let...not be' or 'Should not be'. Both are correct.",
+        explanationBengali: "নেতিবাচক আদেশে 'Let...not be' বা 'Should not be' দুটোই সঠিক।"
+    },
+    {
+        id: "vc_348", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Present Continuous",
+        question: "Change to Passive: 'Who is calling you?'",
+        options: ["By whom are you being called?", "Who are you being called by?", "By whom were you being called?", "Who is being called by you?"],
+        correctIndex: 0,
+        explanation: "'Who' becomes 'By whom'. Present Continuous uses 'being'. Structure: By whom + are + Subject + being + V3.",
+        explanationBengali: "'Who' থাকলে 'By whom' হয় এবং continuous tense-এ 'being' বসে।"
+    },
+    {
+        id: "vc_349", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Verb with Adjective",
+        question: "Change to Passive: 'Rose smells sweet.'",
+        options: ["Rose is sweet when it is smelt.", "Rose is smelt sweet.", "Rose was sweet when smelt.", "Smelling rose is sweet."],
+        correctIndex: 0,
+        explanation: "Quasi-passive structure: Subject + Verb + Adjective + when + Pronoun + Passive Verb.",
+        explanationBengali: "Quasi-passive বাক্যে 'when it is V3' গঠন ব্যবহৃত হয়।"
+    },
+    {
+        id: "vc_350", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Modal Perfect",
+        question: "Change to Passive: 'He might have done it.'",
+        options: ["It might have been done by him.", "It might be done by him.", "It may have been done by him.", "It must have been done by him."],
+        correctIndex: 0,
+        explanation: "Modal Perfect (might have) becomes Modal Perfect Passive (might have been).",
+        explanationBengali: "'Might have' থাকলে 'might have been' + V3 হয়।"
+    },
+    {
+        id: "vc_351", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Future",
+        question: "Change to Passive: 'We shall play the match.'",
+        options: ["The match will be played by us.", "The match shall be played by us.", "The match would be played by us.", "The match is played by us."],
+        correctIndex: 0,
+        explanation: "Object 'The match' takes 'will' in modern usage. Structure: Will + be + V3.",
+        explanationBengali: "Future Indefinite-এ 'will be' + V3 হয়।"
+    },
+    {
+        id: "vc_352", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Infinitive without 'to'",
+        question: "Change to Passive: 'I saw him go.'",
+        options: ["He was seen to go by me.", "He was seen go by me.", "He was seen going by me.", "I saw him to go."],
+        correctIndex: 0,
+        explanation: "In active voice, 'see' takes bare infinitive ('go'). In passive, it takes full infinitive ('to go').",
+        explanationBengali: "Active-এ 'to' উহ্য থাকলেও Passive-এ 'to' বসাতে হয় (He was seen *to* go)।"
+    },
+    {
+        id: "vc_353", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Two Objects",
+        question: "Change to Passive: 'She taught us English.'",
+        options: ["We were taught English by her.", "English was taught to us by her.", "Both A and B.", "English taught us by her."],
+        correctIndex: 2, // Both correct
+        explanation: "Either object ('us' -> 'We' or 'English') can be the subject. Both forms are correct.",
+        explanationBengali: "দুটি object-এর যেকোনোটি দিয়েই passive করা যায়।"
+    },
+    {
+        id: "vc_354", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Past Perfect",
+        question: "Change to Passive: 'Someone had stolen my purse.'",
+        options: ["My purse had been stolen.", "My purse has been stolen.", "My purse was stolen.", "My purse had stolen."],
+        correctIndex: 0,
+        explanation: "Past Perfect Passive: Object + had + been + V3. Agent 'someone' is omitted.",
+        explanationBengali: "Past Perfect-এ 'had been' হয়। 'Someone' উহ্য রাখা হয়।"
+    },
+    {
+        id: "vc_355", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Order/Request",
+        question: "Change to Passive: 'Please help me.'",
+        options: ["You are requested to help me.", "Let me be helped.", "I should be helped.", "Please be helped."],
+        correctIndex: 0,
+        explanation: "'Please' indicates a request. Structure: You are requested to + V1 + Object.",
+        explanationBengali: "'Please' থাকলে 'You are requested to' দিয়ে বাক্য শুরু হয়।"
+    },
+    {
+        id: "vc_356", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Let with Suggestion",
+        question: "Change to Passive: 'Let us sing.'",
+        options: ["It is suggested that we should sing.", "Let singing be done.", "We should sing.", "Let us be sung."],
+        correctIndex: 0,
+        explanation: "'Let us' denotes a suggestion. Structure: It is suggested that we should + V1.",
+        explanationBengali: "'Let us' থাকলে 'It is suggested that...' গঠন ব্যবহৃত হয়।"
+    },
+    {
+        id: "vc_357", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Present",
+        question: "Change to Passive: 'Does he like tea?'",
+        options: ["Is tea liked by him?", "Was tea liked by him?", "Has tea liked by him?", "Is tea like by him?"],
+        correctIndex: 0,
+        explanation: "Present Simple Question: Is/Am/Are + Object + V3 + by + Subject.",
+        explanationBengali: "'Does' দিয়ে প্রশ্ন থাকলে 'Is/Am/Are' দিয়ে বাক্য শুরু হয়।"
+    },
+    {
+        id: "vc_358", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Object Complement",
+        question: "Change to Passive: 'We named her Rina.'",
+        options: ["She was named Rina by us.", "Rina was named her by us.", "She named Rina by us.", "Rina named her by us."],
+        correctIndex: 0,
+        explanation: "'Her' becomes 'She'. The complement 'Rina' stays after the verb.",
+        explanationBengali: "Object (her) সাবজেক্ট হবে, Complement (Rina) ভার্বের পরেই থাকবে।"
+    },
+    {
+        id: "vc_359", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Passive to Active",
+        question: "Change to Active: 'The bridge was built last year.'",
+        options: ["They built the bridge last year.", "We built the bridge last year.", "Someone built the bridge last year.", "The government built the bridge last year."],
+        correctIndex: 0, // 'They' is a standard generic subject when agent is unknown.
+        explanation: "When the agent is missing in passive, we supply a suitable subject like 'They' or 'Someone'.",
+        explanationBengali: "Passive-এ agent না থাকলে Active-এ 'They' বা 'Someone' সাবজেক্ট হিসেবে ধরা হয়।"
+    },
+    {
+        id: "vc_360", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Present Continuous",
+        question: "Change to Passive: 'I am reading a book.'",
+        options: ["A book is being read by me.", "A book was being read by me.", "A book is read by me.", "A book has been read by me."],
+        correctIndex: 0,
+        explanation: "Present Continuous: Object + is + being + V3.",
+        explanationBengali: "Present Continuous-এ 'being' + V3 হয়।"
+    },
+    {
+        id: "vc_361", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "To + V1 (Passive)",
+        question: "Change to Passive: 'There is nothing to do.'",
+        options: ["There is nothing to be done.", "There is nothing done.", "There is nothing being done.", "There is nothing to do."],
+        correctIndex: 0,
+        explanation: "Infinitive 'to do' changes to 'to be done'.",
+        explanationBengali: "'To do' পরিবর্তিত হয়ে 'to be done' হয়।"
+    },
+    {
+        id: "vc_362", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Verb 'Know'",
+        question: "Change to Passive: 'I know him.'",
+        options: ["He is known to me.", "He is known by me.", "He was known to me.", "He is known with me."],
+        correctIndex: 0,
+        explanation: "'Know' takes the preposition 'to', never 'by'.",
+        explanationBengali: "'Know'-এর পরে preposition 'to' বসে, 'by' নয়।"
+    },
+    {
+        id: "vc_363", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Past Continuous",
+        question: "Change to Passive: 'They were watching TV.'",
+        options: ["TV was being watched by them.", "TV were being watched by them.", "TV was watched by them.", "TV is being watched by them."],
+        correctIndex: 0,
+        explanation: "Past Continuous: Object + was + being + V3.",
+        explanationBengali: "Past Continuous-এ 'was being' + V3 হয়।"
+    },
+    {
+        id: "vc_364", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "It is time",
+        question: "Change to Passive: 'It is time to close the shop.'",
+        options: ["It is time for the shop to be closed.", "It is time the shop to be closed.", "It is time for shop closed.", "Shop should be closed."],
+        correctIndex: 0,
+        explanation: "Structure: It is time + for + Object + to be + V3.",
+        explanationBengali: "'It is time to' থাকলে 'It is time for + Obj + to be + V3' হয়।"
+    },
+    {
+        id: "vc_365", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Modal",
+        question: "Change to Passive: 'Can we send the parcel?'",
+        options: ["Can the parcel be sent by us?", "Can the parcel sent by us?", "Could the parcel be sent by us?", "Can the parcel be send by us?"],
+        correctIndex: 0,
+        explanation: "Modal Question: Can + Object + be + V3 + by + Subject.",
+        explanationBengali: "Modal দিয়ে প্রশ্ন থাকলে 'Can + Obj + be + V3' হয়।"
+    },
+    {
+        id: "vc_366", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Future Perfect",
+        question: "Change to Passive: 'He will have sold the car.'",
+        options: ["The car will have been sold by him.", "The car would have been sold by him.", "The car will be sold by him.", "The car will have sold by him."],
+        correctIndex: 0,
+        explanation: "Future Perfect: Will have + been + V3.",
+        explanationBengali: "Future Perfect Tense-এ 'will have been' + V3 হয়।"
+    },
+    {
+        id: "vc_367", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Believe/Expect",
+        question: "Change to Passive: 'They believe that he is honest.'",
+        options: ["It is believed that he is honest.", "He is believed to be honest.", "Both A and B.", "That he is honest is believed."],
+        correctIndex: 2, // Both A and B are standard correct forms.
+        explanation: "Both 'It is believed that...' and 'He is believed to be...' are correct passive forms.",
+        explanationBengali: "উভয় গঠনই সঠিক: 'It is believed that...' অথবা 'He is believed to be...'"
+    },
+    {
+        id: "vc_368", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Passive to Active",
+        question: "Change to Active: 'Let the order be given.'",
+        options: ["Give the order.", "Let give the order.", "Order given.", "Please give order."],
+        correctIndex: 0,
+        explanation: "Passive 'Let + Obj + be + V3' changes to Imperative 'V1 + Object'.",
+        explanationBengali: "'Let...be...V3' থাকলে Active-এ মূল verb দিয়ে বাক্য শুরু হয়।"
+    },
+    {
+        id: "vc_369", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Past Negative",
+        question: "Change to Passive: 'He did not play football.'",
+        options: ["Football was not played by him.", "Football is not played by him.", "Football had not played by him.", "Football was not playing by him."],
+        correctIndex: 0,
+        explanation: "Past Simple Negative: Object + was/were + not + V3.",
+        explanationBengali: "Past Indefinite Negative-এ 'was/were not' + V3 হয়।"
+    },
+    {
+        id: "vc_370", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Surprise/Annoy",
+        question: "Change to Passive: 'His conduct annoyed me.'",
+        options: ["I was annoyed at his conduct.", "I was annoyed with his conduct.", "I was annoyed by his conduct.", "I am annoyed at his conduct."],
+        correctIndex: 0,
+        explanation: "'Annoyed' takes 'at' for behavior/things and 'with' for persons. Here it is behavior, so 'at'.",
+        explanationBengali: "আচরণের প্রতি বিরক্ত হলে 'at' বসে, ব্যক্তির প্রতি হলে 'with' বসে।"
+    },
+// --- SET 25: ADDITIONAL VOICE CHANGE QUESTIONS (371-400) ---
+
+    {
+        id: "vc_371", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Present",
+        question: "Change to Passive: 'He helps me.'",
+        options: ["I am helped by him.", "I was helped by him.", "I am being helped by him.", "I have been helped by him."],
+        correctIndex: 0,
+        explanation: "Simple Present Passive: Object + am/is/are + V3 + by + Subject. 'Me' becomes 'I'.",
+        explanationBengali: "Present Indefinite-এ am/is/are + V3 হয়।"
+    },
+    {
+        id: "vc_372", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Modal",
+        question: "Change to Passive: 'We should respect our elders.'",
+        options: ["Our elders should be respected by us.", "Our elders should respect us.", "Our elders must be respected.", "Our elders can be respected."],
+        correctIndex: 0,
+        explanation: "Modal Passive: Modal + be + V3. 'Should respect' becomes 'should be respected'.",
+        explanationBengali: "Modal verb-এর সাথে 'be' যুক্ত হয়।"
+    },
+    {
+        id: "vc_373", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Factitive Verb",
+        question: "Change to Passive: 'They elected him captain.'",
+        options: ["He was elected captain by them.", "Captain was elected him by them.", "He elected captain by them.", "Captain elected him."],
+        correctIndex: 0,
+        explanation: "Indirect object 'him' becomes subject 'He'. Complement 'captain' stays after the verb.",
+        explanationBengali: "Object (him) সাবজেক্ট হবে, Complement (captain) ভার্বের পরেই থাকবে।"
+    },
+    {
+        id: "vc_374", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Past",
+        question: "Change to Passive: 'Did he catch the thief?'",
+        options: ["Was the thief caught by him?", "Is the thief caught by him?", "Had the thief caught by him?", "Did the thief caught by him?"],
+        correctIndex: 0,
+        explanation: "Past Simple Question: Was/Were + Object + V3 + by + Subject.",
+        explanationBengali: "'Did' দিয়ে প্রশ্ন থাকলে 'Was/Were' দিয়ে বাক্য শুরু হয়।"
+    },
+    {
+        id: "vc_375", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Let",
+        question: "Change to Passive: 'Let him complete the work.'",
+        options: ["Let the work be completed by him.", "Let the work completed by him.", "Let the work be complete by him.", "He should complete the work."],
+        correctIndex: 0,
+        explanation: "Structure: Let + Object + be + V3 + by + Agent.",
+        explanationBengali: "'Let' যুক্ত বাক্যে 'Let + Obj + be + V3 + by + Agent' গঠন হয়।"
+    },
+    {
+        id: "vc_376", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Prepositional Phrase",
+        question: "Change to Passive: 'We must listen to his words.'",
+        options: ["His words must be listened to.", "His words must be listened.", "His words must listen to.", "His words should be listened."],
+        correctIndex: 0,
+        explanation: "The preposition 'to' after 'listen' must be retained in the passive voice.",
+        explanationBengali: "Verb-এর সাথে থাকা preposition (to) প্যাসিভ ভয়েসেও রাখতে হয়।"
+    },
+    {
+        id: "vc_377", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Imperative",
+        question: "Change to Passive: 'Don't touch the wire.'",
+        options: ["Let the wire not be touched.", "The wire should not be touched.", "Do not let the wire touched.", "Both A and B."],
+        correctIndex: 3, // Both valid
+        explanation: "Imperative negative can use 'Let...not be' or 'Should not be'. Both are correct.",
+        explanationBengali: "নেতিবাচক আদেশে 'Let...not be' বা 'Should not be' দুটোই সঠিক।"
+    },
+    {
+        id: "vc_378", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Present Continuous",
+        question: "Change to Passive: 'Is she cooking rice?'",
+        options: ["Is rice being cooked by her?", "Is rice cooked by her?", "Was rice being cooked by her?", "Is rice being cook by her?"],
+        correctIndex: 0,
+        explanation: "Present Continuous Question: Is/Am/Are + Object + being + V3 + by + Subject.",
+        explanationBengali: "Continuous Tense-এর প্রশ্নে 'being' + V3 বসে।"
+    },
+    {
+        id: "vc_379", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Infinitive",
+        question: "Change to Passive: 'It is time to do the work.'",
+        options: ["It is time for the work to be done.", "It is time the work to be done.", "It is time for work done.", "The work should be done."],
+        correctIndex: 0,
+        explanation: "Structure: It is time + for + Object + to be + V3.",
+        explanationBengali: "'It is time to' থাকলে 'It is time for + Obj + to be + V3' হয়।"
+    },
+    {
+        id: "vc_380", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Past Perfect",
+        question: "Change to Passive: 'They had already finished the task.'",
+        options: ["The task had already been finished by them.", "The task has already been finished by them.", "The task was already finished by them.", "The task had been finished already."],
+        correctIndex: 0,
+        explanation: "Past Perfect Passive: Object + had + been + V3.",
+        explanationBengali: "Past Perfect-এ 'had been' + V3 হয়।"
+    },
+    {
+        id: "vc_381", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Future",
+        question: "Change to Passive: 'I will write a letter.'",
+        options: ["A letter will be written by me.", "A letter shall be written by me.", "A letter would be written by me.", "A letter is written by me."],
+        correctIndex: 0,
+        explanation: "Future Simple Passive: Object + will/shall + be + V3.",
+        explanationBengali: "Future Indefinite-এ 'will be' + V3 হয়।"
+    },
+    {
+        id: "vc_382", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Gerund",
+        question: "Change to Passive: 'I remember him teaching me.'",
+        options: ["I remember being taught by him.", "I remember teaching by him.", "I remember him being taught.", "I remember being teaching by him."],
+        correctIndex: 0,
+        explanation: "Gerund 'teaching' changes to passive gerund 'being taught'.",
+        explanationBengali: "Gerund (V+ing)-এর প্যাসিভ 'being + V3' হয়।"
+    },
+    {
+        id: "vc_383", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Two Objects",
+        question: "Change to Passive: 'He offered me a job.'",
+        options: ["I was offered a job by him.", "A job was offered to me by him.", "Both A and B.", "I offered a job by him."],
+        correctIndex: 2, // Both correct
+        explanation: "Either object ('me' -> 'I' or 'a job') can be the subject. Both forms are correct.",
+        explanationBengali: "দুটি object-এর যেকোনোটি দিয়েই passive করা যায়।"
+    },
+    {
+        id: "vc_384", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Present Perfect",
+        question: "Change to Passive: 'Someone has stolen my pen.'",
+        options: ["My pen has been stolen.", "My pen had been stolen.", "My pen was stolen.", "My pen is stolen."],
+        correctIndex: 0,
+        explanation: "Present Perfect Passive: Object + has + been + V3. Agent 'someone' is omitted.",
+        explanationBengali: "Present Perfect-এ 'has been' হয়। 'Someone' উহ্য রাখা হয়।"
+    },
+    {
+        id: "vc_385", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Imperative Request",
+        question: "Change to Passive: 'Kindly grant me leave.'",
+        options: ["You are requested to grant me leave.", "Let me be granted leave.", "Leave should be granted.", "Kindly be granted leave."],
+        correctIndex: 0,
+        explanation: "'Kindly' indicates a request. Structure: You are requested to + V1 + Object.",
+        explanationBengali: "'Kindly' থাকলে 'You are requested to' দিয়ে বাক্য শুরু হয়।"
+    },
+    {
+        id: "vc_386", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Modal Perfect",
+        question: "Change to Passive: 'You ought to have helped him.'",
+        options: ["He ought to have been helped by you.", "He ought to be helped by you.", "He ought have been helped by you.", "He must have been helped by you."],
+        correctIndex: 0,
+        explanation: "Modal Perfect (ought to have) becomes Modal Perfect Passive (ought to have been).",
+        explanationBengali: "'Ought to have' থাকলে 'ought to have been' + V3 হয়।"
+    },
+    {
+        id: "vc_387", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Present",
+        question: "Change to Passive: 'Do you play cricket?'",
+        options: ["Is cricket played by you?", "Was cricket played by you?", "Has cricket played by you?", "Is cricket play by you?"],
+        correctIndex: 0,
+        explanation: "Present Simple Question: Is/Am/Are + Object + V3 + by + Subject.",
+        explanationBengali: "'Do' দিয়ে প্রশ্ন থাকলে 'Is/Am/Are' দিয়ে বাক্য শুরু হয়।"
+    },
+    {
+        id: "vc_388", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Passive to Active",
+        question: "Change to Active: 'The road is being repaired.'",
+        options: ["They are repairing the road.", "The road is repairing.", "Someone is repairing the road.", "Workers are repairing the road."],
+        correctIndex: 0, // 'They' or 'Workers' or 'Someone'. 'They' is standard generic.
+        explanation: "When agent is missing, assume a general subject like 'They' or 'Men'. 'Is being repaired' -> 'Are repairing'.",
+        explanationBengali: "Passive-এ agent না থাকলে Active-এ 'They' সাবজেক্ট হিসেবে ধরা হয়।"
+    },
+    {
+        id: "vc_389", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Who",
+        question: "Change to Passive: 'Who taught you grammar?'",
+        options: ["By whom were you taught grammar?", "By whom grammar was taught to you?", "Who was taught grammar to you?", "By whom you were taught grammar?"],
+        correctIndex: 0,
+        explanation: "'Who' -> 'By whom'. Structure: By whom + was/were + Subject + V3 + Object 2.",
+        explanationBengali: "'Who' থাকলে 'By whom' হয় এবং প্রশ্নবোধক গঠন ঠিক রাখতে হয়।"
+    },
+    {
+        id: "vc_390", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Past Continuous",
+        question: "Change to Passive: 'The boys were flying kites.'",
+        options: ["Kites were being flown by the boys.", "Kites were flying by the boys.", "Kites are being flown by the boys.", "Kites was being flown by the boys."],
+        correctIndex: 0,
+        explanation: "Past Continuous: Object + was/were + being + V3 (flown).",
+        explanationBengali: "Past Continuous-এ 'were being' + V3 (flown) হয়।"
+    },
+    {
+        id: "vc_391", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Expect",
+        question: "Change to Passive: 'I expect you to help her.'",
+        options: ["I expect her to be helped by you.", "She is expected to be helped by you.", "It is expected by me that you help her.", "I expect that she be helped."],
+        correctIndex: 0,
+        explanation: "Infinitive 'to help' changes to 'to be helped'. The main verb 'expect' stays active.",
+        explanationBengali: "Main verb active থাকে, infinitive part passive হয় (to be helped)।"
+    },
+    {
+        id: "vc_392", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Verb with Preposition",
+        question: "Change to Passive: 'He is looking for a job.'",
+        options: ["A job is being looked for by him.", "A job is looked for by him.", "A job is being looked by him.", "A job was being looked for by him."],
+        correctIndex: 0,
+        explanation: "'Look for' is a phrasal verb. 'For' must remain. Continuous tense adds 'being'.",
+        explanationBengali: "Phrasal verb-এর preposition (for) থাকবে। Continuous-এ 'being' বসবে।"
+    },
+    {
+        id: "vc_393", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Past",
+        question: "Change to Passive: 'She ate a mango.'",
+        options: ["A mango was eaten by her.", "A mango is eaten by her.", "A mango has been eaten by her.", "A mango had been eaten by her."],
+        correctIndex: 0,
+        explanation: "Simple Past: Object + was/were + V3.",
+        explanationBengali: "Past Indefinite-এ 'was/were' + V3 হয়।"
+    },
+    {
+        id: "vc_394", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Order",
+        question: "Change to Passive: 'Get out of the room.'",
+        options: ["You are ordered to get out of the room.", "Let the room be got out.", "Should get out of the room.", "Please get out of the room."],
+        correctIndex: 0,
+        explanation: "Intransitive imperative (no object). Structure: You are ordered to + V1...",
+        explanationBengali: "Object না থাকলে 'You are ordered to...' গঠন ব্যবহৃত হয়।"
+    },
+    {
+        id: "vc_395", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Interrogative Modal",
+        question: "Change to Passive: 'Will you help me?'",
+        options: ["Shall I be helped by you?", "Will I be helped by you?", "Would I be helped by you?", "Can I be helped by you?"],
+        correctIndex: 0, // 'I' takes 'shall' traditionally in questions. 'Will' is also acceptable modern usage. Let's stick to Shall.
+        explanation: "Modal Question: Will/Shall + Object + be + V3 + by + Subject. 'I' takes 'Shall'.",
+        explanationBengali: "Modal দিয়ে প্রশ্ন থাকলে 'Shall/Will + Obj + be + V3' হয়।"
+    },
+    {
+        id: "vc_396", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Present Perfect",
+        question: "Change to Passive: 'Has he written the book?'",
+        options: ["Has the book been written by him?", "Has the book written by him?", "Had the book been written by him?", "Is the book written by him?"],
+        correctIndex: 0,
+        explanation: "Present Perfect Question: Has/Have + Object + been + V3.",
+        explanationBengali: "Present Perfect প্রশ্নে 'Has/Have + Obj + been + V3' হয়।"
+    },
+    {
+        id: "vc_397", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Subject-Verb Agreement",
+        question: "Change to Passive: 'They are selling the books.'",
+        options: ["The books are being sold by them.", "The books is being sold by them.", "The books were being sold by them.", "The books are sold by them."],
+        correctIndex: 0,
+        explanation: "'Books' is plural, so 'are'. Continuous tense adds 'being'.",
+        explanationBengali: "Object 'Books' plural, তাই 'are being' হবে।"
+    },
+    {
+        id: "vc_398", chapter: "Voice Change", type: "grammar", difficulty: "moderate", topic: "Passive to Active",
+        question: "Change to Active: 'I was surprised by the news.'",
+        options: ["The news surprised me.", "The news surprises me.", "The news had surprised me.", "The news was surprising."],
+        correctIndex: 0,
+        explanation: "Passive 'was surprised' (Past Simple) changes to Active 'surprised' (Past Simple).",
+        explanationBengali: "প্যাসিভ 'was surprised' অ্যাক্টিভে 'surprised' হবে।"
+    },
+    {
+        id: "vc_399", chapter: "Voice Change", type: "grammar", difficulty: "easy", topic: "Simple Future Negative",
+        question: "Change to Passive: 'She will not help you.'",
+        options: ["You will not be helped by her.", "You shall not be helped by her.", "You would not be helped by her.", "You are not helped by her."],
+        correctIndex: 0,
+        explanation: "Future Negative: Will + not + be + V3.",
+        explanationBengali: "Future Negative-এ 'will not be' + V3 হয়।"
+    },
+    {
+        id: "vc_400", chapter: "Voice Change", type: "grammar", difficulty: "hard", topic: "Surprise/Shock",
+        question: "Change to Passive: 'The news shocked me.'",
+        options: ["I was shocked at the news.", "I was shocked by the news.", "I was shocked with the news.", "I am shocked at the news."],
+        correctIndex: 0,
+        explanation: "'Shocked' generally takes 'at', not 'by'.",
+        explanationBengali: "'Shocked'-এর সাথে preposition 'at' বসে, 'by' নয়।"
     }
 ];
-
 
 
