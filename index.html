@@ -7,6 +7,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#2563eb">
+<link rel="apple-touch-icon" href="icon.png">
 
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
@@ -758,7 +761,6 @@ async function loadDashboard() {
     <header class="bg-indigo-900 text-white shadow-lg z-50 shrink-0">
         <div class="max-w-md mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center space-x-3">
-                <!-- LOGO IMAGE -->
                 <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center overflow-hidden border-2 border-yellow-400 shadow-md">
                     <img src="logo.png" alt="Logo" class="w-full h-full object-cover">
                 </div>
@@ -767,7 +769,14 @@ async function loadDashboard() {
                     <p class="text-[10px] text-indigo-200">by DYUTIMALA DATTA</p>
                 </div>
             </div>
-            <button onclick="logout()" class="text-indigo-200 hover:text-white text-sm transition"><i class="fas fa-sign-out-alt fa-lg"></i></button>
+            
+            <div class="flex items-center">
+                <button id="installAppBtn" class="hidden bg-green-500 hover:bg-green-600 text-white px-3 py-1.5 rounded-full text-xs font-bold shadow-lg transition mr-3 flex items-center">
+                    <i class="fas fa-download mr-2"></i> Install
+                </button>
+
+                <button onclick="logout()" class="text-indigo-200 hover:text-white text-sm transition"><i class="fas fa-sign-out-alt fa-lg"></i></button>
+            </div>
         </div>
     </header>
 
@@ -978,6 +987,7 @@ async function loadDashboard() {
             <button onclick="navigate('dashboard')" class="w-full mt-6 py-3 bg-gray-200 text-gray-700 rounded-xl font-bold hover:bg-gray-300 transition">Back</button>
         </div>
 
+
         <!-- VIEW: ADMIN DASHBOARD -->
         <div id="view-admin-dashboard" class="hidden h-full flex flex-col bg-gray-50">
             <div class="bg-gray-900 text-white p-6 pb-12 rounded-b-3xl shrink-0">
@@ -1083,5 +1093,42 @@ async function loadDashboard() {
         </div>
 
     </main>
+
+    <script>
+        // 1. Register Service Worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./sw.js')
+                .then(() => console.log('Service Worker Registered'))
+                .catch((err) => console.log('SW Registration Failed:', err));
+        }
+
+        // 2. Handle the Install Prompt
+        let deferredPrompt;
+        const installBtn = document.getElementById('installAppBtn');
+
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            // Show our custom button
+            if (installBtn) installBtn.classList.remove('hidden');
+        });
+
+        if (installBtn) {
+            installBtn.addEventListener('click', async () => {
+                if (!deferredPrompt) return;
+                deferredPrompt.prompt();
+                const { outcome } = await deferredPrompt.userChoice;
+                console.log(`User response: ${outcome}`);
+                deferredPrompt = null;
+                installBtn.classList.add('hidden');
+            });
+        }
+
+        window.addEventListener('appinstalled', () => {
+            if (installBtn) installBtn.classList.add('hidden');
+            console.log('App installed successfully');
+        });
+    </script>
+
 </body>
 </html>
