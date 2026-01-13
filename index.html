@@ -270,7 +270,17 @@ async function startTest(topic = "Mixed Bag") {
         function renderTest() {
             const container = document.getElementById('test-questions-container');
             container.innerHTML = '';
+            
             state.questions.forEach((q, index) => {
+                // --- NEW: Shuffle Options Logic ---
+                // Create an array of indices [0, 1, 2, 3] and shuffle them
+                let indices = q.options.map((_, i) => i);
+                indices = indices.sort(() => Math.random() - 0.5);
+                
+                // Store the shuffled order in the question object so we can check answers later
+                // We map the *new* display index to the *original* data index
+                q.shuffledIndices = indices; 
+
                 let diffBadge = '';
                 if(q.difficulty === 'easy') diffBadge = 'bg-green-100 text-green-800';
                 else if(q.difficulty === 'moderate') diffBadge = 'bg-yellow-100 text-yellow-800';
@@ -288,12 +298,12 @@ async function startTest(topic = "Mixed Bag") {
                     </div>
                     <p class="text-gray-800 font-medium mb-5 text-lg leading-relaxed font-serif">${q.question}</p>
                     <div class="space-y-3">
-                        ${q.options.map((opt, i) => `
-                            <label class="flex items-center p-3 border-2 border-transparent bg-gray-50 rounded-lg cursor-pointer hover:bg-blue-50 hover:border-blue-200 transition-all option-label-${index}" onclick="selectAnswer('${q.id}', ${i}, ${index})">
+                        ${indices.map((originalIndex, displayIndex) => `
+                            <label class="flex items-center p-3 border-2 border-transparent bg-gray-50 rounded-lg cursor-pointer hover:bg-blue-50 hover:border-blue-200 transition-all option-label-${index}" onclick="selectAnswer('${q.id}', ${originalIndex}, ${index}, ${displayIndex})">
                                 <div class="w-5 h-5 flex items-center justify-center border-2 border-gray-300 rounded-full mr-3 text-blue-600 bg-white">
                                     <div class="w-2.5 h-2.5 rounded-full bg-current opacity-0 transition-opacity check-dot"></div>
                                 </div>
-                                <span class="text-gray-700">${opt}</span>
+                                <span class="text-gray-700">${q.options[originalIndex]}</span>
                             </label>
                         `).join('')}
                     </div>
@@ -302,17 +312,39 @@ async function startTest(topic = "Mixed Bag") {
             });
         }
 
-        window.selectAnswer = (qId, optionIndex, uiIndex) => {
-            state.currentTest.answers[qId] = optionIndex;
-            // Visual Update
-            const labels = document.querySelectorAll(`.option-label-${uiIndex}`);
-            labels.forEach(l => {
-                l.classList.remove('bg-blue-100', 'border-blue-500', 'ring-1', 'ring-blue-500');
-                l.querySelector('.check-dot').classList.add('opacity-0');
-            });
-            const selected = labels[optionIndex];
-            selected.classList.add('bg-blue-100', 'border-blue-500');
-            selected.querySelector('.check-dot').classList.remove('opacity-0');
+        window.selectAnswer = (qId, originalOptionIndex, qIndex, displayIndex) => {
+            // Check if this option is ALREADY selected
+            const currentAnswer = state.currentTest.answers[qId];
+            
+            // Get all labels for this question
+            const labels = document.querySelectorAll(`.option-label-${qIndex}`);
+
+            if (currentAnswer === originalOptionIndex) {
+                // UNCHECK LOGIC: If clicking the same option, clear it
+                delete state.currentTest.answers[qId]; // Remove answer
+                
+                // Clear visual style
+                labels.forEach(l => {
+                    l.classList.remove('bg-blue-100', 'border-blue-500', 'ring-1', 'ring-blue-500');
+                    l.querySelector('.check-dot').classList.add('opacity-0');
+                });
+            } else {
+                // NORMAL SELECT LOGIC
+                state.currentTest.answers[qId] = originalOptionIndex;
+                
+                // Clear previous visuals
+                labels.forEach(l => {
+                    l.classList.remove('bg-blue-100', 'border-blue-500', 'ring-1', 'ring-blue-500');
+                    l.querySelector('.check-dot').classList.add('opacity-0');
+                });
+                
+                // Highlight new selection
+                const selected = labels[displayIndex]; 
+                if(selected) {
+                    selected.classList.add('bg-blue-100', 'border-blue-500');
+                    selected.querySelector('.check-dot').classList.remove('opacity-0');
+                }
+            }
         };
 
         function startTimer() {
@@ -400,7 +432,7 @@ async function startTest(topic = "Mixed Bag") {
             document.getElementById('analysis-list').innerHTML = details.map((d, i) => `
                 <div class="bg-white p-4 rounded-xl shadow-sm border-l-4 ${d.isCorrect ? 'border-green-500' : 'border-red-500'} mb-4">
                      <div class="flex justify-between mb-2">
-                         <span class="text-xs font-bold text-gray-400 uppercase">${d.chapter} • ${d.topic}</span>
+                         <span class="text-xs font-bold text-gray-400 uppercase">${d.chapter || d.topic}</span>
                          <span class="text-xs px-2 py-0.5 rounded bg-gray-100">${d.difficulty}</span>
                      </div>
                      <p class="font-bold text-gray-800 text-lg mb-3">Q${i+1}: ${d.question}</p>
@@ -413,8 +445,9 @@ async function startTest(topic = "Mixed Bag") {
                          </div>
                      </div>
                      <div class="bg-blue-50 p-3 rounded text-sm text-gray-700">
-                         <p class="mb-1"><strong>🇬🇧 English:</strong> ${d.explanation}</p>
-                         <p><strong>🇧🇩 Bengali:</strong> <span class="font-bengali">${d.explanationBengali}</span></p>
+                         <!-- Removed Flags here -->
+                         <p class="mb-2"><span class="font-bold text-blue-800 uppercase text-xs">Explanation</span> <br> ${d.explanation}</p>
+                         <p class="pt-2 border-t border-blue-100"><span class="font-bold text-blue-800 uppercase text-xs">Bengali</span> <br> <span class="font-bengali">${d.explanationBengali}</span></p>
                      </div>
                 </div>
             `).join('');
@@ -667,11 +700,11 @@ async function loadDashboard() {
             const grid = document.getElementById('chapter-grid');
             if (grid && typeof SUBJECT_CHAPTERS !== 'undefined') {
                 grid.innerHTML = SUBJECT_CHAPTERS.map(ch => `
-                    <button onclick="startTest('${ch.name}')" class="${ch.bg} p-3 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition flex flex-col items-center justify-center text-center h-24 relative overflow-hidden group">
-                        <div class="w-8 h-8 rounded-full bg-white/80 flex items-center justify-center mb-2 shadow-sm group-hover:scale-110 transition">
-                            <i class="fas ${ch.icon} ${ch.color} text-sm"></i>
+                    <button onclick="startTest('${ch.name}')" class="${ch.bg} p-4 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition flex flex-col items-center justify-center text-center h-32 relative overflow-hidden group">
+                        <div class="w-12 h-12 rounded-full bg-white/80 flex items-center justify-center mb-3 shadow-sm group-hover:scale-110 transition">
+                            <i class="fas ${ch.icon} ${ch.color} text-2xl"></i>
                         </div>
-                        <span class="text-[11px] font-bold ${ch.id === 'mixed' ? 'text-white' : 'text-gray-700'} leading-tight px-1">${ch.name}</span>
+                        <span class="text-sm font-bold ${ch.id === 'mixed' ? 'text-white' : 'text-gray-800'} leading-tight px-1">${ch.name}</span>
                     </button>
                 `).join('');
             }
