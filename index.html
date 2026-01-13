@@ -45,11 +45,12 @@
             user: null,
             questions: [],
             currentTest: null,
-            timerInterval: null,
+            timerInterval: null, // Ensure this is tracked
             localDeviceId: localStorage.getItem('ssc_device_id') || crypto.randomUUID(),
             userStats: {
                 weakTopics: [] 
-            }
+            },
+            isTestStarting: false // NEW FLAG TO PREVENT DOUBLE CLICKS
         };
 
         if (!localStorage.getItem('ssc_device_id')) localStorage.setItem('ssc_device_id', state.localDeviceId);
@@ -60,13 +61,13 @@ const SUBJECT_CHAPTERS = [
     { id: "sentence_improvement", name: "Sentence Improvement", icon: "fa-magic", color: "text-blue-500", bg: "bg-blue-50" },
     { id: "fill_blanks", name: "Fill in the blanks", icon: "fa-pencil-alt", color: "text-green-500", bg: "bg-green-50" },
     { id: "voice_change", name: "Voice Change", icon: "fa-bullhorn", color: "text-orange-500", bg: "bg-orange-50" },
-    { id: "direct_indirect", name: "Direct & Indirect", icon: "fa-quote-right", color: "text-teal-500", bg: "bg-teal-50" },
+    { id: "direct_indirect", name: "Direct & Indirect Speech", icon: "fa-quote-right", color: "text-teal-500", bg: "bg-teal-50" },
     { id: "synonyms", name: "Synonyms", icon: "fa-copy", color: "text-indigo-500", bg: "bg-indigo-50" },
     { id: "antonyms", name: "Antonyms", icon: "fa-random", color: "text-pink-500", bg: "bg-pink-50" },
     { id: "ows", name: "OWS", icon: "fa-font", color: "text-purple-500", bg: "bg-purple-50" },
-    { id: "idioms", name: "Idioms", icon: "fa-lightbulb", color: "text-yellow-500", bg: "bg-yellow-50" },
+    { id: "idioms", name: "Idioms & Phrases", icon: "fa-lightbulb", color: "text-yellow-500", bg: "bg-yellow-50" },
     { id: "spelling", name: "Spelling", icon: "fa-spell-check", color: "text-cyan-500", bg: "bg-cyan-50" },
-    { id: "reading_comp", name: "Reading Comp", icon: "fa-book-open", color: "text-gray-600", bg: "bg-gray-100" },
+    { id: "reading_comp", name: "Reading Comprehension", icon: "fa-book-open", color: "text-gray-600", bg: "bg-gray-100" },
     { id: "cloze_test", name: "Cloze Tests", icon: "fa-puzzle-piece", color: "text-emerald-600", bg: "bg-emerald-50" },
     { id: "para_jumble", name: "Para Jumble", icon: "fa-align-justify", color: "text-rose-500", bg: "bg-rose-50" },
     { id: "mixed", name: "Mixed Bag", icon: "fa-layer-group", color: "text-white", bg: "bg-gradient-to-r from-blue-600 to-indigo-600" }
@@ -234,38 +235,52 @@ function getAdaptiveQuestions(targetChapter) {
 }
 
         // --- UPDATED: Start Test with Dynamic Timer ---
-async function startTest(topic = "Mixed Bag") {
-    // UI Feedback
-    const grid = document.getElementById('chapter-grid');
-    if(grid) grid.classList.add('opacity-50', 'pointer-events-none');
+// --- UPDATED: Start Test with Safety Lock ---
+        async function startTest(topic = "Mixed Bag") {
+            // 1. PREVENT DOUBLE CLICKS / MULTIPLE STARTS
+            if (state.isTestStarting) return; 
+            state.isTestStarting = true;
 
-    setTimeout(() => {
-        const testSet = getAdaptiveQuestions(topic);
-        
-        if (testSet.length === 0) {
-            if(grid) grid.classList.remove('opacity-50', 'pointer-events-none');
-            return;
+            // UI Feedback
+            const grid = document.getElementById('chapter-grid');
+            if(grid) grid.classList.add('opacity-50', 'pointer-events-none');
+
+            // 2. CLEAR ANY EXISTING TIMER FORCEFULLY
+            if (state.timerInterval) {
+                clearInterval(state.timerInterval);
+                state.timerInterval = null;
+            }
+
+            setTimeout(() => {
+                const testSet = getAdaptiveQuestions(topic);
+                
+                if (testSet.length === 0) {
+                    if(grid) grid.classList.remove('opacity-50', 'pointer-events-none');
+                    state.isTestStarting = false; // Reset lock if failed
+                    return;
+                }
+
+                // Dynamic Time Setting
+                const durationMinutes = (topic === "Mixed Bag") ? 15 : 5;
+
+                state.questions = testSet;
+                state.currentTest = {
+                    answers: {},
+                    startTime: new Date(),
+                    timeLeft: durationMinutes * 60,
+                    topicName: topic
+                };
+
+                renderTest();
+                navigate('test');
+                startTimer();
+                
+                if(grid) grid.classList.remove('opacity-50', 'pointer-events-none');
+                
+                // Release lock after a short delay to ensure transition is complete
+                setTimeout(() => { state.isTestStarting = false; }, 500);
+            }, 500); 
         }
-
-        // --- NEW: DYNAMIC TIME SETTING ---
-        // Mixed Bag = 15 mins, Others = 5 mins
-        const durationMinutes = (topic === "Mixed Bag") ? 15 : 5;
-
-        state.questions = testSet;
-        state.currentTest = {
-            answers: {},
-            startTime: new Date(),
-            timeLeft: durationMinutes * 60, // Convert to seconds
-            topicName: topic
-        };
-
-        renderTest();
-        navigate('test');
-        startTimer();
-        
-        if(grid) grid.classList.remove('opacity-50', 'pointer-events-none');
-    }, 500); 
-}
 
         function renderTest() {
             const container = document.getElementById('test-questions-container');
@@ -349,17 +364,31 @@ async function startTest(topic = "Mixed Bag") {
 
         function startTimer() {
             const timerEl = document.getElementById('test-timer');
+            
+            // CRITICAL FIX: Clear any existing timer before starting a new one
+            if (state.timerInterval) clearInterval(state.timerInterval);
+            
             state.timerInterval = setInterval(() => {
                 state.currentTest.timeLeft--;
                 const m = Math.floor(state.currentTest.timeLeft / 60);
                 const s = state.currentTest.timeLeft % 60;
                 timerEl.innerText = `${m}:${s < 10 ? '0' : ''}${s}`;
-                if (state.currentTest.timeLeft <= 0) submitTest();
+                
+                if (state.currentTest.timeLeft <= 0) {
+                    clearInterval(state.timerInterval); // Stop immediately
+                    submitTest();
+                }
             }, 1000);
         }
 
         async function submitTest() {
-            clearInterval(state.timerInterval);
+            // STOP TIMER IMMEDIATELY
+            if (state.timerInterval) {
+                clearInterval(state.timerInterval);
+                state.timerInterval = null;
+            }
+            
+            // ... rest of your logic ...
 
             // --- 1. CALCULATE SCORE & TOPIC STATS ---
             let score = 0;
@@ -752,8 +781,8 @@ async function loadDashboard() {
                 <div class="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-6 border-4 border-yellow-400 shadow-xl overflow-hidden p-1">
                     <img src="logo.png" alt="Logo" class="w-full h-full object-contain">
                 </div>
-                <h2 class="text-3xl font-bold mb-1">Student Portal</h2>
-                <p class="text-indigo-200 text-sm">SSC English Error Spotting</p>
+                <h2 class="text-3xl font-bold mb-1">Login Portal</h2>
+                <p class="text-indigo-200 text-sm">Ultimate Portal for English Grammar and Vocab Practice</p>
             </div>
             
             <form id="login-form" class="space-y-5">
@@ -798,7 +827,7 @@ async function loadDashboard() {
             <div class="bg-gradient-to-r from-blue-600 to-indigo-700 rounded-2xl p-6 text-white shadow-xl relative overflow-hidden">
                 <div class="absolute -right-6 -top-6 text-white/10 text-9xl"><i class="fas fa-id-card"></i></div>
                 <div class="relative z-10">
-                    <p class="text-sm text-indigo-100">Welcome back,</p>
+                    <p class="text-sm text-indigo-100">Welcome back</p>
                     <h2 class="text-2xl font-bold truncate mb-3" id="student-name">Student</h2>
                     <div class="inline-flex items-center bg-white/20 px-3 py-1.5 rounded-lg text-xs backdrop-blur-sm border border-white/10">
                         <i class="fas fa-hourglass-half mr-2 text-yellow-300"></i> Validity: <span id="days-left" class="ml-1 font-bold">-- Days</span>
