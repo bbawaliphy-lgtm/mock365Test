@@ -1,10 +1,14 @@
-const CACHE_NAME = 'ssc-english-v1';
+const CACHE_NAME = 'ssc-english-v3'; // Increment version to v3 to force update
 const ASSETS = [
-  './',
   './index.html',
+  // IF you renamed your HTML file to index.html on GitHub, use './index.html' here
+  // IF the file is still named 'AI test portal_ver7.html', keep it as is.
+  './AI test portal_ver7.html', 
   './questions.js',
-  'https://cdn.tailwindcss.com',
-  'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css'
+  './manifest.json',
+  './logo.png' 
+  // ❌ REMOVED: https://cdn.tailwindcss.com
+  // ❌ REMOVED: https://cdnjs.cloudflare.com/...
 ];
 
 self.addEventListener('install', (e) => {
