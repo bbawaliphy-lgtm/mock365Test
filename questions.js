@@ -3135,7 +3135,7 @@ export const questionLibrary = [
 // --- SET 26: DIRECT AND INDIRECT SPEECH QUESTIONS (401-430) ---
 
     {
-        id: "di_401", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Present",
+        id: "di_401", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Simple Present",
         question: "He said, \"I am busy.\"",
         options: ["He said that he was busy.", "He said that he is busy.", "He says that he was busy.", "He said that I am busy."],
         correctIndex: 0,
@@ -3143,7 +3143,7 @@ export const questionLibrary = [
         explanationBengali: "Reporting verb past হলে tense পরিবর্তন হয়ে past হয়। 'am' পরিবর্তিত হয়ে 'was' হবে।"
     },
     {
-        id: "di_402", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Interrogative",
+        id: "di_402", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Interrogative",
         question: "She said to me, \"Are you coming?\"",
         options: ["She asked me if I was coming.", "She asked me whether was I coming.", "She told me if I was coming.", "She asked if I am coming."],
         correctIndex: 0,
@@ -3151,7 +3151,7 @@ export const questionLibrary = [
         explanationBengali: "প্রশ্নবোধক বাক্যে 'if' বসে এবং tense পরিবর্তন হয়।"
     },
     {
-        id: "di_403", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Universal Truth",
+        id: "di_403", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Universal Truth",
         question: "The teacher said, \"The sun rises in the east.\"",
         options: ["The teacher said that the sun rises in the east.", "The teacher said that the sun rose in the east.", "The teacher said that the sun had risen in the east.", "The teacher said that sun rises in east."],
         correctIndex: 0,
@@ -3159,7 +3159,7 @@ export const questionLibrary = [
         explanationBengali: "চিরন্তন সত্যের ক্ষেত্রে tense-এর কোনো পরিবর্তন হয় না।"
     },
     {
-        id: "di_404", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Imperative",
+        id: "di_404", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Imperative",
         question: "He said to his servant, \"Clean the floor.\"",
         options: ["He ordered his servant to clean the floor.", "He told his servant clean the floor.", "He asked his servant that clean the floor.", "He ordered his servant that to clean the floor."],
         correctIndex: 0,
@@ -3167,7 +3167,7 @@ export const questionLibrary = [
         explanationBengali: "আদেশ বোঝালে 'ordered' এবং 'to' দিয়ে যুক্ত হয়।"
     },
     {
-        id: "di_405", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Exclamatory",
+        id: "di_405", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Exclamatory",
         question: "He said, \"Alas! I am ruined.\"",
         options: ["He exclaimed with sorrow that he was ruined.", "He said alas he was ruined.", "He cried that he was ruined.", "He exclaimed with joy that he was ruined."],
         correctIndex: 0,
@@ -3175,7 +3175,7 @@ export const questionLibrary = [
         explanationBengali: "দুঃখ বোঝালে 'exclaimed with sorrow' হয়।"
     },
     {
-        id: "di_406", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Past",
+        id: "di_406", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Simple Past",
         question: "He said, \"I bought a pen.\"",
         options: ["He said that he had bought a pen.", "He said that he bought a pen.", "He said that he has bought a pen.", "He said that he was bought a pen."],
         correctIndex: 0,
@@ -3183,7 +3183,7 @@ export const questionLibrary = [
         explanationBengali: "Past Indefinite পরিবর্তিত হয়ে Past Perfect হয়।"
     },
     {
-        id: "di_407", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Nearness Words",
+        id: "di_407", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Nearness Words",
         question: "She said, \"I will come tomorrow.\"",
         options: ["She said that she would come the next day.", "She said that she will come tomorrow.", "She said that she would come tomorrow.", "She said that she will come the next day."],
 correctIndex: 0,
@@ -3191,7 +3191,7 @@ correctIndex: 0,
         explanationBengali: "Tomorrow পরিবর্তিত হয়ে 'the next day' হয় এবং will -> would হয়।"
     },
     {
-        id: "di_408", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Let",
+        id: "di_408", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Let",
         question: "He said, \"Let us go for a walk.\"",
         options: ["He proposed that they should go for a walk.", "He said to let them go for a walk.", "He ordered to go for a walk.", "He suggested to go for a walk."],
         correctIndex: 0,
@@ -3199,7 +3199,7 @@ correctIndex: 0,
         explanationBengali: "Let us থাকলে 'proposed' এবং 'should' বসে।"
     },
     {
-        id: "di_409", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Optative",
+        id: "di_409", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Optative",
         question: "He said, \"May God bless you.\"",
         options: ["He prayed that God might bless me.", "He prayed that God may bless me.", "He said that God might bless me.", "He wished that God bless me."],
         correctIndex: 0,
@@ -3207,7 +3207,7 @@ correctIndex: 0,
         explanationBengali: "ইচ্ছা বা প্রার্থনা বোঝালে 'prayed' এবং may -> might হয়।"
     },
     {
-        id: "di_410", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Modals",
+        id: "di_410", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Modals",
         question: "He said, \"I can solve this.\"",
         options: ["He said that he could solve that.", "He said that he can solve this.", "He said that he could solve this.", "He asked if he could solve that."],
         correctIndex: 0,
@@ -3215,7 +3215,7 @@ correctIndex: 0,
         explanationBengali: "Can -> Could এবং This -> That হয়।"
     },
     {
-        id: "di_411", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Let (Permission)",
+        id: "di_411", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Let (Permission)",
         question: "He said, \"Let me come in.\"",
         options: ["He requested that he might be allowed to come in.", "He said that let him come in.", "He ordered to let him come in.", "He asked to come in."],
         correctIndex: 0,
@@ -3223,7 +3223,7 @@ correctIndex: 0,
         explanationBengali: "অনুমতি চাওয়া বোঝালে 'requested...might be allowed to' ব্যবহৃত হয়।"
     },
     {
-        id: "di_412", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Double Sentence",
+        id: "di_412", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Double Sentence",
         question: "He said, \"I am ill. I cannot go.\"",
         options: ["He said that he was ill and could not go.", "He said that he is ill and cannot go.", "He says that he was ill and could not go.", "He said he was ill so he cannot go."],
         correctIndex: 0,
@@ -3231,7 +3231,7 @@ correctIndex: 0,
         explanationBengali: "উভয় অংশের tense পরিবর্তন হবে এবং 'and' দিয়ে যুক্ত হবে।"
     },
     {
-        id: "di_413", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Reporting Verb Present",
+        id: "di_413", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Reporting Verb Present",
         question: "He says, \"I am happy.\"",
         options: ["He says that he is happy.", "He says that he was happy.", "He said that he is happy.", "He said that he was happy."],
         correctIndex: 0,
@@ -3239,7 +3239,7 @@ correctIndex: 0,
         explanationBengali: "Reporting verb present হলে tense-এর কোনো পরিবর্তন হয় না।"
     },
     {
-        id: "di_414", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Wh-Question",
+        id: "di_414", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Wh-Question",
         question: "He said to me, \"Where are you going?\"",
         options: ["He asked me where I was going.", "He asked me where was I going.", "He asked me where am I going.", "He asked me that where I was going."],
 correctIndex: 0,
@@ -3247,7 +3247,7 @@ correctIndex: 0,
         explanationBengali: "'Wh' শব্দ থাকলে তা-ই conjunction হয় এবং verb শেষে যায়।"
     },
     {
-        id: "di_415", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Vocative Case",
+        id: "di_415", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Vocative Case",
         question: "He said, \"Bravo! You have done well.\"",
         options: ["He applauded him saying that he had done well.", "He said bravo he had done well.", "He exclaimed with joy that he had done well.", "He shouted that he had done well."],
         correctIndex: 0,
@@ -3255,7 +3255,7 @@ correctIndex: 0,
         explanationBengali: "প্রশংসা বোঝালে 'applauded...saying that' ব্যবহৃত হয়।"
     },
     {
-        id: "di_416", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Must",
+        id: "di_416", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Must",
         question: "He said, \"I must go.\"",
         options: ["He said that he had to go.", "He said that he must went.", "He said that he must go.", "He said that he has to go."],
         correctIndex: 0,
@@ -3263,7 +3263,7 @@ correctIndex: 0,
         explanationBengali: "'Must' সাধারণত 'had to'-তে পরিবর্তিত হয়।"
     },
     {
-        id: "di_417", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Pronoun Change",
+        id: "di_417", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Pronoun Change",
         question: "I said to him, \"You are wrong.\"",
         options: ["I told him that he was wrong.", "I told him that you are wrong.", "I told him that I was wrong.", "I told him that he is wrong."],
         correctIndex: 0,
@@ -3271,7 +3271,7 @@ correctIndex: 0,
         explanationBengali: "Second person (You) object অনুযায়ী পরিবর্তিত হয়।"
     },
     {
-        id: "di_418", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Thank/Welcome",
+        id: "di_418", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Thank/Welcome",
         question: "He said to me, \"Thank you.\"",
         options: ["He thanked me.", "He said that he thanked me.", "He told me thank you.", "He requested me to thank."],
         correctIndex: 0,
@@ -3279,7 +3279,7 @@ correctIndex: 0,
         explanationBengali: "সরাসরি 'thanked me' বলা হয়।"
     },
     {
-        id: "di_419", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Conditionals",
+        id: "di_419", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Conditionals",
         question: "He said, \"If I were a bird, I would fly.\"",
         options: ["He said that if he were a bird, he would fly.", "He said that if he had been a bird, he would have flown.", "He said that if he was a bird, he would fly.", "He said if he is a bird he will fly."],
         correctIndex: 0,
@@ -3287,7 +3287,7 @@ correctIndex: 0,
         explanationBengali: "অবাস্তব শর্তে tense সাধারণত অপরিবর্তিত থাকে।"
     },
     {
-        id: "di_420", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Past Continuous",
+        id: "di_420", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Past Continuous",
         question: "He said, \"It was raining.\"",
         options: ["He said that it had been raining.", "He said that it was raining.", "He said that it has been raining.", "He said that it rained."],
         correctIndex: 0,
@@ -3295,7 +3295,7 @@ correctIndex: 0,
         explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past Perfect Continuous হয়।"
     },
     {
-        id: "di_421", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Exclamatory (What/How)",
+        id: "di_421", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Exclamatory (What/How)",
         question: "He said, \"What a beautiful sight!\"",
         options: ["He exclaimed that it was a very beautiful sight.", "He said that it was a beautiful sight.", "He exclaimed what a beautiful sight it was.", "He asked what a beautiful sight."],
         correctIndex: 0,
@@ -3303,7 +3303,7 @@ explanation: "'What/How' in exclamations are replaced by 'very' or 'great'.",
         explanationBengali: "আশ্চর্যবোধক বাক্যে 'What/How' উঠে গিয়ে 'very' বসে।"
     },
     {
-        id: "di_422", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Yes/No Question",
+        id: "di_422", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Yes/No Question",
         question: "He asked, \"Do you like coffee?\"",
         options: ["He asked if I liked coffee.", "He asked did I like coffee.", "He asked that I liked coffee.", "He asked if I like coffee."],
         correctIndex: 0,
@@ -3311,7 +3311,7 @@ explanation: "'What/How' in exclamations are replaced by 'very' or 'great'.",
         explanationBengali: "Yes/No প্রশ্নে 'if' বসে এবং tense পরিবর্তন হয়।"
     },
     {
-        id: "di_423", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Imperative Negative",
+        id: "di_423", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Imperative Negative",
         question: "He said to me, \"Don't go there.\"",
         options: ["He told me not to go there.", "He told me do not go there.", "He asked me not go there.", "He ordered me that not to go there."],
         correctIndex: 0,
@@ -3319,7 +3319,7 @@ explanation: "'What/How' in exclamations are replaced by 'very' or 'great'.",
         explanationBengali: "নেতিবাচক আদেশে 'not to' বসে।"
     },
     {
-        id: "di_424", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Reporting Verb Future",
+        id: "di_424", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Reporting Verb Future",
         question: "He will say, \"I am busy.\"",
         options: ["He will say that he is busy.", "He will say that he was busy.", "He would say that he is busy.", "He will say that I am busy."],
         correctIndex: 0,
@@ -3327,7 +3327,7 @@ explanation: "'What/How' in exclamations are replaced by 'very' or 'great'.",
         explanationBengali: "Reporting verb future হলে tense পরিবর্তন হয় না।"
     },
     {
-        id: "di_425", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Address",
+        id: "di_425", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Address",
         question: "He said, \"Ladies and Gentlemen, listen to me.\"",
         options: ["Addressing them as ladies and gentlemen, he asked them to listen to him.", "He told ladies and gentlemen to listen to him.", "He said to ladies and gentlemen listen to him.", "He addressed ladies and gentlemen listen to me."],
         correctIndex: 0,
@@ -3335,7 +3335,7 @@ explanation: "'What/How' in exclamations are replaced by 'very' or 'great'.",
         explanationBengali: "কাউকে সম্বোধন করলে 'Addressing as...' গঠন ব্যবহৃত হয়।"
     },
     {
-        id: "di_426", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Advice",
+        id: "di_426", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Advice",
         question: "The doctor said to me, \"Take medicine daily.\"",
         options: ["The doctor advised me to take medicine daily.", "The doctor told me to take medicine daily.", "The doctor ordered me to take medicine daily.", "The doctor asked me to take medicine daily."],
         correctIndex: 0,
@@ -3343,7 +3343,7 @@ explanation: "'What/How' in exclamations are replaced by 'very' or 'great'.",
         explanationBengali: "উপদেশ বোঝালে 'advised' বসে।"
     },
     {
-        id: "di_427", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Time Word",
+        id: "di_427", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Time Word",
         question: "He said, \"I saw him yesterday.\"",
         options: ["He said that he had seen him the previous day.", "He said that he saw him yesterday.", "He said that he has seen him the previous day.", "He said that he had seen him yesterday."],
         correctIndex: 0,
@@ -3351,7 +3351,7 @@ explanation: "'What/How' in exclamations are replaced by 'very' or 'great'.",
         explanationBengali: "Yesterday -> The previous day এবং Past Indefinite -> Past Perfect."
     },
     {
-        id: "di_428", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Good Morning",
+        id: "di_428", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Good Morning",
         question: "He said, \"Good morning, father.\"",
         options: ["He wished his father good morning.", "He said good morning to his father.", "He told his father good morning.", "He exclaimed good morning father."],
 correctIndex: 0,
@@ -3359,7 +3359,7 @@ correctIndex: 0,
         explanationBengali: "শুভেচ্ছা বিনিময়ে 'wished' ব্যবহৃত হয়।"
     },
     {
-        id: "di_429", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Prohibit",
+        id: "di_429", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Prohibit",
         question: "He said to me, \"Do not smoke.\"",
         options: ["He forbade me to smoke.", "He told me not to smoke.", "He asked me to not smoke.", "He ordered me do not smoke."],
         correctIndex: 0, // Both A and B are correct forms, but 'forbade' is more specific/classic for prohibition.
@@ -3367,7 +3367,7 @@ correctIndex: 0,
         explanationBengali: "'Forbade' (নিষেধ করা) ব্যবহার করলে 'not' বসে না।"
     },
     {
-        id: "di_430", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Present Perfect",
+        id: "di_430", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Present Perfect",
         question: "He said, \"I have done my work.\"",
         options: ["He said that he had done his work.", "He said that he has done his work.", "He said that he did his work.", "He said that he had done my work."],
         correctIndex: 0,
@@ -3377,7 +3377,7 @@ correctIndex: 0,
 // --- SET 27: ADDITIONAL DIRECT AND INDIRECT SPEECH QUESTIONS (431-460) ---
 
     {
-        id: "di_431", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Let with Proposal",
+        id: "di_431", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Let with Proposal",
         question: "He said, \"Let us wait for the award.\"",
         options: ["He proposed that they should wait for the award.", "He said that let us wait for the award.", "He suggested to wait for the award.", "He ordered to wait for the award."],
         correctIndex: 0,
@@ -3385,7 +3385,7 @@ correctIndex: 0,
         explanationBengali: "'Let us' থাকলে 'proposed that' এবং 'should' বসে।"
     },
     {
-        id: "di_432", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Present",
+        id: "di_432", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Simple Present",
         question: "He said, \"I work hard.\"",
         options: ["He said that he worked hard.", "He said that he works hard.", "He said that I work hard.", "He says that he worked hard."],
         correctIndex: 0,
@@ -3393,7 +3393,7 @@ correctIndex: 0,
         explanationBengali: "Past Indefinite-এ verb-এর past form বসে।"
     },
     {
-        id: "di_433", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Conditional Type 1",
+        id: "di_433", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Conditional Type 1",
         question: "He said, \"If it rains, I will not go.\"",
         options: ["He said that if it rained, he would not go.", "He said that if it rains, he will not go.", "He said that if it rained, he will not go.", "He asked if it rains he would not go."],
         correctIndex: 0,
@@ -3401,7 +3401,7 @@ correctIndex: 0,
         explanationBengali: "Conditional sentence-এ present -> past এবং will -> would হয়।"
     },
     {
-        id: "di_434", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Exclamatory (What/How)",
+        id: "di_434", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Exclamatory (What/How)",
         question: "She said, \"How tall the building is!\"",
         options: ["She exclaimed that the building was very tall.", "She said that the building is very tall.", "She exclaimed how tall the building was.", "She asked how tall the building is."],
         correctIndex: 0,
@@ -3409,7 +3409,7 @@ correctIndex: 0,
         explanationBengali: "আশ্চর্যবোধক বাক্যে 'How' উঠে গিয়ে 'very' বসে।"
     },
     {
-        id: "di_435", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Present Continuous",
+        id: "di_435", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Present Continuous",
         question: "He said, \"I am reading a book.\"",
         options: ["He said that he was reading a book.", "He said that he is reading a book.", "He said that I was reading a book.", "He said that he had been reading a book."],
         correctIndex: 0,
@@ -3417,7 +3417,7 @@ correctIndex: 0,
         explanationBengali: "Present Continuous পরিবর্তিত হয়ে Past Continuous হয়।"
     },
     {
-        id: "di_436", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Must (Obligation)",
+        id: "di_436", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Must (Obligation)",
         question: "He said, \"We must obey the laws.\"",
         options: ["He said that they must obey the laws.", "He said that they had to obey the laws.", "He said that they would obey the laws.", "He said that we must obey the laws."],
         correctIndex: 0, // 'Must' remains unchanged for general/permanent obligations.
@@ -3425,7 +3425,7 @@ correctIndex: 0,
         explanationBengali: "চিরস্থায়ী বাধ্যবাধকতা বোঝালে 'must' অপরিবর্তিত থাকে।"
     },
     {
-        id: "di_437", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Interrogative (Wh-)",
+        id: "di_437", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Interrogative (Wh-)",
         question: "He said to me, \"Why are you sad?\"",
 options: ["He asked me why I was sad.", "He asked me why was I sad.", "He asked me why am I sad.", "He asked me that why I was sad."],
         correctIndex: 0,
@@ -3433,7 +3433,7 @@ options: ["He asked me why I was sad.", "He asked me why was I sad.", "He asked 
         explanationBengali: "'Wh' শব্দ থাকলে তা-ই conjunction হয় এবং verb শেষে যায়।"
     },
     {
-        id: "di_438", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Past Simple",
+        id: "di_438", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Past Simple",
         question: "She said, \"I finished the work.\"",
         options: ["She said that she had finished the work.", "She said that she finished the work.", "She said that she has finished the work.", "She said that she finishes the work."],
         correctIndex: 0,
@@ -3441,7 +3441,7 @@ options: ["He asked me why I was sad.", "He asked me why was I sad.", "He asked 
         explanationBengali: "Past Indefinite পরিবর্তিত হয়ে Past Perfect হয়।"
     },
     {
-        id: "di_439", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Yes/No Question",
+        id: "di_439", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Yes/No Question",
         question: "He said, \"Can you swim?\"",
         options: ["He asked if I could swim.", "He asked that if I could swim.", "He asked could I swim.", "He said if I can swim."],
         correctIndex: 0,
@@ -3449,7 +3449,7 @@ options: ["He asked me why I was sad.", "He asked me why was I sad.", "He asked 
         explanationBengali: "Can -> Could এবং Yes/No প্রশ্নে 'if' বসে।"
     },
     {
-        id: "di_440", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Optative",
+        id: "di_440", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Optative",
         question: "He said, \"May you succeed!\"",
         options: ["He wished that I might succeed.", "He prayed that you might succeed.", "He said that I might succeed.", "He wished that I may succeed."],
         correctIndex: 0,
@@ -3457,7 +3457,7 @@ options: ["He asked me why I was sad.", "He asked me why was I sad.", "He asked 
         explanationBengali: "ইচ্ছা বোঝালে 'wished' এবং may -> might হয়।"
     },
     {
-        id: "di_441", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Pronoun Change",
+        id: "di_441", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Pronoun Change",
         question: "He said to her, \"I will help you.\"",
         options: ["He told her that he would help her.", "He told her that I would help her.", "He told her that he will help you.", "He said to her that he would help her."],
         correctIndex: 0,
@@ -3465,7 +3465,7 @@ options: ["He asked me why I was sad.", "He asked me why was I sad.", "He asked 
         explanationBengali: "Pronoun এবং Tense উভয়ই পরিবর্তিত হবে।"
     },
     {
-        id: "di_442", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Sir/Madam",
+        id: "di_442", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Sir/Madam",
         question: "He said to the teacher, \"Sir, please explain this.\"",
         options: ["He respectfully requested the teacher to explain that.", "He requested the teacher to explain this.", "He told the teacher sir please explain that.", "He ordered the teacher to explain that."],
         correctIndex: 0,
@@ -3473,7 +3473,7 @@ options: ["He asked me why I was sad.", "He asked me why was I sad.", "He asked 
         explanationBengali: "'Sir' থাকলে 'respectfully' এবং 'please' থাকলে 'requested' বসে।"
     },
     {
-        id: "di_443", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Universal Truth",
+        id: "di_443", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Universal Truth",
         question: "He said, \"Honesty is the best policy.\"",
         options: ["He said that honesty is the best policy.", "He said that honesty was the best policy.", "He said that honesty has been the best policy.", "He asked if honesty is the best policy."],
         correctIndex: 0,
@@ -3481,7 +3481,7 @@ options: ["He asked me why I was sad.", "He asked me why was I sad.", "He asked 
         explanationBengali: "প্রবাদ বাক্যের ক্ষেত্রে tense-এর পরিবর্তন হয় না।"
     },
     {
-        id: "di_444", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Present Perfect",
+        id: "di_444", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Present Perfect",
 question: "She said, \"I have passed.\"",
         options: ["She said that she had passed.", "She said that she has passed.", "She said that I had passed.", "She said that she passed."],
         correctIndex: 0,
@@ -3489,7 +3489,7 @@ question: "She said, \"I have passed.\"",
         explanationBengali: "Present Perfect পরিবর্তিত হয়ে Past Perfect হয়।"
     },
     {
-        id: "di_445", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Let (Proposal)",
+        id: "di_445", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Let (Proposal)",
         question: "She said, \"Let's go for a movie.\"",
         options: ["She proposed that they should go for a movie.", "She suggested to go for a movie.", "She ordered to go for a movie.", "She said that let them go for a movie."],
         correctIndex: 0,
@@ -3497,7 +3497,7 @@ question: "She said, \"I have passed.\"",
         explanationBengali: "'Let's' থাকলে 'proposed' এবং 'should' বসে।"
     },
     {
-        id: "di_446", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Imperative",
+        id: "di_446", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Imperative",
         question: "The teacher said to the boys, \"Don't make a noise.\"",
         options: ["The teacher forbade the boys to make a noise.", "The teacher ordered the boys not make a noise.", "The teacher told the boys don't make a noise.", "The teacher asked the boys not to make a noise."],
         correctIndex: 0, // 'Forbade' implies negative, so 'not' is removed.
@@ -3505,7 +3505,7 @@ question: "She said, \"I have passed.\"",
         explanationBengali: "'Forbade' (নিষেধ করা) ব্যবহার করলে 'not' বসে না।"
     },
     {
-        id: "di_447", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Future Continuous",
+        id: "di_447", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Future Continuous",
         question: "He said, \"I will be waiting.\"",
         options: ["He said that he would be waiting.", "He said that he will be waiting.", "He said that he would wait.", "He said that he should be waiting."],
         correctIndex: 0,
@@ -3513,7 +3513,7 @@ question: "She said, \"I have passed.\"",
         explanationBengali: "Future Continuous-এ 'will be' -> 'would be' হয়।"
     },
     {
-        id: "di_448", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Question Tag",
+        id: "di_448", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Question Tag",
         question: "He said to me, \"You are coming, aren't you?\"",
         options: ["He asked me if I was coming.", "He asked me whether I was coming or not.", "He told me that I was coming.", "He said to me that I was coming."],
         correctIndex: 0,
@@ -3521,7 +3521,7 @@ question: "She said, \"I have passed.\"",
         explanationBengali: "Indirect speech-এ question tag বাদ দিয়ে সাধারণ প্রশ্নবোধক বাক্যে রূপান্তর করতে হয়।"
     },
     {
-        id: "di_449", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Exclamatory (Hurrah)",
+        id: "di_449", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Exclamatory (Hurrah)",
         question: "The boys said, \"Hurrah! We have won.\"",
         options: ["The boys exclaimed with joy that they had won.", "The boys said hurrah they had won.", "The boys shouted that they won.", "The boys exclaimed with sorrow that they had won."],
         correctIndex: 0,
@@ -3529,7 +3529,7 @@ question: "She said, \"I have passed.\"",
         explanationBengali: "আনন্দ বোঝালে 'exclaimed with joy' বসে।"
     },
     {
-        id: "di_450", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Past Continuous",
+        id: "di_450", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Past Continuous",
         question: "He said, \"I was playing.\"",
         options: ["He said that he had been playing.", "He said that he was playing.", "He said that he has been playing.", "He said that he played."],
         correctIndex: 0,
@@ -3537,7 +3537,7 @@ question: "She said, \"I have passed.\"",
 explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past Perfect Continuous হয়।"
     },
     {
-        id: "di_451", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Multiple Sentences",
+        id: "di_451", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Multiple Sentences",
         question: "He said, \"I have a headache. I cannot work.\"",
         options: ["He said that he had a headache and could not work.", "He said that he has a headache and cannot work.", "He told that he had a headache so he cannot work.", "He said he had a headache and he cannot work."],
         correctIndex: 0,
@@ -3545,7 +3545,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "উভয় অংশের tense পরিবর্তন হবে এবং 'and' দিয়ে যুক্ত হবে।"
     },
     {
-        id: "di_452", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Advice",
+        id: "di_452", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Advice",
         question: "My father said to me, \"Avoid bad company.\"",
         options: ["My father advised me to avoid bad company.", "My father ordered me to avoid bad company.", "My father told me avoid bad company.", "My father asked me to avoid bad company."],
         correctIndex: 0,
@@ -3553,7 +3553,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "উপদেশ বোঝালে 'advised' বসে।"
     },
     {
-        id: "di_453", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Time Word",
+        id: "di_453", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Time Word",
         question: "He said, \"I am busy now.\"",
         options: ["He said that he was busy then.", "He said that he was busy now.", "He said that he is busy then.", "He said that he is busy now."],
         correctIndex: 0,
@@ -3561,7 +3561,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "Now -> Then এবং Am -> Was হয়।"
     },
     {
-        id: "di_454", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Modals (Must)",
+        id: "di_454", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Modals (Must)",
         question: "He said, \"I must leave at once.\"",
         options: ["He said that he had to leave at once.", "He said that he must leave at once.", "He said that he would leave at once.", "He said that he has to leave at once."],
         correctIndex: 0,
@@ -3569,7 +3569,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "তাৎক্ষণিক প্রয়োজন বোঝালে 'must' পরিবর্তিত হয়ে 'had to' হয়।"
     },
     {
-        id: "di_455", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Interrogative",
+        id: "di_455", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Interrogative",
         question: "She said, \"Where do you live?\"",
         options: ["She asked where I lived.", "She asked where do I live.", "She asked where did I live.", "She asked where I live."],
         correctIndex: 0,
@@ -3577,7 +3577,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "Simple Present প্রশ্ন Simple Past statement-এ পরিবর্তিত হয়।"
     },
     {
-        id: "di_456", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Future",
+        id: "di_456", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Simple Future",
         question: "He said, \"I shall go.\"",
         options: ["He said that he would go.", "He said that he should go.", "He said that he will go.", "He said that he shall go."],
         correctIndex: 0,
@@ -3585,7 +3585,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "'Shall' পরিবর্তিত হয়ে 'would' হয় (Subject পরিবর্তন সাপেক্ষে)।"
     },
     {
-        id: "di_457", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Greeting",
+        id: "di_457", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Greeting",
         question: "He said, \"Goodbye, my friends.\"",
         options: ["He bade his friends goodbye.", "He said goodbye to his friends.", "He told his friends goodbye.", "He wished his friends goodbye."],
         correctIndex: 0,
@@ -3593,7 +3593,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "বিদায় সম্ভাষণে 'bade' ব্যবহৃত হয়।"
 },
     {
-        id: "di_458", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Address",
+        id: "di_458", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Address",
         question: "He said, \"Oh God! Help me.\"",
         options: ["He prayed to God to help him.", "He called God to help him.", "He asked God help him.", "He exclaimed God help him."],
         correctIndex: 0,
@@ -3601,7 +3601,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "ঈশ্বরকে ডাকার অর্থ প্রার্থনা করা, তাই 'prayed to God' হবে।"
     },
     {
-        id: "di_459", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Reporting Verb Past",
+        id: "di_459", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Reporting Verb Past",
         question: "He said, \"It is raining.\"",
         options: ["He said that it was raining.", "He said that it is raining.", "He said that it has been raining.", "He said that it rains."],
         correctIndex: 0,
@@ -3609,7 +3609,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "Is -> Was হয়।"
     },
     {
-        id: "di_460", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Assertive + Question",
+        id: "di_460", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Assertive + Question",
         question: "He said, \"I am going. Will you come?\"",
         options: ["He said that he was going and asked if I would come.", "He said that he was going and asked will you come.", "He said that he is going and asked if I would come.", "He said that he was going and if I would come."],
         correctIndex: 0,
@@ -3619,7 +3619,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
 // --- SET 28: ADDITIONAL DIRECT AND INDIRECT SPEECH QUESTIONS (461-500) ---
 
     {
-        id: "di_461", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Question (Wh-)",
+        id: "di_461", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Question (Wh-)",
         question: "He said to me, \"What are you doing?\"",
         options: ["He asked me what I was doing.", "He asked me what was I doing.", "He asked me what am I doing.", "He asked me that what I was doing."],
         correctIndex: 0,
@@ -3627,7 +3627,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "'Wh' শব্দ থাকলে তা-ই conjunction হয়। Verb শেষে যায় (was doing)।"
     },
     {
-        id: "di_462", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Let (Wish)",
+        id: "di_462", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Let (Wish)",
         question: "She said, \"Let me have some coffee.\"",
         options: ["She wished that she might have some coffee.", "She said that let her have some coffee.", "She requested to have some coffee.", "She ordered to have some coffee."],
         correctIndex: 0,
@@ -3635,7 +3635,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "'Let me' দিয়ে ইচ্ছা প্রকাশ করলে 'wished...might' ব্যবহৃত হয়।"
     },
     {
-        id: "di_463", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Future",
+        id: "di_463", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Simple Future",
         question: "He said, \"I will go to the market.\"",
         options: ["He said that he would go to the market.", "He said that he will go to the market.", "He said that he should go to the market.", "He said that I would go to the market."],
         correctIndex: 0,
@@ -3643,7 +3643,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "'Will' পরিবর্তিত হয়ে 'would' হয়।"
     },
     {
-        id: "di_464", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Exclamatory (Joy)",
+        id: "di_464", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Exclamatory (Joy)",
         question: "They said, \"Hurrah! We have won the match.\"",
         options: ["They exclaimed with joy that they had won the match.", "They said hurrah they had won the match.", "They shouted that they won the match.", "They exclaimed that they have won the match."],
         correctIndex: 0,
@@ -3651,7 +3651,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "আনন্দ বোঝালে 'exclaimed with joy' এবং Present Perfect -> Past Perfect হয়।"
     },
     {
-        id: "di_465", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Imperative (Negative)",
+        id: "di_465", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Imperative (Negative)",
         question: "The teacher said to the student, \"Do not waste time.\"",
         options: ["The teacher forbade the student to waste time.", "The teacher ordered the student not to waste time.", "Both A and B.", "The teacher asked the student do not waste time."],
         correctIndex: 2, // Both are correct.
@@ -3659,7 +3659,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "নেতিবাচক আদেশে 'forbade' বা 'ordered...not to' দুটোই সঠিক।"
     },
     {
-        id: "di_466", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Present Perfect",
+        id: "di_466", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Present Perfect",
         question: "He said, \"I have seen the Taj Mahal.\"",
         options: ["He said that he had seen the Taj Mahal.", "He said that he has seen the Taj Mahal.", "He said that he saw the Taj Mahal.", "He said that I had seen the Taj Mahal."],
         correctIndex: 0,
@@ -3667,7 +3667,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "Present Perfect -> Past Perfect হয়।"
     },
     {
-        id: "di_467", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Modals (Must)",
+        id: "di_467", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Modals (Must)",
         question: "She said, \"I must complete the project.\"",
         options: ["She said that she had to complete the project.", "She said that she must complete the project.", "She said that she would complete the project.", "She said that she has to complete the project."],
         correctIndex: 0,
@@ -3675,7 +3675,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "প্রয়োজনীয়তা বোঝালে 'must' পরিবর্তিত হয়ে 'had to' হয়।"
     },
     {
-        id: "di_468", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Vocative Case",
+        id: "di_468", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Vocative Case",
         question: "He said, \"Brother, help me.\"",
         options: ["Addressing him as brother, he requested him to help him.", "He told his brother to help him.", "He asked his brother help me.", "He said brother help him."],
         correctIndex: 0,
@@ -3683,7 +3683,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "কাউকে সম্বোধন করলে 'Addressing as...' গঠন ব্যবহৃত হয়।"
     },
     {
-        id: "di_469", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Yes/No Question",
+        id: "di_469", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Yes/No Question",
         question: "He asked me, \"Did you see the bird?\"",
         options: ["He asked me if I had seen the bird.", "He asked me if I saw the bird.", "He asked me did I see the bird.", "He asked me whether I see the bird."],
         correctIndex: 0,
@@ -3691,7 +3691,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "Past Indefinite প্রশ্নে 'if' বসে এবং tense Past Perfect হয়।"
     },
     {
-        id: "di_470", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Time Word",
+        id: "di_470", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Time Word",
         question: "He said, \"I will do it now.\"",
         options: ["He said that he would do it then.", "He said that he will do it now.", "He said that he would do it now.", "He said that he will do it then."],
         correctIndex: 0,
@@ -3699,7 +3699,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "Now -> Then এবং Will -> Would হয়।"
     },
     {
-        id: "di_471", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Optative (Curse)",
+        id: "di_471", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Optative (Curse)",
         question: "The old woman said to him, \"May you die!\"",
         options: ["The old woman cursed him that he might die.", "The old woman prayed that he might die.", "The old woman wished that he might die.", "The old woman said that he might die."],
         correctIndex: 0,
@@ -3707,7 +3707,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "অভিশাপ দিলে 'cursed' বসে।"
     },
     {
-        id: "di_472", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Double Clause",
+        id: "di_472", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Double Clause",
         question: "He said, \"It is late and I must go.\"",
         options: ["He said that it was late and he had to go.", "He said that it is late and he must go.", "He said that it was late and he must go.", "He said that it is late and he had to go."],
         correctIndex: 0,
@@ -3715,7 +3715,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "উভয় অংশের tense পরিবর্তন হবে।"
     },
     {
-        id: "di_473", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Past",
+        id: "di_473", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Simple Past",
         question: "She said, \"I wrote a letter.\"",
         options: ["She said that she had written a letter.", "She said that she wrote a letter.", "She said that she has written a letter.", "She said that she was writing a letter."],
         correctIndex: 0,
@@ -3723,7 +3723,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "Past Indefinite পরিবর্তিত হয়ে Past Perfect হয়।"
     },
     {
-        id: "di_474", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Exclamatory (Sorrow)",
+        id: "di_474", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Exclamatory (Sorrow)",
         question: "He said, \"Ah! My cat is dead.\"",
         options: ["He exclaimed with sorrow that his cat was dead.", "He cried that his cat is dead.", "He said ah his cat was dead.", "He exclaimed that his cat was dead."],
         correctIndex: 0,
@@ -3731,7 +3731,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "দুঃখ বোঝালে 'exclaimed with sorrow' হয়।"
     },
     {
-        id: "di_475", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Let (Suggestion)",
+        id: "di_475", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Let (Suggestion)",
         question: "He said, \"Let's play football.\"",
         options: ["He suggested that they should play football.", "He said to play football.", "He ordered to play football.", "He asked to play football."],
         correctIndex: 0,
@@ -3739,7 +3739,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "'Let's' থাকলে 'suggested' এবং 'should' বসে।"
     },
     {
-        id: "di_476", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Present Continuous",
+        id: "di_476", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Present Continuous",
         question: "He said, \"The baby is crying.\"",
         options: ["He said that the baby was crying.", "He said that the baby is crying.", "He said that the baby had been crying.", "He said that the baby cried."],
         correctIndex: 0,
@@ -3747,7 +3747,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "Present Continuous -> Past Continuous হয়।"
     },
     {
-        id: "di_477", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Pronoun (We)",
+        id: "di_477", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Pronoun (We)",
         question: "The editor said, \"We have published the news.\"",
         options: ["The editor said that they had published the news.", "The editor said that we had published the news.", "The editor said that he had published the news.", "The editor said that they have published the news."],
         correctIndex: 0, // Editorial 'We' becomes 'They' or 'It' (for newspaper). 'They' is standard for staff.
@@ -3755,7 +3755,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "সম্পাদকীয় 'We' পরিবর্তিত হয়ে 'They' হয়। Tense-ও পরিবর্তিত হবে।"
     },
     {
-        id: "di_478", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Reporting Verb Future",
+        id: "di_478", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Reporting Verb Future",
         question: "She says, \"I will not go.\"",
         options: ["She says that she will not go.", "She says that she would not go.", "She said that she will not go.", "She said that she would not go."],
         correctIndex: 0,
@@ -3763,7 +3763,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "Reporting verb present হলে tense পরিবর্তন হয় না।"
     },
     {
-        id: "di_479", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Imperative Request",
+        id: "di_479", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Imperative Request",
         question: "He said to me, \"Please help me.\"",
         options: ["He requested me to help him.", "He told me to help him.", "He ordered me to help him.", "He said to me to help him."],
         correctIndex: 0,
@@ -3771,7 +3771,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "'Please' থাকলে 'requested' বসে।"
     },
     {
-        id: "di_480", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Question (Modal)",
+        id: "di_480", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Question (Modal)",
         question: "He asked, \"Shall I open the door?\"",
         options: ["He asked if he should open the door.", "He asked if he would open the door.", "He asked that if he should open the door.", "He asked to open the door."],
         correctIndex: 0, // 'Shall I' asking for permission/advice changes to 'Should'.
@@ -3779,7 +3779,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "পরামর্শ বা নির্দেশ চাওয়ার ক্ষেত্রে 'Shall' পরিবর্তিত হয়ে 'Should' হয়।"
     },
     {
-        id: "di_481", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Universal Truth",
+        id: "di_481", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Universal Truth",
         question: "He said, \"Man is mortal.\"",
         options: ["He said that man is mortal.", "He said that man was mortal.", "He said that man has been mortal.", "He said that man will be mortal."],
         correctIndex: 0,
@@ -3787,7 +3787,7 @@ explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past 
         explanationBengali: "চিরন্তন সত্যের ক্ষেত্রে tense পরিবর্তন হয় না।"
     },
     {
-        id: "di_482", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Nearness Words",
+        id: "di_482", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Nearness Words",
         question: "He said, \"I like this book.\"",
         options: ["He said that he liked that book.", "He said that he likes this book.", "He said that he liked this book.", "He said that he likes that book."],
         correctIndex: 0,
@@ -3795,7 +3795,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "Like -> Liked এবং This -> That হয়।"
     },
     {
-        id: "di_483", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Optative",
+        id: "di_483", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Optative",
         question: "They said, \"Long live the King!\"",
         options: ["They prayed that the King might live long.", "They said that the King might live long.", "They wished that the King lives long.", "They prayed that the King may live long."],
         correctIndex: 0,
@@ -3803,7 +3803,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "দীর্ঘায়ু কামনা করলে 'prayed that...might live long' হয়।"
     },
     {
-        id: "di_484", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Past Perfect",
+        id: "di_484", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Past Perfect",
         question: "He said, \"I had done it.\"",
         options: ["He said that he had done it.", "He said that he has done it.", "He said that he had been done it.", "He said that he did it."],
         correctIndex: 0,
@@ -3811,7 +3811,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "Past Perfect Tense-এর কোনো পরিবর্তন হয় না।"
     },
     {
-        id: "di_485", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Imperative",
+        id: "di_485", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Imperative",
         question: "He said, \"Go away.\"",
         options: ["He ordered to go away.", "He said to go away.", "He asked to go away.", "He told to go away."],
         correctIndex: 0,
@@ -3819,7 +3819,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "আদেশ বোঝালে 'ordered' বসে।"
     },
     {
-        id: "di_486", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Exclamatory (Applause)",
+        id: "di_486", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Exclamatory (Applause)",
         question: "He said, \"Bravo! You played well.\"",
         options: ["He applauded him saying that he had played well.", "He said bravo that he played well.", "He exclaimed that he played well.", "He shouted that he played well."],
         correctIndex: 0,
@@ -3827,7 +3827,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "প্রশংসা বোঝালে 'applauded...saying that' বসে।"
     },
     {
-        id: "di_487", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Conditionals",
+        id: "di_487", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Conditionals",
         question: "He said, \"If I had money, I would buy a car.\"",
         options: ["He said that if he had had money, he would have bought a car.", "He said that if he had money, he would buy a car.", "He said that if he has money, he will buy a car.", "He said that if he had money, he would have bought a car."],
         correctIndex: 0, // Type 2 (unreal present) changes to Type 3 (unreal past) OR remains unchanged. Type 3 is strictly grammatically correct for backshift.
@@ -3840,7 +3840,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "অবাস্তব শর্তে tense সাধারণত অপরিবর্তিত থাকে।"
     },
     {
-        id: "di_488", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Future Perfect",
+        id: "di_488", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Future Perfect",
         question: "He said, \"I will have finished.\"",
         options: ["He said that he would have finished.", "He said that he will have finished.", "He said that he would finish.", "He said that he will finish."],
         correctIndex: 0,
@@ -3848,7 +3848,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "'Will have' -> 'would have' হয়।"
     },
     {
-        id: "di_489", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Thank You",
+        id: "di_489", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Thank You",
         question: "He said to me, \"Thank you for your help.\"",
         options: ["He thanked me for my help.", "He said thank you for my help.", "He told me thank you for help.", "He requested me to thank."],
         correctIndex: 0,
@@ -3856,7 +3856,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "সরাসরি 'thanked me for my help' বলা হয়।"
     },
     {
-        id: "di_490", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Dare/Need",
+        id: "di_490", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Dare/Need",
         question: "He said, \"I need not go.\"",
         options: ["He said that he need not go.", "He said that he needed not go.", "He said that he did not need to go.", "He said that he need not to go."],
         correctIndex: 0, // 'Need not' (modal) usually remains unchanged.
@@ -3864,7 +3864,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "'Need not' (modal) সাধারণত অপরিবর্তিত থাকে।"
     },
     {
-        id: "di_491", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Present",
+        id: "di_491", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Simple Present",
         question: "She said, \"I like ice cream.\"",
         options: ["She said that she liked ice cream.", "She said that she likes ice cream.", "She said that I liked ice cream.", "She said that she like ice cream."],
         correctIndex: 0,
@@ -3872,7 +3872,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "Present Indefinite -> Past Indefinite হয়।"
     },
     {
-        id: "di_492", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "By God",
+        id: "di_492", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "By God",
         question: "He said, \"By God! I am innocent.\"",
         options: ["He swore by God that he was innocent.", "He said by God that he was innocent.", "He exclaimed by God that he was innocent.", "He prayed to God that he was innocent."],
         correctIndex: 0,
@@ -3880,7 +3880,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "শপথ করা বোঝালে 'swore by God' ব্যবহৃত হয়।"
     },
     {
-        id: "di_493", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Had better",
+        id: "di_493", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Had better",
         question: "He said, \"You had better go.\"",
         options: ["He said that I had better go.", "He said that I have better go.", "He said that I had better went.", "He advised me to go."],
         correctIndex: 0, // 'Had better' remains unchanged.
@@ -3888,7 +3888,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "'Had better' অপরিবর্তিত থাকে।"
     },
     {
-        id: "di_494", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Pronoun",
+        id: "di_494", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Pronoun",
         question: "He said to them, \"You are late.\"",
         options: ["He told them that they were late.", "He told them that you were late.", "He told them that we were late.", "He told them that they are late."],
         correctIndex: 0,
@@ -3896,7 +3896,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "'You' object 'them' অনুযায়ী পরিবর্তিত হয়ে 'they' হবে।"
     },
     {
-        id: "di_495", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Let (Condition)",
+        id: "di_495", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Let (Condition)",
         question: "He said, \"Let it rain, I will go.\"",
         options: ["He said that even if it rained, he would go.", "He said that let it rain he would go.", "He ordered it to rain and he would go.", "He suggested that it should rain."],
         correctIndex: 0,
@@ -3904,7 +3904,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "শর্ত বা উপেক্ষা বোঝালে 'Let' পরিবর্তিত হয়ে 'even if' হয়।"
     },
     {
-        id: "di_496", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Interrogative",
+        id: "di_496", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Interrogative",
         question: "He said, \"Who is there?\"",
         options: ["He asked who was there.", "He asked who is there.", "He asked who there was.", "He asked that who was there."],
         correctIndex: 0,
@@ -3912,7 +3912,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "Is -> Was হয় এবং 'who' conjunction হিসেবে কাজ করে।"
     },
     {
-        id: "di_497", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Past Continuous",
+        id: "di_497", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Past Continuous",
         question: "She said, \"I was waiting.\"",
         options: ["She said that she had been waiting.", "She said that she was waiting.", "She said that she waited.", "She said that she has been waiting."],
         correctIndex: 0,
@@ -3920,7 +3920,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "Past Continuous -> Past Perfect Continuous হয়।"
     },
     {
-        id: "di_498", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Good Night",
+        id: "di_498", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "hard", topic: "Good Night",
         question: "He said, \"Good night, sir.\"",
         options: ["He bade the sir good night.", "He respectfully bade him good night.", "He said good night to sir.", "He wished good night sir."],
         correctIndex: 1, // 'Respectfully' adds the nuance of 'sir'.
@@ -3928,7 +3928,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "বিদায় সম্ভাষণে 'bade' এবং 'sir' থাকলে 'respectfully' বসে।"
     },
     {
-        id: "di_499", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Tag Question",
+        id: "di_499", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "moderate", topic: "Tag Question",
         question: "He said, \"It is a nice day, isn't it?\"",
         options: ["He said that it was a nice day.", "He asked if it was a nice day.", "He remarked that it was a nice day.", "He said that it is a nice day isn't it."],
         correctIndex: 0, // Or 'He remarked that it was a nice day'. Usually tags turn into simple statements in indirect if rhetorical.
@@ -3938,7 +3938,7 @@ explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
         explanationBengali: "Tag question-এর ক্ষেত্রে সাধারণ বিবৃতি বা 'remarked' ব্যবহার করা হয়।"
     },
     {
-        id: "di_500", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Future",
+        id: "di_500", chapter: "Direct & Indirect Speech", type: "grammar", difficulty: "easy", topic: "Simple Future",
         question: "He said, \"I shall come.\"",
         options: ["He said that he would come.", "He said that he should come.", "He said that he will come.", "He said that he shall come."],
         correctIndex: 0,
@@ -6368,5 +6368,6 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "Extempore মানে উপস্থিত বক্তৃতা।"
     }
 ];
+
 
 
