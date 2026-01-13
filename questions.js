@@ -1,5 +1,6 @@
 export const questionLibrary = [
 
+
     {
         id: "se_1", chapter: "Spotting Error", type: "grammar", difficulty: "easy", topic: "Subject-Verb Agreement",
         question: "The list of items (A) / are on the desk (B) / near the window. (C) / No Error (D)",
@@ -3130,6 +3131,3241 @@ export const questionLibrary = [
         correctIndex: 0,
         explanation: "'Shocked' generally takes 'at', not 'by'.",
         explanationBengali: "'Shocked'-এর সাথে preposition 'at' বসে, 'by' নয়।"
+    },
+// --- SET 26: DIRECT AND INDIRECT SPEECH QUESTIONS (401-430) ---
+
+    {
+        id: "di_401", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Present",
+        question: "He said, \"I am busy.\"",
+        options: ["He said that he was busy.", "He said that he is busy.", "He says that he was busy.", "He said that I am busy."],
+        correctIndex: 0,
+        explanation: "Simple Present 'am' changes to Simple Past 'was' when the reporting verb is in the past tense.",
+        explanationBengali: "Reporting verb past হলে tense পরিবর্তন হয়ে past হয়। 'am' পরিবর্তিত হয়ে 'was' হবে।"
+    },
+    {
+        id: "di_402", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Interrogative",
+        question: "She said to me, \"Are you coming?\"",
+        options: ["She asked me if I was coming.", "She asked me whether was I coming.", "She told me if I was coming.", "She asked if I am coming."],
+        correctIndex: 0,
+        explanation: "'Said to' changes to 'asked'. Use 'if' or 'whether'. Present Continuous 'are coming' changes to Past Continuous 'was coming'.",
+        explanationBengali: "প্রশ্নবোধক বাক্যে 'if' বসে এবং tense পরিবর্তন হয়।"
+    },
+    {
+        id: "di_403", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Universal Truth",
+        question: "The teacher said, \"The sun rises in the east.\"",
+        options: ["The teacher said that the sun rises in the east.", "The teacher said that the sun rose in the east.", "The teacher said that the sun had risen in the east.", "The teacher said that sun rises in east."],
+        correctIndex: 0,
+        explanation: "Universal truths do not change tense in indirect speech.",
+        explanationBengali: "চিরন্তন সত্যের ক্ষেত্রে tense-এর কোনো পরিবর্তন হয় না।"
+    },
+    {
+        id: "di_404", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Imperative",
+        question: "He said to his servant, \"Clean the floor.\"",
+        options: ["He ordered his servant to clean the floor.", "He told his servant clean the floor.", "He asked his servant that clean the floor.", "He ordered his servant that to clean the floor."],
+        correctIndex: 0,
+        explanation: "Imperative sentences use 'to + V1'. 'Said to' changes to 'ordered' for commands.",
+        explanationBengali: "আদেশ বোঝালে 'ordered' এবং 'to' দিয়ে যুক্ত হয়।"
+    },
+    {
+        id: "di_405", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Exclamatory",
+        question: "He said, \"Alas! I am ruined.\"",
+        options: ["He exclaimed with sorrow that he was ruined.", "He said alas he was ruined.", "He cried that he was ruined.", "He exclaimed with joy that he was ruined."],
+        correctIndex: 0,
+        explanation: "'Alas' indicates sorrow. Use 'exclaimed with sorrow'. 'Am' changes to 'was'.",
+        explanationBengali: "দুঃখ বোঝালে 'exclaimed with sorrow' হয়।"
+    },
+    {
+        id: "di_406", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Past",
+        question: "He said, \"I bought a pen.\"",
+        options: ["He said that he had bought a pen.", "He said that he bought a pen.", "He said that he has bought a pen.", "He said that he was bought a pen."],
+        correctIndex: 0,
+        explanation: "Simple Past 'bought' changes to Past Perfect 'had bought'.",
+        explanationBengali: "Past Indefinite পরিবর্তিত হয়ে Past Perfect হয়।"
+    },
+    {
+        id: "di_407", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Nearness Words",
+        question: "She said, \"I will come tomorrow.\"",
+        options: ["She said that she would come the next day.", "She said that she will come tomorrow.", "She said that she would come tomorrow.", "She said that she will come the next day."],
+correctIndex: 0,
+        explanation: "'Will' changes to 'would'. 'Tomorrow' changes to 'the next day'.",
+        explanationBengali: "Tomorrow পরিবর্তিত হয়ে 'the next day' হয় এবং will -> would হয়।"
+    },
+    {
+        id: "di_408", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Let",
+        question: "He said, \"Let us go for a walk.\"",
+        options: ["He proposed that they should go for a walk.", "He said to let them go for a walk.", "He ordered to go for a walk.", "He suggested to go for a walk."],
+        correctIndex: 0,
+        explanation: "'Let us' indicates a proposal. Use 'proposed that + subject + should'.",
+        explanationBengali: "Let us থাকলে 'proposed' এবং 'should' বসে।"
+    },
+    {
+        id: "di_409", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Optative",
+        question: "He said, \"May God bless you.\"",
+        options: ["He prayed that God might bless me.", "He prayed that God may bless me.", "He said that God might bless me.", "He wished that God bless me."],
+        correctIndex: 0,
+        explanation: "Optative sentences use 'prayed' or 'wished'. 'May' changes to 'might'.",
+        explanationBengali: "ইচ্ছা বা প্রার্থনা বোঝালে 'prayed' এবং may -> might হয়।"
+    },
+    {
+        id: "di_410", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Modals",
+        question: "He said, \"I can solve this.\"",
+        options: ["He said that he could solve that.", "He said that he can solve this.", "He said that he could solve this.", "He asked if he could solve that."],
+        correctIndex: 0,
+        explanation: "'Can' changes to 'could'. 'This' changes to 'that'.",
+        explanationBengali: "Can -> Could এবং This -> That হয়।"
+    },
+    {
+        id: "di_411", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Let (Permission)",
+        question: "He said, \"Let me come in.\"",
+        options: ["He requested that he might be allowed to come in.", "He said that let him come in.", "He ordered to let him come in.", "He asked to come in."],
+        correctIndex: 0,
+        explanation: "'Let me' indicates seeking permission. Use 'requested...might be allowed to'.",
+        explanationBengali: "অনুমতি চাওয়া বোঝালে 'requested...might be allowed to' ব্যবহৃত হয়।"
+    },
+    {
+        id: "di_412", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Double Sentence",
+        question: "He said, \"I am ill. I cannot go.\"",
+        options: ["He said that he was ill and could not go.", "He said that he is ill and cannot go.", "He says that he was ill and could not go.", "He said he was ill so he cannot go."],
+        correctIndex: 0,
+        explanation: "Both clauses change tense. 'Am' -> 'Was', 'Cannot' -> 'Could not'. Joined by 'and'.",
+        explanationBengali: "উভয় অংশের tense পরিবর্তন হবে এবং 'and' দিয়ে যুক্ত হবে।"
+    },
+    {
+        id: "di_413", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Reporting Verb Present",
+        question: "He says, \"I am happy.\"",
+        options: ["He says that he is happy.", "He says that he was happy.", "He said that he is happy.", "He said that he was happy."],
+        correctIndex: 0,
+        explanation: "If reporting verb is present ('says'), the tense of reported speech does not change.",
+        explanationBengali: "Reporting verb present হলে tense-এর কোনো পরিবর্তন হয় না।"
+    },
+    {
+        id: "di_414", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Wh-Question",
+        question: "He said to me, \"Where are you going?\"",
+        options: ["He asked me where I was going.", "He asked me where was I going.", "He asked me where am I going.", "He asked me that where I was going."],
+correctIndex: 0,
+        explanation: "'Wh' words act as conjunctions. Subject comes before verb ('I was'). No 'that'.",
+        explanationBengali: "'Wh' শব্দ থাকলে তা-ই conjunction হয় এবং verb শেষে যায়।"
+    },
+    {
+        id: "di_415", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Vocative Case",
+        question: "He said, \"Bravo! You have done well.\"",
+        options: ["He applauded him saying that he had done well.", "He said bravo he had done well.", "He exclaimed with joy that he had done well.", "He shouted that he had done well."],
+        correctIndex: 0,
+        explanation: "'Bravo' indicates applause. Use 'applauded...saying that'. 'Have done' -> 'Had done'.",
+        explanationBengali: "প্রশংসা বোঝালে 'applauded...saying that' ব্যবহৃত হয়।"
+    },
+    {
+        id: "di_416", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Must",
+        question: "He said, \"I must go.\"",
+        options: ["He said that he had to go.", "He said that he must went.", "He said that he must go.", "He said that he has to go."],
+        correctIndex: 0,
+        explanation: "'Must' usually changes to 'had to' in past indirect speech.",
+        explanationBengali: "'Must' সাধারণত 'had to'-তে পরিবর্তিত হয়।"
+    },
+    {
+        id: "di_417", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Pronoun Change",
+        question: "I said to him, \"You are wrong.\"",
+        options: ["I told him that he was wrong.", "I told him that you are wrong.", "I told him that I was wrong.", "I told him that he is wrong."],
+        correctIndex: 0,
+        explanation: "'You' changes according to the object ('him') -> 'he'. 'Are' -> 'Was'.",
+        explanationBengali: "Second person (You) object অনুযায়ী পরিবর্তিত হয়।"
+    },
+    {
+        id: "di_418", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Thank/Welcome",
+        question: "He said to me, \"Thank you.\"",
+        options: ["He thanked me.", "He said that he thanked me.", "He told me thank you.", "He requested me to thank."],
+        correctIndex: 0,
+        explanation: "Reporting verbs can be changed directly to 'thanked'.",
+        explanationBengali: "সরাসরি 'thanked me' বলা হয়।"
+    },
+    {
+        id: "di_419", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Conditionals",
+        question: "He said, \"If I were a bird, I would fly.\"",
+        options: ["He said that if he were a bird, he would fly.", "He said that if he had been a bird, he would have flown.", "He said that if he was a bird, he would fly.", "He said if he is a bird he will fly."],
+        correctIndex: 0,
+        explanation: "Unreal past conditions (subjunctive 'were') usually remain unchanged.",
+        explanationBengali: "অবাস্তব শর্তে tense সাধারণত অপরিবর্তিত থাকে।"
+    },
+    {
+        id: "di_420", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Past Continuous",
+        question: "He said, \"It was raining.\"",
+        options: ["He said that it had been raining.", "He said that it was raining.", "He said that it has been raining.", "He said that it rained."],
+        correctIndex: 0,
+        explanation: "Past Continuous changes to Past Perfect Continuous.",
+        explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past Perfect Continuous হয়।"
+    },
+    {
+        id: "di_421", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Exclamatory (What/How)",
+        question: "He said, \"What a beautiful sight!\"",
+        options: ["He exclaimed that it was a very beautiful sight.", "He said that it was a beautiful sight.", "He exclaimed what a beautiful sight it was.", "He asked what a beautiful sight."],
+        correctIndex: 0,
+explanation: "'What/How' in exclamations are replaced by 'very' or 'great'.",
+        explanationBengali: "আশ্চর্যবোধক বাক্যে 'What/How' উঠে গিয়ে 'very' বসে।"
+    },
+    {
+        id: "di_422", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Yes/No Question",
+        question: "He asked, \"Do you like coffee?\"",
+        options: ["He asked if I liked coffee.", "He asked did I like coffee.", "He asked that I liked coffee.", "He asked if I like coffee."],
+        correctIndex: 0,
+        explanation: "Use 'if'. Simple Present 'like' changes to Simple Past 'liked'.",
+        explanationBengali: "Yes/No প্রশ্নে 'if' বসে এবং tense পরিবর্তন হয়।"
+    },
+    {
+        id: "di_423", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Imperative Negative",
+        question: "He said to me, \"Don't go there.\"",
+        options: ["He told me not to go there.", "He told me do not go there.", "He asked me not go there.", "He ordered me that not to go there."],
+        correctIndex: 0,
+        explanation: "Imperative negative uses 'not to + V1'.",
+        explanationBengali: "নেতিবাচক আদেশে 'not to' বসে।"
+    },
+    {
+        id: "di_424", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Reporting Verb Future",
+        question: "He will say, \"I am busy.\"",
+        options: ["He will say that he is busy.", "He will say that he was busy.", "He would say that he is busy.", "He will say that I am busy."],
+        correctIndex: 0,
+        explanation: "If reporting verb is future ('will say'), tense does not change.",
+        explanationBengali: "Reporting verb future হলে tense পরিবর্তন হয় না।"
+    },
+    {
+        id: "di_425", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Address",
+        question: "He said, \"Ladies and Gentlemen, listen to me.\"",
+        options: ["Addressing them as ladies and gentlemen, he asked them to listen to him.", "He told ladies and gentlemen to listen to him.", "He said to ladies and gentlemen listen to him.", "He addressed ladies and gentlemen listen to me."],
+        correctIndex: 0,
+        explanation: "Use 'Addressing them as...' for direct address.",
+        explanationBengali: "কাউকে সম্বোধন করলে 'Addressing as...' গঠন ব্যবহৃত হয়।"
+    },
+    {
+        id: "di_426", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Advice",
+        question: "The doctor said to me, \"Take medicine daily.\"",
+        options: ["The doctor advised me to take medicine daily.", "The doctor told me to take medicine daily.", "The doctor ordered me to take medicine daily.", "The doctor asked me to take medicine daily."],
+        correctIndex: 0,
+        explanation: "'Said to' changes to 'advised' for medical/expert opinion.",
+        explanationBengali: "উপদেশ বোঝালে 'advised' বসে।"
+    },
+    {
+        id: "di_427", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Time Word",
+        question: "He said, \"I saw him yesterday.\"",
+        options: ["He said that he had seen him the previous day.", "He said that he saw him yesterday.", "He said that he has seen him the previous day.", "He said that he had seen him yesterday."],
+        correctIndex: 0,
+        explanation: "'Yesterday' changes to 'the previous day'. Past Simple -> Past Perfect.",
+        explanationBengali: "Yesterday -> The previous day এবং Past Indefinite -> Past Perfect."
+    },
+    {
+        id: "di_428", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Good Morning",
+        question: "He said, \"Good morning, father.\"",
+        options: ["He wished his father good morning.", "He said good morning to his father.", "He told his father good morning.", "He exclaimed good morning father."],
+correctIndex: 0,
+        explanation: "Greetings like 'Good morning' use 'wished'.",
+        explanationBengali: "শুভেচ্ছা বিনিময়ে 'wished' ব্যবহৃত হয়।"
+    },
+    {
+        id: "di_429", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Prohibit",
+        question: "He said to me, \"Do not smoke.\"",
+        options: ["He forbade me to smoke.", "He told me not to smoke.", "He asked me to not smoke.", "He ordered me do not smoke."],
+        correctIndex: 0, // Both A and B are correct forms, but 'forbade' is more specific/classic for prohibition.
+        explanation: "'Forbade' carries the negative meaning, so 'not' is not used after it. Correct: 'forbade me to smoke'.",
+        explanationBengali: "'Forbade' (নিষেধ করা) ব্যবহার করলে 'not' বসে না।"
+    },
+    {
+        id: "di_430", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Present Perfect",
+        question: "He said, \"I have done my work.\"",
+        options: ["He said that he had done his work.", "He said that he has done his work.", "He said that he did his work.", "He said that he had done my work."],
+        correctIndex: 0,
+        explanation: "Present Perfect 'have done' changes to Past Perfect 'had done'.",
+        explanationBengali: "Present Perfect পরিবর্তিত হয়ে Past Perfect হয়।"
+    },
+// --- SET 27: ADDITIONAL DIRECT AND INDIRECT SPEECH QUESTIONS (431-460) ---
+
+    {
+        id: "di_431", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Let with Proposal",
+        question: "He said, \"Let us wait for the award.\"",
+        options: ["He proposed that they should wait for the award.", "He said that let us wait for the award.", "He suggested to wait for the award.", "He ordered to wait for the award."],
+        correctIndex: 0,
+        explanation: "'Let us' suggests a proposal. Use 'proposed that + subject + should'.",
+        explanationBengali: "'Let us' থাকলে 'proposed that' এবং 'should' বসে।"
+    },
+    {
+        id: "di_432", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Present",
+        question: "He said, \"I work hard.\"",
+        options: ["He said that he worked hard.", "He said that he works hard.", "He said that I work hard.", "He says that he worked hard."],
+        correctIndex: 0,
+        explanation: "Simple Present 'work' changes to Simple Past 'worked'.",
+        explanationBengali: "Past Indefinite-এ verb-এর past form বসে।"
+    },
+    {
+        id: "di_433", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Conditional Type 1",
+        question: "He said, \"If it rains, I will not go.\"",
+        options: ["He said that if it rained, he would not go.", "He said that if it rains, he will not go.", "He said that if it rained, he will not go.", "He asked if it rains he would not go."],
+        correctIndex: 0,
+        explanation: "Conditional Type 1 changes to Type 2 in indirect speech (Simple Present -> Simple Past, Will -> Would).",
+        explanationBengali: "Conditional sentence-এ present -> past এবং will -> would হয়।"
+    },
+    {
+        id: "di_434", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Exclamatory (What/How)",
+        question: "She said, \"How tall the building is!\"",
+        options: ["She exclaimed that the building was very tall.", "She said that the building is very tall.", "She exclaimed how tall the building was.", "She asked how tall the building is."],
+        correctIndex: 0,
+        explanation: "In exclamatory sentences, 'How' is replaced by 'very' before the adjective.",
+        explanationBengali: "আশ্চর্যবোধক বাক্যে 'How' উঠে গিয়ে 'very' বসে।"
+    },
+    {
+        id: "di_435", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Present Continuous",
+        question: "He said, \"I am reading a book.\"",
+        options: ["He said that he was reading a book.", "He said that he is reading a book.", "He said that I was reading a book.", "He said that he had been reading a book."],
+        correctIndex: 0,
+        explanation: "Present Continuous 'am reading' changes to Past Continuous 'was reading'.",
+        explanationBengali: "Present Continuous পরিবর্তিত হয়ে Past Continuous হয়।"
+    },
+    {
+        id: "di_436", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Must (Obligation)",
+        question: "He said, \"We must obey the laws.\"",
+        options: ["He said that they must obey the laws.", "He said that they had to obey the laws.", "He said that they would obey the laws.", "He said that we must obey the laws."],
+        correctIndex: 0, // 'Must' remains unchanged for general/permanent obligations.
+        explanation: "When 'must' indicates a general principle or permanent obligation, it remains unchanged.",
+        explanationBengali: "চিরস্থায়ী বাধ্যবাধকতা বোঝালে 'must' অপরিবর্তিত থাকে।"
+    },
+    {
+        id: "di_437", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Interrogative (Wh-)",
+        question: "He said to me, \"Why are you sad?\"",
+options: ["He asked me why I was sad.", "He asked me why was I sad.", "He asked me why am I sad.", "He asked me that why I was sad."],
+        correctIndex: 0,
+        explanation: "'Wh' word acts as connective. 'Are you' changes to statement form 'I was'.",
+        explanationBengali: "'Wh' শব্দ থাকলে তা-ই conjunction হয় এবং verb শেষে যায়।"
+    },
+    {
+        id: "di_438", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Past Simple",
+        question: "She said, \"I finished the work.\"",
+        options: ["She said that she had finished the work.", "She said that she finished the work.", "She said that she has finished the work.", "She said that she finishes the work."],
+        correctIndex: 0,
+        explanation: "Simple Past 'finished' changes to Past Perfect 'had finished'.",
+        explanationBengali: "Past Indefinite পরিবর্তিত হয়ে Past Perfect হয়।"
+    },
+    {
+        id: "di_439", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Yes/No Question",
+        question: "He said, \"Can you swim?\"",
+        options: ["He asked if I could swim.", "He asked that if I could swim.", "He asked could I swim.", "He said if I can swim."],
+        correctIndex: 0,
+        explanation: "'Can' changes to 'could'. Use 'if' for Yes/No questions.",
+        explanationBengali: "Can -> Could এবং Yes/No প্রশ্নে 'if' বসে।"
+    },
+    {
+        id: "di_440", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Optative",
+        question: "He said, \"May you succeed!\"",
+        options: ["He wished that I might succeed.", "He prayed that you might succeed.", "He said that I might succeed.", "He wished that I may succeed."],
+        correctIndex: 0,
+        explanation: "Optative sentences use 'wished' or 'prayed'. 'May' becomes 'might'.",
+        explanationBengali: "ইচ্ছা বোঝালে 'wished' এবং may -> might হয়।"
+    },
+    {
+        id: "di_441", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Pronoun Change",
+        question: "He said to her, \"I will help you.\"",
+        options: ["He told her that he would help her.", "He told her that I would help her.", "He told her that he will help you.", "He said to her that he would help her."],
+        correctIndex: 0,
+        explanation: "'I' changes to 'he'. 'You' changes to 'her'. 'Will' changes to 'would'.",
+        explanationBengali: "Pronoun এবং Tense উভয়ই পরিবর্তিত হবে।"
+    },
+    {
+        id: "di_442", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Sir/Madam",
+        question: "He said to the teacher, \"Sir, please explain this.\"",
+        options: ["He respectfully requested the teacher to explain that.", "He requested the teacher to explain this.", "He told the teacher sir please explain that.", "He ordered the teacher to explain that."],
+        correctIndex: 0,
+        explanation: "'Sir' is replaced by 'respectfully'. 'Please' changes to 'requested'. 'This' becomes 'that'.",
+        explanationBengali: "'Sir' থাকলে 'respectfully' এবং 'please' থাকলে 'requested' বসে।"
+    },
+    {
+        id: "di_443", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Universal Truth",
+        question: "He said, \"Honesty is the best policy.\"",
+        options: ["He said that honesty is the best policy.", "He said that honesty was the best policy.", "He said that honesty has been the best policy.", "He asked if honesty is the best policy."],
+        correctIndex: 0,
+        explanation: "Proverbs and universal truths do not change tense.",
+        explanationBengali: "প্রবাদ বাক্যের ক্ষেত্রে tense-এর পরিবর্তন হয় না।"
+    },
+    {
+        id: "di_444", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Present Perfect",
+question: "She said, \"I have passed.\"",
+        options: ["She said that she had passed.", "She said that she has passed.", "She said that I had passed.", "She said that she passed."],
+        correctIndex: 0,
+        explanation: "Present Perfect 'have passed' changes to Past Perfect 'had passed'.",
+        explanationBengali: "Present Perfect পরিবর্তিত হয়ে Past Perfect হয়।"
+    },
+    {
+        id: "di_445", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Let (Proposal)",
+        question: "She said, \"Let's go for a movie.\"",
+        options: ["She proposed that they should go for a movie.", "She suggested to go for a movie.", "She ordered to go for a movie.", "She said that let them go for a movie."],
+        correctIndex: 0,
+        explanation: "'Let's' usually indicates a proposal. Structure: Proposed + that + subject + should.",
+        explanationBengali: "'Let's' থাকলে 'proposed' এবং 'should' বসে।"
+    },
+    {
+        id: "di_446", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Imperative",
+        question: "The teacher said to the boys, \"Don't make a noise.\"",
+        options: ["The teacher forbade the boys to make a noise.", "The teacher ordered the boys not make a noise.", "The teacher told the boys don't make a noise.", "The teacher asked the boys not to make a noise."],
+        correctIndex: 0, // 'Forbade' implies negative, so 'not' is removed.
+        explanation: "'Forbade' carries the negative meaning, so 'not' is removed. Alternatively: 'ordered...not to'.",
+        explanationBengali: "'Forbade' (নিষেধ করা) ব্যবহার করলে 'not' বসে না।"
+    },
+    {
+        id: "di_447", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Future Continuous",
+        question: "He said, \"I will be waiting.\"",
+        options: ["He said that he would be waiting.", "He said that he will be waiting.", "He said that he would wait.", "He said that he should be waiting."],
+        correctIndex: 0,
+        explanation: "'Will be' changes to 'would be'.",
+        explanationBengali: "Future Continuous-এ 'will be' -> 'would be' হয়।"
+    },
+    {
+        id: "di_448", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Question Tag",
+        question: "He said to me, \"You are coming, aren't you?\"",
+        options: ["He asked me if I was coming.", "He asked me whether I was coming or not.", "He told me that I was coming.", "He said to me that I was coming."],
+        correctIndex: 0,
+        explanation: "Question tags are removed in indirect speech and treated as normal interrogative sentences.",
+        explanationBengali: "Indirect speech-এ question tag বাদ দিয়ে সাধারণ প্রশ্নবোধক বাক্যে রূপান্তর করতে হয়।"
+    },
+    {
+        id: "di_449", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Exclamatory (Hurrah)",
+        question: "The boys said, \"Hurrah! We have won.\"",
+        options: ["The boys exclaimed with joy that they had won.", "The boys said hurrah they had won.", "The boys shouted that they won.", "The boys exclaimed with sorrow that they had won."],
+        correctIndex: 0,
+        explanation: "'Hurrah' indicates joy. Use 'exclaimed with joy'. 'Have won' -> 'Had won'.",
+        explanationBengali: "আনন্দ বোঝালে 'exclaimed with joy' বসে।"
+    },
+    {
+        id: "di_450", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Past Continuous",
+        question: "He said, \"I was playing.\"",
+        options: ["He said that he had been playing.", "He said that he was playing.", "He said that he has been playing.", "He said that he played."],
+        correctIndex: 0,
+        explanation: "Past Continuous 'was playing' changes to Past Perfect Continuous 'had been playing'.",
+explanationBengali: "Past Continuous পরিবর্তিত হয়ে Past Perfect Continuous হয়।"
+    },
+    {
+        id: "di_451", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Multiple Sentences",
+        question: "He said, \"I have a headache. I cannot work.\"",
+        options: ["He said that he had a headache and could not work.", "He said that he has a headache and cannot work.", "He told that he had a headache so he cannot work.", "He said he had a headache and he cannot work."],
+        correctIndex: 0,
+        explanation: "Both verbs change tense. 'Have' -> 'Had', 'Cannot' -> 'Could not'. Connected by 'and'.",
+        explanationBengali: "উভয় অংশের tense পরিবর্তন হবে এবং 'and' দিয়ে যুক্ত হবে।"
+    },
+    {
+        id: "di_452", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Advice",
+        question: "My father said to me, \"Avoid bad company.\"",
+        options: ["My father advised me to avoid bad company.", "My father ordered me to avoid bad company.", "My father told me avoid bad company.", "My father asked me to avoid bad company."],
+        correctIndex: 0,
+        explanation: "'Said to' changes to 'advised' when giving advice.",
+        explanationBengali: "উপদেশ বোঝালে 'advised' বসে।"
+    },
+    {
+        id: "di_453", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Time Word",
+        question: "He said, \"I am busy now.\"",
+        options: ["He said that he was busy then.", "He said that he was busy now.", "He said that he is busy then.", "He said that he is busy now."],
+        correctIndex: 0,
+        explanation: "'Now' changes to 'then'. 'Am' -> 'Was'.",
+        explanationBengali: "Now -> Then এবং Am -> Was হয়।"
+    },
+    {
+        id: "di_454", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Modals (Must)",
+        question: "He said, \"I must leave at once.\"",
+        options: ["He said that he had to leave at once.", "He said that he must leave at once.", "He said that he would leave at once.", "He said that he has to leave at once."],
+        correctIndex: 0,
+        explanation: "'Must' indicating immediate necessity changes to 'had to'.",
+        explanationBengali: "তাৎক্ষণিক প্রয়োজন বোঝালে 'must' পরিবর্তিত হয়ে 'had to' হয়।"
+    },
+    {
+        id: "di_455", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Interrogative",
+        question: "She said, \"Where do you live?\"",
+        options: ["She asked where I lived.", "She asked where do I live.", "She asked where did I live.", "She asked where I live."],
+        correctIndex: 0,
+        explanation: "Simple Present 'do live' changes to Simple Past 'lived'. Question form changes to statement.",
+        explanationBengali: "Simple Present প্রশ্ন Simple Past statement-এ পরিবর্তিত হয়।"
+    },
+    {
+        id: "di_456", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Future",
+        question: "He said, \"I shall go.\"",
+        options: ["He said that he would go.", "He said that he should go.", "He said that he will go.", "He said that he shall go."],
+        correctIndex: 0,
+        explanation: "'Shall' with 'I' becomes 'would' with 'he' in indirect speech.",
+        explanationBengali: "'Shall' পরিবর্তিত হয়ে 'would' হয় (Subject পরিবর্তন সাপেক্ষে)।"
+    },
+    {
+        id: "di_457", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Greeting",
+        question: "He said, \"Goodbye, my friends.\"",
+        options: ["He bade his friends goodbye.", "He said goodbye to his friends.", "He told his friends goodbye.", "He wished his friends goodbye."],
+        correctIndex: 0,
+        explanation: "For 'Goodbye', the reporting verb is 'bade'.",
+        explanationBengali: "বিদায় সম্ভাষণে 'bade' ব্যবহৃত হয়।"
+},
+    {
+        id: "di_458", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Address",
+        question: "He said, \"Oh God! Help me.\"",
+        options: ["He prayed to God to help him.", "He called God to help him.", "He asked God help him.", "He exclaimed God help him."],
+        correctIndex: 0,
+        explanation: "Addressing God implies a prayer. Use 'prayed to God'.",
+        explanationBengali: "ঈশ্বরকে ডাকার অর্থ প্রার্থনা করা, তাই 'prayed to God' হবে।"
+    },
+    {
+        id: "di_459", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Reporting Verb Past",
+        question: "He said, \"It is raining.\"",
+        options: ["He said that it was raining.", "He said that it is raining.", "He said that it has been raining.", "He said that it rains."],
+        correctIndex: 0,
+        explanation: "Simple Present 'is' changes to Simple Past 'was'.",
+        explanationBengali: "Is -> Was হয়।"
+    },
+    {
+        id: "di_460", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Assertive + Question",
+        question: "He said, \"I am going. Will you come?\"",
+        options: ["He said that he was going and asked if I would come.", "He said that he was going and asked will you come.", "He said that he is going and asked if I would come.", "He said that he was going and if I would come."],
+        correctIndex: 0,
+        explanation: "Combine statement and question using 'and asked'. Change tenses accordingly.",
+        explanationBengali: "বিবৃতি এবং প্রশ্ন একসাথে থাকলে 'and asked' দিয়ে যুক্ত করতে হয়।"
+    },
+// --- SET 28: ADDITIONAL DIRECT AND INDIRECT SPEECH QUESTIONS (461-500) ---
+
+    {
+        id: "di_461", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Question (Wh-)",
+        question: "He said to me, \"What are you doing?\"",
+        options: ["He asked me what I was doing.", "He asked me what was I doing.", "He asked me what am I doing.", "He asked me that what I was doing."],
+        correctIndex: 0,
+        explanation: "'Wh' word acts as a conjunction. Subject comes before the verb ('I was'). Tense changes to past.",
+        explanationBengali: "'Wh' শব্দ থাকলে তা-ই conjunction হয়। Verb শেষে যায় (was doing)।"
+    },
+    {
+        id: "di_462", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Let (Wish)",
+        question: "She said, \"Let me have some coffee.\"",
+        options: ["She wished that she might have some coffee.", "She said that let her have some coffee.", "She requested to have some coffee.", "She ordered to have some coffee."],
+        correctIndex: 0,
+        explanation: "'Let me' implying a wish uses 'wished that...might'.",
+        explanationBengali: "'Let me' দিয়ে ইচ্ছা প্রকাশ করলে 'wished...might' ব্যবহৃত হয়।"
+    },
+    {
+        id: "di_463", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Future",
+        question: "He said, \"I will go to the market.\"",
+        options: ["He said that he would go to the market.", "He said that he will go to the market.", "He said that he should go to the market.", "He said that I would go to the market."],
+        correctIndex: 0,
+        explanation: "'Will' changes to 'would' in indirect speech.",
+        explanationBengali: "'Will' পরিবর্তিত হয়ে 'would' হয়।"
+    },
+    {
+        id: "di_464", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Exclamatory (Joy)",
+        question: "They said, \"Hurrah! We have won the match.\"",
+        options: ["They exclaimed with joy that they had won the match.", "They said hurrah they had won the match.", "They shouted that they won the match.", "They exclaimed that they have won the match."],
+        correctIndex: 0,
+        explanation: "'Hurrah' implies joy. Use 'exclaimed with joy'. 'Have won' -> 'Had won'.",
+        explanationBengali: "আনন্দ বোঝালে 'exclaimed with joy' এবং Present Perfect -> Past Perfect হয়।"
+    },
+    {
+        id: "di_465", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Imperative (Negative)",
+        question: "The teacher said to the student, \"Do not waste time.\"",
+        options: ["The teacher forbade the student to waste time.", "The teacher ordered the student not to waste time.", "Both A and B.", "The teacher asked the student do not waste time."],
+        correctIndex: 2, // Both are correct.
+        explanation: "Both 'forbade...to' and 'ordered...not to' are correct forms for negative imperatives.",
+        explanationBengali: "নেতিবাচক আদেশে 'forbade' বা 'ordered...not to' দুটোই সঠিক।"
+    },
+    {
+        id: "di_466", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Present Perfect",
+        question: "He said, \"I have seen the Taj Mahal.\"",
+        options: ["He said that he had seen the Taj Mahal.", "He said that he has seen the Taj Mahal.", "He said that he saw the Taj Mahal.", "He said that I had seen the Taj Mahal."],
+        correctIndex: 0,
+        explanation: "Present Perfect 'have seen' changes to Past Perfect 'had seen'.",
+        explanationBengali: "Present Perfect -> Past Perfect হয়।"
+    },
+    {
+        id: "di_467", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Modals (Must)",
+        question: "She said, \"I must complete the project.\"",
+        options: ["She said that she had to complete the project.", "She said that she must complete the project.", "She said that she would complete the project.", "She said that she has to complete the project."],
+        correctIndex: 0,
+        explanation: "'Must' indicating necessity changes to 'had to'.",
+        explanationBengali: "প্রয়োজনীয়তা বোঝালে 'must' পরিবর্তিত হয়ে 'had to' হয়।"
+    },
+    {
+        id: "di_468", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Vocative Case",
+        question: "He said, \"Brother, help me.\"",
+        options: ["Addressing him as brother, he requested him to help him.", "He told his brother to help him.", "He asked his brother help me.", "He said brother help him."],
+        correctIndex: 0,
+        explanation: "When addressing someone ('Brother'), use 'Addressing him as...'.",
+        explanationBengali: "কাউকে সম্বোধন করলে 'Addressing as...' গঠন ব্যবহৃত হয়।"
+    },
+    {
+        id: "di_469", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Yes/No Question",
+        question: "He asked me, \"Did you see the bird?\"",
+        options: ["He asked me if I had seen the bird.", "He asked me if I saw the bird.", "He asked me did I see the bird.", "He asked me whether I see the bird."],
+        correctIndex: 0,
+        explanation: "Simple Past 'did see' changes to Past Perfect 'had seen'. Use 'if'.",
+        explanationBengali: "Past Indefinite প্রশ্নে 'if' বসে এবং tense Past Perfect হয়।"
+    },
+    {
+        id: "di_470", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Time Word",
+        question: "He said, \"I will do it now.\"",
+        options: ["He said that he would do it then.", "He said that he will do it now.", "He said that he would do it now.", "He said that he will do it then."],
+        correctIndex: 0,
+        explanation: "'Now' changes to 'then'. 'Will' -> 'would'.",
+        explanationBengali: "Now -> Then এবং Will -> Would হয়।"
+    },
+    {
+        id: "di_471", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Optative (Curse)",
+        question: "The old woman said to him, \"May you die!\"",
+        options: ["The old woman cursed him that he might die.", "The old woman prayed that he might die.", "The old woman wished that he might die.", "The old woman said that he might die."],
+        correctIndex: 0,
+        explanation: "Negative wish/curse uses 'cursed'. 'May' -> 'might'.",
+        explanationBengali: "অভিশাপ দিলে 'cursed' বসে।"
+    },
+    {
+        id: "di_472", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Double Clause",
+        question: "He said, \"It is late and I must go.\"",
+        options: ["He said that it was late and he had to go.", "He said that it is late and he must go.", "He said that it was late and he must go.", "He said that it is late and he had to go."],
+        correctIndex: 0,
+        explanation: "'Is' -> 'Was'. 'Must' -> 'Had to'.",
+        explanationBengali: "উভয় অংশের tense পরিবর্তন হবে।"
+    },
+    {
+        id: "di_473", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Past",
+        question: "She said, \"I wrote a letter.\"",
+        options: ["She said that she had written a letter.", "She said that she wrote a letter.", "She said that she has written a letter.", "She said that she was writing a letter."],
+        correctIndex: 0,
+        explanation: "Simple Past 'wrote' changes to Past Perfect 'had written'.",
+        explanationBengali: "Past Indefinite পরিবর্তিত হয়ে Past Perfect হয়।"
+    },
+    {
+        id: "di_474", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Exclamatory (Sorrow)",
+        question: "He said, \"Ah! My cat is dead.\"",
+        options: ["He exclaimed with sorrow that his cat was dead.", "He cried that his cat is dead.", "He said ah his cat was dead.", "He exclaimed that his cat was dead."],
+        correctIndex: 0,
+        explanation: "'Ah' implies sorrow. 'Is' -> 'Was'.",
+        explanationBengali: "দুঃখ বোঝালে 'exclaimed with sorrow' হয়।"
+    },
+    {
+        id: "di_475", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Let (Suggestion)",
+        question: "He said, \"Let's play football.\"",
+        options: ["He suggested that they should play football.", "He said to play football.", "He ordered to play football.", "He asked to play football."],
+        correctIndex: 0,
+        explanation: "'Let's' indicates a suggestion. Use 'suggested that...should'.",
+        explanationBengali: "'Let's' থাকলে 'suggested' এবং 'should' বসে।"
+    },
+    {
+        id: "di_476", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Present Continuous",
+        question: "He said, \"The baby is crying.\"",
+        options: ["He said that the baby was crying.", "He said that the baby is crying.", "He said that the baby had been crying.", "He said that the baby cried."],
+        correctIndex: 0,
+        explanation: "Present Continuous 'is crying' changes to Past Continuous 'was crying'.",
+        explanationBengali: "Present Continuous -> Past Continuous হয়।"
+    },
+    {
+        id: "di_477", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Pronoun (We)",
+        question: "The editor said, \"We have published the news.\"",
+        options: ["The editor said that they had published the news.", "The editor said that we had published the news.", "The editor said that he had published the news.", "The editor said that they have published the news."],
+        correctIndex: 0, // Editorial 'We' becomes 'They' or 'It' (for newspaper). 'They' is standard for staff.
+        explanation: "Editorial 'We' usually changes to 'They' or 'It'. 'Have published' -> 'Had published'.",
+        explanationBengali: "সম্পাদকীয় 'We' পরিবর্তিত হয়ে 'They' হয়। Tense-ও পরিবর্তিত হবে।"
+    },
+    {
+        id: "di_478", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Reporting Verb Future",
+        question: "She says, \"I will not go.\"",
+        options: ["She says that she will not go.", "She says that she would not go.", "She said that she will not go.", "She said that she would not go."],
+        correctIndex: 0,
+        explanation: "Reporting verb is present ('says'), so tense inside quotes does not change.",
+        explanationBengali: "Reporting verb present হলে tense পরিবর্তন হয় না।"
+    },
+    {
+        id: "di_479", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Imperative Request",
+        question: "He said to me, \"Please help me.\"",
+        options: ["He requested me to help him.", "He told me to help him.", "He ordered me to help him.", "He said to me to help him."],
+        correctIndex: 0,
+        explanation: "'Please' changes to 'requested'. Use 'to + V1'.",
+        explanationBengali: "'Please' থাকলে 'requested' বসে।"
+    },
+    {
+        id: "di_480", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Question (Modal)",
+        question: "He asked, \"Shall I open the door?\"",
+        options: ["He asked if he should open the door.", "He asked if he would open the door.", "He asked that if he should open the door.", "He asked to open the door."],
+        correctIndex: 0, // 'Shall I' asking for permission/advice changes to 'Should'.
+        explanation: "'Shall I' asking for advice/instruction changes to 'if he should'.",
+        explanationBengali: "পরামর্শ বা নির্দেশ চাওয়ার ক্ষেত্রে 'Shall' পরিবর্তিত হয়ে 'Should' হয়।"
+    },
+    {
+        id: "di_481", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Universal Truth",
+        question: "He said, \"Man is mortal.\"",
+        options: ["He said that man is mortal.", "He said that man was mortal.", "He said that man has been mortal.", "He said that man will be mortal."],
+        correctIndex: 0,
+        explanation: "Universal truths do not change tense.",
+        explanationBengali: "চিরন্তন সত্যের ক্ষেত্রে tense পরিবর্তন হয় না।"
+    },
+    {
+        id: "di_482", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Nearness Words",
+        question: "He said, \"I like this book.\"",
+        options: ["He said that he liked that book.", "He said that he likes this book.", "He said that he liked this book.", "He said that he likes that book."],
+        correctIndex: 0,
+explanation: "'Like' -> 'Liked'. 'This' -> 'That'.",
+        explanationBengali: "Like -> Liked এবং This -> That হয়।"
+    },
+    {
+        id: "di_483", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Optative",
+        question: "They said, \"Long live the King!\"",
+        options: ["They prayed that the King might live long.", "They said that the King might live long.", "They wished that the King lives long.", "They prayed that the King may live long."],
+        correctIndex: 0,
+        explanation: "Optative 'Long live' changes to 'prayed that...might live long'.",
+        explanationBengali: "দীর্ঘায়ু কামনা করলে 'prayed that...might live long' হয়।"
+    },
+    {
+        id: "di_484", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Past Perfect",
+        question: "He said, \"I had done it.\"",
+        options: ["He said that he had done it.", "He said that he has done it.", "He said that he had been done it.", "He said that he did it."],
+        correctIndex: 0,
+        explanation: "Past Perfect tense remains unchanged in indirect speech.",
+        explanationBengali: "Past Perfect Tense-এর কোনো পরিবর্তন হয় না।"
+    },
+    {
+        id: "di_485", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Imperative",
+        question: "He said, \"Go away.\"",
+        options: ["He ordered to go away.", "He said to go away.", "He asked to go away.", "He told to go away."],
+        correctIndex: 0,
+        explanation: "Imperative command. 'Said' changes to 'ordered'.",
+        explanationBengali: "আদেশ বোঝালে 'ordered' বসে।"
+    },
+    {
+        id: "di_486", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Exclamatory (Applause)",
+        question: "He said, \"Bravo! You played well.\"",
+        options: ["He applauded him saying that he had played well.", "He said bravo that he played well.", "He exclaimed that he played well.", "He shouted that he played well."],
+        correctIndex: 0,
+        explanation: "'Bravo' changes to 'applauded...saying that'. Past Simple -> Past Perfect.",
+        explanationBengali: "প্রশংসা বোঝালে 'applauded...saying that' বসে।"
+    },
+    {
+        id: "di_487", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Conditionals",
+        question: "He said, \"If I had money, I would buy a car.\"",
+        options: ["He said that if he had had money, he would have bought a car.", "He said that if he had money, he would buy a car.", "He said that if he has money, he will buy a car.", "He said that if he had money, he would have bought a car."],
+        correctIndex: 0, // Type 2 (unreal present) changes to Type 3 (unreal past) OR remains unchanged. Type 3 is strictly grammatically correct for backshift.
+        // However, standard exams often keep Type 2 unchanged to show 'unreal' state. 
+        // Let's stick to the 'unchanged' rule for unreal past conditions as it's common.
+        // Actually, let's provide the "unchanged" option as standard for permanent unreal states.
+        // Correction: Option 1 (unchanged).
+        correctIndex: 1,
+        explanation: "Unreal past conditionals (Type 2) often remain unchanged in indirect speech.",
+        explanationBengali: "অবাস্তব শর্তে tense সাধারণত অপরিবর্তিত থাকে।"
+    },
+    {
+        id: "di_488", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Future Perfect",
+        question: "He said, \"I will have finished.\"",
+        options: ["He said that he would have finished.", "He said that he will have finished.", "He said that he would finish.", "He said that he will finish."],
+        correctIndex: 0,
+        explanation: "'Will have' changes to 'would have'.",
+        explanationBengali: "'Will have' -> 'would have' হয়।"
+    },
+    {
+        id: "di_489", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Thank You",
+        question: "He said to me, \"Thank you for your help.\"",
+        options: ["He thanked me for my help.", "He said thank you for my help.", "He told me thank you for help.", "He requested me to thank."],
+        correctIndex: 0,
+        explanation: "Change 'said to...Thank you' directly to 'thanked'.",
+        explanationBengali: "সরাসরি 'thanked me for my help' বলা হয়।"
+    },
+    {
+        id: "di_490", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Dare/Need",
+        question: "He said, \"I need not go.\"",
+        options: ["He said that he need not go.", "He said that he needed not go.", "He said that he did not need to go.", "He said that he need not to go."],
+        correctIndex: 0, // 'Need not' (modal) usually remains unchanged.
+        explanation: "'Need not' as a modal auxiliary usually remains unchanged in indirect speech.",
+        explanationBengali: "'Need not' (modal) সাধারণত অপরিবর্তিত থাকে।"
+    },
+    {
+        id: "di_491", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Present",
+        question: "She said, \"I like ice cream.\"",
+        options: ["She said that she liked ice cream.", "She said that she likes ice cream.", "She said that I liked ice cream.", "She said that she like ice cream."],
+        correctIndex: 0,
+        explanation: "Simple Present 'like' changes to Simple Past 'liked'.",
+        explanationBengali: "Present Indefinite -> Past Indefinite হয়।"
+    },
+    {
+        id: "di_492", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "By God",
+        question: "He said, \"By God! I am innocent.\"",
+        options: ["He swore by God that he was innocent.", "He said by God that he was innocent.", "He exclaimed by God that he was innocent.", "He prayed to God that he was innocent."],
+        correctIndex: 0,
+        explanation: "'By God' indicates swearing/oath. Use 'swore by God'.",
+        explanationBengali: "শপথ করা বোঝালে 'swore by God' ব্যবহৃত হয়।"
+    },
+    {
+        id: "di_493", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Had better",
+        question: "He said, \"You had better go.\"",
+        options: ["He said that I had better go.", "He said that I have better go.", "He said that I had better went.", "He advised me to go."],
+        correctIndex: 0, // 'Had better' remains unchanged.
+        explanation: "'Had better' remains unchanged in indirect speech.",
+        explanationBengali: "'Had better' অপরিবর্তিত থাকে।"
+    },
+    {
+        id: "di_494", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Pronoun",
+        question: "He said to them, \"You are late.\"",
+        options: ["He told them that they were late.", "He told them that you were late.", "He told them that we were late.", "He told them that they are late."],
+        correctIndex: 0,
+        explanation: "'You' (plural) refers to 'them', so it changes to 'they'.",
+        explanationBengali: "'You' object 'them' অনুযায়ী পরিবর্তিত হয়ে 'they' হবে।"
+    },
+    {
+        id: "di_495", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Let (Condition)",
+        question: "He said, \"Let it rain, I will go.\"",
+        options: ["He said that even if it rained, he would go.", "He said that let it rain he would go.", "He ordered it to rain and he would go.", "He suggested that it should rain."],
+        correctIndex: 0,
+        explanation: "'Let' implying a condition/supposition changes to 'even if'.",
+        explanationBengali: "শর্ত বা উপেক্ষা বোঝালে 'Let' পরিবর্তিত হয়ে 'even if' হয়।"
+    },
+    {
+        id: "di_496", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Interrogative",
+        question: "He said, \"Who is there?\"",
+        options: ["He asked who was there.", "He asked who is there.", "He asked who there was.", "He asked that who was there."],
+        correctIndex: 0,
+        explanation: "Present 'is' changes to Past 'was'. 'Who' connects the clause.",
+        explanationBengali: "Is -> Was হয় এবং 'who' conjunction হিসেবে কাজ করে।"
+    },
+    {
+        id: "di_497", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Past Continuous",
+        question: "She said, \"I was waiting.\"",
+        options: ["She said that she had been waiting.", "She said that she was waiting.", "She said that she waited.", "She said that she has been waiting."],
+        correctIndex: 0,
+        explanation: "Past Continuous changes to Past Perfect Continuous.",
+        explanationBengali: "Past Continuous -> Past Perfect Continuous হয়।"
+    },
+    {
+        id: "di_498", chapter: "Direct & Indirect", type: "grammar", difficulty: "hard", topic: "Good Night",
+        question: "He said, \"Good night, sir.\"",
+        options: ["He bade the sir good night.", "He respectfully bade him good night.", "He said good night to sir.", "He wished good night sir."],
+        correctIndex: 1, // 'Respectfully' adds the nuance of 'sir'.
+        explanation: "'Good night' uses 'bade'. 'Sir' adds 'respectfully'.",
+        explanationBengali: "বিদায় সম্ভাষণে 'bade' এবং 'sir' থাকলে 'respectfully' বসে।"
+    },
+    {
+        id: "di_499", chapter: "Direct & Indirect", type: "grammar", difficulty: "moderate", topic: "Tag Question",
+        question: "He said, \"It is a nice day, isn't it?\"",
+        options: ["He said that it was a nice day.", "He asked if it was a nice day.", "He remarked that it was a nice day.", "He said that it is a nice day isn't it."],
+        correctIndex: 0, // Or 'He remarked that it was a nice day'. Usually tags turn into simple statements in indirect if rhetorical.
+        // Let's go with 'remarked' if available, or simple statement. Option 0 is simple statement. Option 2 is 'remarked'. Option 2 is better style.
+        correctIndex: 2,
+        explanation: "Question tags often turn into statements. 'Remarked' fits the context well.",
+        explanationBengali: "Tag question-এর ক্ষেত্রে সাধারণ বিবৃতি বা 'remarked' ব্যবহার করা হয়।"
+    },
+    {
+        id: "di_500", chapter: "Direct & Indirect", type: "grammar", difficulty: "easy", topic: "Simple Future",
+        question: "He said, \"I shall come.\"",
+        options: ["He said that he would come.", "He said that he should come.", "He said that he will come.", "He said that he shall come."],
+        correctIndex: 0,
+        explanation: "'Shall' with 1st person changes to 'would' with 3rd person.",
+        explanationBengali: "'Shall' পরিবর্তিত হয়ে 'would' হয়।"
+    },
+// --- SET 29: SYNONYMS QUESTIONS (501-525) ---
+
+    {
+        id: "syn_501", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: ALERT",
+        options: ["Watchful", "Sleepy", "Lazy", "Slow"],
+        correctIndex: 0,
+        explanation: "Alert means quick to notice any unusual and potentially dangerous or difficult circumstances; vigilant.",
+        explanationBengali: "Alert মানে সতর্ক বা সজাগ।"
+    },
+    {
+        id: "syn_502", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: BRIEF",
+        options: ["Long", "Short", "Detailed", "Complex"],
+        correctIndex: 1,
+        explanation: "Brief means of short duration.",
+        explanationBengali: "Brief মানে সংক্ষিপ্ত।"
+    },
+    {
+        id: "syn_503", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: CACOPHONY",
+        options: ["Harmony", "Noise", "Melody", "Silence"],
+        correctIndex: 1,
+        explanation: "Cacophony means a harsh, discordant mixture of sounds.",
+        explanationBengali: "Cacophony মানে শ্রুতিকটু শব্দ বা কোলাহল।"
+    },
+    {
+        id: "syn_504", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: DEFER",
+        options: ["Hasten", "Postpone", "Accelerate", "Ignore"],
+        correctIndex: 1,
+        explanation: "Defer means to put off (an action or event) to a later time; postpone.",
+        explanationBengali: "Defer মানে স্থগিত রাখা বা দেরি করা।"
+    },
+    {
+        id: "syn_505", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: ELDERLY",
+        options: ["Young", "Aged", "Childish", "Infant"],
+        correctIndex: 1,
+        explanation: "Elderly means (of a person) old or aging.",
+        explanationBengali: "Elderly মানে বয়স্ক।"
+    },
+    {
+        id: "syn_506", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: FEROCIOUS",
+        options: ["Gentle", "Fierce", "Calm", "Tame"],
+        correctIndex: 1,
+        explanation: "Ferocious means savagely fierce, cruel, or violent.",
+        explanationBengali: "Ferocious মানে হিংস্র বা ভয়ানক।"
+    },
+    {
+        id: "syn_507", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: GENUINE",
+        options: ["Fake", "Authentic", "False", "Artificial"],
+        correctIndex: 1,
+        explanation: "Genuine means truly what something is said to be; authentic.",
+        explanationBengali: "Genuine মানে খাঁটি বা আসল।"
+    },
+    {
+        id: "syn_508", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: HUGE",
+        options: ["Tiny", "Small", "Massive", "Little"],
+        correctIndex: 2,
+        explanation: "Huge means extremely large; massive.",
+        explanationBengali: "Huge মানে বিশাল বা প্রকাণ্ড।"
+    },
+    {
+        id: "syn_509", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: IMPECCABLE",
+        options: ["Faulty", "Flawless", "Imperfect", "Bad"],
+        correctIndex: 1,
+        explanation: "Impeccable means (of behavior, performance, or appearance) in accordance with the highest standards of propriety; faultless.",
+        explanationBengali: "Impeccable মানে নিখুঁত বা ত্রুটিহীন।"
+    },
+    {
+        id: "syn_510", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: JOVIAL",
+        options: ["Sad", "Cheerful", "Gloomy", "Angry"],
+        correctIndex: 1,
+        explanation: "Jovial means cheerful and friendly.",
+        explanationBengali: "Jovial মানে প্রফুল্ল বা হাসিখুশি।"
+    },
+    {
+        id: "syn_511", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+question: "Select the synonym of: KIND",
+        options: ["Cruel", "Helpful", "Mean", "Rude"],
+        correctIndex: 1,
+        explanation: "Kind means having or showing a friendly, generous, and considerate nature.",
+        explanationBengali: "Kind মানে দয়ালু বা সাহায্যকারী।"
+    },
+    {
+        id: "syn_512", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: LETHARGY",
+        options: ["Energy", "Sluggishness", "Activity", "Vigor"],
+        correctIndex: 1,
+        explanation: "Lethargy means a lack of energy and enthusiasm.",
+        explanationBengali: "Lethargy মানে আলস্য বা জড়া।"
+    },
+    {
+        id: "syn_513", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: MUNDANE",
+        options: ["Exciting", "Ordinary", "Extraordinary", "Rare"],
+        correctIndex: 1,
+        explanation: "Mundane means lacking interest or excitement; dull.",
+        explanationBengali: "Mundane মানে সাধারণ বা একঘেয়ে।"
+    },
+    {
+        id: "syn_514", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: NEAR",
+        options: ["Far", "Close", "Distant", "Remote"],
+        correctIndex: 1,
+        explanation: "Near means at or to a short distance away; close.",
+        explanationBengali: "Near মানে কাছে বা নিকটবর্তী।"
+    },
+    {
+        id: "syn_515", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: OBSCURE",
+        options: ["Clear", "Vague", "Bright", "Famous"],
+        correctIndex: 1,
+        explanation: "Obscure means not discovered or known about; uncertain.",
+        explanationBengali: "Obscure মানে অস্পষ্ট বা দুর্বোধ্য।"
+    },
+    {
+        id: "syn_516", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: PRUDENT",
+        options: ["Careless", "Wise", "Foolish", "Rash"],
+        correctIndex: 1,
+        explanation: "Prudent means acting with or showing care and thought for the future.",
+        explanationBengali: "Prudent মানে বিচক্ষণ বা দূরদর্শী।"
+    },
+    {
+        id: "syn_517", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: QUIET",
+        options: ["Loud", "Silent", "Noisy", "Talkative"],
+        correctIndex: 1,
+        explanation: "Quiet means making little or no noise.",
+        explanationBengali: "Quiet মানে শান্ত বা নীরব।"
+    },
+    {
+        id: "syn_518", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: RECTIFY",
+        options: ["Worsen", "Correct", "Destroy", "Ignore"],
+        correctIndex: 1,
+        explanation: "Rectify means put (something) right; correct.",
+        explanationBengali: "Rectify মানে সংশোধন করা।"
+    },
+    {
+        id: "syn_519", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: SCARCE",
+        options: ["Abundant", "Rare", "Plentiful", "Common"],
+        correctIndex: 1,
+        explanation: "Scarce means (especially of food, money, or some other resource) insufficient for the demand.",
+        explanationBengali: "Scarce মানে অপ্রতুল বা বিরল।"
+    },
+    {
+        id: "syn_520", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: TRUST",
+        options: ["Doubt", "Believe", "Fear", "Hate"],
+        correctIndex: 1,
+        explanation: "Trust means firm belief in the reliability, truth, ability, or strength of someone or something.",
+        explanationBengali: "Trust মানে বিশ্বাস করা।"
+    },
+    {
+        id: "syn_521", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: UBIQUITOUS",
+        options: ["Rare", "Omnipresent", "Scarce", "Unique"],
+        correctIndex: 1,
+        explanation: "Ubiquitous means present, appearing, or found everywhere.",
+        explanationBengali: "Ubiquitous মানে সর্বব্যাপী।"
+    },
+    {
+        id: "syn_522", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: VIGILANT",
+        options: ["Careless", "Watchful", "Sleepy", "Ignorant"],
+        correctIndex: 1,
+        explanation: "Vigilant means keeping careful watch for possible danger or difficulties.",
+        explanationBengali: "Vigilant মানে সতর্ক।"
+    },
+    {
+        id: "syn_523", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: WEALTHY",
+        options: ["Poor", "Rich", "Needy", "Broke"],
+        correctIndex: 1,
+        explanation: "Wealthy means having a great deal of money, resources, or assets; rich.",
+        explanationBengali: "Wealthy মানে ধনী।"
+    },
+    {
+        id: "syn_524", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: YEARN",
+        options: ["Dislike", "Crave", "Hate", "Ignore"],
+        correctIndex: 1,
+        explanation: "Yearn means have an intense feeling of longing for something, typically something that one has lost or been separated from.",
+        explanationBengali: "Yearn মানে আকাঙ্ক্ষা করা বা ব্যাকুল হওয়া।"
+    },
+    {
+        id: "syn_525", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: ZENITH",
+        options: ["Bottom", "Peak", "Base", "Start"],
+        correctIndex: 1,
+        explanation: "Zenith means the time at which something is most powerful or successful; the peak.",
+        explanationBengali: "Zenith মানে শীর্ষবিন্দু বা চূড়া।"
+    },
+// --- SET 30: SYNONYMS QUESTIONS (526-550) ---
+
+    {
+        id: "syn_526", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: BEGIN",
+        options: ["Stop", "Commence", "Finish", "End"],
+        correctIndex: 1,
+        explanation: "Commence means to start or begin.",
+        explanationBengali: "Commence মানে শুরু করা।"
+    },
+    {
+        id: "syn_527", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: DILIGENT",
+        options: ["Lazy", "Industrious", "Slow", "Careless"],
+        correctIndex: 1,
+        explanation: "Industrious means diligent and hard-working.",
+        explanationBengali: "Industrious মানে পরিশ্রমী।"
+    },
+    {
+        id: "syn_528", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: EPHEMERAL",
+        options: ["Lasting", "Transient", "Permanent", "Eternal"],
+        correctIndex: 1,
+        explanation: "Transient means lasting only for a short time; impermanent.",
+        explanationBengali: "Transient মানে ক্ষণস্থায়ী।"
+    },
+    {
+        id: "syn_529", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: FRAGILE",
+        options: ["Strong", "Delicate", "Tough", "Sturdy"],
+        correctIndex: 1,
+        explanation: "Delicate means easily broken or damaged; fragile.",
+        explanationBengali: "Delicate মানে ভঙ্গুর বা নাজুক।"
+    },
+    {
+        id: "syn_530", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: HAPPY",
+        options: ["Sad", "Joyful", "Angry", "Upset"],
+        correctIndex: 1,
+        explanation: "Joyful means feeling, expressing, or causing great pleasure and happiness.",
+        explanationBengali: "Joyful মানে আনন্দিত।"
+    },
+    {
+        id: "syn_531", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: INEVITABLE",
+        options: ["Avoidable", "Unavoidable", "Uncertain", "Doubtful"],
+        correctIndex: 1,
+        explanation: "Unavoidable means not able to be avoided, prevented, or ignored; inevitable.",
+        explanationBengali: "Unavoidable মানে অনিবার্য।"
+    },
+    {
+        id: "syn_532", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: LETHARGIC",
+        options: ["Active", "Sluggish", "Energetic", "Lively"],
+        correctIndex: 1,
+        explanation: "Sluggish means slow-moving or inactive.",
+        explanationBengali: "Sluggish মানে ধীরগতি বা অলস।"
+    },
+    {
+        id: "syn_533", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: MISTAKE",
+        options: ["Accuracy", "Error", "Truth", "Fact"],
+        correctIndex: 1,
+        explanation: "Error means a mistake.",
+        explanationBengali: "Error মানে ভুল।"
+    },
+    {
+        id: "syn_534", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: NEFARIOUS",
+        options: ["Good", "Wicked", "Kind", "Gentle"],
+        correctIndex: 1,
+        explanation: "Wicked means evil or morally wrong.",
+        explanationBengali: "Wicked মানে দুষ্ট বা পাপিষ্ঠ।"
+    },
+    {
+        id: "syn_535", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: OBSTINATE",
+        options: ["Flexible", "Stubborn", "Yielding", "Pliant"],
+        correctIndex: 1,
+        explanation: "Stubborn means having or showing dogged determination not to change one's attitude or position.",
+        explanationBengali: "Stubborn মানে জেদি।"
+    },
+    {
+        id: "syn_536", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: PRETTY",
+        options: ["Ugly", "Beautiful", "Plain", "Simple"],
+        correctIndex: 1,
+        explanation: "Beautiful means pleasing the senses or mind aesthetically.",
+        explanationBengali: "Beautiful মানে সুন্দর।"
+    },
+    {
+        id: "syn_537", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: QUELL",
+        options: ["Incite", "Suppress", "Encourage", "Agitate"],
+        correctIndex: 1,
+        explanation: "Suppress means forcibly put an end to.",
+        explanationBengali: "Suppress মানে দমন করা।"
+    },
+    {
+        id: "syn_538", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: ROBUST",
+        options: ["Weak", "Strong", "Fragile", "Frau"],
+        correctIndex: 1,
+        explanation: "Strong means having the power to move heavy weights or perform other physically demanding tasks.",
+        explanationBengali: "Strong মানে শক্তিশালী বা মজবুত।"
+    },
+    {
+        id: "syn_539", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: SMART",
+        options: ["Stupid", "Intelligent", "Dull", "Slow"],
+        correctIndex: 1,
+        explanation: "Intelligent means having or showing intelligence, especially of a high level.",
+        explanationBengali: "Intelligent মানে বুদ্ধিমান।"
+    },
+    {
+        id: "syn_540", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: TACITURN",
+        options: ["Talkative", "Silent", "Loquacious", "Chatty"],
+        correctIndex: 1,
+        explanation: "Silent means not making or accompanied by any sound.",
+        explanationBengali: "Silent মানে নীরব বা স্বল্পভাষী।"
+    },
+    {
+        id: "syn_541", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: UBIQUITOUS",
+        options: ["Rare", "Omnipresent", "Scarce", "Few"],
+        correctIndex: 1,
+        explanation: "Omnipresent means widely or constantly encountered; common or widespread.",
+        explanationBengali: "Omnipresent মানে সর্বব্যাপী।"
+    },
+    {
+        id: "syn_542", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: VACANT",
+        options: ["Full", "Empty", "Occupied", "Busy"],
+        correctIndex: 1,
+        explanation: "Empty means containing nothing; not filled or occupied.",
+        explanationBengali: "Empty মানে খালি বা শূন্য।"
+    },
+    {
+        id: "syn_543", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: WARY",
+        options: ["Careless", "Cautious", "Rash", "Reckless"],
+        correctIndex: 1,
+        explanation: "Cautious means careful to avoid potential problems or dangers.",
+        explanationBengali: "Cautious মানে সতর্ক।"
+    },
+    {
+        id: "syn_544", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: YEARN",
+        options: ["Dislike", "Long", "Hate", "Dread"],
+        correctIndex: 1,
+        explanation: "Long means to have a strong wish or desire.",
+        explanationBengali: "Long মানে আকাঙ্ক্ষা করা।"
+    },
+    {
+        id: "syn_545", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: ZEAL",
+        options: ["Apathy", "Enthusiasm", "Indifference", "Laziness"],
+        correctIndex: 1,
+        explanation: "Enthusiasm means intense and eager enjoyment, interest, or approval.",
+        explanationBengali: "Enthusiasm মানে প্রবল উৎসাহ।"
+    },
+    {
+        id: "syn_546", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: ABATE",
+        options: ["Increase", "Decrease", "Prolong", "Expand"],
+        correctIndex: 1,
+        explanation: "Decrease means make or become smaller or fewer in size, amount, intensity, or degree.",
+        explanationBengali: "Decrease মানে কমানো বা হ্রাস পাওয়া।"
+    },
+    {
+        id: "syn_547", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: BENEVOLENT",
+        options: ["Cruel", "Kind", "Mean", "Selfish"],
+        correctIndex: 1,
+        explanation: "Kind means having or showing a friendly, generous, and considerate nature.",
+        explanationBengali: "Kind মানে দয়ালু বা পরোপকারী।"
+    },
+    {
+        id: "syn_548", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: CALM",
+        options: ["Stormy", "Peaceful", "Wild", "Rough"],
+        correctIndex: 1,
+        explanation: "Peaceful means free from disturbance; tranquil.",
+        explanationBengali: "Peaceful মানে শান্ত।"
+    },
+    {
+        id: "syn_549", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: DEARTH",
+        options: ["Abundance", "Scarcity", "Plenty", "Excess"],
+        correctIndex: 1,
+        explanation: "Scarcity means the state of being scarce or in short supply; shortage.",
+        explanationBengali: "Scarcity মানে অভাব বা অপ্রতুলতা।"
+    },
+    {
+        id: "syn_550", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: ECSTASY",
+        options: ["Misery", "Joy", "Sadness", "Grief"],
+        correctIndex: 1,
+        explanation: "Joy means a feeling of great pleasure and happiness.",
+        explanationBengali: "Joy মানে পরমানন্দ বা উল্লাস।"
+    },
+// --- SET 31: SYNONYMS QUESTIONS (551-575) ---
+
+    {
+        id: "syn_551", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: FABULOUS",
+        options: ["Terrible", "Wonderful", "Average", "Common"],
+        correctIndex: 1,
+        explanation: "Fabulous means extraordinary, especially extraordinarily large.",
+        explanationBengali: "Fabulous মানে চমৎকার বা অসাধারণ।"
+    },
+    {
+        id: "syn_552", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: GHASTLY",
+        options: ["Pleasant", "Horrible", "Bright", "Soft"],
+        correctIndex: 1,
+        explanation: "Ghastly means causing great horror or fear; frightful or macabre.",
+        explanationBengali: "Ghastly মানে ভয়ানক বা বীভৎস।"
+    },
+    {
+        id: "syn_553", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: HAGGARD",
+        options: ["Healthy", "Gaunt", "Strong", "Fresh"],
+        correctIndex: 1,
+        explanation: "Haggard means looking exhausted and unwell, especially from fatigue, worry, or suffering.",
+        explanationBengali: "Haggard মানে শীর্ণ বা ক্লিষ্ট।"
+    },
+    {
+        id: "syn_554", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: IGNITE",
+        options: ["Extinguish", "Kindle", "Dampen", "Freeze"],
+        correctIndex: 1,
+        explanation: "Ignite means catch fire or cause to catch fire.",
+        explanationBengali: "Ignite মানে জ্বলা বা জ্বালানো।"
+    },
+    {
+        id: "syn_555", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: JUMP",
+        options: ["Sit", "Leap", "Walk", "Stand"],
+        correctIndex: 1,
+        explanation: "Jump means push oneself off a surface and into the air by using the muscles in one's legs and feet.",
+        explanationBengali: "Jump মানে লাফানো।"
+    },
+    {
+        id: "syn_556", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: KNAVE",
+        options: ["Hero", "Rogue", "Saint", "Angel"],
+        correctIndex: 1,
+        explanation: "Knave means a dishonest or unscrupulous man.",
+        explanationBengali: "Knave মানে ধূর্ত বা বেইমান লোক।"
+    },
+    {
+        id: "syn_557", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: LAVISH",
+        options: ["Simple", "Extravagant", "Cheap", "Modest"],
+        correctIndex: 1,
+        explanation: "Lavish means sumptuously rich, elaborate, or luxurious.",
+        explanationBengali: "Lavish মানে অপব্যয়ী বা বিলাসবহুল।"
+    },
+    {
+        id: "syn_558", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: MERRY",
+        options: ["Sad", "Cheerful", "Angry", "Bored"],
+        correctIndex: 1,
+        explanation: "Merry means cheerful and lively.",
+        explanationBengali: "Merry মানে আনন্দিত বা প্রফুল্ল।"
+    },
+    {
+        id: "syn_559", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: NOVICE",
+        options: ["Expert", "Beginner", "Master", "Veteran"],
+        correctIndex: 1,
+        explanation: "Novice means a person new to or inexperienced in a field or situation.",
+        explanationBengali: "Novice মানে শিক্ষানবিশ বা নতুন।"
+    },
+    {
+        id: "syn_560", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: OBSCURE",
+        options: ["Clear", "Unclear", "Bright", "Known"],
+        correctIndex: 1,
+        explanation: "Obscure means not discovered or known about; uncertain.",
+        explanationBengali: "Obscure মানে অস্পষ্ট।"
+    },
+    {
+        id: "syn_561", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: PAIN",
+        options: ["Comfort", "Agony", "Relief", "Joy"],
+        correctIndex: 1,
+        explanation: "Pain means physical suffering or discomfort caused by illness or injury.",
+        explanationBengali: "Pain মানে ব্যথা বা যন্ত্রণা।"
+    },
+    {
+        id: "syn_562", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: QUASH",
+        options: ["Support", "Annul", "Start", "Create"],
+        correctIndex: 1,
+        explanation: "Quash means reject or void, especially by legal procedure.",
+        explanationBengali: "Quash মানে বাতিল করা।"
+    },
+    {
+        id: "syn_563", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: RADIANT",
+        options: ["Dull", "Bright", "Dark", "Gloomy"],
+        correctIndex: 1,
+        explanation: "Radiant means sending out light; shining or glowing brightly.",
+        explanationBengali: "Radiant মানে উজ্জ্বল বা দীপ্তিময়।"
+    },
+    {
+        id: "syn_564", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: SACRED",
+        options: ["Unholy", "Holy", "Bad", "Evil"],
+        correctIndex: 1,
+        explanation: "Sacred means connected with God (or the gods) or dedicated to a religious purpose and so deserving veneration.",
+        explanationBengali: "Sacred মানে পবিত্র।"
+    },
+    {
+        id: "syn_565", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: TEDIOUS",
+        options: ["Exciting", "Boring", "Fun", "Quick"],
+        correctIndex: 1,
+        explanation: "Tedious means too long, slow, or dull: tiresome or monotonous.",
+        explanationBengali: "Tedious মানে ক্লান্তিকর বা একঘেয়ে।"
+    },
+    {
+        id: "syn_566", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: UNIQUE",
+        options: ["Common", "Distinctive", "Ordinary", "Usual"],
+        correctIndex: 1,
+        explanation: "Unique means being the only one of its kind; unlike anything else.",
+        explanationBengali: "Unique মানে অনন্য বা অদ্বিতীয়।"
+    },
+    {
+        id: "syn_567", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: VICTORY",
+        options: ["Defeat", "Triumph", "Loss", "Failure"],
+        correctIndex: 1,
+        explanation: "Victory means an act of defeating an enemy or opponent in a battle, game, or other competition.",
+        explanationBengali: "Victory মানে বিজয়।"
+    },
+    {
+        id: "syn_568", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: WRATH",
+        options: ["Love", "Anger", "Happiness", "Peace"],
+        correctIndex: 1,
+        explanation: "Wrath means extreme anger.",
+        explanationBengali: "Wrath মানে ক্রোধ বা রাগ।"
+    },
+    {
+        id: "syn_569", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: YIELD",
+        options: ["Resist", "Surrender", "Fight", "Win"],
+        correctIndex: 1,
+        explanation: "Yield means give way to arguments, demands, or pressure.",
+        explanationBengali: "Yield মানে নতি স্বীকার করা বা সমর্পণ করা।"
+    },
+    {
+        id: "syn_570", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: ZONE",
+        options: ["Area", "Line", "Point", "Dot"],
+        correctIndex: 0,
+        explanation: "Zone means an area or stretch of land having a particular characteristic, purpose, or use, or subject to particular restrictions.",
+        explanationBengali: "Zone মানে এলাকা বা অঞ্চল।"
+    },
+    {
+        id: "syn_571", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: ABHOR",
+        options: ["Love", "Hate", "Like", "Admire"],
+        correctIndex: 1,
+        explanation: "Abhor means regard with disgust and hatred.",
+        explanationBengali: "Abhor মানে ঘৃণা করা।"
+    },
+    {
+        id: "syn_572", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: BARREN",
+        options: ["Fertile", "Infertile", "Productive", "Rich"],
+        correctIndex: 1,
+        explanation: "Barren means (of land) too poor to produce much or any vegetation.",
+        explanationBengali: "Barren মানে উষর বা বন্ধ্যা।"
+    },
+    {
+        id: "syn_573", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: CALM",
+        options: ["Wild", "Quiet", "Noisy", "Rough"],
+        correctIndex: 1,
+        explanation: "Calm means not showing or feeling nervousness, anger, or other strong emotions.",
+        explanationBengali: "Calm মানে শান্ত।"
+    },
+    {
+        id: "syn_574", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: DELETERIOUS",
+        options: ["Beneficial", "Harmful", "Helpful", "Safe"],
+        correctIndex: 1,
+        explanation: "Deleterious means causing harm or damage.",
+        explanationBengali: "Deleterious মানে ক্ষতিকর।"
+    },
+    {
+        id: "syn_575", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: EAGER",
+        options: ["Indifferent", "Keen", "Apathetic", "Bored"],
+        correctIndex: 1,
+        explanation: "Eager means (of a person) wanting to do or have something very much.",
+        explanationBengali: "Eager মানে আগ্রহী বা উৎসুক।"
+    },
+// --- SET 32: SYNONYMS QUESTIONS (576-600) ---
+
+    {
+        id: "syn_576", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: ACCURATE",
+        options: ["Wrong", "Correct", "Vague", "False"],
+        correctIndex: 1,
+        explanation: "Accurate means correct in all details; exact.",
+        explanationBengali: "Accurate মানে সঠিক বা নির্ভুল।"
+    },
+    {
+        id: "syn_577", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: CANDID",
+        options: ["Secretive", "Frank", "Deceitful", "Shy"],
+        correctIndex: 1,
+        explanation: "Candid means truthful and straightforward; frank.",
+        explanationBengali: "Candid মানে অকপট বা স্পষ্টবাদী।"
+    },
+    {
+        id: "syn_578", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: DEBILITATE",
+        options: ["Strengthen", "Weaken", "Support", "Encourage"],
+        correctIndex: 1,
+        explanation: "Debilitate means to make someone weak and infirm.",
+        explanationBengali: "Debilitate মানে দুর্বল করা।"
+    },
+    {
+        id: "syn_579", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: ELOQUENT",
+        options: ["Silent", "Articulate", "Confused", "Mute"],
+        correctIndex: 1,
+        explanation: "Eloquent means fluent or persuasive in speaking or writing.",
+        explanationBengali: "Eloquent মানে বাকপটু বা সুবক্তা।"
+    },
+    {
+        id: "syn_580", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: FAMOUS",
+        options: ["Unknown", "Renowned", "Obscure", "Hidden"],
+        correctIndex: 1,
+        explanation: "Famous means known about by many people.",
+        explanationBengali: "Famous মানে বিখ্যাত।"
+    },
+    {
+        id: "syn_581", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: GARRULOUS",
+        options: ["Quiet", "Talkative", "Reserved", "Shy"],
+        correctIndex: 1,
+        explanation: "Garrulous means excessively talkative, especially on trivial matters.",
+        explanationBengali: "Garrulous মানে বাচাল।"
+    },
+    {
+        id: "syn_582", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: HOSTILE",
+        options: ["Friendly", "Aggressive", "Kind", "Helpful"],
+        correctIndex: 1,
+        explanation: "Hostile means showing or feeling opposition or dislike; unfriendly.",
+        explanationBengali: "Hostile মানে বৈরী বা শত্রুভাবাপন্ন।"
+    },
+    {
+        id: "syn_583", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: INFINITE",
+        options: ["Limited", "Endless", "Brief", "Small"],
+        correctIndex: 1,
+        explanation: "Infinite means limitless or endless in space, extent, or size.",
+        explanationBengali: "Infinite মানে অসীম।"
+    },
+    {
+        id: "syn_584", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: JUBILANT",
+        options: ["Depressed", "Ecstatic", "Sad", "Angry"],
+        correctIndex: 1,
+        explanation: "Jubilant means feeling or expressing great happiness and triumph.",
+        explanationBengali: "Jubilant মানে উল্লসিত বা আনন্দিত।"
+    },
+    {
+        id: "syn_585", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: KEEN",
+        options: ["Dull", "Sharp", "Slow", "Lazy"],
+        correctIndex: 1,
+        explanation: "Keen means having or showing eagerness or enthusiasm; also sharp.",
+        explanationBengali: "Keen মানে তীক্ষ্ণ বা আগ্রহী।"
+    },
+    {
+        id: "syn_586", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: LOYAL",
+        options: ["Faithful", "Traitor", "Enemy", "Rebel"],
+        correctIndex: 0,
+        explanation: "Loyal means giving or showing firm and constant support or allegiance to a person or institution.",
+        explanationBengali: "Loyal মানে বিশ্বস্ত বা অনুগত।"
+    },
+    {
+        id: "syn_587", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: MAGNANIMOUS",
+        options: ["Selfish", "Generous", "Mean", "Small"],
+        correctIndex: 1,
+        explanation: "Magnanimous means generous or forgiving, especially towards a rival or less powerful person.",
+        explanationBengali: "Magnanimous মানে মহানুভব বা উদার।"
+    },
+    {
+        id: "syn_588", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: NOSTALGIC",
+        options: ["Future", "Homesick", "Present", "Forgotten"],
+        correctIndex: 1,
+        explanation: "Nostalgic means characterized by a sentimental longing or wistful affection for the past.",
+        explanationBengali: "Nostalgic মানে গৃহকাতর বা অতীত স্মৃতিতে কাতর।"
+    },
+    {
+        id: "syn_589", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: OPTIMISTIC",
+        options: ["Pessimistic", "Hopeful", "Sad", "Gloomy"],
+        correctIndex: 1,
+        explanation: "Optimistic means hopeful and confident about the future.",
+        explanationBengali: "Optimistic মানে আশাবাদী।"
+    },
+    {
+        id: "syn_590", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: PERILOUS",
+        options: ["Safe", "Dangerous", "Secure", "Calm"],
+        correctIndex: 1,
+        explanation: "Perilous means full of danger or risk.",
+        explanationBengali: "Perilous মানে বিপজ্জনক।"
+    },
+    {
+        id: "syn_591", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: QUEER",
+        options: ["Normal", "Strange", "Common", "Regular"],
+        correctIndex: 1,
+        explanation: "Queer means strange; odd.",
+        explanationBengali: "Queer মানে অদ্ভুত।"
+    },
+    {
+        id: "syn_592", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: RARE",
+        options: ["Common", "Uncommon", "Frequent", "Usual"],
+        correctIndex: 1,
+        explanation: "Rare means not occurring very often.",
+        explanationBengali: "Rare মানে বিরল।"
+    },
+    {
+        id: "syn_593", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: SAGACIOUS",
+        options: ["Foolish", "Wise", "Stupid", "Ignorant"],
+        correctIndex: 1,
+        explanation: "Sagacious means having or showing keen mental discernment and good judgment; shrewd.",
+        explanationBengali: "Sagacious মানে বিচক্ষণ বা জ্ঞানী।"
+    },
+    {
+        id: "syn_594", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: TANGIBLE",
+        options: ["Abstract", "Concrete", "Imaginary", "Vague"],
+        correctIndex: 1,
+        explanation: "Tangible means perceptible by touch.",
+        explanationBengali: "Tangible মানে স্পর্শযোগ্য বা মূর্ত।"
+    },
+    {
+        id: "syn_595", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: URGENT",
+        options: ["Important", "Trivial", "Minor", "Optional"],
+        correctIndex: 0,
+        explanation: "Urgent means requiring immediate action or attention.",
+        explanationBengali: "Urgent মানে জরুরি।"
+    },
+    {
+        id: "syn_596", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: VENERATE",
+        options: ["Despise", "Respect", "Hate", "Ignore"],
+        correctIndex: 1,
+        explanation: "Venerate means regard with great respect; revere.",
+        explanationBengali: "Venerate মানে শ্রদ্ধা করা।"
+    },
+    {
+        id: "syn_597", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: WARY",
+        options: ["Trusting", "Cautious", "Rash", "Bold"],
+        correctIndex: 1,
+        explanation: "Wary means feeling or showing caution about possible dangers or problems.",
+        explanationBengali: "Wary মানে সতর্ক।"
+    },
+    {
+        id: "syn_598", chapter: "Synonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the synonym of: YELL",
+        options: ["Whisper", "Shout", "Mumble", "Speak"],
+        correctIndex: 1,
+        explanation: "Yell means a loud, sharp cry of pain, surprise, or delight.",
+        explanationBengali: "Yell মানে চিৎকার করা।"
+    },
+    {
+        id: "syn_599", chapter: "Synonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the synonym of: ZEALOUS",
+        options: ["Apathetic", "Passionate", "Lazy", "Indifferent"],
+        correctIndex: 1,
+        explanation: "Zealous means having or showing zeal; passionate.",
+        explanationBengali: "Zealous মানে অত্যুৎসাহী বা আবেগপূর্ণ।"
+    },
+    {
+        id: "syn_600", chapter: "Synonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the synonym of: ABANDON",
+        options: ["Keep", "Desert", "Hold", "Maintain"],
+        correctIndex: 1,
+        explanation: "Abandon means cease to support or look after (someone); desert.",
+        explanationBengali: "Abandon মানে পরিত্যাগ করা।"
+    },
+// --- SET 33: ANTONYMS QUESTIONS (601-625) ---
+
+    {
+        id: "ant_601", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: ABUNDANT",
+        options: ["Plentiful", "Scarce", "Rich", "Sufficient"],
+        correctIndex: 1,
+        explanation: "Scarce means insufficient for the demand. Abundant means existing or available in large quantities.",
+        explanationBengali: "Abundant (প্রচুর)-এর বিপরীত Scarce (অপ্রতুল)।"
+    },
+    {
+        id: "ant_602", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: BENEVOLENT",
+        options: ["Kind", "Malevolent", "Generous", "Friendly"],
+        correctIndex: 1,
+        explanation: "Malevolent means having or showing a wish to do evil to others. Benevolent means well meaning and kindly.",
+        explanationBengali: "Benevolent (হিতৈষী)-এর বিপরীত Malevolent (হিংসুটে)।"
+    },
+    {
+        id: "ant_603", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: CACOPHONY",
+        options: ["Noise", "Harmony", "Discord", "Clamor"],
+        correctIndex: 1,
+        explanation: "Harmony means the combination of simultaneously sounded musical notes to produce chords and chord progressions having a pleasing effect. Cacophony means a harsh, discordant mixture of sounds.",
+        explanationBengali: "Cacophony (বেসুরো শব্দ)-এর বিপরীত Harmony (সুরের মিল)।"
+    },
+    {
+        id: "ant_604", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: DILIGENT",
+        options: ["Hardworking", "Lazy", "Active", "Busy"],
+        correctIndex: 1,
+        explanation: "Lazy means unwilling to work or use energy. Diligent means having or showing care and conscientiousness in one's work or duties.",
+        explanationBengali: "Diligent (পরিশ্রমী)-এর বিপরীত Lazy (অলস)।"
+    },
+    {
+        id: "ant_605", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: EXPAND",
+        options: ["Increase", "Contract", "Grow", "Extend"],
+        correctIndex: 1,
+        explanation: "Contract means decrease in size, number, or range. Expand means become or make larger or more extensive.",
+        explanationBengali: "Expand (প্রসারিত করা)-এর বিপরীত Contract (সংকুচিত করা)।"
+    },
+    {
+        id: "ant_606", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: FRUGAL",
+        options: ["Thrifty", "Extravagant", "Economical", "Saving"],
+        correctIndex: 1,
+        explanation: "Extravagant means lacking restraint in spending money or using resources. Frugal means sparing or economical with regard to money or food.",
+        explanationBengali: "Frugal (মিতব্যয়ী)-এর বিপরীত Extravagant (অপব্যয়ী)।"
+    },
+    {
+        id: "ant_607", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: GLOOMY",
+        options: ["Sad", "Cheerful", "Dark", "Depressed"],
+        correctIndex: 1,
+        explanation: "Cheerful means noticeably happy and optimistic. Gloomy means dark or poorly lit, especially so as to appear depressing or frightening.",
+        explanationBengali: "Gloomy (বিষণ্ণ)-এর বিপরীত Cheerful (প্রফুল্ল)।"
+    },
+    {
+        id: "ant_608", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: HUMBLE",
+        options: ["Modest", "Proud", "Meek", "Lowly"],
+        correctIndex: 1,
+        explanation: "Proud means feeling deep pleasure or satisfaction as a result of one's own achievements, qualities, or possessions or those of someone with whom one is closely associated. Humble means having or showing a modest or low estimate of one's own importance.",
+        explanationBengali: "Humble (বিনয়ী)-এর বিপরীত Proud (অহংকারী)।"
+    },
+    {
+        id: "ant_609", chapter: "Antonyms", type:"vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: IMPEDIMENT",
+        options: ["Obstacle", "Assistance", "Barrier", "Blockage"],
+        correctIndex: 1,
+        explanation: "Assistance means the action of helping someone with a job or task. Impediment means a hindrance or obstruction in doing something.",
+        explanationBengali: "Impediment (বাধা)-এর বিপরীত Assistance (সাহায্য)।"
+    },
+    {
+        id: "ant_610", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: JUBILANT",
+        options: ["Happy", "Despondent", "Excited", "Joyful"],
+        correctIndex: 1,
+        explanation: "Despondent means in low spirits from loss of hope or courage. Jubilant means feeling or expressing great happiness and triumph.",
+        explanationBengali: "Jubilant (উল্লসিত)-এর বিপরীত Despondent (হতাশ)।"
+    },
+    {
+        id: "ant_611", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: KEEN",
+        options: ["Sharp", "Dull", "Eager", "Intense"],
+        correctIndex: 1,
+        explanation: "Dull means lacking interest or excitement. Keen means having or showing eagerness or enthusiasm.",
+        explanationBengali: "Keen (তীক্ষ্ণ/আগ্রহী)-এর বিপরীত Dull (নিস্তেজ/অনাগ্রহী)।"
+    },
+    {
+        id: "ant_612", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: LUCID",
+        options: ["Clear", "Confused", "Bright", "Understandable"],
+        correctIndex: 1,
+        explanation: "Confused means unable to think clearly; bewildered. Lucid means expressed clearly; easy to understand.",
+        explanationBengali: "Lucid (স্পষ্ট)-এর বিপরীত Confused (বিভ্রান্ত/অস্পষ্ট)।"
+    },
+    {
+        id: "ant_613", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: MISER",
+        options: ["Spendthrift", "Saver", "Hoarder", "Penny-pincher"],
+        correctIndex: 0,
+        explanation: "Spendthrift means a person who spends money in an extravagant, irresponsible way. Miser means a person who hoards wealth and spends as little money as possible.",
+        explanationBengali: "Miser (কৃপণ)-এর বিপরীত Spendthrift (বাজে খরচকারী)।"
+    },
+    {
+        id: "ant_614", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: NARROW",
+        options: ["Thin", "Wide", "Tight", "Small"],
+        correctIndex: 1,
+        explanation: "Wide means of great or more than average width. Narrow means of small width.",
+        explanationBengali: "Narrow (সংকীর্ণ)-এর বিপরীত Wide (প্রশস্ত)।"
+    },
+    {
+        id: "ant_615", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: OBSTINATE",
+        options: ["Stubborn", "Flexible", "Rigid", "Adamant"],
+        correctIndex: 1,
+        explanation: "Flexible means ready and able to change so as to adapt to different circumstances. Obstinate means stubbornly refusing to change one's opinion or chosen course of action.",
+        explanationBengali: "Obstinate (জেদি)-এর বিপরীত Flexible (নমনীয়)।"
+    },
+    {
+        id: "ant_616", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: PACIFY",
+        options: ["Calm", "Agitate", "Soothe", "Placate"],
+        correctIndex: 1,
+        explanation: "Agitate means make (someone) troubled or nervous. Pacify means quell the anger, agitation, or excitement of.",
+        explanationBengali: "Pacify (শান্ত করা)-এর বিপরীত Agitate (উত্তেজিত করা)।"
+    },
+    {
+        id: "ant_617", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: QUIET",
+        options: ["Silent", "Loud", "Peaceful", "Calm"],
+        correctIndex: 1,
+        explanation: "Loud means producing or capable of producing much noise. Quiet means making little or no noise.",
+        explanationBengali: "Quiet (শান্ত)-এর বিপরীত Loud (উচ্চস্বর)।"
+    },
+    {
+        id: "ant_618", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: REPRIMAND",
+        options: ["Scold", "Praise", "Rebuke", "Admonish"],
+        correctIndex: 1,
+        explanation: "Praise means express warm approval or admiration of. Reprimand means a rebuke, especially an official one.",
+        explanationBengali: "Reprimand (তিরস্কার করা)-এর বিপরীত Praise (প্রশংসা করা)।"
+    },
+    {
+        id: "ant_619", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: SHALLOW",
+        options: ["Deep", "Surface", "Flat", "Low"],
+        correctIndex: 0,
+        explanation: "Deep means extending far down from the top or surface. Shallow means of little depth.",
+        explanationBengali: "Shallow (অগভীর)-এর বিপরীত Deep (গভীর)।"
+    },
+    {
+        id: "ant_620", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: TIMID",
+        options: ["Shy", "Bold", "Fearful", "Afraid"],
+        correctIndex: 1,
+        explanation: "Bold means showing an ability to take risks; confident and courageous. Timid means showing a lack of courage or confidence; easily frightened.",
+        explanationBengali: "Timid (ভীরু)-এর বিপরীত Bold (সাহসী)।"
+    },
+    {
+        id: "ant_621", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: UNANIMOUS",
+        options: ["Agreed", "Divided", "United", "Harmonious"],
+        correctIndex: 1,
+        explanation: "Divided means disagreeing or disunited. Unanimous means (of two or more people) fully in agreement.",
+        explanationBengali: "Unanimous (সর্বসম্মত)-এর বিপরীত Divided (বিভক্ত)।"
+    },
+    {
+        id: "ant_622", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: VAGUE",
+        options: ["Unclear", "Clear", "Indefinite", "Hazy"],
+        correctIndex: 1,
+        explanation: "Clear means easy to perceive, understand, or interpret. Vague means of uncertain, indefinite, or unclear character or meaning.",
+        explanationBengali: "Vague (অস্পষ্ট)-এর বিপরীত Clear (স্পষ্ট)।"
+    },
+    {
+        id: "ant_623", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: WISE",
+        options: ["Smart", "Foolish", "Intelligent", "Clever"],
+        correctIndex: 1,
+        explanation: "Foolish means lacking good sense or judgment; unwise. Wise means having or showing experience, knowledge, and good judgment.",
+        explanationBengali: "Wise (জ্ঞানী)-এর বিপরীত Foolish (বোকা)।"
+    },
+    {
+        id: "ant_624", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: ZENITH",
+        options: ["Peak", "Nadir", "Summit", "Top"],
+        correctIndex: 1,
+        explanation: "Nadir means the lowest point in the fortunes of a person or organization. Zenith means the time at which something is most powerful or successful.",
+        explanationBengali: "Zenith (শীর্ষবিন্দু)-এর বিপরীত Nadir (সর্বনিম্ন বিন্দু)।"
+    },
+    {
+        id: "ant_625", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: AUTHENTIC",
+        options: ["Genuine", "Fake", "Real", "True"],
+        correctIndex: 1,
+        explanation: "Fake means not genuine; counterfeit or imitation. Authentic means of undisputed origin; genuine.",
+        explanationBengali: "Authentic (খাঁটি)-এর বিপরীত Fake (নকল)।"
+    },
+// --- SET 34: ANTONYMS QUESTIONS (626-650) ---
+
+    {
+        id: "ant_626", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: BEAUTIFUL",
+        options: ["Pretty", "Ugly", "Lovely", "Nice"],
+        correctIndex: 1,
+        explanation: "Ugly means unpleasant or repulsive, especially in appearance. Beautiful means pleasing the senses or mind aesthetically.",
+        explanationBengali: "Beautiful (সুন্দর)-এর বিপরীত Ugly (কুৎসিত)।"
+    },
+    {
+        id: "ant_627", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: CANDID",
+        options: ["Honest", "Deceitful", "Frank", "Open"],
+        correctIndex: 1,
+        explanation: "Deceitful means guilty of or involving deceit; deceiving or misleading others. Candid means truthful and straightforward.",
+        explanationBengali: "Candid (অকপট)-এর বিপরীত Deceitful (প্রতারণাপূর্ণ)।"
+    },
+    {
+        id: "ant_628", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: DORMANT",
+        options: ["Inactive", "Active", "Sleeping", "Passive"],
+        correctIndex: 1,
+        explanation: "Active means engaging or ready to engage in physically energetic pursuits. Dormant means having normal physical functions suspended or slowed down for a period of time; in or as if in a deep sleep.",
+        explanationBengali: "Dormant (সুপ্ত/নিষ্ক্রিয়)-এর বিপরীত Active (সক্রিয়)।"
+    },
+    {
+        id: "ant_629", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: ETERNAL",
+        options: ["Permanent", "Temporary", "Forever", "Endless"],
+        correctIndex: 1,
+        explanation: "Temporary means lasting for only a limited period of time; not permanent. Eternal means lasting or existing forever; without end or beginning.",
+        explanationBengali: "Eternal (শাশ্বত/অনন্ত)-এর বিপরীত Temporary (ক্ষণস্থায়ী)।"
+    },
+    {
+        id: "ant_630", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: FAMOUS",
+        options: ["Unknown", "Popular", "Renowned", "Celebrated"],
+        correctIndex: 0,
+        explanation: "Unknown means not known or familiar. Famous means known about by many people.",
+        explanationBengali: "Famous (বিখ্যাত)-এর বিপরীত Unknown (অখ্যাত)।"
+    },
+    {
+        id: "ant_631", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: GARRULOUS",
+        options: ["Talkative", "Taciturn", "Chatty", "Loquacious"],
+        correctIndex: 1,
+        explanation: "Taciturn means reserved or uncommunicative in speech; saying little. Garrulous means excessively talkative.",
+        explanationBengali: "Garrulous (বাচাল)-এর বিপরীত Taciturn (স্বল্পভাষী)।"
+    },
+    {
+        id: "ant_632", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: HINDER",
+        options: ["Obstruct", "Help", "Block", "Delay"],
+        correctIndex: 1,
+        explanation: "Help means make it easier for (someone) to do something. Hinder means create difficulties for (someone or something), resulting in delay or obstruction.",
+        explanationBengali: "Hinder (বাধা দেওয়া)-এর বিপরীত Help (সাহায্য করা)।"
+    },
+    {
+        id: "ant_633", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: INNOCENT",
+        options: ["Guilty", "Pure", "Naïve", "Simple"],
+        correctIndex: 0,
+        explanation: "Guilty means culpable of or responsible for a specified wrongdoing. Innocent means not guilty of a crime or offense.",
+        explanationBengali: "Innocent (নির্দোষ)-এর বিপরীত Guilty (দোষী)।"
+    },
+    {
+        id: "ant_634", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: JEOPARDY",
+        options:["Danger", "Safety", "Risk", "Peril"],
+        correctIndex: 1,
+        explanation: "Safety means the condition of being protected from or unlikely to cause danger, risk, or injury. Jeopardy means danger of loss, harm, or failure.",
+        explanationBengali: "Jeopardy (বিপদ)-এর বিপরীত Safety (নিরাপত্তা)।"
+    },
+    {
+        id: "ant_635", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: KEEN",
+        options: ["Sharp", "Dull", "Eager", "Intense"],
+        correctIndex: 1,
+        explanation: "Dull means lacking interest or excitement. Keen means having or showing eagerness or enthusiasm.",
+        explanationBengali: "Keen (আগ্রহী/তীক্ষ্ণ)-এর বিপরীত Dull (অনাগ্রহী/নিস্তেজ)।"
+    },
+    {
+        id: "ant_636", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: LIBERTY",
+        options: ["Freedom", "Slavery", "Independence", "Autonomy"],
+        correctIndex: 1,
+        explanation: "Slavery means the state of being a slave. Liberty means the state of being free within society from oppressive restrictions.",
+        explanationBengali: "Liberty (স্বাধীনতা)-এর বিপরীত Slavery (দাসত্ব)।"
+    },
+    {
+        id: "ant_637", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: MALEVOLENT",
+        options: ["Wicked", "Benevolent", "Spiteful", "Hostile"],
+        correctIndex: 1,
+        explanation: "Benevolent means well meaning and kindly. Malevolent means having or showing a wish to do evil to others.",
+        explanationBengali: "Malevolent (হিংসুটে)-এর বিপরীত Benevolent (হিতৈষী)।"
+    },
+    {
+        id: "ant_638", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: NEAT",
+        options: ["Tidy", "Messy", "Clean", "Orderly"],
+        correctIndex: 1,
+        explanation: "Messy means untidy or dirty. Neat means arranged in an orderly, tidy way.",
+        explanationBengali: "Neat (পরিচ্ছন্ন)-এর বিপরীত Messy (অগোছালো)।"
+    },
+    {
+        id: "ant_639", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: OPTIMISTIC",
+        options: ["Hopeful", "Pessimistic", "Positive", "Cheerful"],
+        correctIndex: 1,
+        explanation: "Pessimistic means tending to see the worst aspect of things. Optimistic means hopeful and confident about the future.",
+        explanationBengali: "Optimistic (আশাবাদী)-এর বিপরীত Pessimistic (নৈরাশ্যবাদী)।"
+    },
+    {
+        id: "ant_640", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: PAUCITY",
+        options: ["Scarcity", "Abundance", "Lack", "Shortage"],
+        correctIndex: 1,
+        explanation: "Abundance means a very large quantity of something. Paucity means the presence of something only in small or insufficient quantities or amounts.",
+        explanationBengali: "Paucity (স্বল্পতা)-এর বিপরীত Abundance (প্রচুর্য)।"
+    },
+    {
+        id: "ant_641", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: QUEER",
+        options: ["Strange", "Normal", "Odd", "Weird"],
+        correctIndex: 1,
+        explanation: "Normal means conforming to a standard; usual, typical, or expected. Queer means strange; odd.",
+        explanationBengali: "Queer (অদ্ভুত)-এর বিপরীত Normal (স্বাভাবিক)।"
+    },
+    {
+        id: "ant_642", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: ROUGH",
+        options: ["Smooth", "Hard", "Tough", "Coarse"],
+        correctIndex: 0,
+        explanation: "Smooth means having an even and regular surface or consistency. Rough means having an uneven or irregular surface.",
+        explanationBengali: "Rough (অমসৃণ)-এর বিপরীত Smooth (মসৃণ)।"
+    },
+    {
+        id: "ant_643", chapter: "Antonyms", type: "vocab", difficulty: "hard ", topic: "General",
+        question: "Select the antonym of: SAGACIOUS",
+        options: ["Wise", "Foolish", "Intelligent", "Shrewd"],
+        correctIndex: 1,
+        explanation: "Foolish means lacking good sense or judgment; unwise. Sagacious means having or showing keen mental discernment and good judgment.",
+        explanationBengali: "Sagacious (বিচক্ষণ)-এর বিপরীত Foolish (বোকা)।"
+    },
+    {
+        id: "ant_644", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: TRANSPARENT",
+        options: ["Clear", "Opaque", "See-through", "Lucid"],
+        correctIndex: 1,
+        explanation: "Opaque means not able to be seen through; not transparent. Transparent means allowing light to pass through so that objects behind can be distinctly seen.",
+        explanationBengali: "Transparent (স্বচ্ছ)-এর বিপরীত Opaque (অস্বচ্ছ)।"
+    },
+    {
+        id: "ant_645", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: UNITY",
+        options: ["Harmony", "Discord", "Union", "Agreement"],
+        correctIndex: 1,
+        explanation: "Discord means disagreement between people. Unity means the state of being united or joined as a whole.",
+        explanationBengali: "Unity (একতা)-এর বিপরীত Discord (অনৈক্য)।"
+    },
+    {
+        id: "ant_646", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: VACILLATE",
+        options: ["Waver", "Decide", "Hesitate", "Fluctuate"],
+        correctIndex: 1,
+        explanation: "Decide means come to a resolution in the mind as a result of consideration. Vacillate means alternate or waver between different opinions or actions; be indecisive.",
+        explanationBengali: "Vacillate (দ্বিধা করা)-এর বিপরীত Decide (সিদ্ধান্ত নেওয়া)।"
+    },
+    {
+        id: "ant_647", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: WANE",
+        options: ["Decrease", "Wax", "Diminish", "Fade"],
+        correctIndex: 1,
+        explanation: "Wax means cover or treat (something) with wax or similar substance, typically to polish or protect it. However, in the context of the moon or size, 'Wax' means to increase in size, which is the antonym of 'Wane' (decrease).",
+        explanationBengali: "Wane (ক্ষয় পাওয়া)-এর বিপরীত Wax (বৃদ্ধি পাওয়া - চাঁদের ক্ষেত্রে)।"
+    },
+    {
+        id: "ant_648", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: YOUNG",
+        options: ["New", "Old", "Fresh", "Youthful"],
+        correctIndex: 1,
+        explanation: "Old means having lived for a long time; no longer young. Young means having lived or existed for only a short time.",
+        explanationBengali: "Young (তরুণ)-এর বিপরীত Old (বৃদ্ধ)।"
+    },
+    {
+        id: "ant_649", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: ZEALOUS",
+        options: ["Enthusiastic", "Apathetic", "Passionate", "Eager"],
+        correctIndex: 1,
+        explanation: "Apathetic means showing or feeling no interest, enthusiasm, or concern. Zealous means having or showing zeal.",
+        explanationBengali: "Zealous (অত্যুৎসাহী)-এর বিপরীত Apathetic (উদাসীন)।"
+    },
+    {
+        id: "ant_650", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: ABRIDGE",
+        options: ["Shorten", "Lengthen", "Cut", "Reduce"],
+        correctIndex: 1,
+        explanation: "Lengthen means make or become longer. Abridge means shorten (a piece of writing) without losing the sense.",
+        explanationBengali: "Abridge (সংক্ষিপ্ত করা)-এর বিপরীত Lengthen (দীর্ঘায়িত করা)।"
+    },
+// --- SET 35: ANTONYMS QUESTIONS (651-675) ---
+
+    {
+        id: "ant_651", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: ABUNDANCE",
+        options: ["Poverty", "Scarcity", "Famine", "Sufficiency"],
+        correctIndex: 1,
+        explanation: "Scarcity means the state of being scarce or in short supply. Abundance means a very large quantity of something.",
+        explanationBengali: "Abundance (প্রচুর্য)-এর বিপরীত Scarcity (অভাব)।"
+    },
+    {
+        id: "ant_652", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: BOISTEROUS",
+        options: ["Quiet", "Loud", "Rowdy", "Noisy"],
+        correctIndex: 0,
+        explanation: "Quiet means making little or no noise. Boisterous means noisy, energetic, and cheerful; rowdy.",
+        explanationBengali: "Boisterous (কোলাহলপূর্ণ)-এর বিপরীত Quiet (শান্ত)।"
+    },
+    {
+        id: "ant_653", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: CALLOUS",
+        options: ["Sensitive", "Hardened", "Cold", "Cruel"],
+        correctIndex: 0,
+        explanation: "Sensitive means quick to detect or respond to slight changes, signals, or influences. Callous means showing or having an insensitive and cruel disregard for others.",
+        explanationBengali: "Callous (কঠোর/অনুভূতিহীন)-এর বিপরীত Sensitive (সংবেদনশীল)।"
+    },
+    {
+        id: "ant_654", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: DILATE",
+        options: ["Expand", "Contract", "Widen", "Stretch"],
+        correctIndex: 1,
+        explanation: "Contract means decrease in size, number, or range. Dilate means make or become wider, larger, or more open.",
+        explanationBengali: "Dilate (প্রসারিত করা)-এর বিপরীত Contract (সংকুচিত করা)।"
+    },
+    {
+        id: "ant_655", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: EMANCIPATE",
+        options: ["Liberate", "Enslave", "Release", "Free"],
+        correctIndex: 1,
+        explanation: "Enslave means make (someone) a slave. Emancipate means set free, especially from legal, social, or political restrictions.",
+        explanationBengali: "Emancipate (মুক্ত করা)-এর বিপরীত Enslave (দাস করা)।"
+    },
+    {
+        id: "ant_656", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: FICKLE",
+        options: ["Constant", "Changeable", "Capricious", "Variable"],
+        correctIndex: 0,
+        explanation: "Constant means remaining the same over a period of time. Fickle means changing frequently, especially as regards one's loyalties, interests, or affection.",
+        explanationBengali: "Fickle (চঞ্চল/অস্থির)-এর বিপরীত Constant (স্থির/অপরিবর্তনশীল)।"
+    },
+    {
+        id: "ant_657", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: GREGARIOUS",
+        options: ["Sociable", "Introverted", "Friendly", "Outgoing"],
+        correctIndex: 1,
+        explanation: "Introverted means shy and reticent. Gregarious means (of a person) fond of company; sociable.",
+        explanationBengali: "Gregarious (মিশুকে)-এর বিপরীত Introverted (অন্তর্মুখী)।"
+    },
+    {
+        id: "ant_658", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: HARMONY",
+        options: ["Peace", "Discord", "Agreement", "Unity"],
+        correctIndex: 1,
+        explanation: "Discord means disagreement between people. Harmony means the state of being in agreement or concord.",
+        explanationBengali: "Harmony (মিল/সামঞ্জস্য)-এর বিপরীত Discord (অনৈক্য/বিরোধ)।"
+    },
+    {
+        id: "ant_659", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: IMPECUNIOUS",
+        options: ["Poor", "Wealthy", "Penniless", "Indigent"],
+        correctIndex: 1,
+        explanation: "Wealthy means having a great deal of money, resources, or assets. Impecunious means having little or no money.",
+        explanationBengali: "Impecunious (নিঃস্ব)-এর বিপরীত Wealthy (ধনী)।"
+    },
+    {
+        id: "ant_660", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: JETTISON",
+        options: ["Discard", "Retain", "Throw", "Eject"],
+        correctIndex: 1,
+        explanation: "Retain means continue to have (something); keep possession of. Jettison means throw or drop (something) from an aircraft or ship.",
+        explanationBengali: "Jettison (ফেলে দেওয়া)-এর বিপরীত Retain (রাখা)।"
+    },
+    {
+        id: "ant_661", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: KNOWLEDGE",
+        options: ["Wisdom", "Ignorance", "Learning", "Education"],
+        correctIndex: 1,
+        explanation: "Ignorance means lack of knowledge or information. Knowledge means facts, information, and skills acquired by a person through experience or education.",
+        explanationBengali: "Knowledge (জ্ঞান)-এর বিপরীত Ignorance (অজ্ঞতা)।"
+    },
+    {
+        id: "ant_662", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: LACONIC",
+        options: ["Brief", "Verbose", "Concise", "Terse"],
+        correctIndex: 1,
+        explanation: "Verbose means using or expressed in more words than are needed. Laconic means (of a person, speech, or style of writing) using very few words.",
+        explanationBengali: "Laconic (স্বল্পভাষী)-এর বিপরীত Verbose (বাচাল/শব্দবহুল)।"
+    },
+    {
+        id: "ant_663", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: MALIGN",
+        options: ["Slander", "Praise", "Criticize", "Defame"],
+        correctIndex: 1,
+        explanation: "Praise means express warm approval or admiration of. Malign means speak about (someone) in a spitefully critical manner.",
+        explanationBengali: "Malign (কুৎসা রটানো)-এর বিপরীত Praise (প্রশংসা করা)।"
+    },
+    {
+        id: "ant_664", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: NATIVE",
+        options: ["Local", "Foreign", "Indigenous", "Domestic"],
+        correctIndex: 1,
+        explanation: "Foreign means of, from, in, or characteristic of a country or language other than one's own. Native means a person born in a specified place or associated with a place by birth.",
+        explanationBengali: "Native (দেশি)-এর বিপরীত Foreign (বিদেশি)।"
+    },
+    {
+        id: "ant_665", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: OBSEQUIOUS",
+        options: ["Servile", "Domineering", "Submissive", "Fawning"],
+        correctIndex: 1,
+        explanation: "Domineering means asserting one's will over another in an arrogant way. Obsequious means obedient or attentive to an excessive or servile degree.",
+        explanationBengali: "Obsequious (চাটুকার/দাসসুলভ)-এর বিপরীত Domineering (প্রভুত্বব্যঞ্জক)।"
+    },
+    {
+        id: "ant_666", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: PERTINENT",
+        options: ["Relevant", "Irrelevant", "Applicable", "Related"],
+        correctIndex: 1,
+        explanation: "Irrelevant means not connected with or relevant to something. Pertinent means relevant or applicable to a particular matter; apposite.",
+        explanationBengali: "Pertinent (প্রাসঙ্গিক)-এর বিপরীত Irrelevant (অপ্রাসঙ্গিক)।"
+    },
+    {
+        id: "ant_667", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: QUIESCENT",
+        options: ["Dormant", "Active", "Still", "Inactive"],
+        correctIndex: 1,
+        explanation: "Active means engaging or ready to engage in physically energetic pursuits. Quiescent means in a state or period of inactivity or dormancy.",
+        explanationBengali: "Quiescent (নিস্তব্ধ/নিষ্ক্রিয়)-এর বিপরীত Active (সক্রিয়)।"
+    },
+    {
+        id: "ant_668", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: RECALCITRANT",
+        options: ["Obstinate", "Compliant", "Stubborn", "Unruly"],
+        correctIndex: 1,
+        explanation: "Compliant means inclined to agree with others or obey rules, especially to an excessive degree; acquiescent. Recalcitrant means having an obstinately uncooperative attitude toward authority or discipline.",
+        explanationBengali: "Recalcitrant (অবাধ্য)-এর বিপরীত Compliant (বাধ্য/নমনীয়)।"
+    },
+    {
+        id: "ant_669", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: SANGUINE",
+        options: ["Optimistic", "Pessimistic", "Hopeful", "Confident"],
+        correctIndex: 1,
+        explanation: "Pessimistic means tending to see the worst aspect of things or believe that the worst will happen. Sanguine means optimistic or positive, especially in an apparently bad or difficult situation.",
+        explanationBengali: "Sanguine (আশাবাদী)-এর বিপরীত Pessimistic (নৈরাশ্যবাদী)।"
+    },
+    {
+        id: "ant_670", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: TANGIBLE",
+        options: ["Real", "Abstract", "Concrete", "Solid"],
+        correctIndex: 1,
+        explanation: "Abstract means existing in thought or as an idea but not having a physical or concrete existence. Tangible means perceptible by touch.",
+        explanationBengali: "Tangible (স্পর্শযোগ্য)-এর বিপরীত Abstract (বিমূর্ত)।"
+    },
+    {
+        id: "ant_671", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: UBIQUITOUS",
+        options: ["Omnipresent", "Rare", "Universal", "Common"],
+        correctIndex: 1,
+        explanation: "Rare means (of an event, situation, or condition) not occurring very often. Ubiquitous means present, appearing, or found everywhere.",
+        explanationBengali: "Ubiquitous (সর্বব্যাপী)-এর বিপরীত Rare (বিরল)।"
+    },
+    {
+        id: "ant_672", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: VENERATE",
+        options: ["Respect", "Despise", "Honor", "Revere"],
+        correctIndex: 1,
+        explanation: "Despise means feel contempt or a deep repugnance for. Venerate means regard with great respect; revere.",
+        explanationBengali: "Venerate (শ্রদ্ধা করা)-এর বিপরীত Despise (ঘৃণা করা/তুচ্ছ করা)।"
+    },
+    {
+        id: "ant_673", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: WARY",
+        options: ["Cautious", "Careless", "Alert", "Vigilant"],
+        correctIndex: 1,
+        explanation: "Careless means not giving sufficient attention or thought to avoiding harm or errors. Wary means feeling or showing caution about possible dangers or problems.",
+        explanationBengali: "Wary (সতর্ক)-এর বিপরীত Careless (অসতর্ক)।"
+    },
+    {
+        id: "ant_674", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: YOKE",
+        options: ["Connect", "Liberate", "Join", "Link"],
+        correctIndex: 1,
+        explanation: "Liberate means set (someone) free from a situation, especially imprisonment or slavery, in which their liberty is severely restricted. Yoke means a wooden crosspiece that is fastened over the necks of two animals and attached to the plow or cart that they are to pull; metaphorically, something that is regarded as oppressive or burdensome.",
+        explanationBengali: "Yoke (জোয়াল/পরাধীনতা)-এর বিপরীত Liberate (মুক্ত করা)।"
+    },
+    {
+        id: "ant_675", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: ZEAL",
+        options: ["Enthusiasm", "Apathy", "Passion", "Fervor"],
+        correctIndex: 1,
+        explanation: "Apathy means lack of interest, enthusiasm, or concern. Zeal means great energy or enthusiasm in pursuit of a cause or an objective.",
+        explanationBengali: "Zeal (প্রবল উৎসাহ)-এর বিপরীত Apathy (উদাসীনতা)।"
+    },
+// --- SET 36: ANTONYMS QUESTIONS (676-700) ---
+
+    {
+        id: "ant_676", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: ABUNDANT",
+        options: ["Scarce", "Plentiful", "Rich", "Enough"],
+        correctIndex: 0,
+        explanation: "Scarce means insufficient for the demand. Abundant means existing or available in large quantities.",
+        explanationBengali: "Abundant (প্রচুর)-এর বিপরীত Scarce (অপ্রতুল)।"
+    },
+    {
+        id: "ant_677", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: BENEVOLENT",
+        options: ["Malevolent", "Kind", "Generous", "Friendly"],
+        correctIndex: 0,
+        explanation: "Malevolent means having or showing a wish to do evil to others. Benevolent means well meaning and kindly.",
+        explanationBengali: "Benevolent (হিতৈষী)-এর বিপরীত Malevolent (হিংসুটে)।"
+    },
+    {
+        id: "ant_678", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: CACOPHONY",
+        options: ["Harmony", "Noise", "Discord", "Clamor"],
+        correctIndex: 0,
+        explanation: "Harmony means the combination of simultaneously sounded musical notes to produce chords and chord progressions having a pleasing effect. Cacophony means a harsh, discordant mixture of sounds.",
+        explanationBengali: "Cacophony (বেসুরো শব্দ)-এর বিপরীত Harmony (সুরের মিল)।"
+    },
+    {
+        id: "ant_679", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: DILIGENT",
+        options: ["Lazy", "Hardworking", "Active", "Busy"],
+        correctIndex: 0,
+        explanation: "Lazy means unwilling to work or use energy. Diligent means having or showing care and conscientiousness in one's work or duties.",
+        explanationBengali: "Diligent (পরিশ্রমী)-এর বিপরীত Lazy (অলস)।"
+    },
+    {
+        id: "ant_680", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: EXPAND",
+        options: ["Contract", "Increase", "Grow", "Extend"],
+        correctIndex: 0,
+        explanation: "Contract means decrease in size, number, or range. Expand means become or make larger or more extensive.",
+        explanationBengali: "Expand (প্রসারিত করা)-এর বিপরীত Contract (সংকুচিত করা)।"
+    },
+    {
+        id: "ant_681", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: FRUGAL",
+        options: ["Extravagant", "Thrifty", "Economical", "Saving"],
+        correctIndex: 0,
+        explanation: "Extravagant means lacking restraint in spending money or using resources. Frugal means sparing or economical with regard to money or food.",
+        explanationBengali: "Frugal (মিতব্যয়ী)-এর বিপরীত Extravagant (অপব্যয়ী)।"
+    },
+    {
+        id: "ant_682", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: GLOOMY",
+        options: ["Cheerful", "Sad", "Dark", "Depressed"],
+        correctIndex: 0,
+        explanation: "Cheerful means noticeably happy and optimistic. Gloomy means dark or poorly lit, especially so as to appear depressing or frightening.",
+        explanationBengali: "Gloomy (বিষণ্ণ)-এর বিপরীত Cheerful (প্রফুল্ল)।"
+    },
+    {
+        id: "ant_683", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: HUMBLE",
+        options: ["Proud", "Modest", "Meek", "Lowly"],
+        correctIndex: 0,
+        explanation: "Proud means feeling deep pleasure or satisfaction as a result of one's own achievements. Humble means having or showing a modest or low estimate of one's own importance.",
+        explanationBengali: "Humble (বিনয়ী)-এর বিপরীত Proud (অহংকারী)।"
+    },
+    {
+        id: "ant_684", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of : IMPEDIMENT",
+        options: ["Assistance", "Obstacle", "Barrier", "Blockage"],
+        correctIndex: 0,
+        explanation: "Assistance means the action of helping someone with a job or task. Impediment means a hindrance or obstruction in doing something.",
+        explanationBengali: "Impediment (বাধা)-এর বিপরীত Assistance (সাহায্য)।"
+    },
+    {
+        id: "ant_685", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: JUBILANT",
+        options: ["Despondent", "Happy", "Excited", "Joyful"],
+        correctIndex: 0,
+        explanation: "Despondent means in low spirits from loss of hope or courage. Jubilant means feeling or expressing great happiness and triumph.",
+        explanationBengali: "Jubilant (উল্লসিত)-এর বিপরীত Despondent (হতাশ)।"
+    },
+    {
+        id: "ant_686", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: KEEN",
+        options: ["Dull", "Sharp", "Eager", "Intense"],
+        correctIndex: 0,
+        explanation: "Dull means lacking interest or excitement. Keen means having or showing eagerness or enthusiasm.",
+        explanationBengali: "Keen (তীক্ষ্ণ/আগ্রহী)-এর বিপরীত Dull (নিস্তেজ/অনাগ্রহী)।"
+    },
+    {
+        id: "ant_687", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: LUCID",
+        options: ["Confused", "Clear", "Bright", "Understandable"],
+        correctIndex: 0,
+        explanation: "Confused means unable to think clearly; bewildered. Lucid means expressed clearly; easy to understand.",
+        explanationBengali: "Lucid (স্পষ্ট)-এর বিপরীত Confused (বিভ্রান্ত/অস্পষ্ট)।"
+    },
+    {
+        id: "ant_688", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: MISER",
+        options: ["Spendthrift", "Saver", "Hoarder", "Penny-pincher"],
+        correctIndex: 0,
+        explanation: "Spendthrift means a person who spends money in an extravagant, irresponsible way. Miser means a person who hoards wealth and spends as little money as possible.",
+        explanationBengali: "Miser (কৃপণ)-এর বিপরীত Spendthrift (বাজে খরচকারী)।"
+    },
+    {
+        id: "ant_689", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: NARROW",
+        options: ["Wide", "Thin", "Tight", "Small"],
+        correctIndex: 0,
+        explanation: "Wide means of great or more than average width. Narrow means of small width.",
+        explanationBengali: "Narrow (সংকীর্ণ)-এর বিপরীত Wide (প্রশস্ত)।"
+    },
+    {
+        id: "ant_690", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: OBSTINATE",
+        options: ["Flexible", "Stubborn", "Rigid", "Adamant"],
+        correctIndex: 0,
+        explanation: "Flexible means ready and able to change so as to adapt to different circumstances. Obstinate means stubbornly refusing to change one's opinion or chosen course of action.",
+        explanationBengali: "Obstinate (জেদি)-এর বিপরীত Flexible (নমনীয়)।"
+    },
+    {
+        id: "ant_691", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: PACIFY",
+        options: ["Agitate", "Calm", "Soothe", "Placate"],
+        correctIndex: 0,
+        explanation: "Agitate means make (someone) troubled or nervous. Pacify means quell the anger, agitation, or excitement of.",
+        explanationBengali: "Pacify (শান্ত করা)-এর বিপরীত Agitate (উত্তেজিত করা)।"
+    },
+    {
+        id: "ant_692", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: QUIET",
+        options: ["Loud", "Silent", "Peaceful", "Calm"],
+        correctIndex: 0,
+        explanation: "Loud means producing or capable of producing much noise. Quiet means making little or no noise.",
+        explanationBengali: "Quiet (শান্ত)-এর বিপরীত Loud (উচ্চস্বর)।"
+    },
+    {
+        id: "ant_693", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: REPRIMAND",
+        options: ["Praise", "Scold", "Rebuke", "Admonish"],
+        correctIndex: 0,
+        explanation: "Praise means express warm approval or admiration of. Reprimand means a rebuke, especially an official one.",
+        explanationBengali: "Reprimand (তিরস্কার করা)-এর বিপরীত Praise (প্রশংসা করা)।"
+    },
+    {
+        id: "ant_694", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: SHALLOW",
+        options: ["Deep", "Surface", "Flat", "Low"],
+        correctIndex: 0,
+        explanation: "Deep means extending far down from the top or surface. Shallow means of little depth.",
+        explanationBengali: "Shallow (অগভীর)-এর বিপরীত Deep (গভীর)।"
+    },
+    {
+        id: "ant_695", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: TIMID",
+        options: ["Bold", "Shy", "Fearful", "Afraid"],
+        correctIndex: 0,
+        explanation: "Bold means showing an ability to take risks; confident and courageous. Timid means showing a lack of courage or confidence; easily frightened.",
+        explanationBengali: "Timid (ভীরু)-এর বিপরীত Bold (সাহসী)।"
+    },
+    {
+        id: "ant_696", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: UNANIMOUS",
+        options: ["Divided", "Agreed", "United", "Harmonious"],
+        correctIndex: 0,
+        explanation: "Divided means disagreeing or disunited. Unanimous means fully in agreement.",
+        explanationBengali: "Unanimous (সর্বসম্মত)-এর বিপরীত Divided (বিভক্ত)।"
+    },
+    {
+        id: "ant_697", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: VAGUE",
+        options: ["Clear", "Unclear", "Indefinite", "Hazy"],
+        correctIndex: 0,
+        explanation: "Clear means easy to perceive, understand, or interpret. Vague means of uncertain, indefinite, or unclear character or meaning.",
+        explanationBengali: "Vague (অস্পষ্ট)-এর বিপরীত Clear (স্পষ্ট)।"
+    },
+    {
+        id: "ant_698", chapter: "Antonyms", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the antonym of: WISE",
+        options: ["Foolish", "Smart", "Intelligent", "Clever"],
+        correctIndex: 0,
+        explanation: "Foolish means lacking good sense or judgment; unwise. Wise means having or showing experience, knowledge, and good judgment.",
+        explanationBengali: "Wise (জ্ঞানী)-এর বিপরীত Foolish (বোকা)।"
+    },
+    {
+        id: "ant_699", chapter: "Antonyms", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the antonym of: ZENITH",
+        options: ["Nadir", "Peak", "Summit", "Top"],
+        correctIndex: 0,
+        explanation: "Nadir means the lowest point. Zenith means the highest point or peak.",
+        explanationBengali: "Zenith (শীর্ষবিন্দু)-এর বিপরীত Nadir (সর্বনিম্ন বিন্দু)।"
+    },
+    {
+        id: "ant_700", chapter: "Antonyms", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the antonym of: AUTHENTIC",
+        options: ["Fake", "Genuine", "Real", "True"],
+        correctIndex: 0,
+        explanation: "Fake means not genuine; counterfeit. Authentic means of undisputed origin; genuine.",
+        explanationBengali: "Authentic (খাঁটি)-এর বিপরীত Fake (নকল)।"
+    },
+// --- SET 37: OWS QUESTIONS (701-730) ---
+
+    {
+        id: "ows_701", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "One who eats everything:",
+        options: ["Herbivorous", "Omnivorous", "Carnivorous", "Vegetarian"],
+        correctIndex: 1,
+        explanation: "Omnivorous: feeding on food of both plant and animal origin.",
+        explanationBengali: "Omnivorous মানে সর্বভুক।"
+    },
+    {
+        id: "ows_702", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A person who does not believe in God:",
+        options: ["Theist", "Atheist", "Pagan", "Fanatic"],
+        correctIndex: 1,
+        explanation: "Atheist: a person who disbelieves or lacks belief in the existence of God.",
+        explanationBengali: "Atheist মানে নাস্তিক।"
+    },
+    {
+        id: "ows_703", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "A study of birds:",
+        options: ["Zoology", "Ornithology", "Botany", "Entomology"],
+        correctIndex: 1,
+        explanation: "Ornithology is the scientific study of birds.",
+        explanationBengali: "Ornithology মানে পক্ষীবিদ্যা।"
+    },
+    {
+        id: "ows_704", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "One who knows everything:",
+        options: ["Omnipotent", "Omniscient", "Omnipresent", "Optimist"],
+        correctIndex: 1,
+        explanation: "Omniscient means knowing everything.",
+        explanationBengali: "Omniscient মানে সর্বজ্ঞ।"
+    },
+    {
+        id: "ows_705", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Fear of closed spaces:",
+        options: ["Acrophobia", "Claustrophobia", "Hydrophobia", "Xenophobia"],
+        correctIndex: 1,
+        explanation: "Claustrophobia is extreme or irrational fear of confined places.",
+        explanationBengali: "Claustrophobia মানে বদ্ধ স্থানের ভয়।"
+    },
+    {
+        id: "ows_706", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A life history written by oneself:",
+        options: ["Biography", "Autobiography", "History", "Novel"],
+        correctIndex: 1,
+        explanation: "Autobiography is an account of a person's life written by that person.",
+        explanationBengali: "Autobiography মানে আত্মজীবনী।"
+    },
+    {
+        id: "ows_707", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A place where bees are kept:",
+        options: ["Aviary", "Apiary", "Zoo", "Aquarium"],
+        correctIndex: 1,
+        explanation: "Apiary is a place where bees are kept.",
+        explanationBengali: "Apiary মানে মৌচাষ কেন্দ্র।"
+    },
+    {
+        id: "ows_708", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Something that cannot be heard:",
+        options: ["Audible", "Inaudible", "Invisible", "Invincible"],
+        correctIndex: 1,
+        explanation: "Inaudible means unable to be heard.",
+        explanationBengali: "Inaudible মানে অশ্রুত।"
+    },
+    {
+        id: "ows_709", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A person who loves books:",
+        options: ["Bibliophile", "Technophile", "Pedophile", "Philanthropist"],
+        correctIndex: 0,
+        explanation: "Bibliophile is a person who collects or has a great love of books.",
+        explanationBengali: "Bibliophile মানে গ্রন্থপ্রেমী।"
+    },
+    {
+        id: "ows_710", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "One who cannot read or write:",
+        options: ["Literate", "Illiterate", "Scholar", "Student"],
+        correctIndex: 1,
+        explanation: "Illiterate means unable to read or write.",
+        explanationBengali: "Illiterate মানে নিরক্ষর।"
+    },
+    {
+        id: "ows_711", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "One who hates women:",
+        options: ["Misogynist", "Misanthropist", "Feminist", "Philogynist"],
+        correctIndex: 0,
+        explanation: "Misogynist means a person who dislikes, despises, or is strongly prejudiced against women.",
+        explanationBengali: "Misogynist মানে নারীবিদ্বেষী।"
+    },
+    {
+        id: "ows_712", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A doctor who treats children:",
+        options: ["Pedestrian", "Pediatrician", "Pedagogue", "Paedophile"],
+        correctIndex: 1,
+        explanation: "Pediatrician is a medical practitioner specializing in children and their diseases.",
+        explanationBengali: "Pediatrician মানে শিশু রোগ বিশেষজ্ঞ।"
+    },
+    {
+        id: "ows_713", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A person who draws maps:",
+        options: ["Cartographer", "Photographer", "Choreographer", "Calligrapher"],
+        correctIndex: 0,
+        explanation: "Cartographer is a person who draws or produces maps.",
+        explanationBengali: "Cartographer মানে মানচিত্রকর।"
+    },
+    {
+        id: "ows_714", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Fear of water:",
+        options: ["Acrophobia", "Hydrophobia", "Pyrophobia", "Aerophobia"],
+        correctIndex: 1,
+        explanation: "Hydrophobia is extreme or irrational fear of water.",
+        explanationBengali: "Hydrophobia মানে জলাতঙ্ক।"
+    },
+    {
+        id: "ows_715", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "One who walks in sleep:",
+        options: ["Somnambulist", "Somniloquist", "Noctambulist", "Insomniac"],
+        correctIndex: 0,
+        explanation: "Somnambulist is a person who walks about in their sleep.",
+        explanationBengali: "Somnambulist মানে স্বপ্নচারী (যে ঘুমে হাঁটে)।"
+    },
+    {
+        id: "ows_716", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A period of ten years:",
+        options: ["Century", "Decade", "Millennium", "Fortnight"],
+        correctIndex: 1,
+        explanation: "Decade is a period of ten years.",
+        explanationBengali: "Decade মানে দশক।"
+    },
+    {
+        id: "ows_717", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Murder of a king:",
+        options: ["Regicide", "Patricide", "Matricide", "Genocide"],
+        correctIndex: 0,
+        explanation: "Regicide is the action of killing a king.",
+        explanationBengali: "Regicide মানে রাজহত্যা।"
+    },
+    {
+        id: "ows_718", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "One who believes in fate:",
+        options: ["Fatalist", "Optimist", "Pessimist", "Realist"],
+        correctIndex: 0,
+        explanation: "Fatalist is a person who believes that all events are predetermined and therefore inevitable.",
+        explanationBengali: "Fatalist মানে অদৃষ্টবাদী।"
+    },
+    {
+        id: "ows_719", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A sound that cannot be heard:",
+        options: ["Audible", "Inaudible", "Loud", "Silent"],
+        correctIndex: 1,
+        explanation: "Inaudible means unable to be heard.",
+        explanationBengali: "Inaudible মানে যা শোনা যায় না।"
+    },
+    {
+        id: "ows_720", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "One who collects coins:",
+        options: ["Numismatist", "Philatelist", "Archaeologist", "Curator"],
+        correctIndex: 0,
+        explanation: "Numismatist is a person who collects or studies currency, including coins.",
+        explanationBengali: "Numismatist মানে মুদ্রাসংগ্রাহক।"
+    },
+    {
+        id: "ows_721", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A cure for all diseases:",
+        options: ["Panacea", "Antidote", "Remedy", "Antibiotic"],
+        correctIndex: 0,
+        explanation: "Panacea is a solution or remedy for all difficulties or diseases.",
+explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ।"
+    },
+    {
+        id: "ows_722", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "One who speaks two languages:",
+        options: ["Bilingual", "Multilingual", "Linguist", "Polyglot"],
+        correctIndex: 0,
+        explanation: "Bilingual means speaking two languages fluently.",
+        explanationBengali: "Bilingual মানে দোভাষী।"
+    },
+    {
+        id: "ows_723", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Government by the rich:",
+        options: ["Plutocracy", "Democracy", "Aristocracy", "Monarchy"],
+        correctIndex: 0,
+        explanation: "Plutocracy is government by the wealthy.",
+        explanationBengali: "Plutocracy মানে ধনতন্ত্র।"
+    },
+    {
+        id: "ows_724", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "That which cannot be conquered:",
+        options: ["Invincible", "Invisible", "Inaudible", "Inaccessable"],
+        correctIndex: 0,
+        explanation: "Invincible means too powerful to be defeated or overcome.",
+        explanationBengali: "Invincible মানে অজেয়।"
+    },
+    {
+        id: "ows_725", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A group of lions:",
+        options: ["Pride", "Herd", "Flock", "Pack"],
+        correctIndex: 0,
+        explanation: "Pride is the collective noun for a group of lions.",
+        explanationBengali: "সিংহের দলকে 'Pride' বলা হয়।"
+    },
+    {
+        id: "ows_726", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "One who possesses many talents:",
+        options: ["Versatile", "Gifted", "Exceptional", "Unique"],
+        correctIndex: 0,
+        explanation: "Versatile means able to adapt or be adapted to many different functions or activities.",
+        explanationBengali: "Versatile মানে বহুমুখী প্রতিভাসম্পন্ন।"
+    },
+    {
+        id: "ows_727", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A speech made without preparation:",
+        options: ["Extempore", "Debate", "Lecture", "Sermon"],
+        correctIndex: 0,
+        explanation: "Extempore means spoken or done without preparation.",
+        explanationBengali: "Extempore মানে উপস্থিত বক্তৃতা।"
+    },
+    {
+        id: "ows_728", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "One who dies for a noble cause:",
+        options: ["Martyr", "Soldier", "Hero", "Patriot"],
+        correctIndex: 0,
+        explanation: "Martyr is a person who is killed because of their religious or other beliefs.",
+        explanationBengali: "Martyr মানে শহীদ।"
+    },
+    {
+        id: "ows_729", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Study of human development:",
+        options: ["Anthropology", "Psychology", "Sociology", "Biology"],
+        correctIndex: 0,
+        explanation: "Anthropology is the study of human societies and cultures and their development.",
+        explanationBengali: "Anthropology মানে নৃতত্ত্ব।"
+    },
+    {
+        id: "ows_730", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A handwriting that cannot be read:",
+        options: ["Illegible", "Ineligible", "Legible", "Vague"],
+        correctIndex: 0,
+        explanation: "Illegible means not clear enough to be read.",
+        explanationBengali: "Illegible মানে যা পড়া যায় না (অস্পষ্ট)।"
+    },
+// --- SET 38: OWS QUESTIONS (731-760) ---
+
+    {
+        id: "ows_731", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A person who is skilled in foreign languages:",
+        options: ["Linguist", "Polyglot", "Bilingual", "Interpreter"],
+        correctIndex: 0,
+        explanation: "Linguist is a person skilled in foreign languages.",
+        explanationBengali: "Linguist মানে ভাষাবিদ।"
+    },
+    {
+        id: "ows_732", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A place where dead bodies are kept for identification:",
+        options: ["Mortuary", "Morgue", "Cemetery", "Crematorium"],
+        correctIndex: 1,
+        explanation: "Morgue is a place where bodies are kept, especially to be identified or claimed.",
+        explanationBengali: "Morgue মানে লাশঘর (শনাক্তকরণের জন্য)।"
+    },
+    {
+        id: "ows_733", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Fear of heights:",
+        options: ["Acrophobia", "Hydrophobia", "Claustrophobia", "Pyrophobia"],
+        correctIndex: 0,
+        explanation: "Acrophobia is extreme or irrational fear of heights.",
+        explanationBengali: "Acrophobia মানে উচ্চতাভীতি।"
+    },
+    {
+        id: "ows_734", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A person who collects stamps:",
+        options: ["Philatelist", "Numismatist", "Archaeologist", "Curator"],
+        correctIndex: 0,
+        explanation: "Philatelist is a person who collects or studies stamps.",
+        explanationBengali: "Philatelist মানে ডাকটিকিট সংগ্রাহক।"
+    },
+    {
+        id: "ows_735", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "One who eats human flesh:",
+        options: ["Cannibal", "Carnivore", "Herbivore", "Omnivore"],
+        correctIndex: 0,
+        explanation: "Cannibal is a person who eats the flesh of other human beings.",
+        explanationBengali: "Cannibal মানে নরখাদক।"
+    },
+    {
+        id: "ows_736", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Government by a king or queen:",
+        options: ["Monarchy", "Democracy", "Republic", "Anarchy"],
+        correctIndex: 0,
+        explanation: "Monarchy is a form of government with a monarch at the head.",
+        explanationBengali: "Monarchy মানে রাজতন্ত্র।"
+    },
+    {
+        id: "ows_737", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A remedy for all ills:",
+        options: ["Panacea", "Antibiotic", "Vaccine", "Antidote"],
+        correctIndex: 0,
+        explanation: "Panacea is a solution or remedy for all difficulties or diseases.",
+        explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ।"
+    },
+    {
+        id: "ows_738", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A person who writes for newspapers:",
+        options: ["Journalist", "Author", "Editor", "Publisher"],
+        correctIndex: 0,
+        explanation: "Journalist is a person who writes for newspapers, magazines, or news websites.",
+        explanationBengali: "Journalist মানে সাংবাদিক।"
+    },
+    {
+        id: "ows_739", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "One who hates mankind:",
+        options: ["Misanthrope", "Philanthropist", "Misogynist", "Altruist"],
+        correctIndex: 0,
+        explanation: "Misanthrope is a person who dislikes humankind and avoids human society.",
+        explanationBengali: "Misanthrope মানে মানববিদ্বেষী।"
+    },
+    {
+        id: "ows_740", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A speech delivered without preparation:",
+        options: ["Extempore", "Debate", "Lecture", "Address"],
+        correctIndex: 0,
+        explanation: "Extempore means spoken or done without preparation.",
+        explanationBengali: "Extempore মানে উপস্থিত বক্তৃতা।"
+    },
+    {
+        id: "ows_741", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A book of maps:",
+        options: ["Atlas", "Dictionary", "Encyclopedia", "Almanac"],
+        correctIndex: 0,
+        explanation: "Atlas is a book of maps or charts.",
+        explanationBengali: "Atlas মানে মানচিত্রের বই।"
+    },
+    {
+        id: "ows_742", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "One who is present everywhere:",
+        options: ["Omnipresent", "Omnipotent", "Omniscient", "Universal"],
+        correctIndex: 0,
+        explanation: "Omnipresent means widely or constantly encountered; common or widespread.",
+        explanationBengali: "Omnipresent মানে সর্বব্যাপী।"
+    },
+    {
+        id: "ows_743", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A person who looks at the bright side of things:",
+        options: ["Optimist", "Pessimist", "Realist", "Idealist"],
+        correctIndex: 0,
+        explanation: "Optimist is a person who tends to be hopeful and confident about the future.",
+        explanationBengali: "Optimist মানে আশাবাদী।"
+    },
+    {
+        id: "ows_744", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A person who sells flowers:",
+        options: ["Florist", "Gardener", "Botanist", "Horticulturist"],
+        correctIndex: 0,
+        explanation: "Florist is a person who sells and arranges plants and cut flowers.",
+        explanationBengali: "Florist মানে ফুলবিক্রেতা।"
+    },
+    {
+        id: "ows_745", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Killing of a newborn child:",
+        options: ["Infanticide", "Homicide", "Suicide", "Patricide"],
+        correctIndex: 0,
+        explanation: "Infanticide is the crime of killing a child within a year of birth.",
+        explanationBengali: "Infanticide মানে শিশুহত্যা।"
+    },
+    {
+        id: "ows_746", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A sound that cannot be heard:",
+        options: ["Inaudible", "Audible", "Loud", "Silent"],
+        correctIndex: 0,
+        explanation: "Inaudible means unable to be heard.",
+        explanationBengali: "Inaudible মানে অশ্রুত।"
+    },
+    {
+        id: "ows_747", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A person who travels in space:",
+        options: ["Astronaut", "Pilot", "Scientist", "Astronomer"],
+        correctIndex: 0,
+        explanation: "Astronaut is a person who is trained to travel in a spacecraft.",
+        explanationBengali: "Astronaut মানে নভোচারী।"
+    },
+    {
+        id: "ows_748", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "One who is all powerful:",
+        options: ["Omnipotent", "Omniscient", "Omnipresent", "Almighty"],
+        correctIndex: 0,
+        explanation: "Omnipotent means having unlimited power; able to do anything.",
+        explanationBengali: "Omnipotent মানে সর্বশক্তিমান।"
+    },
+    {
+        id: "ows_749", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A decision upon which one cannot go back:",
+        options: ["Irrevocable", "Rigid", "Final", "Decisive"],
+        correctIndex: 0,
+        explanation: "Irrevocable means not able to be changed, reversed, or recovered; final.",
+        explanationBengali: "Irrevocable মানে যা পরিবর্তন করা যায় না।"
+    },
+    {
+        id: "ows_750", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A period of one hundred years:",
+        options: ["Century", "Decade", "Millennium", "Era"],
+        correctIndex: 0,
+        explanation: "Century is a period of one hundred years.",
+        explanationBengali: "Century মানে শতাব্দী।"
+    },
+    {
+        id: "ows_751", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "One who studies the stars:",
+        options: ["Astronomer", "Astrologer", "Astronaut", "Geologist"],
+        correctIndex: 0,
+        explanation: "Astronomer is an expert in or student of astronomy.",
+        explanationBengali: "Astronomer মানে জ্যোতির্বিজ্ঞানী।"
+    },
+    {
+        id: "ows_752", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A person who looks at the dark side of things:",
+        options: ["Pessimist", "Optimist", "Realist", "Cynic"],
+        correctIndex: 0,
+        explanation: "Pessimist is a person who tends to see the worst aspect of things or believe that the worst will happen.",
+        explanationBengali: "Pessimist মানে নৈরাশ্যবাদী।"
+    },
+    {
+        id: "ows_753", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A vehicle for carrying dead bodies:",
+        options: ["Hearse", "Ambulance", "Truck", "Van"],
+        correctIndex: 0,
+        explanation: "Hearse is a vehicle for conveying the coffin at a funeral.",
+        explanationBengali: "Hearse মানে শববাহী গাড়ি।"
+    },
+    {
+        id: "ows_754", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Fear of fire:",
+        options: ["Pyrophobia", "Hydrophobia", "Acrophobia", "Claustrophobia"],
+        correctIndex: 0,
+        explanation: "Pyrophobia is the fear of fire.",
+        explanationBengali: "Pyrophobia মানে অগ্নিভীতি।"
+    },
+    {
+        id: "ows_755", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "One who collects postage stamps:",
+        options: ["Philatelist", "Numismatist", "Archaeologist", "Collector"],
+        correctIndex: 0,
+        explanation: "Philatelist is a person who collects or studies stamps.",
+        explanationBengali: "Philatelist মানে ডাকটিকিট সংগ্রাহক।"
+    },
+    {
+        id: "ows_756", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A person who cannot hear:",
+        options: ["Deaf", "Blind", "Dumb", "Lame"],
+        correctIndex: 0,
+        explanation: "Deaf means lacking the power of hearing or having impaired hearing.",
+        explanationBengali: "Deaf মানে বধির।"
+    },
+    {
+        id: "ows_757", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Government by the few:",
+        options: ["Oligarchy", "Monarchy", "Democracy", "Autocracy"],
+        correctIndex: 0,
+        explanation: "Oligarchy is a small group of people having control of a country, organization, or institution.",
+        explanationBengali: "Oligarchy মানে ধনিকতন্ত্র বা অল্প লোকের শাসন।"
+    },
+    {
+        id: "ows_758", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A person who makes maps:",
+        options: ["Cartographer", "Geographer", "Photographer", "Artist"],
+        correctIndex: 0,
+        explanation: "Cartographer is a person who draws or produces maps.",
+        explanationBengali: "Cartographer মানে মানচিত্রকর।"
+    },
+    {
+        id: "ows_759", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A story of a person's life written by another:",
+        options: ["Biography", "Autobiography", "History", "Memoir"],
+        correctIndex: 0,
+        explanation: "Biography is an account of someone's life written by someone else.",
+        explanationBengali: "Biography মানে জীবনী।"
+    },
+    {
+        id: "ows_760", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "One who eats human flesh:",
+        options: ["Cannibal", "Carnivore", "Predator", "Savage"],
+        correctIndex: 0,
+        explanation: "Cannibal is a person who eats the flesh of other human beings.",
+        explanationBengali: "Cannibal মানে নরখাদক।"
+    },
+// --- SET 39: OWS QUESTIONS (761-800) ---
+
+    {
+        id: "ows_761", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A person who is unable to pay his debts:",
+        options: ["Insolvent", "Solvent", "Lender", "Banker"],
+        correctIndex: 0,
+        explanation: "Insolvent is a person unable to pay debts owed.",
+        explanationBengali: "Insolvent মানে দেউলিয়া।"
+    },
+    {
+        id: "ows_762", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A life history written by oneself:",
+        options: ["Autobiography", "Biography", "Memoir", "History"],
+        correctIndex: 0,
+        explanation: "Autobiography is an account of a person's life written by that person.",
+        explanationBengali: "Autobiography মানে আত্মজীবনী।"
+    },
+    {
+        id: "ows_763", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "A person who hates women:",
+        options: ["Misogynist", "Misanthrope", "Philogynist", "Feminist"],
+        correctIndex: 0,
+        explanation: "Misogynist is a person who dislikes, despises, or is strongly prejudiced against women.",
+        explanationBengali: "Misogynist মানে নারীবিদ্বেষী।"
+    },
+    {
+        id: "ows_764", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A remedy for all diseases:",
+        options: ["Panacea", "Antibiotic", "Antidote", "Vaccine"],
+        correctIndex: 0,
+        explanation: "Panacea is a solution or remedy for all difficulties or diseases.",
+        explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ।"
+    },
+    {
+        id: "ows_765", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "One who loves books:",
+        options: ["Bibliophile", "Technophile", "Pedophile", "Philanthropist"],
+        correctIndex: 0,
+        explanation: "Bibliophile is a person who collects or has a great love of books.",
+        explanationBengali: "Bibliophile মানে গ্রন্থপ্রেমী।"
+    },
+    {
+        id: "ows_766", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Fear of confined places:",
+        options: ["Claustrophobia", "Agoraphobia", "Acrophobia", "Hydrophobia"],
+        correctIndex: 0,
+        explanation: "Claustrophobia is extreme or irrational fear of confined places.",
+        explanationBengali: "Claustrophobia মানে বদ্ধ স্থানের ভয়।"
+    },
+    {
+        id: "ows_767", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A person who looks at the bright side of things:",
+        options: ["Optimist", "Pessimist", "Realist", "Idealist"],
+        correctIndex: 0,
+        explanation: "Optimist is a person who tends to be hopeful and confident about the future.",
+        explanationBengali: "Optimist মানে আশাবাদী।"
+    },
+    {
+        id: "ows_768", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A period of ten years:",
+        options: ["Decade", "Century", "Millennium", "Fortnight"],
+        correctIndex: 0,
+        explanation: "Decade is a period of ten years.",
+        explanationBengali: "Decade মানে দশক।"
+    },
+    {
+        id: "ows_769", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "One who knows everything:",
+        options: ["Omniscient", "Omnipotent", "Omnipresent", "Intellectual"],
+        correctIndex: 0,
+        explanation: "Omniscient means knowing everything.",
+        explanationBengali: "Omniscient মানে সর্বজ্ঞ।"
+    },
+    {
+        id: "ows_770", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A person who does not believe in God:",
+        options: ["Atheist", "Theist", "Pagan", "Agnostic"],
+        correctIndex: 0,
+        explanation: "Atheist is a person who disbelieves or lacks belief in the existence of God.",
+        explanationBengali: "Atheist মানে নাস্তিক।"
+    },
+    {
+        id: "ows_771", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "One who eats vegetables only:",
+        options: ["Vegetarian", "Non-vegetarian", "Carnivore", "Herbivore"],
+        correctIndex: 0,
+        explanation: "Vegetarian is a person who does not eat meat.",
+        explanationBengali: "Vegetarian মানে নিরামিষাশী।"
+    },
+    {
+        id: "ows_772", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Government by the people:",
+        options: ["Democracy", "Monarchy", "Autocracy", "Plutocracy"],
+        correctIndex: 0,
+        explanation: "Democracy is a system of government by the whole population or all the eligible members of a state.",
+        explanationBengali: "Democracy মানে গণতন্ত্র।"
+    },
+    {
+        id: "ows_773", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A place where birds are kept:",
+        options: ["Aviary", "Apiary", "Zoo", "Aquarium"],
+        correctIndex: 0,
+        explanation: "Aviary is a large cage, building, or enclosure for keeping birds in.",
+        explanationBengali: "Aviary মানে পক্ষিশালা।"
+    },
+    {
+        id: "ows_774", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A sound that cannot be heard:",
+        options: ["Inaudible", "Audible", "Loud", "Silent"],
+        correctIndex: 0,
+        explanation: "Inaudible means unable to be heard.",
+        explanationBengali: "Inaudible মানে অশ্রুত।"
+    },
+    {
+        id: "ows_775", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "One who studies the stars:",
+        options: ["Astronomer", "Astrologer", "Astronaut", "Geologist"],
+        correctIndex: 0,
+        explanation: "Astronomer is an expert in or student of astronomy.",
+        explanationBengali: "Astronomer মানে জ্যোতির্বিজ্ঞানী।"
+    },
+    {
+        id: "ows_776", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A handwriting that cannot be read:",
+        options: ["Illegible", "Legible", "Ineligible", "Vague"],
+        correctIndex: 0,
+        explanation: "Illegible means not clear enough to be read.",
+        explanationBengali: "Illegible মানে অস্পষ্ট (যা পড়া যায় না)।"
+    },
+    {
+        id: "ows_777", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "One who speaks two languages:",
+        options: ["Bilingual", "Multilingual", "Linguist", "Polyglot"],
+        correctIndex: 0,
+        explanation: "Bilingual means speaking two languages fluently.",
+        explanationBengali: "Bilingual মানে দোভাষী।"
+    },
+    {
+        id: "ows_778", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Killing of one's own self:",
+        options: ["Suicide", "Homicide", "Patricide", "Regicide"],
+        correctIndex: 0,
+        explanation: "Suicide is the act of killing oneself intentionally.",
+        explanationBengali: "Suicide মানে আত্মহত্যা।"
+    },
+    {
+        id: "ows_779", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A person who draws maps:",
+        options: ["Cartographer", "Photographer", "Geographer", "Artist"],
+        correctIndex: 0,
+        explanation: "Cartographer is a person who draws or produces maps.",
+        explanationBengali: "Cartographer মানে মানচিত্রকর।"
+    },
+    {
+        id: "ows_780", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A place where money is coined:",
+        options: ["Mint", "Bank", "Press", "Treasury"],
+        correctIndex: 0,
+        explanation: "Mint is a place where money is coined, especially under state authority.",
+        explanationBengali: "Mint মানে টাকশাল।"
+    },
+    {
+        id: "ows_781", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "One who possesses many talents:",
+        options: ["Versatile", "Gifted", "Genius", "Expert"],
+        correctIndex: 0,
+        explanation: "Versatile means able to adapt or be adapted to many different functions or activities.",
+        explanationBengali: "Versatile মানে বহুমুখী প্রতিভাসম্পন্ন।"
+    },
+    {
+        id: "ows_782", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A speech made without preparation:",
+        options: ["Extempore", "Debate", "Lecture", "Sermon"],
+        correctIndex: 0,
+        explanation: "Extempore means spoken or done without preparation.",
+        explanationBengali: "Extempore মানে উপস্থিত বক্তৃতা।"
+    },
+    {
+        id: "ows_783", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "One who travels on foot:",
+        options: ["Pedestrian", "Traveller", "Walker", "Passenger"],
+        correctIndex: 0,
+        explanation: "Pedestrian is a person walking along a road or in a developed area.",
+        explanationBengali: "Pedestrian মানে পথচারী।"
+    },
+    {
+        id: "ows_784", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "The scientific study of plants:",
+        options: ["Botany", "Zoology", "Biology", "Ecology"],
+        correctIndex: 0,
+        explanation: "Botany is the scientific study of plants.",
+        explanationBengali: "Botany মানে উদ্ভিদবিদ্যা।"
+    },
+    {
+        id: "ows_785", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A person who is indifferent to pleasure or pain:",
+        options: ["Stoic", "Ascetic", "Hermit", "Saint"],
+        correctIndex: 0,
+        explanation: "Stoic is a person who can endure pain or hardship without showing their feelings or complaining.",
+        explanationBengali: "Stoic মানে নির্বিকার।"
+    },
+    {
+        id: "ows_786", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A child whose parents are dead:",
+        options: ["Orphan", "Adopted", "Foster", "Step-child"],
+        correctIndex: 0,
+        explanation: "Orphan is a child whose parents are dead.",
+        explanationBengali: "Orphan মানে এতিম।"
+    },
+    {
+        id: "ows_787", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Government by the wealthy:",
+        options: ["Plutocracy", "Aristocracy", "Bureaucracy", "Autocracy"],
+        correctIndex: 0,
+        explanation: "Plutocracy is government by the wealthy.",
+        explanationBengali: "Plutocracy মানে ধনতন্ত্র।"
+    },
+    {
+        id: "ows_788", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "That which cannot be conquered:",
+        options: ["Invincible", "Invisible", "Inaudible", "Inaccessible"],
+        correctIndex: 0,
+        explanation: "Invincible means too powerful to be defeated or overcome.",
+        explanationBengali: "Invincible মানে অজেয়।"
+    },
+    {
+        id: "ows_789", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "One who believes in fate:",
+        options: ["Fatalist", "Optimist", "Pessimist", "Realist"],
+        correctIndex: 0,
+        explanation: "Fatalist is a person who believes that all events are predetermined and therefore inevitable.",
+        explanationBengali: "Fatalist মানে অদৃষ্টবাদী।"
+    },
+    {
+        id: "ows_790", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Murder of a king:",
+        options: ["Regicide", "Homicide", "Patricide", "Fratricide"],
+        correctIndex: 0,
+        explanation: "Regicide is the action of killing a king.",
+        explanationBengali: "Regicide মানে রাজহত্যা।"
+    },
+    {
+        id: "ows_791", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A person who sells flowers:",
+        options: ["Florist", "Gardener", "Botanist", "Horticulturist"],
+        correctIndex: 0,
+        explanation: "Florist is a person who sells and arranges plants and cut flowers.",
+        explanationBengali: "Florist মানে ফুলবিক্রেতা।"
+    },
+    {
+        id: "ows_792", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "One who cannot die:",
+        options: ["Immortal", "Mortal", "Eternal", "Perpetual"],
+        correctIndex: 0,
+        explanation: "Immortal means living forever; never dying or decaying.",
+        explanationBengali: "Immortal মানে অমর।"
+    },
+    {
+        id: "ows_793", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Fear of water:",
+        options: ["Hydrophobia", "Acrophobia", "Claustrophobia", "Pyrophobia"],
+        correctIndex: 0,
+        explanation: "Hydrophobia is extreme or irrational fear of water.",
+        explanationBengali: "Hydrophobia মানে জলাতঙ্ক।"
+    },
+    {
+        id: "ows_794", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A person who collects stamps:",
+        options: ["Philatelist", "Numismatist", "Archaeologist", "Curator"],
+        correctIndex: 0,
+        explanation: "Philatelist is a person who collects or studies stamps.",
+        explanationBengali: "Philatelist মানে ডাকটিকিট সংগ্রাহক।"
+    },
+    {
+        id: "ows_795", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A period of one hundred years:",
+        options: ["Century", "Decade", "Millennium", "Era"],
+        correctIndex: 0,
+        explanation: "Century is a period of one hundred years.",
+        explanationBengali: "Century মানে শতাব্দী।"
+    },
+    {
+        id: "ows_796", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "One who eats human flesh:",
+        options: ["Cannibal", "Carnivore", "Predator", "Savage"],
+        correctIndex: 0,
+        explanation: "Cannibal is a person who eats the flesh of other human beings.",
+        explanationBengali: "Cannibal মানে নরখাদক।"
+    },
+    {
+        id: "ows_797", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A place where dead bodies are kept for identification:",
+        options: ["Morgue", "Mortuary", "Cemetery", "Crematorium"],
+        correctIndex: 0,
+        explanation: "Morgue is a place where bodies are kept, especially to be identified or claimed.",
+        explanationBengali: "Morgue মানে লাশঘর।"
+    },
+    {
+        id: "ows_798", chapter: "OWS", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A person who cannot hear:",
+        options: ["Deaf", "Blind", "Dumb", "Lame"],
+        correctIndex: 0,
+        explanation: "Deaf means lacking the power of hearing or having impaired hearing.",
+        explanationBengali: "Deaf মানে বধির।"
+    },
+    {
+        id: "ows_799", chapter: "OWS", type: "vocab", difficulty: "hard", topic: "General",
+        question: "One who hates mankind:",
+        options: ["Misanthrope", "Philanthropist", "Misogynist", "Altruist"],
+        correctIndex: 0,
+        explanation: "Misanthrope is a person who dislikes humankind and avoids human society.",
+        explanationBengali: "Misanthrope মানে মানববিদ্বেষী।"
+    },
+    {
+        id: "ows_800", chapter: "OWS", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A speech delivered without preparation:",
+        options: ["Extempore", "Debate", "Lecture", "Address"],
+        correctIndex: 0,
+        explanation: "Extempore means spoken or done without preparation.",
+        explanationBengali: "Extempore মানে উপস্থিত বক্তৃতা।"
     }
 ];
 
