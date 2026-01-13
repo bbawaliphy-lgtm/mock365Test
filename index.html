@@ -327,92 +327,100 @@ async function startTest(topic = "Mixed Bag") {
         }
 
         async function submitTest() {
-    clearInterval(state.timerInterval);
+            clearInterval(state.timerInterval);
 
-    // --- PROGRESS UPDATE ---
-    try {
-        const todayStr = new Date().toISOString().split('T')[0];
-        let currentCount = 0;
+            // --- 1. CALCULATE SCORE & TOPIC STATS ---
+            let score = 0;
+            let attempted = 0;
+            const topicStats = {}; // { "Nouns": { total: 2, correct: 1 } }
 
-        // Reset count if it's a new day
-        if (state.user.lastActiveDate === todayStr) {
-            currentCount = state.user.questionsToday || 0;
+            const details = state.questions.map(q => {
+                const userAnswer = state.currentTest.answers[q.id];
+                const isCorrect = userAnswer === q.correctIndex;
+                const topicName = q.topic || "General"; // Use specific topic (e.g., "Nouns") not just Chapter
+
+                // Init stats if new
+                if (!topicStats[topicName]) topicStats[topicName] = { total: 0, correct: 0 };
+                
+                if (userAnswer !== undefined) {
+                    attempted++;
+                    topicStats[topicName].total++; // Count attempt
+                    if (isCorrect) {
+                        score++;
+                        topicStats[topicName].correct++;
+                    }
+                }
+                return { ...q, userAnswer, isCorrect };
+            });
+
+            // --- 2. SAVE PROGRESS & STATS TO DB ---
+            try {
+                const todayStr = new Date().toISOString().split('T')[0];
+                const userRef = doc(db, 'artifacts', appId, 'public', 'data', 'app_users', state.user.username);
+                
+                // Get current user stats first to merge
+                // Note: In a real app, you might fetch this first or use a deep merge. 
+                // Here we assume state.user has the latest or we just update what we have.
+                // Better approach: Use Firestore transaction or merge.
+                // For simplicity: We will fetch the latest stats map, update it, and save back.
+                
+                const userSnap = await getDoc(userRef);
+                const userData = userSnap.data();
+                
+                let currentStats = userData.topicPerformance || {};
+                let currentCount = (userData.lastActiveDate === todayStr) ? (userData.questionsToday || 0) : 0;
+
+                // Merge new stats
+                for (const [t, data] of Object.entries(topicStats)) {
+                    if (!currentStats[t]) currentStats[t] = { total: 0, correct: 0 };
+                    currentStats[t].total += data.total;
+                    currentStats[t].correct += data.correct;
+                }
+
+                // Update DB
+                await updateDoc(userRef, {
+                    questionsToday: currentCount + attempted, // Only count attempted ones for daily goal? Or total questions in test? Usually total in test.
+                    // Let's stick to total questions in test as per previous logic
+                    questionsToday: currentCount + state.questions.length, 
+                    lastActiveDate: todayStr,
+                    topicPerformance: currentStats
+                });
+
+                // Update Local State for UI
+                state.user.topicPerformance = currentStats;
+                state.user.questionsToday = currentCount + state.questions.length;
+                state.user.lastActiveDate = todayStr;
+
+            } catch (e) { console.error("Save failed", e); }
+
+            // --- 3. RENDER ANALYSIS UI ---
+            document.getElementById('score-display').innerText = `${score} / ${state.questions.length}`;
+            document.getElementById('accuracy-display').innerText = attempted > 0 ? `${Math.round((score/attempted)*100)}%` : '0%';
+            
+            document.getElementById('analysis-list').innerHTML = details.map((d, i) => `
+                <div class="bg-white p-4 rounded-xl shadow-sm border-l-4 ${d.isCorrect ? 'border-green-500' : 'border-red-500'} mb-4">
+                     <div class="flex justify-between mb-2">
+                         <span class="text-xs font-bold text-gray-400 uppercase">${d.chapter} • ${d.topic}</span>
+                         <span class="text-xs px-2 py-0.5 rounded bg-gray-100">${d.difficulty}</span>
+                     </div>
+                     <p class="font-bold text-gray-800 text-lg mb-3">Q${i+1}: ${d.question}</p>
+                     <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
+                         <div class="p-2 rounded ${d.isCorrect ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'} font-bold text-sm">
+                             Your Answer: ${d.userAnswer !== undefined ? d.options[d.userAnswer] : 'Skipped'}
+                         </div>
+                         <div class="p-2 rounded bg-gray-50 text-gray-700 font-bold text-sm">
+                             Correct: ${d.options[d.correctIndex]}
+                         </div>
+                     </div>
+                     <div class="bg-blue-50 p-3 rounded text-sm text-gray-700">
+                         <p class="mb-1"><strong>🇬🇧 English:</strong> ${d.explanation}</p>
+                         <p><strong>🇧🇩 Bengali:</strong> <span class="font-bengali">${d.explanationBengali}</span></p>
+                     </div>
+                </div>
+            `).join('');
+
+            navigate('analysis');
         }
-
-        // Add ACTUAL number of questions in this test (usually 25, but flexible)
-        const newCount = currentCount + state.questions.length;
-
-        // Update State
-        state.user.questionsToday = newCount;
-        state.user.lastActiveDate = todayStr;
-
-        // Sync DB
-        updateDoc(doc(db, 'artifacts', appId, 'public', 'data', 'app_users', state.user.username), {
-            questionsToday: newCount,
-            lastActiveDate: todayStr
-        });
-    } catch (e) { console.error("Progress save failed", e); }
-
-    // --- SCORE CALCULATION ---
-    let score = 0;
-    let attempted = 0;
-    const topicPerformance = {};
-
-    const details = state.questions.map(q => {
-        const userAnswer = state.currentTest.answers[q.id];
-        const isCorrect = userAnswer === q.correctIndex;
-
-        // Tracking for Weak Topics (using q.chapter or q.topic)
-        const topicKey = q.chapter || q.topic || "General";
-        if (!topicPerformance[topicKey]) topicPerformance[topicKey] = { total: 0, correct: 0 };
-        topicPerformance[topicKey].total++;
-
-        if (userAnswer !== undefined) {
-            attempted++;
-            if (isCorrect) {
-                score++;
-                topicPerformance[topicKey].correct++;
-            }
-        }
-        return { ...q, userAnswer, isCorrect };
-    });
-
-    // Update Weak Topics List
-    const newWeakTopics = [];
-    for (const [t, stats] of Object.entries(topicPerformance)) {
-        if ((stats.correct / stats.total) < 0.5) newWeakTopics.push(t);
-    }
-    state.userStats.weakTopics = newWeakTopics;
-
-    // Render Analysis
-    document.getElementById('score-display').innerText = `${score} / ${state.questions.length}`;
-    document.getElementById('accuracy-display').innerText = attempted > 0 ? `${Math.round((score/attempted)*100)}%` : '0%';
-    
-    // Render List
-    document.getElementById('analysis-list').innerHTML = details.map((d, i) => `
-        <div class="bg-white p-4 rounded-xl shadow-sm border-l-4 ${d.isCorrect ? 'border-green-500' : 'border-red-500'} mb-4">
-             <div class="flex justify-between mb-2">
-                 <span class="text-xs font-bold text-gray-400 uppercase">${d.chapter || d.topic}</span>
-                 <span class="text-xs px-2 py-0.5 rounded bg-gray-100">${d.difficulty}</span>
-             </div>
-             <p class="font-bold text-gray-800 text-lg mb-3">Q${i+1}: ${d.question}</p>
-             <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
-                 <div class="p-2 rounded ${d.isCorrect ? 'bg-green-50 text-green-700' : 'bg-red-50 text-red-700'} font-bold text-sm">
-                     Your Answer: ${d.userAnswer !== undefined ? d.options[d.userAnswer] : 'Skipped'}
-                 </div>
-                 <div class="p-2 rounded bg-gray-50 text-gray-700 font-bold text-sm">
-                     Correct: ${d.options[d.correctIndex]}
-                 </div>
-             </div>
-             <div class="bg-blue-50 p-3 rounded text-sm text-gray-700">
-                 <p class="mb-1"><strong>🇬🇧 English:</strong> ${d.explanation}</p>
-                 <p><strong>🇧🇩 Bengali:</strong> <span class="font-bengali">${d.explanationBengali}</span></p>
-             </div>
-        </div>
-    `).join('');
-
-    navigate('analysis');
-}
 
         // --- ADMIN FUNCTIONS ---
         
@@ -600,44 +608,74 @@ window.changePassword = async (uid) => {
         
         // --- CORRECTED DASHBOARD LOADER (Merged) ---
 async function loadDashboard() {
-    // 1. Name & Validity
-    document.getElementById('student-name').innerText = state.user.name;
-    const diff = Math.ceil((new Date(state.user.validUntil) - new Date()) / (1000 * 3600 * 24));
-    const daysEl = document.getElementById('days-left');
-    daysEl.innerText = `${diff} Days Left`;
-    daysEl.className = diff <= 5 ? "ml-1 font-bold text-red-300" : "ml-1 font-bold text-green-300";
+            if (state.user) {
+                // 1. Name & Validity
+                document.getElementById('student-name').innerText = state.user.name;
+                const diff = Math.ceil((new Date(state.user.validUntil) - new Date()) / (1000 * 3600 * 24));
+                const daysEl = document.getElementById('days-left');
+                if(daysEl) {
+                    daysEl.innerText = `${diff} Days Left`;
+                    daysEl.className = diff <= 5 ? "ml-1 font-bold text-red-300" : "ml-1 font-bold text-green-300";
+                }
 
-    // 2. Daily Goal Logic
-    const todayStr = new Date().toISOString().split('T')[0];
-    let todayCount = 0;
+                // 2. Daily Goal Logic
+                const todayStr = new Date().toISOString().split('T')[0];
+                let todayCount = 0;
+                if (state.user.lastActiveDate === todayStr) {
+                    todayCount = state.user.questionsToday || 0;
+                }
+                const progressText = document.getElementById('daily-progress-text');
+                if(progressText) progressText.innerText = todayCount;
+                const progressBar = document.getElementById('daily-progress-bar');
+                if(progressBar) {
+                    const pct = Math.min((todayCount / 50) * 100, 100);
+                    progressBar.style.width = `${pct}%`;
+                }
 
-    if (state.user.lastActiveDate === todayStr) {
-        todayCount = state.user.questionsToday || 0;
-    } else {
-        // Reset if it's a new day (visual only, DB update happens on submit)
-        todayCount = 0;
-    }
+                // 3. WEAKNESS ANALYSIS (Top 10 Weakest Topics)
+                const stats = state.user.topicPerformance || {};
+                // Convert object to array: [{topic: "Nouns", accuracy: 45}, ...]
+                const topicList = Object.keys(stats).map(topic => {
+                    const data = stats[topic];
+                    const acc = data.total > 0 ? (data.correct / data.total) * 100 : 0;
+                    return { topic, accuracy: acc, total: data.total };
+                });
 
-    // Update Text
-    document.getElementById('daily-progress-text').innerText = todayCount;
-    
-    // Update Bar Width (Max 100%)
-    const pct = Math.min((todayCount / 50) * 100, 100);
-    document.getElementById('daily-progress-bar').style.width = `${pct}%`;
+                // Filter topics with at least 3 attempts to be significant
+                // Sort by accuracy ascending (lowest first)
+                const weakList = topicList
+                    .filter(t => t.total >= 1) // Show even with 1 attempt for now to populate list
+                    .sort((a, b) => a.accuracy - b.accuracy)
+                    .slice(0, 10);
 
-    // 3. Render Chapter Grid
-    const grid = document.getElementById('chapter-grid');
-    if (grid) {
-        grid.innerHTML = SUBJECT_CHAPTERS.map(ch => `
-            <button onclick="startTest('${ch.name}')" class="${ch.bg} p-3 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition flex flex-col items-center justify-center text-center h-24 relative overflow-hidden group">
-                <div class="w-8 h-8 rounded-full bg-white/80 flex items-center justify-center mb-2 shadow-sm group-hover:scale-110 transition">
-                    <i class="fas ${ch.icon} ${ch.color} text-sm"></i>
-                </div>
-                <span class="text-[11px] font-bold ${ch.id === 'mixed' ? 'text-white' : 'text-gray-700'} leading-tight px-1">${ch.name}</span>
-            </button>
-        `).join('');
-    }
-}
+                const weaknessContainer = document.getElementById('weakness-list');
+                if (weaknessContainer) {
+                    if (weakList.length === 0) {
+                        weaknessContainer.innerHTML = '<p class="text-xs text-gray-400 text-center py-4">Practice more questions to see your weak areas.</p>';
+                    } else {
+                        weaknessContainer.innerHTML = weakList.map(w => `
+                            <div class="flex justify-between items-center bg-red-50 p-2 rounded border border-red-100">
+                                <span class="text-xs font-bold text-gray-700">${w.topic}</span>
+                                <span class="text-xs font-bold text-red-600">${Math.round(w.accuracy)}%</span>
+                            </div>
+                        `).join('');
+                    }
+                }
+            }
+
+            // 4. Render Chapter Grid
+            const grid = document.getElementById('chapter-grid');
+            if (grid && typeof SUBJECT_CHAPTERS !== 'undefined') {
+                grid.innerHTML = SUBJECT_CHAPTERS.map(ch => `
+                    <button onclick="startTest('${ch.name}')" class="${ch.bg} p-3 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition flex flex-col items-center justify-center text-center h-24 relative overflow-hidden group">
+                        <div class="w-8 h-8 rounded-full bg-white/80 flex items-center justify-center mb-2 shadow-sm group-hover:scale-110 transition">
+                            <i class="fas ${ch.icon} ${ch.color} text-sm"></i>
+                        </div>
+                        <span class="text-[11px] font-bold ${ch.id === 'mixed' ? 'text-white' : 'text-gray-700'} leading-tight px-1">${ch.name}</span>
+                    </button>
+                `).join('');
+            }
+        }
     </script>
 
     <style>
@@ -749,7 +787,16 @@ async function loadDashboard() {
                     <p class="text-[10px] text-gray-400 text-right">Questions Practiced Today</p>
                 </div>
             </div>
-
+<!-- WEAK AREAS CARD -->
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-6 p-4">
+                <h3 class="font-bold text-gray-800 text-sm mb-3 flex items-center">
+                    <i class="fas fa-exclamation-triangle text-orange-500 mr-2"></i> Weakest Areas
+                </h3>
+                <div id="weakness-list" class="space-y-2">
+                    <!-- JS will inject list here -->
+                    <p class="text-xs text-gray-400 text-center py-2">Loading analysis...</p>
+                </div>
+            </div>
             <!-- NEW: Chapter Grid -->
             <div class="mt-2">
                 <div class="flex justify-between items-end mb-3 px-1">
