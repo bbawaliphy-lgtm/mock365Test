@@ -8806,7 +8806,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
     },
     // --- Passage 1: Education ---
     {
-        id: "cloze_1101", chapter: "Cloze Test", type: "grammar", difficulty: "moderate", topic: "Education",
+        id: "cloze_1101", chapter: "Cloze Tests", type: "grammar", difficulty: "moderate", topic: "Education",
         question: "Passage: Education is the most powerful weapon which you can use to (1) ______ the world. It involves the (2) ______ of knowledge, skills, values, beliefs, and habits. Educational methods include storytelling, discussion, teaching, training, and directed research. Education frequently takes (3) ______ under the guidance of educators, however learners can also educate themselves. Education can take place in formal or informal (4) ______ and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called (5) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 1.",
         options: ["destroy", "change", "ignore", "hide"],
         correctIndex: 1,
@@ -8814,7 +8814,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "নেলসন ম্যান্ডেলার বিখ্যাত উক্তি অনুযায়ী, শিক্ষা হলো পৃথিবীকে 'change' (পরিবর্তন) করার সবচেয়ে শক্তিশালী হাতিয়ার।"
     },
     {
-        id: "cloze_1102", chapter: "Cloze Test", type: "grammar", difficulty: "hard", topic: "Education",
+        id: "cloze_1102", chapter: "Cloze Tests", type: "grammar", difficulty: "hard", topic: "Education",
         question: "Passage: Education is the most powerful weapon which you can use to (1) ______ the world. It involves the (2) ______ of knowledge, skills, values, beliefs, and habits. Educational methods include storytelling, discussion, teaching, training, and directed research. Education frequently takes (3) ______ under the guidance of educators, however learners can also educate themselves. Education can take place in formal or informal (4) ______ and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called (5) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 2.",
         options: ["loss", "acquisition", "disposal", "rejection"],
         correctIndex: 1,
@@ -8822,7 +8822,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "শিক্ষা বলতে জ্ঞান 'acquisition' (অর্জন) বোঝায়।"
     },
     {
-        id: "cloze_1103", chapter: "Cloze Test", type: "grammar", difficulty: "easy", topic: "Education",
+        id: "cloze_1103", chapter: "Cloze Tests", type: "grammar", difficulty: "easy", topic: "Education",
         question: "Passage: Education is the most powerful weapon which you can use to (1) ______ the world. It involves the (2) ______ of knowledge, skills, values, beliefs, and habits. Educational methods include storytelling, discussion, teaching, training, and directed research. Education frequently takes (3) ______ under the guidance of educators, however learners can also educate themselves. Education can take place in formal or informal (4) ______ and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called (5) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 3.",
         options: ["part", "place", "time", "shape"],
         correctIndex: 1,
@@ -8830,7 +8830,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "'Takes place' একটি phrase যার অর্থ ঘটা বা অনুষ্ঠিত হওয়া।"
     },
     {
-        id: "cloze_1104", chapter: "Cloze Test", type: "grammar", difficulty: "moderate", topic: "Education",
+        id: "cloze_1104", chapter: "Cloze Tests", type: "grammar", difficulty: "moderate", topic: "Education",
         question: "Passage: Education is the most powerful weapon which you can use to (1) ______ the world. It involves the (2) ______ of knowledge, skills, values, beliefs, and habits. Educational methods include storytelling, discussion, teaching, training, and directed research. Education frequently takes (3) ______ under the guidance of educators, however learners can also educate themselves. Education can take place in formal or informal (4) ______ and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called (5) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 4.",
         options: ["clothes", "meetings", "settings", "books"],
         correctIndex: 2,
@@ -8838,7 +8838,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "'Settings' বলতে পরিবেশ বা স্থান বোঝায় (আনুষ্ঠানিক বা অনানুষ্ঠানিক)।"
     },
     {
-        id: "cloze_1105", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Education",
+        id: "cloze_1105", chapter: "Cloze Tests", type: "vocab", difficulty: "hard", topic: "Education",
         question: "Passage: Education is the most powerful weapon which you can use to (1) ______ the world. It involves the (2) ______ of knowledge, skills, values, beliefs, and habits. Educational methods include storytelling, discussion, teaching, training, and directed research. Education frequently takes (3) ______ under the guidance of educators, however learners can also educate themselves. Education can take place in formal or informal (4) ______ and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called (5) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 5.",
         options: ["biology", "geology", "pedagogy", "theology"],
         correctIndex: 2,
@@ -8848,7 +8848,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 2: Health & Exercise ---
     {
-        id: "cloze_1106", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Health",
+        id: "cloze_1106", chapter: "Cloze Tests", type: "vocab", difficulty: "hard", topic: "Health",
         question: "Passage: Regular exercise is beneficial for health. It protects from diseases like obesity and heart disease. Riding a bicycle is a great way to reduce health risks associated with a (6) ______ lifestyle. Cycling is a low-impact exercise suitable for all ages. It is mainly an (7) ______ activity, working the heart and lungs. It improves overall (8) ______ levels. Cycling helps control weight by raising the metabolic rate. You can change the (9) ______ to suit your needs. It is (10) ______ on bones and joints compared to running.\n\nQuestion: Select the most appropriate option to fill in blank No. 6.",
         options: ["sedentary", "active", "healthy", "nomadic"],
         correctIndex: 0,
@@ -8856,7 +8856,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "'Sedentary' lifestyle (বসে থাকা বা অলস জীবনযাপন) স্বাস্থ্যের জন্য ঝুঁকিপূর্ণ।"
     },
     {
-        id: "cloze_1107", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        id: "cloze_1107", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Health",
         question: "Passage: Regular exercise is beneficial for health. It protects from diseases like obesity and heart disease. Riding a bicycle is a great way to reduce health risks associated with a (6) ______ lifestyle. Cycling is a low-impact exercise suitable for all ages. It is mainly an (7) ______ activity, working the heart and lungs. It improves overall (8) ______ levels. Cycling helps control weight by raising the metabolic rate. You can change the (9) ______ to suit your needs. It is (10) ______ on bones and joints compared to running.\n\nQuestion: Select the most appropriate option to fill in blank No. 7.",
         options: ["anaerobic", "aerobic", "static", "mental"],
         correctIndex: 1,
@@ -8864,7 +8864,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "সাইক্লিং হলো একটি 'aerobic' ব্যায়াম যা হৃদপিণ্ড এবং ফুসফুসের কাজ বাড়ায়।"
     },
     {
-        id: "cloze_1108", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Health",
+        id: "cloze_1108", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Health",
         question: "Passage: Regular exercise is beneficial for health. It protects from diseases like obesity and heart disease. Riding a bicycle is a great way to reduce health risks associated with a (6) ______ lifestyle. Cycling is a low-impact exercise suitable for all ages. It is mainly an (7) ______ activity, working the heart and lungs. It improves overall (8) ______ levels. Cycling helps control weight by raising the metabolic rate. You can change the (9) ______ to suit your needs. It is (10) ______ on bones and joints compared to running.\n\nQuestion: Select the most appropriate option to fill in blank No. 8.",
         options: ["fitness", "stress", "anger", "hunger"],
         correctIndex: 0,
@@ -8872,7 +8872,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "ব্যায়াম সামগ্রিক 'fitness' (শারীরিক সক্ষমতা) বাড়ায়।"
     },
     {
-        id: "cloze_1109", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        id: "cloze_1109", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Health",
         question: "Passage: Regular exercise is beneficial for health. It protects from diseases like obesity and heart disease. Riding a bicycle is a great way to reduce health risks associated with a (6) ______ lifestyle. Cycling is a low-impact exercise suitable for all ages. It is mainly an (7) ______ activity, working the heart and lungs. It improves overall (8) ______ levels. Cycling helps control weight by raising the metabolic rate. You can change the (9) ______ to suit your needs. It is (10) ______ on bones and joints compared to running.\n\nQuestion: Select the most appropriate option to fill in blank No. 9.",
         options: ["weather", "intensity", "color", "price"],
         correctIndex: 1,
@@ -8880,7 +8880,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "আপনি নিজের প্রয়োজন অনুযায়ী শরীরচর্চার 'intensity' (তীব্রতা) পরিবর্তন করতে পারেন।"
     },
     {
-        id: "cloze_1110", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        id: "cloze_1110", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Health",
         question: "Passage: Regular exercise is beneficial for health. It protects from diseases like obesity and heart disease. Riding a bicycle is a great way to reduce health risks associated with a (6) ______ lifestyle. Cycling is a low-impact exercise suitable for all ages. It is mainly an (7) ______ activity, working the heart and lungs. It improves overall (8) ______ levels. Cycling helps control weight by raising the metabolic rate. You can change the (9) ______ to suit your needs. It is (10) ______ on bones and joints compared to running.\n\nQuestion: Select the most appropriate option to fill in blank No. 10.",
         options: ["harder", "worse", "gentler", "heavier"],
         correctIndex: 2,
@@ -8890,7 +8890,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 3: Pollution ---
     {
-        id: "cloze_1111", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        id: "cloze_1111", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Environment",
         question: "Passage: Pollution is the introduction of harmful materials into the environment. These harmful materials are called (11) ______. Pollution control means the control of emissions and effluents into air, water or soil. Without pollution control, the waste products from human activities will degrade the (12) ______. To reduce pollution, we must (13) ______ sustainable practices. Governments enact laws to limit pollution. Individuals can also help by reducing waste, reusing items, and (14) ______. We all have a role to play in preserving our planet for future (15) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 11.",
         options: ["products", "nutrients", "pollutants", "vitamins"],
         correctIndex: 2,
@@ -8898,7 +8898,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "পরিবেশ দূষণকারী ক্ষতিকর উপাদানগুলোকে 'pollutants' বলা হয়।"
     },
     {
-        id: "cloze_1112", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Environment",
+        id: "cloze_1112", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Environment",
         question: "Passage: Pollution is the introduction of harmful materials into the environment. These harmful materials are called (11) ______. Pollution control means the control of emissions and effluents into air, water or soil. Without pollution control, the waste products from human activities will degrade the (12) ______. To reduce pollution, we must (13) ______ sustainable practices. Governments enact laws to limit pollution. Individuals can also help by reducing waste, reusing items, and (14) ______. We all have a role to play in preserving our planet for future (15) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 12.",
         options: ["economy", "environment", "machines", "buildings"],
         correctIndex: 1,
@@ -8906,7 +8906,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "দূষণ 'environment' বা পরিবেশের ক্ষতি করে।"
     },
     {
-        id: "cloze_1113", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        id: "cloze_1113", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Environment",
         question: "Passage: Pollution is the introduction of harmful materials into the environment. These harmful materials are called (11) ______. Pollution control means the control of emissions and effluents into air, water or soil. Without pollution control, the waste products from human activities will degrade the (12) ______. To reduce pollution, we must (13) ______ sustainable practices. Governments enact laws to limit pollution. Individuals can also help by reducing waste, reusing items, and (14) ______. We all have a role to play in preserving our planet for future (15) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 13.",
         options: ["ignore", "adopt", "destroy", "forget"],
         correctIndex: 1,
@@ -8914,7 +8914,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "আমাদের টেকসই পদ্ধতিগুলো 'adopt' (গ্রহণ) করতে হবে।"
     },
     {
-        id: "cloze_1114", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        id: "cloze_1114", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Environment",
         question: "Passage: Pollution is the introduction of harmful materials into the environment. These harmful materials are called (11) ______. Pollution control means the control of emissions and effluents into air, water or soil. Without pollution control, the waste products from human activities will degrade the (12) ______. To reduce pollution, we must (13) ______ sustainable practices. Governments enact laws to limit pollution. Individuals can also help by reducing waste, reusing items, and (14) ______. We all have a role to play in preserving our planet for future (15) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 14.",
         options: ["sleeping", "eating", "recycling", "driving"],
         correctIndex: 2,
@@ -8922,7 +8922,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "বর্জ্য কমানোর অন্যতম উপায় হলো 'recycling' (পুনঃপ্রক্রিয়াজাতকরণ)।"
     },
     {
-        id: "cloze_1115", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Environment",
+        id: "cloze_1115", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Environment",
         question: "Passage: Pollution is the introduction of harmful materials into the environment. These harmful materials are called (11) ______. Pollution control means the control of emissions and effluents into air, water or soil. Without pollution control, the waste products from human activities will degrade the (12) ______. To reduce pollution, we must (13) ______ sustainable practices. Governments enact laws to limit pollution. Individuals can also help by reducing waste, reusing items, and (14) ______. We all have a role to play in preserving our planet for future (15) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 15.",
         options: ["past", "generations", "days", "insects"],
         correctIndex: 1,
@@ -8932,7 +8932,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 4: Technology ---
     {
-        id: "cloze_1116", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Technology",
+        id: "cloze_1116", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Technology",
         question: "Passage: The internet has revolutionized the way we live. However, it also has its (16) ______, such as cybercrime and misinformation. It is important to use this tool (17) ______ and be aware of potential dangers. By harnessing its potential while mitigating risks, we can ensure that the internet benefits (18) ______. The future belongs to those willing to (19) ______ to new technologies. The (20) ______ of connected technology is limitless.\n\nQuestion: Select the most appropriate option to fill in blank No. 16.",
         options: ["benefits", "drawbacks", "joys", "profits"],
         correctIndex: 1,
@@ -8940,7 +8940,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "'However' দিয়ে বিপরীত অর্থ বোঝানো হয়েছে, তাই 'drawbacks' (অসুবিধা) সঠিক উত্তর।"
     },
     {
-        id: "cloze_1117", chapter: "Cloze Test", type: "grammar", difficulty: "moderate", topic: "Technology",
+        id: "cloze_1117", chapter: "Cloze Tests", type: "grammar", difficulty: "moderate", topic: "Technology",
         question: "Passage: The internet has revolutionized the way we live. However, it also has its (16) ______, such as cybercrime and misinformation. It is important to use this tool (17) ______ and be aware of potential dangers. By harnessing its potential while mitigating risks, we can ensure that the internet benefits (18) ______. The future belongs to those willing to (19) ______ to new technologies. The (20) ______ of connected technology is limitless.\n\nQuestion: Select the most appropriate option to fill in blank No. 17.",
         options: ["recklessly", "responsibly", "badly", "secretly"],
         correctIndex: 1,
@@ -8948,7 +8948,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "ইন্টারনেটের মতো শক্তিশালী মাধ্যম 'responsibly' (দায়িত্বশীলভাবে) ব্যবহার করা উচিত।"
     },
     {
-        id: "cloze_1118", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Technology",
+        id: "cloze_1118", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Technology",
         question: "Passage: The internet has revolutionized the way we live. However, it also has its (16) ______, such as cybercrime and misinformation. It is important to use this tool (17) ______ and be aware of potential dangers. By harnessing its potential while mitigating risks, we can ensure that the internet benefits (18) ______. The future belongs to those willing to (19) ______ to new technologies. The (20) ______ of connected technology is limitless.\n\nQuestion: Select the most appropriate option to fill in blank No. 18.",
         options: ["nobody", "machines", "humanity", "robots"],
         correctIndex: 2,
@@ -8956,7 +8956,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "প্রযুক্তির উদ্দেশ্য হলো 'humanity' (মানবজাতি) বা সমাজের উপকার করা।"
     },
     {
-        id: "cloze_1119", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Technology",
+        id: "cloze_1119", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Technology",
         question: "Passage: The internet has revolutionized the way we live. However, it also has its (16) ______, such as cybercrime and misinformation. It is important to use this tool (17) ______ and be aware of potential dangers. By harnessing its potential while mitigating risks, we can ensure that the internet benefits (18) ______. The future belongs to those willing to (19) ______ to new technologies. The (20) ______ of connected technology is limitless.\n\nQuestion: Select the most appropriate option to fill in blank No. 19.",
         options: ["adapt", "fight", "surrender", "ignore"],
         correctIndex: 0,
@@ -8964,7 +8964,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "ভবিষ্যতে সফল হতে হলে আমাদের নতুন প্রযুক্তির সাথে 'adapt' (মানিয়ে নেওয়া) করতে হবে।"
     },
     {
-        id: "cloze_1120", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Technology",
+        id: "cloze_1120", chapter: "Cloze Tests", type: "vocab", difficulty: "hard", topic: "Technology",
         question: "Passage: The internet has revolutionized the way we live. However, it also has its (16) ______, such as cybercrime and misinformation. It is important to use this tool (17) ______ and be aware of potential dangers. By harnessing its potential while mitigating risks, we can ensure that the internet benefits (18) ______. The future belongs to those willing to (19) ______ to new technologies. The (20) ______ of connected technology is limitless.\n\nQuestion: Select the most appropriate option to fill in blank No. 20.",
         options: ["cost", "potential", "weight", "danger"],
         correctIndex: 1,
@@ -8974,7 +8974,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 5: Happiness ---
     {
-        id: "cloze_1121", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Psychology",
+        id: "cloze_1121", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Psychology",
         question: "Passage: Happiness is a state of mind. Two people can be in the same situation, yet one is happy and the other is not. This is because happiness is a (21) ______. Happiness requires effort and practice, but the rewards are (22) ______. Happiness is not something we have to chase, but something that naturally (23) ______ from within us. To be happy is to be (24) ______ with what one has. In contentment lies the secret to a (25) ______ life.\n\nQuestion: Select the most appropriate option to fill in blank No. 21.",
         options: ["punishment", "choice", "burden", "accident"],
         correctIndex: 1,
@@ -8982,7 +8982,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "সুখ একটি 'choice' (পছন্দ বা নির্বাচন), কারণ আমরা পরিস্থিতিকে কীভাবে দেখব তা আমাদের ওপর নির্ভর করে।"
     },
     {
-        id: "cloze_1122", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Psychology",
+        id: "cloze_1122", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Psychology",
         question: "Passage: Happiness is a state of mind. Two people can be in the same situation, yet one is happy and the other is not. This is because happiness is a (21) ______. Happiness requires effort and practice, but the rewards are (22) ______. Happiness is not something we have to chase, but something that naturally (23) ______ from within us. To be happy is to be (24) ______ with what one has. In contentment lies the secret to a (25) ______ life.\n\nQuestion: Select the most appropriate option to fill in blank No. 22.",
         options: ["immense", "tiny", "painful", "boring"],
         correctIndex: 0,
@@ -8990,7 +8990,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "সুখের ফলাফল 'immense' (বিশাল/অঢেল)।"
     },
     {
-        id: "cloze_1123", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Psychology",
+        id: "cloze_1123", chapter: "Cloze Tests", type: "vocab", difficulty: "hard", topic: "Psychology",
         question: "Passage: Happiness is a state of mind. Two people can be in the same situation, yet one is happy and the other is not. This is because happiness is a (21) ______. Happiness requires effort and practice, but the rewards are (22) ______. Happiness is not something we have to chase, but something that naturally (23) ______ from within us. To be happy is to be (24) ______ with what one has. In contentment lies the secret to a (25) ______ life.\n\nQuestion: Select the most appropriate option to fill in blank No. 23.",
         options: ["escapes", "arises", "runs", "hides"],
         correctIndex: 1,
@@ -8998,7 +8998,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "সুখ আমাদের ভেতর থেকে 'arises' (জেগে ওঠে/উৎপন্ন হয়)।"
     },
     {
-        id: "cloze_1124", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Psychology",
+        id: "cloze_1124", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Psychology",
         question: "Passage: Happiness is a state of mind. Two people can be in the same situation, yet one is happy and the other is not. This is because happiness is a (21) ______. Happiness requires effort and practice, but the rewards are (22) ______. Happiness is not something we have to chase, but something that naturally (23) ______ from within us. To be happy is to be (24) ______ with what one has. In contentment lies the secret to a (25) ______ life.\n\nQuestion: Select the most appropriate option to fill in blank No. 24.",
         options: ["angry", "greedy", "content", "jealous"],
         correctIndex: 2,
@@ -9006,7 +9006,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "সুখী হওয়ার অর্থ হলো যা আছে তা নিয়েই 'content' (সন্তুষ্ট) থাকা।"
     },
     {
-        id: "cloze_1125", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Psychology",
+        id: "cloze_1125", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Psychology",
         question: "Passage: Happiness is a state of mind. Two people can be in the same situation, yet one is happy and the other is not. This is because happiness is a (21) ______. Happiness requires effort and practice, but the rewards are (22) ______. Happiness is not something we have to chase, but something that naturally (23) ______ from within us. To be happy is to be (24) ______ with what one has. In contentment lies the secret to a (25) ______ life.\n\nQuestion: Select the most appropriate option to fill in blank No. 25.",
         options: ["miserable", "short", "fulfilling", "dangerous"],
         correctIndex: 2,
@@ -9016,7 +9016,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 6: Discipline ---
     {
-        id: "cloze_1126", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Self-Improvement",
+        id: "cloze_1126", chapter: "Cloze Tests", type: "vocab", difficulty: "hard", topic: "Self-Improvement",
         question: "Passage: Discipline is the bridge between goals and accomplishment. Self-discipline often requires (26) ______ gratification to achieve a greater reward later. It is the key to unlocking our full (27) ______. Discipline will lead us to (28) ______. Discipline acts as a (29) ______ against chaotic habits. Therefore, cultivating discipline is a (30) ______ for a successful life.\n\nQuestion: Select the most appropriate option to fill in blank No. 26.",
         options: ["seeking", "delaying", "finding", "demanding"],
         correctIndex: 1,
@@ -9024,7 +9024,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "আত্মসংযম মানে হলো তাৎক্ষণিক সুখ বা পুরস্কার 'delaying' (বিলম্বিত) করা।"
     },
     {
-        id: "cloze_1127", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Self-Improvement",
+        id: "cloze_1127", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Self-Improvement",
         question: "Passage: Discipline is the bridge between goals and accomplishment. Self-discipline often requires (26) ______ gratification to achieve a greater reward later. It is the key to unlocking our full (27) ______. Discipline will lead us to (28) ______. Discipline acts as a (29) ______ against chaotic habits. Therefore, cultivating discipline is a (30) ______ for a successful life.\n\nQuestion: Select the most appropriate option to fill in blank No. 27.",
         options: ["potential", "house", "wallet", "anger"],
         correctIndex: 0,
@@ -9032,7 +9032,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "শৃঙ্খলা আমাদের পূর্ণ 'potential' (সম্ভাবনা) বিকাশে সাহায্য করে।"
     },
     {
-        id: "cloze_1128", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Self-Improvement",
+        id: "cloze_1128", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Self-Improvement",
         question: "Passage: Discipline is the bridge between goals and accomplishment. Self-discipline often requires (26) ______ gratification to achieve a greater reward later. It is the key to unlocking our full (27) ______. Discipline will lead us to (28) ______. Discipline acts as a (29) ______ against chaotic habits. Therefore, cultivating discipline is a (30) ______ for a successful life.\n\nQuestion: Select the most appropriate option to fill in blank No. 28.",
         options: ["failure", "success", "jail", "confusion"],
         correctIndex: 1,
@@ -9040,7 +9040,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "শৃঙ্খলা আমাদের 'success' (সাফল্য)-এর দিকে নিয়ে যায়।"
     },
     {
-        id: "cloze_1129", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Self-Improvement",
+        id: "cloze_1129", chapter: "Cloze Tests", type: "vocab", difficulty: "hard", topic: "Self-Improvement",
         question: "Passage: Discipline is the bridge between goals and accomplishment. Self-discipline often requires (26) ______ gratification to achieve a greater reward later. It is the key to unlocking our full (27) ______. Discipline will lead us to (28) ______. Discipline acts as a (29) ______ against chaotic habits. Therefore, cultivating discipline is a (30) ______ for a successful life.\n\nQuestion: Select the most appropriate option to fill in blank No. 29.",
         options: ["magnet", "door", "shield", "friend"],
         correctIndex: 2,
@@ -9048,7 +9048,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "শৃঙ্খলা বিশৃঙ্খল অভ্যাসের বিরুদ্ধে একটি 'shield' (ঢাল) হিসেবে কাজ করে।"
     },
     {
-        id: "cloze_1130", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Self-Improvement",
+        id: "cloze_1130", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Self-Improvement",
         question: "Passage: Discipline is the bridge between goals and accomplishment. Self-discipline often requires (26) ______ gratification to achieve a greater reward later. It is the key to unlocking our full (27) ______. Discipline will lead us to (28) ______. Discipline acts as a (29) ______ against chaotic habits. Therefore, cultivating discipline is a (30) ______ for a successful life.\n\nQuestion: Select the most appropriate option to fill in blank No. 30.",
         options: ["luxury", "hobby", "necessity", "joke"],
         correctIndex: 2,
@@ -9057,7 +9057,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
     },
     // --- Passage 7: Friendship ---
     {
-        id: "cloze_1131", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Relationships",
+        id: "cloze_1131", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Relationships",
         question: "Passage: True friendship is a (31) ______ gift. A real friend is someone who stands by you in (32) ______ times. They listen to your problems without (33) ______. Friendship is built on trust and mutual (34) ______. Having a strong support system can improve your mental (35) ______ significantly.\n\nQuestion: Select the most appropriate option to fill in blank No. 31.",
         options: ["useless", "precious", "cheap", "boring"],
         correctIndex: 1,
@@ -9065,7 +9065,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "বন্ধুত্ব মূল্যবান, তাই 'precious' (মহামূল্যবান) শব্দটি সঠিক।"
     },
     {
-        id: "cloze_1132", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Relationships",
+        id: "cloze_1132", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Relationships",
         question: "Passage: True friendship is a (31) ______ gift. A real friend is someone who stands by you in (32) ______ times. They listen to your problems without (33) ______. Friendship is built on trust and mutual (34) ______. Having a strong support system can improve your mental (35) ______ significantly.\n\nQuestion: Select the most appropriate option to fill in blank No. 32.",
         options: ["fun", "difficult", "bright", "sunny"],
         correctIndex: 1,
@@ -9073,7 +9073,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "প্রকৃত বন্ধুরা 'difficult' (কঠিন) সময়ে পাশে থাকে।"
     },
     {
-        id: "cloze_1133", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Relationships",
+        id: "cloze_1133", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Relationships",
         question: "Passage: True friendship is a (31) ______ gift. A real friend is someone who stands by you in (32) ______ times. They listen to your problems without (33) ______. Friendship is built on trust and mutual (34) ______. Having a strong support system can improve your mental (35) ______ significantly.\n\nQuestion: Select the most appropriate option to fill in blank No. 33.",
         options: ["judging", "smiling", "helping", "sleeping"],
         correctIndex: 0,
@@ -9081,7 +9081,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "ভালো বন্ধু 'judging' (বিচার বা সমালোচনা) না করেই সমস্যার কথা শোনে।"
     },
     {
-        id: "cloze_1134", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Relationships",
+        id: "cloze_1134", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Relationships",
         question: "Passage: True friendship is a (31) ______ gift. A real friend is someone who stands by you in (32) ______ times. They listen to your problems without (33) ______. Friendship is built on trust and mutual (34) ______. Having a strong support system can improve your mental (35) ______ significantly.\n\nQuestion: Select the most appropriate option to fill in blank No. 34.",
         options: ["money", "fear", "respect", "doubt"],
         correctIndex: 2,
@@ -9089,7 +9089,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "বন্ধুত্ব বিশ্বাস এবং পারস্পরিক 'respect' (শ্রদ্ধা)-র ওপর গড়ে ওঠে।"
     },
     {
-        id: "cloze_1135", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Relationships",
+        id: "cloze_1135", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Relationships",
         question: "Passage: True friendship is a (31) ______ gift. A real friend is someone who stands by you in (32) ______ times. They listen to your problems without (33) ______. Friendship is built on trust and mutual (34) ______. Having a strong support system can improve your mental (35) ______ significantly.\n\nQuestion: Select the most appropriate option to fill in blank No. 35.",
         options: ["health", "wealth", "height", "speed"],
         correctIndex: 0,
@@ -9099,7 +9099,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 8: Global Warming ---
     {
-        id: "cloze_1136", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        id: "cloze_1136", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Environment",
         question: "Passage: Global warming is a serious issue affecting our (36) ______. It is caused by the increase of greenhouse gases in the (37) ______. Melting ice caps are leading to a rise in sea (38) ______. We must take immediate action to (39) ______ our carbon footprint. Using renewable energy sources is a step in the right (40) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 36.",
         options: ["pocket", "planet", "room", "school"],
         correctIndex: 1,
@@ -9107,7 +9107,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "গ্লোবাল ওয়ার্মিং আমাদের 'planet' (গ্রহ/পৃথিবী)-কে প্রভাবিত করছে।"
     },
     {
-        id: "cloze_1137", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        id: "cloze_1137", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Environment",
         question: "Passage: Global warming is a serious issue affecting our (36) ______. It is caused by the increase of greenhouse gases in the (37) ______. Melting ice caps are leading to a rise in sea (38) ______. We must take immediate action to (39) ______ our carbon footprint. Using renewable energy sources is a step in the right (40) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 37.",
         options: ["water", "soil", "atmosphere", "basket"],
         correctIndex: 2,
@@ -9115,7 +9115,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "গ্রিনহাউস গ্যাসগুলো 'atmosphere' (বায়ুমণ্ডল)-এ জমা হয়।"
     },
     {
-        id: "cloze_1138", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Environment",
+        id: "cloze_1138", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Environment",
         question: "Passage: Global warming is a serious issue affecting our (36) ______. It is caused by the increase of greenhouse gases in the (37) ______. Melting ice caps are leading to a rise in sea (38) ______. We must take immediate action to (39) ______ our carbon footprint. Using renewable energy sources is a step in the right (40) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 38.",
         options: ["levels", "waves", "sand", "fish"],
         correctIndex: 0,
@@ -9123,7 +9123,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "বরফ গলার ফলে সমুদ্রের 'levels' (উচ্চতা/স্তর) বেড়ে যায়।"
     },
     {
-        id: "cloze_1139", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        id: "cloze_1139", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Environment",
         question: "Passage: Global warming is a serious issue affecting our (36) ______. It is caused by the increase of greenhouse gases in the (37) ______. Melting ice caps are leading to a rise in sea (38) ______. We must take immediate action to (39) ______ our carbon footprint. Using renewable energy sources is a step in the right (40) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 39.",
         options: ["increase", "reduce", "buy", "eat"],
         correctIndex: 1,
@@ -9131,7 +9131,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "পরিবেশ বাঁচাতে আমাদের কার্বন ফুটপ্রিন্ট 'reduce' (কমানো) করতে হবে।"
     },
     {
-        id: "cloze_1140", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        id: "cloze_1140", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Environment",
         question: "Passage: Global warming is a serious issue affecting our (36) ______. It is caused by the increase of greenhouse gases in the (37) ______. Melting ice caps are leading to a rise in sea (38) ______. We must take immediate action to (39) ______ our carbon footprint. Using renewable energy sources is a step in the right (40) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 40.",
         options: ["place", "time", "corner", "direction"],
         correctIndex: 3,
@@ -9141,7 +9141,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 9: Reading ---
     {
-        id: "cloze_1141", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Education",
+        id: "cloze_1141", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Education",
         question: "Passage: Reading books opens up a world of (41) ______. It allows us to travel to different places without leaving our (42) ______. Books can be our best friends and (43) ______. They teach us valuable lessons and (44) ______ our vocabulary. Developing a reading habit is one of the best (45) ______ one can cultivate.\n\nQuestion: Select the most appropriate option to fill in blank No. 41.",
         options: ["darkness", "imagination", "silence", "pain"],
         correctIndex: 1,
@@ -9149,7 +9149,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "বই আমাদের 'imagination' (কল্পনাশক্তি)-র জগত খুলে দেয়।"
     },
     {
-        id: "cloze_1142", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Education",
+        id: "cloze_1142", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Education",
         question: "Passage: Reading books opens up a world of (41) ______. It allows us to travel to different places without leaving our (42) ______. Books can be our best friends and (43) ______. They teach us valuable lessons and (44) ______ our vocabulary. Developing a reading habit is one of the best (45) ______ one can cultivate.\n\nQuestion: Select the most appropriate option to fill in blank No. 42.",
         options: ["jobs", "shoes", "homes", "planets"],
         correctIndex: 2,
@@ -9157,7 +9157,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "বই পড়লে আমরা ঘরে বসেই ('homes') অন্য জায়গায় ভ্রমণ করতে পারি (কল্পনায়)।"
     },
     {
-        id: "cloze_1143", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Education",
+        id: "cloze_1143", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Education",
         question: "Passage: Reading books opens up a world of (41) ______. It allows us to travel to different places without leaving our (42) ______. Books can be our best friends and (43) ______. They teach us valuable lessons and (44) ______ our vocabulary. Developing a reading habit is one of the best (45) ______ one can cultivate.\n\nQuestion: Select the most appropriate option to fill in blank No. 43.",
         options: ["enemies", "toys", "obstacles", "guides"],
         correctIndex: 3,
@@ -9165,7 +9165,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "বই আমাদের বন্ধু এবং 'guides' (পথপ্রদর্শক) হতে পারে।"
     },
     {
-        id: "cloze_1144", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Education",
+        id: "cloze_1144", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Education",
         question: "Passage: Reading books opens up a world of (41) ______. It allows us to travel to different places without leaving our (42) ______. Books can be our best friends and (43) ______. They teach us valuable lessons and (44) ______ our vocabulary. Developing a reading habit is one of the best (45) ______ one can cultivate.\n\nQuestion: Select the most appropriate option to fill in blank No. 44.",
         options: ["lose", "improve", "hide", "destroy"],
         correctIndex: 1,
@@ -9173,7 +9173,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "বই পড়া আমাদের শব্দভাণ্ডার 'improve' (উন্নত) করে।"
     },
     {
-        id: "cloze_1145", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Education",
+        id: "cloze_1145", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Education",
         question: "Passage: Reading books opens up a world of (41) ______. It allows us to travel to different places without leaving our (42) ______. Books can be our best friends and (43) ______. They teach us valuable lessons and (44) ______ our vocabulary. Developing a reading habit is one of the best (45) ______ one can cultivate.\n\nQuestion: Select the most appropriate option to fill in blank No. 45.",
         options: ["fears", "hobbies", "chores", "sins"],
         correctIndex: 1,
@@ -9183,7 +9183,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 10: Success ---
     {
-        id: "cloze_1146", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        id: "cloze_1146", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Success",
         question: "Passage: Failure is often a stepping stone to (46) ______. Many successful people have faced numerous (47) ______ before achieving their goals. It is important not to give (48) ______ when things get tough. Instead, we should learn from our mistakes and (49) ______ forward. Persistence is the key to (50) ______ any obstacle.\n\nQuestion: Select the most appropriate option to fill in blank No. 46.",
         options: ["ruin", "success", "sleep", "anger"],
         correctIndex: 1,
@@ -9191,7 +9191,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "ব্যর্থতা হলো 'success' (সাফল্য)-এর সিঁড়ি।"
     },
     {
-        id: "cloze_1147", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        id: "cloze_1147", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Success",
         question: "Passage: Failure is often a stepping stone to (46) ______. Many successful people have faced numerous (47) ______ before achieving their goals. It is important not to give (48) ______ when things get tough. Instead, we should learn from our mistakes and (49) ______ forward. Persistence is the key to (50) ______ any obstacle.\n\nQuestion: Select the most appropriate option to fill in blank No. 47.",
         options: ["meals", "challenges", "gifts", "prizes"],
         correctIndex: 1,
@@ -9199,7 +9199,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "সফল মানুষদের অনেক 'challenges' (চ্যালেঞ্জ)-এর মুখোমুখি হতে হয়।"
     },
     {
-        id: "cloze_1148", chapter: "Cloze Test", type: "grammar", difficulty: "easy", topic: "Success",
+        id: "cloze_1148", chapter: "Cloze Tests", type: "grammar", difficulty: "easy", topic: "Success",
         question: "Passage: Failure is often a stepping stone to (46) ______. Many successful people have faced numerous (47) ______ before achieving their goals. It is important not to give (48) ______ when things get tough. Instead, we should learn from our mistakes and (49) ______ forward. Persistence is the key to (50) ______ any obstacle.\n\nQuestion: Select the most appropriate option to fill in blank No. 48.",
         options: ["in", "out", "up", "away"],
         correctIndex: 2,
@@ -9207,7 +9207,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "'Give up' (হাল ছেড়ে দেওয়া) করা উচিত নয়।"
     },
     {
-        id: "cloze_1149", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Success",
+        id: "cloze_1149", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Success",
         question: "Passage: Failure is often a stepping stone to (46) ______. Many successful people have faced numerous (47) ______ before achieving their goals. It is important not to give (48) ______ when things get tough. Instead, we should learn from our mistakes and (49) ______ forward. Persistence is the key to (50) ______ any obstacle.\n\nQuestion: Select the most appropriate option to fill in blank No. 49.",
         options: ["look", "move", "hide", "stop"],
         correctIndex: 1,
@@ -9215,7 +9215,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "ভুল থেকে শিক্ষা নিয়ে আমাদের সামনে 'move' (এগিয়ে) যাওয়া উচিত।"
     },
     {
-        id: "cloze_1150", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        id: "cloze_1150", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Success",
         question: "Passage: Failure is often a stepping stone to (46) ______. Many successful people have faced numerous (47) ______ before achieving their goals. It is important not to give (48) ______ when things get tough. Instead, we should learn from our mistakes and (49) ______ forward. Persistence is the key to (50) ______ any obstacle.\n\nQuestion: Select the most appropriate option to fill in blank No. 50.",
         options: ["creating", "watching", "overcoming", "buying"],
         correctIndex: 2,
@@ -9225,7 +9225,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 11: Travel ---
     {
-        id: "cloze_1151", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Culture",
+        id: "cloze_1151", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Culture",
         question: "Passage: Travelling exposes us to new (51) ______ and traditions. It helps break down stereotypes and fosters (52) ______. When we visit a new place, we should try the local (53) ______. Meeting new people broadens our (54) ______. Ultimately, travel makes us more (55) ______ individuals.\n\nQuestion: Select the most appropriate option to fill in blank No. 51.",
         options: ["toys", "cultures", "rooms", "games"],
         correctIndex: 1,
@@ -9233,7 +9233,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "ভ্রমণ আমাদের নতুন 'cultures' (সংস্কৃতি)-র সাথে পরিচয় করিয়ে দেয়।"
     },
     {
-        id: "cloze_1152", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Culture",
+        id: "cloze_1152", chapter: "Cloze Tests", type: "vocab", difficulty: "hard", topic: "Culture",
         question: "Passage: Travelling exposes us to new (51) ______ and traditions. It helps break down stereotypes and fosters (52) ______. When we visit a new place, we should try the local (53) ______. Meeting new people broadens our (54) ______. Ultimately, travel makes us more (55) ______ individuals.\n\nQuestion: Select the most appropriate option to fill in blank No. 52.",
         options: ["hatred", "war", "understanding", "silence"],
         correctIndex: 2,
@@ -9241,7 +9241,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "ভ্রমণ মানুষের মধ্যে 'understanding' (বোঝাপড়া) বাড়ায়।"
     },
     {
-        id: "cloze_1153", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Culture",
+        id: "cloze_1153", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Culture",
         question: "Passage: Travelling exposes us to new (51) ______ and traditions. It helps break down stereotypes and fosters (52) ______. When we visit a new place, we should try the local (53) ______. Meeting new people broadens our (54) ______. Ultimately, travel makes us more (55) ______ individuals.\n\nQuestion: Select the most appropriate option to fill in blank No. 53.",
         options: ["water", "air", "plastic", "cuisine"],
         correctIndex: 3,
@@ -9249,7 +9249,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "নতুন জায়গায় গেলে সেখানকার স্থানীয় 'cuisine' (খাবার) চেখে দেখা উচিত।"
     },
     {
-        id: "cloze_1154", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Culture",
+        id: "cloze_1154", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Culture",
         question: "Passage: Travelling exposes us to new (51) ______ and traditions. It helps break down stereotypes and fosters (52) ______. When we visit a new place, we should try the local (53) ______. Meeting new people broadens our (54) ______. Ultimately, travel makes us more (55) ______ individuals.\n\nQuestion: Select the most appropriate option to fill in blank No. 54.",
         options: ["horizons", "height", "weight", "hair"],
         correctIndex: 0,
@@ -9257,7 +9257,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "নতুন মানুষের সাথে মেশা আমাদের 'horizons' (চিন্তার জগত) প্রসারিত করে।"
     },
     {
-        id: "cloze_1155", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Culture",
+        id: "cloze_1155", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Culture",
         question: "Passage: Travelling exposes us to new (51) ______ and traditions. It helps break down stereotypes and fosters (52) ______. When we visit a new place, we should try the local (53) ______. Meeting new people broadens our (54) ______. Ultimately, travel makes us more (55) ______ individuals.\n\nQuestion: Select the most appropriate option to fill in blank No. 55.",
         options: ["narrow", "open-minded", "angry", "rich"],
         correctIndex: 1,
@@ -9267,7 +9267,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 12: Healthy Eating ---
     {
-        id: "cloze_1156", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        id: "cloze_1156", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Health",
         question: "Passage: A balanced diet is essential for a healthy (56) ______. We should eat plenty of fruits and (57) ______. It is important to avoid (58) ______ food which is high in sugar and fat. Drinking enough water keeps us (59) ______. Good nutrition gives us the energy to (60) ______ our daily tasks.\n\nQuestion: Select the most appropriate option to fill in blank No. 56.",
         options: ["car", "body", "wallet", "phone"],
         correctIndex: 1,
@@ -9275,7 +9275,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "সুষম আহার সুস্থ 'body' (শরীর)-এর জন্য অপরিহার্য।"
     },
     {
-        id: "cloze_1157", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Health",
+        id: "cloze_1157", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Health",
         question: "Passage: A balanced diet is essential for a healthy (56) ______. We should eat plenty of fruits and (57) ______. It is important to avoid (58) ______ food which is high in sugar and fat. Drinking enough water keeps us (59) ______. Good nutrition gives us the energy to (60) ______ our daily tasks.\n\nQuestion: Select the most appropriate option to fill in blank No. 57.",
         options: ["stones", "plastic", "vegetables", "toys"],
         correctIndex: 2,
@@ -9283,7 +9283,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "আমাদের প্রচুর ফল এবং 'vegetables' (শাকসবজি) খাওয়া উচিত।"
     },
     {
-        id: "cloze_1158", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        id: "cloze_1158", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Health",
         question: "Passage: A balanced diet is essential for a healthy (56) ______. We should eat plenty of fruits and (57) ______. It is important to avoid (58) ______ food which is high in sugar and fat. Drinking enough water keeps us (59) ______. Good nutrition gives us the energy to (60) ______ our daily tasks.\n\nQuestion: Select the most appropriate option to fill in blank No. 58.",
         options: ["junk", "fresh", "organic", "raw"],
         correctIndex: 0,
@@ -9291,7 +9291,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "আমাদের 'junk' (অস্বাস্থ্যকর) খাবার এড়িয়ে চলা উচিত।"
     },
     {
-        id: "cloze_1159", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        id: "cloze_1159", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Health",
         question: "Passage: A balanced diet is essential for a healthy (56) ______. We should eat plenty of fruits and (57) ______. It is important to avoid (58) ______ food which is high in sugar and fat. Drinking enough water keeps us (59) ______. Good nutrition gives us the energy to (60) ______ our daily tasks.\n\nQuestion: Select the most appropriate option to fill in blank No. 59.",
         options: ["hydrated", "dry", "angry", "sleepy"],
         correctIndex: 0,
@@ -9299,7 +9299,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "পানি পান করলে শরীর 'hydrated' (আর্দ্র/সতেজ) থাকে।"
     },
     {
-        id: "cloze_1160", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        id: "cloze_1160", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Health",
         question: "Passage: A balanced diet is essential for a healthy (56) ______. We should eat plenty of fruits and (57) ______. It is important to avoid (58) ______ food which is high in sugar and fat. Drinking enough water keeps us (59) ______. Good nutrition gives us the energy to (60) ______ our daily tasks.\n\nQuestion: Select the most appropriate option to fill in blank No. 60.",
         options: ["ignore", "perform", "hide", "watch"],
         correctIndex: 1,
@@ -9308,7 +9308,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
     },
     // --- Passage 13: Trees ---
     {
-        id: "cloze_1161", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Environment",
+        id: "cloze_1161", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Environment",
         question: "Passage: Trees are vital for our survival. They provide us with (61) ______ like oxygen. They absorb harmful (62) ______ dioxide from the air. Trees also prevent soil (63) ______. Many animals depend on trees for (64) ______ and food. We must stop deforestation and start (65) ______ more trees.\n\nQuestion: Select the most appropriate option to fill in blank No. 61.",
         options: ["money", "essentials", "plastic", "noise"],
         correctIndex: 1,
@@ -9316,7 +9316,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "অক্সিজেন জীবনের জন্য একটি 'essential' (অপরিহার্য) উপাদান।"
     },
     {
-        id: "cloze_1162", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Environment",
+        id: "cloze_1162", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Environment",
         question: "Passage: Trees are vital for our survival. They provide us with (61) ______ like oxygen. They absorb harmful (62) ______ dioxide from the air. Trees also prevent soil (63) ______. Many animals depend on trees for (64) ______ and food. We must stop deforestation and start (65) ______ more trees.\n\nQuestion: Select the most appropriate option to fill in blank No. 62.",
         options: ["sulfur", "carbon", "nitrogen", "helium"],
         correctIndex: 1,
@@ -9324,7 +9324,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "গাছপালা বাতাস থেকে ক্ষতিকর 'carbon' ডাই অক্সাইড শোষণ করে।"
     },
     {
-        id: "cloze_1163", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        id: "cloze_1163", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Environment",
         question: "Passage: Trees are vital for our survival. They provide us with (61) ______ like oxygen. They absorb harmful (62) ______ dioxide from the air. Trees also prevent soil (63) ______. Many animals depend on trees for (64) ______ and food. We must stop deforestation and start (65) ______ more trees.\n\nQuestion: Select the most appropriate option to fill in blank No. 63.",
         options: ["production", "erosion", "growth", "color"],
         correctIndex: 1,
@@ -9332,7 +9332,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "গাছের শিকড় মাটি ধরে রাখে, ফলে ভূমিক্ষয় বা soil 'erosion' রোধ হয়।"
     },
     {
-        id: "cloze_1164", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        id: "cloze_1164", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Environment",
         question: "Passage: Trees are vital for our survival. They provide us with (61) ______ like oxygen. They absorb harmful (62) ______ dioxide from the air. Trees also prevent soil (63) ______. Many animals depend on trees for (64) ______ and food. We must stop deforestation and start (65) ______ more trees.\n\nQuestion: Select the most appropriate option to fill in blank No. 64.",
         options: ["clothes", "education", "shelter", "money"],
         correctIndex: 2,
@@ -9340,7 +9340,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "অনেক প্রাণী বাসস্থান বা 'shelter'-এর জন্য গাছের ওপর নির্ভরশীল।"
     },
     {
-        id: "cloze_1165", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        id: "cloze_1165", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Environment",
         question: "Passage: Trees are vital for our survival. They provide us with (61) ______ like oxygen. They absorb harmful (62) ______ dioxide from the air. Trees also prevent soil (63) ______. Many animals depend on trees for (64) ______ and food. We must stop deforestation and start (65) ______ more trees.\n\nQuestion: Select the most appropriate option to fill in blank No. 65.",
         options: ["cutting", "planting", "selling", "burning"],
         correctIndex: 1,
@@ -9350,7 +9350,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 14: Smartphones ---
     {
-        id: "cloze_1166", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Technology",
+        id: "cloze_1166", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Technology",
         question: "Passage: Smartphones have become an integral part of our lives. They allow us to stay (66) ______ with friends and family. We can access vast amounts of (67) ______ with a single tap. However, excessive use can lead to (68) ______ and eye strain. It is important to find a (69) ______ between digital and real life. We should not let phones (70) ______ our daily interactions.\n\nQuestion: Select the most appropriate option to fill in blank No. 66.",
         options: ["angry", "connected", "lost", "hidden"],
         correctIndex: 1,
@@ -9358,7 +9358,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "স্মার্টফোন আমাদের বন্ধু ও পরিবারের সাথে 'connected' (যুক্ত) থাকতে সাহায্য করে।"
     },
     {
-        id: "cloze_1167", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Technology",
+        id: "cloze_1167", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Technology",
         question: "Passage: Smartphones have become an integral part of our lives. They allow us to stay (66) ______ with friends and family. We can access vast amounts of (67) ______ with a single tap. However, excessive use can lead to (68) ______ and eye strain. It is important to find a (69) ______ between digital and real life. We should not let phones (70) ______ our daily interactions.\n\nQuestion: Select the most appropriate option to fill in blank No. 67.",
         options: ["water", "food", "information", "air"],
         correctIndex: 2,
@@ -9366,7 +9366,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "এক ক্লিকেই আমরা প্রচুর 'information' (তথ্য) পেতে পারি।"
     },
     {
-        id: "cloze_1168", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Technology",
+        id: "cloze_1168", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Technology",
         question: "Passage: Smartphones have become an integral part of our lives. They allow us to stay (66) ______ with friends and family. We can access vast amounts of (67) ______ with a single tap. However, excessive use can lead to (68) ______ and eye strain. It is important to find a (69) ______ between digital and real life. We should not let phones (70) ______ our daily interactions.\n\nQuestion: Select the most appropriate option to fill in blank No. 68.",
         options: ["addiction", "happiness", "fitness", "wealth"],
         correctIndex: 0,
@@ -9374,7 +9374,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "অতিরিক্ত ব্যবহারের ফলে 'addiction' (আসক্তি) এবং চোখের সমস্যা হতে পারে।"
     },
     {
-        id: "cloze_1169", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Technology",
+        id: "cloze_1169", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Technology",
         question: "Passage: Smartphones have become an integral part of our lives. They allow us to stay (66) ______ with friends and family. We can access vast amounts of (67) ______ with a single tap. However, excessive use can lead to (68) ______ and eye strain. It is important to find a (69) ______ between digital and real life. We should not let phones (70) ______ our daily interactions.\n\nQuestion: Select the most appropriate option to fill in blank No. 69.",
         options: ["fight", "balance", "wall", "gap"],
         correctIndex: 1,
@@ -9382,7 +9382,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "ডিজিটাল এবং বাস্তব জীবনের মধ্যে একটি 'balance' (ভারসাম্য) বজায় রাখা জরুরি।"
     },
     {
-        id: "cloze_1170", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Technology",
+        id: "cloze_1170", chapter: "Cloze Tests", type: "vocab", difficulty: "hard", topic: "Technology",
         question: "Passage: Smartphones have become an integral part of our lives. They allow us to stay (66) ______ with friends and family. We can access vast amounts of (67) ______ with a single tap. However, excessive use can lead to (68) ______ and eye strain. It is important to find a (69) ______ between digital and real life. We should not let phones (70) ______ our daily interactions.\n\nQuestion: Select the most appropriate option to fill in blank No. 70.",
         options: ["improve", "replace", "create", "support"],
         correctIndex: 1,
@@ -9392,7 +9392,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 15: Hard Work vs Luck ---
     {
-        id: "cloze_1171", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Success",
+        id: "cloze_1171", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Success",
         question: "Passage: Many people believe that success is a matter of luck. However, true success is usually the result of (71) ______ work. While luck may provide an (72) ______, it is effort that sustains it. Those who rely solely on luck often face (73) ______. Hard work builds character and (74) ______. Therefore, we should focus on our efforts rather than waiting for a (75) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 71.",
         options: ["hard", "easy", "lazy", "quick"],
         correctIndex: 0,
@@ -9400,7 +9400,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "প্রকৃত সাফল্য সাধারণত 'hard' (কঠোর) পরিশ্রমের ফল।"
     },
     {
-        id: "cloze_1172", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        id: "cloze_1172", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Success",
         question: "Passage: Many people believe that success is a matter of luck. However, true success is usually the result of (71) ______ work. While luck may provide an (72) ______, it is effort that sustains it. Those who rely solely on luck often face (73) ______. Hard work builds character and (74) ______. Therefore, we should focus on our efforts rather than waiting for a (75) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 72.",
         options: ["obstacle", "opportunity", "excuse", "enemy"],
         correctIndex: 1,
@@ -9408,7 +9408,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "ভাগ্য হয়তো একটি 'opportunity' (সুযোগ) এনে দিতে পারে, কিন্তু তা ধরে রাখতে পরিশ্রম লাগে।"
     },
     {
-        id: "cloze_1173", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        id: "cloze_1173", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Success",
         question: "Passage: Many people believe that success is a matter of luck. However, true success is usually the result of (71) ______ work. While luck may provide an (72) ______, it is effort that sustains it. Those who rely solely on luck often face (73) ______. Hard work builds character and (74) ______. Therefore, we should focus on our efforts rather than waiting for a (75) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 73.",
         options: ["victory", "fame", "disappointment", "wealth"],
         correctIndex: 2,
@@ -9416,7 +9416,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "শুধুমাত্র ভাগ্যের ওপর নির্ভর করলে প্রায়ই 'disappointment' (হতাশা) জুটতে পারে।"
     },
     {
-        id: "cloze_1174", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        id: "cloze_1174", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Success",
         question: "Passage: Many people believe that success is a matter of luck. However, true success is usually the result of (71) ______ work. While luck may provide an (72) ______, it is effort that sustains it. Those who rely solely on luck often face (73) ______. Hard work builds character and (74) ______. Therefore, we should focus on our efforts rather than waiting for a (75) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 74.",
         options: ["laziness", "fear", "discipline", "greed"],
         correctIndex: 2,
@@ -9424,7 +9424,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "কঠোর পরিশ্রম চরিত্র এবং 'discipline' (শৃঙ্খলা) গঠন করে।"
     },
     {
-        id: "cloze_1175", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        id: "cloze_1175", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Success",
         question: "Passage: Many people believe that success is a matter of luck. However, true success is usually the result of (71) ______ work. While luck may provide an (72) ______, it is effort that sustains it. Those who rely solely on luck often face (73) ______. Hard work builds character and (74) ______. Therefore, we should focus on our efforts rather than waiting for a (75) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 75.",
         options: ["miracle", "disaster", "storm", "bus"],
         correctIndex: 0,
@@ -9434,7 +9434,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 16: Yoga ---
     {
-        id: "cloze_1176", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        id: "cloze_1176", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Health",
         question: "Passage: Yoga is an ancient practice that originated in India. It combines physical postures, breathing exercises, and (76) ______. Regular practice promotes flexibility and (77) ______. It is known to reduce stress and improve mental (78) ______. Yoga is suitable for people of all (79) ______. It is a holistic approach to (80) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 76.",
         options: ["sleeping", "meditation", "fighting", "running"],
         correctIndex: 1,
@@ -9442,7 +9442,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "যোগব্যায়ামে শারীরিক কসরত, শ্বাস-প্রশ্বাস এবং 'meditation' (ধ্যান) অন্তর্ভুক্ত।"
     },
     {
-        id: "cloze_1177", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        id: "cloze_1177", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Health",
         question: "Passage: Yoga is an ancient practice that originated in India. It combines physical postures, breathing exercises, and (76) ______. Regular practice promotes flexibility and (77) ______. It is known to reduce stress and improve mental (78) ______. Yoga is suitable for people of all (79) ______. It is a holistic approach to (80) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 77.",
         options: ["anger", "strength", "height", "weight"],
         correctIndex: 1,
@@ -9450,7 +9450,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "নিয়মিত যোগাভ্যাস নমনীয়তা এবং 'strength' (শক্তি) বাড়ায়।"
     },
     {
-        id: "cloze_1178", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        id: "cloze_1178", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Health",
         question: "Passage: Yoga is an ancient practice that originated in India. It combines physical postures, breathing exercises, and (76) ______. Regular practice promotes flexibility and (77) ______. It is known to reduce stress and improve mental (78) ______. Yoga is suitable for people of all (79) ______. It is a holistic approach to (80) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 78.",
         options: ["chaos", "clarity", "illness", "noise"],
         correctIndex: 1,
@@ -9458,7 +9458,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "যোগব্যায়াম মানসিক চাপ কমায় এবং মানসিক 'clarity' (স্বচ্ছতা/প্রশান্তি) আনে।"
     },
     {
-        id: "cloze_1179", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Health",
+        id: "cloze_1179", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Health",
         question: "Passage: Yoga is an ancient practice that originated in India. It combines physical postures, breathing exercises, and (76) ______. Regular practice promotes flexibility and (77) ______. It is known to reduce stress and improve mental (78) ______. Yoga is suitable for people of all (79) ______. It is a holistic approach to (80) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 79.",
         options: ["ages", "sizes", "colors", "names"],
         correctIndex: 0,
@@ -9466,7 +9466,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "সব 'ages' (বয়সের) মানুষের জন্য যোগব্যায়াম উপযুক্ত।"
     },
     {
-        id: "cloze_1180", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        id: "cloze_1180", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Health",
         question: "Passage: Yoga is an ancient practice that originated in India. It combines physical postures, breathing exercises, and (76) ______. Regular practice promotes flexibility and (77) ______. It is known to reduce stress and improve mental (78) ______. Yoga is suitable for people of all (79) ______. It is a holistic approach to (80) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 80.",
         options: ["wealth", "fame", "well-being", "fashion"],
         correctIndex: 2,
@@ -9476,7 +9476,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 17: Plastic Pollution ---
     {
-        id: "cloze_1181", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        id: "cloze_1181", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Environment",
         question: "Passage: Plastic pollution is a growing environmental crisis. Single-use plastics often end up in the (81) ______, harming marine life. These plastics take hundreds of years to (82) ______. Animals often mistake plastic for (83) ______ and eat it. To combat this, we should switch to (84) ______ alternatives. Small changes in our habits can make a big (85) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 81.",
         options: ["deserts", "forests", "oceans", "mountains"],
         correctIndex: 2,
@@ -9484,7 +9484,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "প্লাস্টিক বর্জ্য 'oceans' (সমুদ্রে) গিয়ে পড়ে, যা সামুদ্রিক প্রাণীদের ক্ষতি করে।"
     },
     {
-        id: "cloze_1182", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        id: "cloze_1182", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Environment",
         question: "Passage: Plastic pollution is a growing environmental crisis. Single-use plastics often end up in the (81) ______, harming marine life. These plastics take hundreds of years to (82) ______. Animals often mistake plastic for (83) ______ and eat it. To combat this, we should switch to (84) ______ alternatives. Small changes in our habits can make a big (85) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 82.",
         options: ["grow", "decompose", "fly", "swim"],
         correctIndex: 1,
@@ -9492,7 +9492,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "প্লাস্টিক 'decompose' (পচে যাওয়া/নিঃশেষ হওয়া) হতে শত শত বছর সময় নেয়।"
     },
     {
-        id: "cloze_1183", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Environment",
+        id: "cloze_1183", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Environment",
         question: "Passage: Plastic pollution is a growing environmental crisis. Single-use plastics often end up in the (81) ______, harming marine life. These plastics take hundreds of years to (82) ______. Animals often mistake plastic for (83) ______ and eat it. To combat this, we should switch to (84) ______ alternatives. Small changes in our habits can make a big (85) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 83.",
         options: ["water", "food", "air", "toys"],
         correctIndex: 1,
@@ -9500,7 +9500,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "প্রাণীরা ভুল করে প্লাস্টিককে 'food' (খাবার) মনে করে খেয়ে ফেলে।"
     },
     {
-        id: "cloze_1184", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        id: "cloze_1184", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Environment",
         question: "Passage: Plastic pollution is a growing environmental crisis. Single-use plastics often end up in the (81) ______, harming marine life. These plastics take hundreds of years to (82) ______. Animals often mistake plastic for (83) ______ and eat it. To combat this, we should switch to (84) ______ alternatives. Small changes in our habits can make a big (85) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 84.",
         options: ["toxic", "expensive", "reusable", "heavy"],
         correctIndex: 2,
@@ -9508,7 +9508,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "আমাদের 'reusable' (পুনরায় ব্যবহারযোগ্য) বিকল্প বেছে নেওয়া উচিত।"
     },
     {
-        id: "cloze_1185", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        id: "cloze_1185", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Environment",
         question: "Passage: Plastic pollution is a growing environmental crisis. Single-use plastics often end up in the (81) ______, harming marine life. These plastics take hundreds of years to (82) ______. Animals often mistake plastic for (83) ______ and eat it. To combat this, we should switch to (84) ______ alternatives. Small changes in our habits can make a big (85) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 85.",
         options: ["noise", "mess", "difference", "problem"],
         correctIndex: 2,
@@ -9518,7 +9518,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 18: Libraries ---
     {
-        id: "cloze_1186", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Education",
+        id: "cloze_1186", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Education",
         question: "Passage: Libraries are storehouses of knowledge. They provide a quiet environment for (86) ______ and learning. Public libraries offer free access to books and (87) ______. They serve as community hubs where people can (88) ______. Despite the digital age, libraries remain (89) ______. They play a crucial role in promoting (90) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 86.",
         options: ["dancing", "sleeping", "reading", "shouting"],
         correctIndex: 2,
@@ -9526,7 +9526,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "লাইব্রেরি হলো 'reading' (পড়াশোনা) করার জন্য শান্ত একটি জায়গা।"
     },
     {
-        id: "cloze_1187", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Education",
+        id: "cloze_1187", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Education",
         question: "Passage: Libraries are storehouses of knowledge. They provide a quiet environment for (86) ______ and learning. Public libraries offer free access to books and (87) ______. They serve as community hubs where people can (88) ______. Despite the digital age, libraries remain (89) ______. They play a crucial role in promoting (90) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 87.",
         options: ["food", "clothes", "resources", "tickets"],
         correctIndex: 2,
@@ -9534,7 +9534,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "বইয়ের পাশাপাশি লাইব্রেরি বিভিন্ন 'resources' (সম্পদ/তথ্যভাণ্ডার) প্রদান করে।"
     },
     {
-        id: "cloze_1188", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Education",
+        id: "cloze_1188", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Education",
         question: "Passage: Libraries are storehouses of knowledge. They provide a quiet environment for (86) ______ and learning. Public libraries offer free access to books and (87) ______. They serve as community hubs where people can (88) ______. Despite the digital age, libraries remain (89) ______. They play a crucial role in promoting (90) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 88.",
         options: ["fight", "gather", "hide", "cook"],
         correctIndex: 1,
@@ -9542,7 +9542,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "লাইব্রেরি এমন একটি কেন্দ্র যেখানে মানুষ 'gather' (একত্রিত) হতে পারে।"
     },
     {
-        id: "cloze_1189", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Education",
+        id: "cloze_1189", chapter: "Cloze Tests", type: "vocab", difficulty: "hard", topic: "Education",
         question: "Passage: Libraries are storehouses of knowledge. They provide a quiet environment for (86) ______ and learning. Public libraries offer free access to books and (87) ______. They serve as community hubs where people can (88) ______. Despite the digital age, libraries remain (89) ______. They play a crucial role in promoting (90) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 89.",
         options: ["useless", "relevant", "closed", "expensive"],
         correctIndex: 1,
@@ -9550,7 +9550,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "ডিজিটাল যুগেও লাইব্রেরি তার গুরুত্ব হারায়নি, এটি এখনও 'relevant' (প্রাসঙ্গিক)।"
     },
     {
-        id: "cloze_1190", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Education",
+        id: "cloze_1190", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Education",
         question: "Passage: Libraries are storehouses of knowledge. They provide a quiet environment for (86) ______ and learning. Public libraries offer free access to books and (87) ______. They serve as community hubs where people can (88) ______. Despite the digital age, libraries remain (89) ______. They play a crucial role in promoting (90) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 90.",
         options: ["literacy", "illiteracy", "poverty", "noise"],
         correctIndex: 0,
@@ -9560,7 +9560,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 19: Teamwork ---
     {
-        id: "cloze_1191", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        id: "cloze_1191", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Success",
         question: "Passage: Teamwork is the ability to work together toward a common (91) ______. It requires good communication and mutual (92) ______. When team members support each other, they can achieve (93) ______ results. Teamwork divides the effort and multiplies the (94) ______. It is an essential skill in the modern (95) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 91.",
         options: ["enemy", "goal", "secret", "vacation"],
         correctIndex: 1,
@@ -9568,7 +9568,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "দলবদ্ধ কাজের উদ্দেশ্য হলো একটি সাধারণ 'goal' (লক্ষ্য) অর্জন করা।"
     },
     {
-        id: "cloze_1192", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        id: "cloze_1192", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Success",
         question: "Passage: Teamwork is the ability to work together toward a common (91) ______. It requires good communication and mutual (92) ______. When team members support each other, they can achieve (93) ______ results. Teamwork divides the effort and multiplies the (94) ______. It is an essential skill in the modern (95) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 92.",
         options: ["hatred", "suspicion", "respect", "silence"],
         correctIndex: 2,
@@ -9576,7 +9576,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "টিমওয়ার্কের জন্য পারস্পরিক 'respect' (শ্রদ্ধাবোধ) প্রয়োজন।"
     },
     {
-        id: "cloze_1193", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        id: "cloze_1193", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Success",
         question: "Passage: Teamwork is the ability to work together toward a common (91) ______. It requires good communication and mutual (92) ______. When team members support each other, they can achieve (93) ______ results. Teamwork divides the effort and multiplies the (94) ______. It is an essential skill in the modern (95) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 93.",
         options: ["average", "poor", "remarkable", "hidden"],
         correctIndex: 2,
@@ -9584,7 +9584,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "সবাই মিলে কাজ করলে 'remarkable' (অসাধারণ) ফলাফল পাওয়া যায়।"
     },
     {
-        id: "cloze_1194", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        id: "cloze_1194", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Success",
         question: "Passage: Teamwork is the ability to work together toward a common (91) ______. It requires good communication and mutual (92) ______. When team members support each other, they can achieve (93) ______ results. Teamwork divides the effort and multiplies the (94) ______. It is an essential skill in the modern (95) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 94.",
         options: ["failure", "confusion", "success", "work"],
         correctIndex: 2,
@@ -9592,7 +9592,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "টিমওয়ার্ক পরিশ্রম ভাগ করে নেয় কিন্তু 'success' (সাফল্য)-কে বহুগুণ বাড়িয়ে দেয়।"
     },
     {
-        id: "cloze_1195", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        id: "cloze_1195", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Success",
         question: "Passage: Teamwork is the ability to work together toward a common (91) ______. It requires good communication and mutual (92) ______. When team members support each other, they can achieve (93) ______ results. Teamwork divides the effort and multiplies the (94) ______. It is an essential skill in the modern (95) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 95.",
         options: ["jungle", "workplace", "history", "dream"],
         correctIndex: 1,
@@ -9602,7 +9602,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
 
     // --- Passage 20: Childhood ---
     {
-        id: "cloze_1196", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Life",
+        id: "cloze_1196", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Life",
         question: "Passage: Childhood is often considered the best phase of life. It is a time of innocence and (96) ______. Children are free from the (97) ______ of adult life. They spend their time playing and (98) ______ new things. The memories made during childhood are often (99) ______. It is the foundation upon which our adult personality is (100) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 96.",
         options: ["joy", "pain", "work", "darkness"],
         correctIndex: 0,
@@ -9610,7 +9610,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "শৈশব হলো নির্দোষতা এবং 'joy' (আনন্দ)-এর সময়।"
     },
     {
-        id: "cloze_1197", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Life",
+        id: "cloze_1197", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Life",
         question: "Passage: Childhood is often considered the best phase of life. It is a time of innocence and (96) ______. Children are free from the (97) ______ of adult life. They spend their time playing and (98) ______ new things. The memories made during childhood are often (99) ______. It is the foundation upon which our adult personality is (100) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 97.",
         options: ["joys", "games", "burdens", "toys"],
         correctIndex: 2,
@@ -9618,7 +9618,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "শিশুরা বড়দের জীবনের 'burdens' (বোঝা/দুশ্চিন্তা) থেকে মুক্ত থাকে।"
     },
     {
-        id: "cloze_1198", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Life",
+        id: "cloze_1198", chapter: "Cloze Tests", type: "vocab", difficulty: "easy", topic: "Life",
         question: "Passage: Childhood is often considered the best phase of life. It is a time of innocence and (96) ______. Children are free from the (97) ______ of adult life. They spend their time playing and (98) ______ new things. The memories made during childhood are often (99) ______. It is the foundation upon which our adult personality is (100) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 98.",
         options: ["buying", "exploring", "fearing", "forgetting"],
         correctIndex: 1,
@@ -9626,7 +9626,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "শিশুরা খেলাধুলা করে এবং নতুন জিনিস 'exploring' (অন্বেষণ) করে সময় কাটায়।"
     },
     {
-        id: "cloze_1199", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Life",
+        id: "cloze_1199", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Life",
         question: "Passage: Childhood is often considered the best phase of life. It is a time of innocence and (96) ______. Children are free from the (97) ______ of adult life. They spend their time playing and (98) ______ new things. The memories made during childhood are often (99) ______. It is the foundation upon which our adult personality is (100) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 99.",
         options: ["erased", "cherished", "ignored", "painful"],
         correctIndex: 1,
@@ -9634,7 +9634,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "শৈশবের স্মৃতিগুলো আমরা 'cherished' (লালন) করি বা মনে রাখি।"
     },
     {
-        id: "cloze_1200", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Life",
+        id: "cloze_1200", chapter: "Cloze Tests", type: "vocab", difficulty: "moderate", topic: "Life",
         question: "Passage: Childhood is often considered the best phase of life. It is a time of innocence and (96) ______. Children are free from the (97) ______ of adult life. They spend their time playing and (98) ______ new things. The memories made during childhood are often (99) ______. It is the foundation upon which our adult personality is (100) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 100.",
         options: ["built", "destroyed", "lost", "hidden"],
         correctIndex: 0,
@@ -10442,6 +10442,7 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         explanationBengali: "B লটারি টিকিট। C পুরস্কার জয়। A গরিবদের সাহায্য। D মানুষের প্রশংসা। সঠিক ক্রম BCAD।"
     }
 ];
+
 
 
 
