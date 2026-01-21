@@ -7166,8 +7166,809 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         correctIndex: 1,
         explanation: "'Kith and kin' refers to one's friends, acquaintances, and relations.",
         explanationBengali: "'Kith and kin' মানে আত্মীয়-স্বজন ও বন্ধু-বান্ধব।"
+    },
+    {
+        id: "spl_901", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Acommodation", "Accommodation", "Accomodation", "Acomodation"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Accommodation' (double 'c', double 'm').",
+        explanationBengali: "সঠিক বানানটি হলো 'Accommodation' (বাসস্থান)। মনে রাখবেন: দুটি 'c' এবং দুটি 'm'।"
+    },
+    {
+        id: "spl_902", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Embarrassment", "Embarassment", "Embarrasment", "Embarasment"],
+        correctIndex: 0,
+        explanation: "The correct spelling is 'Embarrassment' (double 'r', double 's').",
+        explanationBengali: "সঠিক বানানটি হলো 'Embarrassment' (লজ্জা/অস্বস্তি)। মনে রাখবেন: দুটি 'r' এবং দুটি 's'।"
+    },
+    {
+        id: "spl_903", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Ocurred", "Occurred", "Occured", "Ocurred"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Occurred' (double 'c', double 'r').",
+        explanationBengali: "সঠিক বানানটি হলো 'Occurred' (ঘটেছিল)। মনে রাখবেন: দুটি 'c' এবং দুটি 'r'।"
+    },
+    {
+        id: "spl_904", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Seperate", "Saparate", "Separate", "Seprate"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Separate' (A after P).",
+        explanationBengali: "সঠিক বানানটি হলো 'Separate' (আলাদা)। মনে রাখবেন: 'p'-এর পরে 'a' বসে।"
+    },
+    {
+        id: "spl_905", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Recieve", "Receive", "Riceive", "Recive"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Receive' (Remember: 'i' before 'e' except after 'c').",
+        explanationBengali: "সঠিক বানানটি হলো 'Receive' (গ্রহণ করা)। নিয়ম: 'c'-এর পরে 'e', তারপর 'i' হয়।"
+    },
+    {
+        id: "spl_906", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Neccessary", "Necesary", "Necessary", "Necassary"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Necessary' (one 'c', double 's').",
+        explanationBengali: "সঠিক বানানটি হলো 'Necessary' (প্রয়োজনীয়)। মনে রাখবেন: একটি 'c' এবং দুটি 's'।"
+    },
+    {
+        id: "spl_907", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Mischievious", "Mischevous", "Mischievous", "Mischevious"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Mischievous' (ends in -vous, not -vious).",
+        explanationBengali: "সঠিক বানানটি হলো 'Mischievous' (দুষ্টু)। এটি 'vous' দিয়ে শেষ হয়, 'vious' দিয়ে নয়।"
+    },
+    {
+        id: "spl_908", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Lieutenant", "Leutenant", "Leiutenant", "Lieutnant"],
+        correctIndex: 0,
+        explanation: "The correct spelling is 'Lieutenant'. Remember: Lie - u - tenant.",
+        explanationBengali: "সঠিক বানানটি হলো 'Lieutenant' (লেফটেন্যান্ট)। মনে রাখার উপায়: Lie (মিথ্যা) - u (তুমি) - tenant (ভাড়াটিয়া)।"
+    },
+    {
+        id: "spl_909", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Maintainance", "Maintenance", "Maintanance", "Maintenence"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Maintenance' (ten, not tain).",
+        explanationBengali: "সঠিক বানানটি হলো 'Maintenance' (রক্ষণাবেক্ষণ)। শব্দটি 'Maintain' থেকে আসলেও বানানে 'ten' হয়।"
+    },
+    {
+        id: "spl_910", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Beureaucracy", "Bureaucracy", "Bureacracy", "Beurocracy"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Bureaucracy' (eau, then cracy).",
+        explanationBengali: "সঠিক বানানটি হলো 'Bureaucracy' (আমলাতন্ত্র)। মনে রাখবেন: 'Bur' + 'eau' + 'cracy'।"
+    },
+    {
+        id: "spl_911", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Commitee", "Committee", "Comittee", "Commite"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Committee' (double 'm', double 't', double 'e').",
+        explanationBengali: "সঠিক বানানটি হলো 'Committee' (কমিটি)। মনে রাখবেন: দুটি 'm', দুটি 't' এবং দুটি 'e'।"
+    },
+    {
+        id: "spl_912", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Rythm", "Rhythm", "Rhytm", "Rhythum"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Rhythm' (starts with Rh, contains y, ends with thm).",
+        explanationBengali: "সঠিক বানানটি হলো 'Rhythm' (ছন্দ)।"
+    },
+    {
+        id: "spl_913", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Privilege", "Previlage", "Privelege", "Priviledge"],
+        correctIndex: 0,
+        explanation: "The correct spelling is 'Privilege' (no 'd').",
+        explanationBengali: "সঠিক বানানটি হলো 'Privilege' (সুবিধা)। মনে রাখবেন: শব্দটিতে কোনো 'd' নেই।"
+    },
+    {
+        id: "spl_914", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Harrassment", "Harassment", "Harrasment", "Harrasment"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Harassment' (one 'r', double 's').",
+        explanationBengali: "সঠিক বানানটি হলো 'Harassment' (হয়রানি)। মনে রাখবেন: একটি 'r' এবং দুটি 's'।"
+    },
+    {
+        id: "spl_915", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Calender", "Calendar", "Calandar", "Calander"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Calendar' (ends with -dar).",
+        explanationBengali: "সঠিক বানানটি হলো 'Calendar' (দিনপঞ্জিকা)। শেষে 'ar' থাকে, 'er' নয়।"
+    },
+    {
+        id: "spl_916", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Foreign", "Foriegn", "Forein", "Forigen"],
+        correctIndex: 0,
+        explanation: "The correct spelling is 'Foreign' (e before i).",
+        explanationBengali: "সঠিক বানানটি হলো 'Foreign' (বিদেশি)।"
+    },
+    {
+        id: "spl_917", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Garantee", "Guarantee", "Gaurantee", "Guarentee"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Guarantee' (starts with Gua).",
+        explanationBengali: "সঠিক বানানটি হলো 'Guarantee' (নিশ্চয়তা)। শুরু হয় 'Gua' দিয়ে।"
+    },
+    {
+        id: "spl_918", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Imediate", "Immediate", "Immidiate", "Immedate"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Immediate' (double 'm').",
+        explanationBengali: "সঠিক বানানটি হলো 'Immediate' (তাৎক্ষণিক)। মনে রাখবেন: দুটি 'm'।"
+    },
+    {
+        id: "spl_919", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Vaccum", "Vacuum", "Vacume", "Vaccuum"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Vacuum' (one 'c', double 'u').",
+        explanationBengali: "সঠিক বানানটি হলো 'Vacuum' (শূন্যস্থান)। মনে রাখবেন: একটি 'c' এবং দুটি 'u'।"
+    },
+    {
+        id: "spl_920", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Kernel", "Colonel", "Colonal", "Colnel"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Colonel' (pronounced 'kernel').",
+        explanationBengali: "সঠিক বানানটি হলো 'Colonel' (কর্নেল)। উচ্চারণের সাথে বানানের মিল নেই।"
+    },
+    {
+        id: "spl_921", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Que", "Queue", "Queu", "Qeue"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Queue' (Q-u-e-u-e).",
+        explanationBengali: "সঠিক বানানটি হলো 'Queue' (লাইন)।"
+    },
+    {
+        id: "spl_922", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Questionaire", "Questionnaire", "Questionnare", "Questionnair"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Questionnaire' (double 'n').",
+        explanationBengali: "সঠিক বানানটি হলো 'Questionnaire' (প্রশ্নমালা)। মনে রাখবেন: দুটি 'n'।"
+    },
+    {
+        id: "spl_923", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Pronounciation", "Pronunciation", "Prononciation", "Pronunsiation"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Pronunciation' (nun, not noun).",
+        explanationBengali: "সঠিক বানানটি হলো 'Pronunciation' (উচ্চারণ)। 'Pronounce' শব্দে 'noun' থাকলেও, এখানে 'nun' হয়।"
+    },
+    {
+        id: "spl_924", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Entrepreneur", "Enterpreneur", "Entreprenur", "Entrepraneur"],
+        correctIndex: 0,
+        explanation: "The correct spelling is 'Entrepreneur'.",
+        explanationBengali: "সঠিক বানানটি হলো 'Entrepreneur' (উদ্যোক্তা)।"
+    },
+    {
+        id: "spl_925", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Sychology", "Psychology", "Psycology", "Pcychology"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Psychology' (Silent P).",
+        explanationBengali: "সঠিক বানানটি হলো 'Psychology' (মনোবিজ্ঞান)।"
+    },
+    {
+        id: "spl_926", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Neumonia", "Pneumonia", "Pnumonia", "Numonia"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Pneumonia' (starts with Pn).",
+        explanationBengali: "সঠিক বানানটি হলো 'Pneumonia' (নিউমোনিয়া)।"
+    },
+    {
+        id: "spl_927", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Twelvth", "Twelfth", "Twelth", "Twelft"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Twelfth' (contains 'f').",
+        explanationBengali: "সঠিক বানানটি হলো 'Twelfth' (দ্বাদশ)। মনে রাখবেন: 've' উঠে গিয়ে 'f' হয়।"
+    },
+    {
+        id: "spl_928", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Millenium", "Millennium", "Milennium", "Milenium"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Millennium' (double 'l', double 'n').",
+        explanationBengali: "সঠিক বানানটি হলো 'Millennium' (সহস্রাব্দ)। মনে রাখবেন: দুটি 'l' এবং দুটি 'n'।"
+    },
+    {
+        id: "spl_929", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Sargent", "Sergeant", "Seargent", "Sergent"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Sergeant'.",
+        explanationBengali: "সঠিক বানানটি হলো 'Sergeant' (সার্জেন্ট)।"
+    },
+    {
+        id: "spl_930", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Diarrhea", "Diarrhoea", "Diarhoea", "Dirrhoea"],
+        correctIndex: 1,
+        explanation: "The correct British spelling is 'Diarrhoea' (rr, then hoea).",
+        explanationBengali: "সঠিক বানানটি হলো 'Diarrhoea' (ডায়রিয়া)। মনে রাখবেন: দুটি 'r' এবং শেষে 'hoea'।"
+    },
+    {
+        id: "spl_931", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Supercede", "Supersede", "Superceed", "Superseed"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Supersede' (ends in -sede, not -cede). It comes from the Latin 'sedere' (to sit).",
+        explanationBengali: "সঠিক বানানটি হলো 'Supersede' (রদ করা/স্থলাভিষিক্ত হওয়া)। এটি একমাত্র শব্দ যা 'sede' দিয়ে শেষ হয়, 'cede' দিয়ে নয়।"
+    },
+    {
+        id: "spl_932", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Concensus", "Consencus", "Consensus", "Consenssus"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Consensus' (starts with Con, then sen, then sus). Think of 'Census'.",
+        explanationBengali: "সঠিক বানানটি হলো 'Consensus' (ঐকমত্য)। মনে রাখবেন: Con + sen + sus।"
+    },
+    {
+        id: "spl_933", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Mispell", "Misspel", "Misspell", "Misppell"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Misspell' (Mis + spell). So it has double 's' and double 'l'.",
+        explanationBengali: "সঠিক বানানটি হলো 'Misspell' (ভুল বানান করা)। Mis + spell = Misspell (দুটি 's', দুটি 'l')।"
+    },
+    {
+        id: "spl_934", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Perseverence", "Perseverance", "Perseveranc", "Persevearance"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Perseverance' (ends in -ance, middle is -sever-).",
+        explanationBengali: "সঠিক বানানটি হলো 'Perseverance' (অধ্যবসায়)। শেষে 'ance' হয়, 'ence' নয়।"
+    },
+    {
+        id: "spl_935", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Aquaintance", "Acquaintance", "Acquantance", "Acquaintence"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Acquaintance' (c before q, and ain).",
+        explanationBengali: "সঠিক বানানটি হলো 'Acquaintance' (পরিচিত)। মনে রাখবেন: Ac + quaint + ance।"
+    },
+    {
+        id: "spl_936", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Hankerchief", "Handkercheif", "Handkerchief", "Hankerchef"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Handkerchief' (Hand + kerchief). The 'd' is silent in pronunciation but present in spelling.",
+        explanationBengali: "সঠিক বানানটি হলো 'Handkerchief' (রুমাল)। Hand (হাত) + kerchief (কারচিফ)। 'd' অনুচ্চারিত থাকে।"
+    },
+    {
+        id: "spl_937", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Guage", "Gauge", "Gage", "Gaauge"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Gauge' (au, not ua).",
+        explanationBengali: "সঠিক বানানটি হলো 'Gauge' (পরিমাপক)। মনে রাখবেন: 'G' এর পর 'au' বসে।"
+    },
+    {
+        id: "spl_938", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Cemetary", "Cemetery", "Cemitery", "Cemetry"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Cemetery' (three e's: Cem-e-ter-y).",
+        explanationBengali: "সঠিক বানানটি হলো 'Cemetery' (কবরস্থান)। মনে রাখার উপায়: তিনটি 'e' আছে (Cem-e-ter-y)।"
+    },
+    {
+        id: "spl_939", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Consience", "Conscience", "Concience", "Consceince"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Conscience' (Con + science).",
+        explanationBengali: "সঠিক বানানটি হলো 'Conscience' (বিবেক)। মনে রাখবেন: Con + science (বিজ্ঞান)।"
+    },
+    {
+        id: "spl_940", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Definately", "Definitly", "Definitely", "Definetely"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Definitely' (finite in the middle).",
+        explanationBengali: "সঠিক বানানটি হলো 'Definitely' (নিশ্চিতভাবে)। মাঝখানে 'finite' শব্দটি আছে।"
+    },
+    {
+        id: "spl_941", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Dicipline", "Descipline", "Discipline", "Disipline"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Discipline' (sc combination).",
+        explanationBengali: "সঠিক বানানটি হলো 'Discipline' (শৃঙ্খলা)। 'Di' এর পরে 'sci' হয়।"
+    },
+    {
+        id: "spl_942", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Exagerate", "Exaggerate", "Exhaggerate", "Exaggerrate"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Exaggerate' (double g, single r).",
+        explanationBengali: "সঠিক বানানটি হলো 'Exaggerate' (অতিরঞ্জিত করা)। মনে রাখবেন: দুটি 'g' এবং একটি 'r'।"
+    },
+    {
+        id: "spl_943", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Firey", "Fiery", "Fiary", "Feiry"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Fiery' (ie, not iry). From 'Fire', but spelling changes.",
+        explanationBengali: "সঠিক বানানটি হলো 'Fiery' (অগ্নিসদৃশ বা মেজাজি)। বানানটি 'Fire' থেকে আসলেও 're' এর বদলে 'er' এবং 'y' হয়।"
+    },
+    {
+        id: "spl_944", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Greatful", "Gratefull", "Grateful", "Greteful"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Grateful' (from 'gratitude', not 'great').",
+        explanationBengali: "সঠিক বানানটি হলো 'Grateful' (কৃতজ্ঞ)। এটি 'Great' (মহান) নয়, 'Grate' দিয়ে শুরু হয়।"
+    },
+    {
+        id: "spl_945", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Heirarchy", "Hirarchy", "Hierarchy", "Hierarcy"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Hierarchy' (Hier-ar-chy).",
+        explanationBengali: "সঠিক বানানটি হলো 'Hierarchy' (পদমর্যাদাক্রম)। মনে রাখবেন: Hier + archy।"
+    },
+    {
+        id: "spl_946", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Humourous", "Humorous", "Humerous", "Humorus"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Humorous'. The 'u' from 'humour' is dropped in the adjective form.",
+        explanationBengali: "সঠিক বানানটি হলো 'Humorous' (রসিক)। 'Humour' শব্দে 'u' থাকলেও Adjective ফর্মে 'u' থাকে না।"
+    },
+    {
+        id: "spl_947", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Indispensible", "Indispensable", "Indispansable", "Indespensable"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Indispensable' (ends in -able).",
+        explanationBengali: "সঠিক বানানটি হলো 'Indispensable' (অপরিহার্য)। শেষে 'able' হয়, 'ible' নয়।"
+    },
+    {
+        id: "spl_948", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Inteligence", "Intelligence", "Intelegence", "Intellegence"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Intelligence' (double l).",
+        explanationBengali: "সঠিক বানানটি হলো 'Intelligence' (বুদ্ধিমত্তা)। মনে রাখবেন: দুটি 'l'।"
+    },
+    {
+        id: "spl_949", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Jewelery", "Jewellry", "Jewellery", "Jewllery"],
+        correctIndex: 2,
+        explanation: "The correct British spelling is 'Jewellery' (double l, ery).",
+        explanationBengali: "সঠিক বানানটি হলো 'Jewellery' (গহনা)। ব্রিটিশ বানানে দুটি 'l' ব্যবহৃত হয়।"
+    },
+    {
+        id: "spl_950", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Liesure", "Leisure", "Leasure", "Leisuree"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Leisure' (ei, not ie).",
+        explanationBengali: "সঠিক বানানটি হলো 'Leisure' (অবসর)। মনে রাখবেন: 'L' এর পর 'ei' বসে।"
+    },
+    {
+        id: "spl_951", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Liason", "Liasion", "Liaison", "Laision"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Liaison' (two i's: Li-ai-son).",
+        explanationBengali: "সঠিক বানানটি হলো 'Liaison' (যোগাযোগ/সংযোগ)। মনে রাখবেন: Li + ai + son।"
+    },
+    {
+        id: "spl_952", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Manoeuvre", "Manouvre", "Manouver", "Menuvre"],
+        correctIndex: 0,
+        explanation: "The correct British spelling is 'Manoeuvre' (oeu in the middle, re at the end).",
+        explanationBengali: "সঠিক বানানটি হলো 'Manoeuvre' (কৌশল)। ব্রিটিশ বানান এটি, আমেরিকান বানান Maneuver।"
+    },
+    {
+        id: "spl_953", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Medival", "Medieval", "Mideval", "Medievel"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Medieval' (Medi + eval).",
+        explanationBengali: "সঠিক বানানটি হলো 'Medieval' (মধ্যযুগীয়)। মনে রাখবেন: Medi + eval।"
+    },
+    {
+        id: "spl_954", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Momento", "Memento", "Memanto", "Mementto"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Memento' (Mem-en-to). It comes from 'memory'.",
+        explanationBengali: "সঠিক বানানটি হলো 'Memento' (স্মারক)। 'Momento' ভুল, সঠিক হলো 'Me' দিয়ে শুরু।"
+    },
+    {
+        id: "spl_955", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Miniscule", "Minuscule", "Minisule", "Minusule"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Minuscule' (Minus + cule). It comes from 'minus'.",
+        explanationBengali: "সঠিক বানানটি হলো 'Minuscule' (অতি ক্ষুদ্র)। শব্দটি 'Minus' থেকে এসেছে, 'Mini' থেকে নয়।"
+    },
+    {
+        id: "spl_956", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Noticable", "Noticeable", "Noticeble", "Noticsable"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Noticeable' (keep the 'e' to keep the 'c' soft).",
+        explanationBengali: "সঠিক বানানটি হলো 'Noticeable' (লক্ষণীয়)। 'Notice' শব্দের শেষের 'e' টি থাকে।"
+    },
+    {
+        id: "spl_957", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Occassion", "Ocasion", "Occasion", "Ocasison"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Occasion' (double c, single s).",
+        explanationBengali: "সঠিক বানানটি হলো 'Occasion' (উপলক্ষ)। মনে রাখবেন: দুটি 'c' কিন্তু একটি 's'।"
+    },
+    {
+        id: "spl_958", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Parrallel", "Paralel", "Parallel", "Parallell"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Parallel' (double l in the middle, single l at the end).",
+        explanationBengali: "সঠিক বানানটি হলো 'Parallel' (সমান্তরাল)। মাঝখানে দুটি 'l' (ll) এবং শেষে একটি 'l'।"
+    },
+    {
+        id: "spl_959", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Parliment", "Parliament", "Parlement", "Parliamentt"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Parliament' (ia in the middle).",
+        explanationBengali: "সঠিক বানানটি হলো 'Parliament' (সংসদ)। 'Parlia' + 'ment'।"
+    },
+    {
+        id: "spl_960", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Posession", "Posesion", "Possession", "Possesion"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Possession' (double s twice).",
+        explanationBengali: "সঠিক বানানটি হলো 'Possession' (মালিকানা)। মনে রাখবেন: শব্দটিতে মোট চারটি 's' আছে (দুটি 'ss' জোড়া)।"
+    },
+    {
+        id: "spl_961", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Preceed", "Precede", "Precide", "Precead"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Precede' (cede, not ceed).",
+        explanationBengali: "সঠিক বানানটি হলো 'Precede' (পূর্ববর্তী হওয়া)। শেষে 'cede' হয়, 'ceed' নয়।"
+    },
+    {
+        id: "spl_962", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Preferance", "Prefference", "Preference", "Preferrance"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Preference' (single f, single r, ends in -ence).",
+        explanationBengali: "সঠিক বানানটি হলো 'Preference' (পছন্দ/অগ্রাধিকার)। মনে রাখবেন: একটি 'f', একটি 'r' এবং শেষে 'ence'।"
+    },
+    {
+        id: "spl_963", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Prevalence", "Prevalance", "Privalence", "Prevelance"],
+        correctIndex: 0,
+        explanation: "The correct spelling is 'Prevalence' (ends in -ence, middle is -val-).",
+        explanationBengali: "সঠিক বানানটি হলো 'Prevalence' (প্রচলন/ব্যাপকতা)।"
+    },
+    {
+        id: "spl_964", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Proced", "Proceed", "Procede", "Procced"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Proceed' (double e).",
+        explanationBengali: "সঠিক বানানটি হলো 'Proceed' (অগ্রসর হওয়া)। মনে রাখবেন: দুটি 'e'।"
+    },
+    {
+        id: "spl_965", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Proffessional", "Professional", "Proffesional", "Profesional"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Professional' (one f, double s).",
+        explanationBengali: "সঠিক বানানটি হলো 'Professional' (পেশাদার)। মনে রাখবেন: একটি 'f' এবং দুটি 's'।"
+    },
+    {
+        id: "spl_966", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Proffessor", "Professor", "Proffesor", "Professour"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Professor' (one f, double s, ends in -or).",
+        explanationBengali: "সঠিক বানানটি হলো 'Professor' (অধ্যাপক)। মনে রাখবেন: একটি 'f' এবং দুটি 's'।"
+    },
+    {
+        id: "spl_967", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Propoganda", "Propaganda", "Propagandaa", "Propagunda"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Propaganda' (pa-gan-da, not po-gan-da).",
+        explanationBengali: "সঠিক বানানটি হলো 'Propaganda' (প্রচারণা)। মাঝখানে 'pa' হয়, 'po' নয়।"
+    },
+    {
+        id: "spl_968", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Prophesy", "Prophecy", "Profecy", "Prophessy"],
+        correctIndex: 1,
+        explanation: "The noun is spelled 'Prophecy' (ends in -cy). The verb is 'Prophesy'.",
+        explanationBengali: "সঠিক বানানটি হলো 'Prophecy' (ভবিষ্যদ্বাণী - Noun)। মনে রাখবেন: Noun হলে শেষে 'cy' হয়।"
+    },
+    {
+        id: "spl_969", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Publically", "Publiclly", "Publicaly", "Publicly"],
+        correctIndex: 3,
+        explanation: "The correct spelling is 'Publicly' (ends in -cly, usually no 'al' before ly).",
+        explanationBengali: "সঠিক বানানটি হলো 'Publicly' (প্রকাশ্যভাবে)। খেয়াল করুন: 'Public' + 'ly' (মাঝখানে 'al' বসে না)।"
+    },
+    {
+        id: "spl_970", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Persue", "Pursue", "Pursoo", "Perseu"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Pursue' (Pur-sue).",
+        explanationBengali: "সঠিক বানানটি হলো 'Pursue' (অনুসরণ করা)। শুরু হয় 'Pur' দিয়ে।"
+    },
+    {
+        id: "spl_971", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Quareled", "Quarrelled", "Quarreled", "Quarueled"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Quarrelled' (double r, double l in British English).",
+        explanationBengali: "সঠিক বানানটি হলো 'Quarrelled' (ঝগড়া করেছিল)। মনে রাখবেন: দুটি 'r' এবং দুটি 'l'।"
+    },
+    {
+        id: "spl_972", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Reciept", "Receit", "Receipt", "Recipt"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Receipt' (Remember: 'e' before 'i' after 'c', and silent 'p').",
+        explanationBengali: "সঠিক বানানটি হলো 'Receipt' (রসিদ)। নিয়ম: 'c'-এর পর 'e' আগে, তারপর 'i'। 'p' অনুচ্চারিত থাকে।"
+    },
+    {
+        id: "spl_973", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Reccomend", "Recommend", "Reccommend", "Recomend"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Recommend' (one c, double m).",
+        explanationBengali: "সঠিক বানানটি হলো 'Recommend' (সুপারিশ করা)। মনে রাখবেন: একটি 'c' এবং দুটি 'm'।"
+    },
+    {
+        id: "spl_974", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Referance", "Referrence", "Refference", "Reference"],
+        correctIndex: 3,
+        explanation: "The correct spelling is 'Reference' (single f, single r, ends in -ence).",
+        explanationBengali: "সঠিক বানানটি হলো 'Reference' (রেফারেন্স/সূত্র)। সব বর্ণ একবার করেই ব্যবহৃত হয় (r, f)।"
+    },
+    {
+        id: "spl_975", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Rehersal", "Rehearsal", "Rehearshal", "Rehursal"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Rehearsal' (hear in the middle).",
+        explanationBengali: "সঠিক বানানটি হলো 'Rehearsal' (মহড়া)। মাঝখানে 'hear' শব্দটি আছে।"
+    },
+    {
+        id: "spl_976", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Relavant", "Relevent", "Relevant", "Relavent"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Relevant' (ant at the end).",
+        explanationBengali: "সঠিক বানানটি হলো 'Relevant' (প্রাসঙ্গিক)। শেষে 'ant' হয়, 'ent' নয়।"
+    },
+    {
+        id: "spl_977", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Religous", "Religious", "Religeous", "Riligious"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Religious' (gious).",
+        explanationBengali: "সঠিক বানানটি হলো 'Religious' (ধর্মীয়)।"
+    },
+    {
+        id: "spl_978", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Repitition", "Repetition", "Reppetition", "Repetation"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Repetition' (pe-ti-tion). Not 'pi'.",
+        explanationBengali: "সঠিক বানানটি হলো 'Repetition' (পুনরাবৃত্তি)। মনে রাখবেন: 'Re' + 'pe' + 'ti' + 'tion'।"
+    },
+    {
+        id: "spl_979", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Resturant", "Restarant", "Restaurant", "Restaurent"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Restaurant' (Rest-au-rant).",
+        explanationBengali: "সঠিক বানানটি হলো 'Restaurant' (রেস্তোরাঁ)। মনে রাখবেন: 'tau' (au আছে) এবং শেষে 'rant'।"
+    },
+    {
+        id: "spl_980", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Sacrilegious", "Sacreligious", "Sacriligeous", "Sacreligous"],
+        correctIndex: 0,
+        explanation: "The correct spelling is 'Sacrilegious' (ri-le-gious). Note the 'le' after 'ri'.",
+        explanationBengali: "সঠিক বানানটি হলো 'Sacrilegious' (ধর্মদ্রোহী)। 'Religious' শব্দের সাথে গুলিয়ে ফেলবেন না; এখানে 'ri' এর পর 'le' বসে।"
+    },
+    {
+        id: "spl_981", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Schedual", "Schedule", "Scheduale", "Scadule"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Schedule'.",
+        explanationBengali: "সঠিক বানানটি হলো 'Schedule' (সময়সূচী)।"
+    },
+    {
+        id: "spl_982", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Sissors", "Scisors", "Scissors", "Scissers"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Scissors' (sc starts, double s in middle).",
+        explanationBengali: "সঠিক বানানটি হলো 'Scissors' (কাঁচি)। 'Sci' দিয়ে শুরু এবং মাঝখানে দুটি 's'।"
+    },
+    {
+        id: "spl_983", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Secratary", "Secretery", "Secretary", "Secratery"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Secretary' (Secret + ary).",
+        explanationBengali: "সঠিক বানানটি হলো 'Secretary' (সম্পাদক/সচিব)। মনে রাখবেন: Secret + ary।"
+    },
+    {
+        id: "spl_984", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Seige", "Siege", "Ceige", "Seage"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Siege' (i before e).",
+        explanationBengali: "সঠিক বানানটি হলো 'Siege' (অবরোধ)। নিয়ম: 'i' এর পর 'e'।"
+    },
+    {
+        id: "spl_985", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["So vereignty", "Sovereignty", "Soveriegnty", "Soverainty"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Sovereignty' (reign in the middle).",
+        explanationBengali: "সঠিক বানানটি হলো 'Sovereignty' (সার্বভৌমত্ব)। মাঝখানে 'reign' (রাজত্ব) শব্দটি আছে।"
+    },
+    {
+        id: "spl_986", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Simultanous", "Simaltaneous", "Simultaneous", "Simulteneous"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Simultaneous' (ne-ous at end).",
+        explanationBengali: "সঠিক বানানটি হলো 'Simultaneous' (যুগপৎ/একই সাথে ঘটা)।"
+    },
+    {
+        id: "spl_987", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Soliloquy", "Soliloqui", "Soliloqy", "Soleloquy"],
+        correctIndex: 0,
+        explanation: "The correct spelling is 'Soliloquy' (ends in -quy).",
+        explanationBengali: "সঠিক বানানটি হলো 'Soliloquy' (স্বগতোক্তি)।"
+    },
+    {
+        id: "spl_988", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Speciman", "Spicemen", "Specimen", "Spacimen"],
+        correctIndex: 2,
+        explanation: "The correct spelling is 'Specimen' (ends in -men).",
+        explanationBengali: "সঠিক বানানটি হলো 'Specimen' (নমুনা)। শেষে 'men' হয়।"
+    },
+    {
+        id: "spl_989", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Stratagy", "Strategy", "Stratergy", "Stratigy"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Strategy' (te-gy). No 'r' before 'g'.",
+        explanationBengali: "সঠিক বানানটি হলো 'Strategy' (কৌশল)। 'r' নেই 'g'-এর আগে।"
+    },
+    {
+        id: "spl_990", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Superintendant", "Superintendent", "Superintendentt", "Suprintendent"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Superintendent' (ends in -ent).",
+        explanationBengali: "সঠিক বানানটি হলো 'Superintendent' (তত্ত্বাবধায়ক)। শেষে 'dent' (ent) হয়, 'dant' নয়।"
+    },
+    {
+        id: "spl_991", chapter: "Spelling", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Surveilance", "Surveillance", "Surveillence", "Survelance"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Surveillance' (sur-veil-lance). Double l, ends in -ance.",
+        explanationBengali: "সঠিক বানানটি হলো 'Surveillance' (নজরদারি)। মনে রাখবেন: 'ei', দুটি 'l' এবং শেষে 'ance'।"
+    },
+    {
+        id: "spl_992", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Sylabus", "Syllabus", "Syllabous", "Sylabbus"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Syllabus' (double l).",
+        explanationBengali: "সঠিক বানানটি হলো 'Syllabus' (পাঠ্যসূচি)। মনে রাখবেন: দুটি 'l'।"
+    },
+    {
+        id: "spl_993", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Symetry", "Symmetry", "Symmetry", "Symetery"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Symmetry' (double m).",
+        explanationBengali: "সঠিক বানানটি হলো 'Symmetry' (প্রতিসাম্য)। মনে রাখবেন: দুটি 'm'।"
+    },
+    {
+        id: "spl_994", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Symposium", "Simposium", "Sympossium", "Symposeum"],
+        correctIndex: 0,
+        explanation: "The correct spelling is 'Symposium'.",
+        explanationBengali: "সঠিক বানানটি হলো 'Symposium' (আলোচনা সভা)।"
+    },
+    {
+        id: "spl_995", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Synonim", "Synonym", "Sinonym", "Synnonym"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Synonym' (y-n-o-n-y-m).",
+        explanationBengali: "সঠিক বানানটি হলো 'Synonym' (সমার্থক শব্দ)।"
+    },
+    {
+        id: "spl_996", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Tarriff", "Tariff", "Tarif", "Tarrif"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Tariff' (one r, double f).",
+        explanationBengali: "সঠিক বানানটি হলো 'Tariff' (শুল্ক)। মনে রাখবেন: একটি 'r' এবং দুটি 'f'।"
+    },
+    {
+        id: "spl_997", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Tatoo", "Tattoo", "Tatto", "Tattou"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Tattoo' (double t, double o).",
+        explanationBengali: "সঠিক বানানটি হলো 'Tattoo' (উল্কি)। মনে রাখবেন: দুটি 't' এবং দুটি 'o'।"
+    },
+    {
+        id: "spl_998", chapter: "Spelling", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Technique", "Tecnique", "Techneque", "Tecknique"],
+        correctIndex: 0,
+        explanation: "The correct spelling is 'Technique' (ends in -ique).",
+        explanationBengali: "সঠিক বানানটি হলো 'Technique' (কৌশল)। শেষে 'que' হয়।"
+    },
+    {
+        id: "spl_999", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Tommorrow", "Tomorrow", "Tommorow", "Toomorrow"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Tomorrow' (one m, double r).",
+        explanationBengali: "সঠিক বানানটি হলো 'Tomorrow' (আগামীকাল)। মনে রাখবেন: একটি 'm' এবং দুটি 'r'।"
+    },
+    {
+        id: "spl_1000", chapter: "Spelling", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Select the correctly spelt word.",
+        options: ["Toungue", "Tongue", "Tongu", "Tounge"],
+        correctIndex: 1,
+        explanation: "The correct spelling is 'Tongue' (ends in -gue).",
+        explanationBengali: "সঠিক বানানটি হলো 'Tongue' (জিহ্বা)।"
     }
 ];
+
 
 
 
