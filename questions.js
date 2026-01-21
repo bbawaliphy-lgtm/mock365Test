@@ -6366,8 +6366,809 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         correctIndex: 0,
         explanation: "Extempore means spoken or done without preparation.",
         explanationBengali: "Extempore মানে উপস্থিত বক্তৃতা।"
+    },
+    {
+        id: "idm_801", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A red letter day",
+        options: ["A dangerous day", "An unimportant day", "A memorable or happy day", "A rainy day"],
+        correctIndex: 2,
+        explanation: "A 'red letter day' refers to a very important, significant, or happy day.",
+        explanationBengali: "'Red letter day' মানে স্মরণীয়, আনন্দদায়ক বা খুব গুরুত্বপূর্ণ দিন।"
+    },
+    {
+        id: "idm_802", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A white elephant",
+        options: ["A rare species of elephant", "A costly but useless possession", "A very huge animal", "A symbol of royalty"],
+        correctIndex: 1,
+        explanation: "A 'white elephant' is something that costs a lot of money to keep but has no useful purpose.",
+        explanationBengali: "'White elephant' মানে এমন কোনো দামী বস্তু যা রক্ষণাবেক্ষণ খরচ অনেক কিন্তু কোনো কাজে আসে না।"
+    },
+    {
+        id: "idm_803", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "To turn a deaf ear",
+        options: ["To listen carefully", "To be unable to hear", "To refuse to listen", "To help someone"],
+        correctIndex: 2,
+        explanation: "To 'turn a deaf ear' means to ignore what someone is saying or refuse to listen.",
+        explanationBengali: "'Turn a deaf ear' মানে কানে না তোলা, উপেক্ষা করা বা কারো কথা শুনতে অস্বীকার করা।"
+    },
+    {
+        id: "idm_804", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Once in a blue moon",
+        options: ["Every month", "Very rarely", "Frequently", "At night time"],
+        correctIndex: 1,
+        explanation: "'Once in a blue moon' means something that happens very rarely.",
+        explanationBengali: "'Once in a blue moon' মানে কদাচিৎ বা যা খুব কম ঘটে।"
+    },
+    {
+        id: "idm_805", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A bolt from the blue",
+        options: ["A thunderstorm", "A complete surprise or shock", "A pleasant warning", "A winning lottery ticket"],
+        correctIndex: 1,
+        explanation: "A 'bolt from the blue' refers to a sudden and unexpected event or shock.",
+        explanationBengali: "'Bolt from the blue' মানে বিনা মেঘে বজ্রপাত বা সম্পূর্ণ অপ্রত্যাশিত বিপদ/ঘটনা।"
+    },
+    {
+        id: "idm_806", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "To beat about the bush",
+        options: ["To cut down trees", "To talk directly", "To avoid coming to the point", "To search for something"],
+        correctIndex: 2,
+        explanation: "To 'beat about the bush' means to talk about irrelevant things without coming to the main point.",
+        explanationBengali: "'Beat about the bush' মানে আসল কথা না বলে ঘুরিয়ে পেঁচিয়ে কথা বলা বা বাজে বকা।"
+    },
+    {
+        id: "idm_807", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A blessing in disguise",
+        options: ["A bad thing that turns out to be good", "A very expensive gift", "A curse", "A secret mission"],
+        correctIndex: 0,
+        explanation: "A 'blessing in disguise' is something that seems bad or unlucky at first, but results in something good happening later.",
+        explanationBengali: "'Blessing in disguise' মানে এমন কিছু যা প্রথমে খারাপ মনে হলেও পরে ভালো প্রমাণিত হয় (শাপে বর)।"
+    },
+    {
+        id: "idm_808", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "To cry over spilt milk",
+        options: ["To complain about milk prices", "To cry about a tragedy", "To regret something that cannot be undone", "To be very hungry"],
+        correctIndex: 2,
+        explanation: "To 'cry over spilt milk' means to be upset about something that has already happened and cannot be changed.",
+        explanationBengali: "'Cry over spilt milk' মানে যা হয়ে গেছে বা নষ্ট হয়েছে তা নিয়ে অহেতুক আক্ষেপ করা (গতস্য শোচনা নাস্তি)।"
+    },
+    {
+        id: "idm_809", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A hard nut to crack",
+        options: ["A difficult problem to solve", "A strong person", "A walnut", "An easy task"],
+        correctIndex: 0,
+        explanation: "A 'hard nut to crack' refers to a difficult problem or a person who is difficult to understand.",
+        explanationBengali: "'Hard nut to crack' মানে কঠিন সমস্যা বা এমন কাজ যা সমাধান করা কঠিন।"
+    },
+    {
+        id: "idm_810", chapter: "Idioms & Phrases", type: "vocab", difficulty: "hard", topic: "General",
+        question: "To read between the lines",
+        options: ["To read slowly", "To understand the hidden meaning", "To read a poem", "To misunderstand"],
+        correctIndex: 1,
+        explanation: "To 'read between the lines' means to look for or understand a meaning that is implied rather than explicitly stated.",
+        explanationBengali: "'Read between the lines' মানে অন্তর্নিহিত বা গোপন অর্থ বোঝা।"
+    },
+    {
+        id: "idm_811", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "At the eleventh hour",
+        options: ["At 11:00 PM", "At the very last moment", "Too late", "In the morning"],
+        correctIndex: 1,
+        explanation: "'At the eleventh hour' means at the latest possible time before it is too late.",
+        explanationBengali: "'At the eleventh hour' মানে একদম শেষ মুহূর্তে।"
+    },
+    {
+        id: "idm_812", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Apple of one's eye",
+        options: ["A fruit lover", "Someone very precious or dear", "A clear vision", "An expensive object"],
+        correctIndex: 1,
+        explanation: "To be the 'apple of one's eye' means to be someone who is cherished and loved above all others.",
+        explanationBengali: "'Apple of one's eye' মানে চোখের মণি বা অত্যন্ত প্রিয় ব্যক্তি।"
+    },
+    {
+        id: "idm_813", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A bed of roses",
+        options: ["A garden", "A difficult path", "A comfortable or easy life", "A romantic date"],
+        correctIndex: 2,
+        explanation: "A 'bed of roses' refers to a situation or activity that is comfortable, easy, or luxurious.",
+        explanationBengali: "'Bed of roses' মানে পুষ্পশয্যা বা খুব আরামদায়ক ও সুখের জীবন।"
+    },
+    {
+        id: "idm_814", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "To break the ice",
+        options: ["To smash ice cubes", "To start a conflict", "To initiate a conversation", "To end a friendship"],
+        correctIndex: 2,
+        explanation: "To 'break the ice' means to do or say something to relieve tension or get a conversation started in a social setting.",
+        explanationBengali: "'Break the ice' মানে জড়তা কাটিয়ে কথা বলা শুরু করা বা নীরবতা ভাঙা।"
+    },
+    {
+        id: "idm_815", chapter: "Idioms & Phrases", type: "vocab", difficulty: "hard", topic: "General",
+        question: "To burn the candle at both ends",
+        options: ["To waste candles", "To work extremely hard without rest", "To be very rich", "To celebrate a festival"],
+        correctIndex: 1,
+        explanation: "To 'burn the candle at both ends' means to exhaust oneself by doing too much, especially going to bed late and getting up early.",
+        explanationBengali: "'Burn the candle at both ends' মানে কঠোর পরিশ্রম করা বা বিশ্রাম না নিয়ে কাজ করা।"
+    },
+    {
+        id: "idm_816", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A cock and bull story",
+        options: ["A story about animals", "A true incident", "An absurd or unbelievable story", "A scary story"],
+        correctIndex: 2,
+        explanation: "A 'cock and bull story' is an implausible story used as an explanation or excuse.",
+        explanationBengali: "'Cock and bull story' মানে গাঁজাখুরি গল্প বা অবিশ্বাস্য অজুহাত।"
+    },
+    {
+        id: "idm_817", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Crocodile tears",
+        options: ["Real sadness", "Tears of a reptile", "Insincere or false sorrow", "Tears of joy"],
+        correctIndex: 2,
+        explanation: "'Crocodile tears' refers to tears or expressions of sorrow that are insincere.",
+        explanationBengali: "'Crocodile tears' মানে মায়াকান্না বা কৃত্রিম দুঃখ প্রকাশ।"
+    },
+    {
+        id: "idm_818", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Flesh and blood",
+        options: ["A horror movie", "Human nature or one's family", "Raw meat", "A dangerous animal"],
+        correctIndex: 1,
+        explanation: "'Flesh and blood' refers to someone's family or the human body and its natural limitations/emotions.",
+        explanationBengali: "'Flesh and blood' মানে রক্তমাংসের শরীর (মানুষের স্বভাব) বা নিজের আত্মীয়-স্বজন।"
+    },
+    {
+        id: "idm_819", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Hand to mouth",
+        options: ["Eating constantly", "Living with just enough money to survive", "Saving money", "Begging on the street"],
+        correctIndex: 1,
+        explanation: "Living 'hand to mouth' means having only enough money for basic needs like food, with nothing left for savings.",
+        explanationBengali: "'Hand to mouth' মানে দিন আনা দিন খাওয়া বা অভাবের সংসার।"
+    },
+    {
+        id: "idm_820", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "In a nutshell",
+        options: ["Inside a shell", "Briefly or concisely", "In a difficult situation", "Detailed explanation"],
+        correctIndex: 1,
+        explanation: "'In a nutshell' means in very few words; concisely.",
+        explanationBengali: "'In a nutshell' মানে সংক্ষেপে বা এক কথায়।"
+    },
+    {
+        id: "idm_821", chapter: "Idioms & Phrases", type: "vocab", difficulty: "hard", topic: "General",
+        question: "To leave no stone unturned",
+        options: ["To clean a garden", "To build a house", "To try every possible course of action", "To remain lazy"],
+        correctIndex: 2,
+        explanation: "To 'leave no stone unturned' means to do everything possible to find something or solve a problem.",
+        explanationBengali: "'Leave no stone unturned' মানে কোনো চেষ্টার ত্রুটি না রাখা বা সাধ্যমতো সব উপায় অবলম্বন করা।"
+    },
+    {
+        id: "idm_822", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A piece of cake",
+        options: ["A tasty dessert", "A difficult task", "A very easy task", "A birthday celebration"],
+        correctIndex: 2,
+        explanation: "Something that is 'a piece of cake' is very easy to do.",
+        explanationBengali: "'Piece of cake' মানে খুব সহজ কাজ।"
+    },
+    {
+        id: "idm_823", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "To rain cats and dogs",
+        options: ["To fight loudly", "To rain very heavily", "To have many pets", "A chaotic situation"],
+        correctIndex: 1,
+        explanation: "To 'rain cats and dogs' means to rain very hard.",
+        explanationBengali: "'Rain cats and dogs' মানে মুষলধারে বৃষ্টি হওয়া।"
+    },
+    {
+        id: "idm_824", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "To spill the beans",
+        options: ["To cook dinner", "To drop food", "To reveal a secret", "To plant seeds"],
+        correctIndex: 2,
+        explanation: "To 'spill the beans' means to reveal secret information unintentionally or indiscreetly.",
+        explanationBengali: "'Spill the beans' মানে গোপন কথা ফাঁস করে দেওয়া।"
+    },
+    {
+        id: "idm_825", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Through thick and thin",
+        options: ["Through a forest", "Under all circumstances, good or bad", "Being fat and thin", "Only in good times"],
+        correctIndex: 1,
+        explanation: "To support someone 'through thick and thin' means to stay by their side during both good times and bad times.",
+        explanationBengali: "'Through thick and thin' মানে সুখে-দুঃখে বা সব পরিস্থিতিতে পাশে থাকা।"
+    },
+    {
+        id: "idm_826", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Under the weather",
+        options: ["Enjoying the rain", "Feeling sick or unwell", "In a storm", "Under a cloud"],
+        correctIndex: 1,
+        explanation: "To feel 'under the weather' means to feel slightly ill or unwell.",
+        explanationBengali: "'Under the weather' মানে শরীর খারাপ লাগা বা অসুস্থ বোধ করা।"
+    },
+    {
+        id: "idm_827", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A wild goose chase",
+        options: ["Hunting birds", "A foolish and hopeless search", "A fun adventure", "Running fast"],
+        correctIndex: 1,
+        explanation: "A 'wild goose chase' is a foolish and hopeless search for or pursuit of something unattainable.",
+        explanationBengali: "'Wild goose chase' মানে পণ্ডশ্রম বা বৃথা অনুসন্ধান।"
+    },
+    {
+        id: "idm_828", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A wolf in sheep's clothing",
+        options: ["A brave person", "A dangerous person pretending to be harmless", "A farmer", "A shy animal"],
+        correctIndex: 1,
+        explanation: "A 'wolf in sheep's clothing' is a person or thing that appears harmless but is actually dangerous.",
+        explanationBengali: "'Wolf in sheep's clothing' মানে কপট বন্ধু বা যে শত্রু বন্ধুর বেশে ক্ষতি করতে আসে।"
+    },
+    {
+        id: "idm_829", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "To add fuel to the fire",
+        options: ["To cook food", "To help someone", "To make a bad situation worse", "To put out a fire"],
+        correctIndex: 2,
+        explanation: "To 'add fuel to the fire' means to cause a situation or conflict to become more intense or worse.",
+        explanationBengali: "'Add fuel to the fire' মানে আগুনে ঘি ঢালা বা পরিস্থিতি আরও খারাপ করা।"
+    },
+    {
+        id: "idm_830", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A fish out of water",
+        options: ["A dead fish", "Someone in an uncomfortable situation", "A good swimmer", "A thirsty person"],
+        correctIndex: 1,
+        explanation: "A 'fish out of water' refers to a person who is away from their usual environment or activities and feels uncomfortable or awkward.",
+        explanationBengali: "'Fish out of water' মানে অস্বস্তিকর অবস্থায় পড়া (জলের মাছ ডাঙ্গায় তোলার মতো)।"
+    },
+    {
+        id: "idm_831", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "At sixes and sevens",
+        options: ["In a state of confusion or disorder", "To be very happy", "To be in a group", "To count numbers"],
+        correctIndex: 0,
+        explanation: "'At sixes and sevens' means a state of total confusion or disarray.",
+        explanationBengali: "'At sixes and sevens' মানে বিশৃঙ্খল অবস্থায় বা এলোমেলো অবস্থায় থাকা।"
+    },
+    {
+        id: "idm_832", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "To bite the bullet",
+        options: ["To eat metal", "To attack someone", "To face a difficult situation with courage", "To avoid a problem"],
+        correctIndex: 2,
+        explanation: "To 'bite the bullet' means to force yourself to do something unpleasant or difficult, or to be brave in a difficult situation.",
+        explanationBengali: "'Bite the bullet' মানে দাঁতে দাঁত চেপে কঠিন পরিস্থিতি মোকাবেলা করা বা অপ্রিয় কাজ করতে বাধ্য হওয়া।"
+    },
+    {
+        id: "idm_833", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "To call it a day",
+        options: ["To name a day", "To stop working on something", "To start a new job", "To work all night"],
+        correctIndex: 1,
+        explanation: "To 'call it a day' means to decide to stop working on something, usually because you are tired or have done enough.",
+        explanationBengali: "'Call it a day' মানে আজকের মতো কাজ শেষ করা বা ক্ষান্ত দেওয়া।"
+    },
+    {
+        id: "idm_834", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "To cut corners",
+        options: ["To drive safely", "To do something thoroughly", "To do something cheaply or lazily", "To cut paper"],
+        correctIndex: 2,
+        explanation: "To 'cut corners' means to do something in the easiest, cheapest, or fastest way, often sacrificing quality or safety.",
+        explanationBengali: "'Cut corners' মানে খরচ বা সময় বাঁচাতে শর্টকাট নেওয়া (যার ফলে কাজের মান কমে যায়)।"
+    },
+    {
+        id: "idm_835", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "To get out of hand",
+        options: ["To drop something", "To become uncontrollable", "To leave a place", "To injure one's hand"],
+        correctIndex: 1,
+        explanation: "If a situation 'gets out of hand', it becomes impossible to control.",
+        explanationBengali: "'Get out of hand' মানে হাতের বাইরে চলে যাওয়া বা নিয়ন্ত্রণহীন হয়ে পড়া।"
+    },
+    {
+        id: "idm_836", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "To hit the nail on the head",
+        options: ["To hammer loudly", "To hurt oneself", "To describe exactly what is causing a situation", "To miss the point"],
+        correctIndex: 2,
+        explanation: "To 'hit the nail on the head' means to say exactly the right thing or find the exact truth.",
+        explanationBengali: "'Hit the nail on the head' মানে ঠিক জায়গাতে ঘা দেওয়া বা একদম সঠিক কথাটি বলা।"
+    },
+    {
+        id: "idm_837", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "To let the cat out of the bag",
+        options: ["To release a pet", "To reveal a secret carelessly", "To make a mistake", "To go shopping"],
+        correctIndex: 1,
+        explanation: "To 'let the cat out of the bag' means to reveal a secret, usually by accident.",
+        explanationBengali: "'Let the cat out of the bag' মানে গোপন কথা ফাঁস করে ফেলা।"
+    },
+    {
+        id: "idm_838", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "To miss the boat",
+        options: ["To be too late to take an opportunity", "To lose a boat", "To swim across a river", "To avoid travel"],
+        correctIndex: 0,
+        explanation: "To 'miss the boat' means to be too slow to take an opportunity.",
+        explanationBengali: "'Miss the boat' মানে সুযোগ হাতছাড়া করা বা দেরি করে ফেলা।"
+    },
+    {
+        id: "idm_839", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "To pull someone's leg",
+        options: ["To drag someone", "To tease or joke with someone", "To help someone stand up", "To injure someone"],
+        correctIndex: 1,
+        explanation: "To 'pull someone's leg' means to tell someone something that is not true as a way of joking with them.",
+        explanationBengali: "'Pull someone's leg' মানে কারো সাথে মজা করা বা বোকা বানানোর চেষ্টা করা।"
+    },
+    {
+        id: "idm_840", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "To see eye to eye",
+        options: ["To stare at someone", "To have good vision", "To agree fully", "To argue"],
+        correctIndex: 2,
+        explanation: "To 'see eye to eye' means to be in full agreement with someone.",
+        explanationBengali: "'See eye to eye' মানে সম্পূর্ণ একমত হওয়া।"
+    },
+    {
+        id: "idm_841", chapter: "Idioms & Phrases", type: "vocab", difficulty: "hard", topic: "General",
+        question: "To sit on the fence",
+        options: ["To relax in a garden", "To refuse to take a side in an argument", "To watch a game", "To be balanced"],
+        correctIndex: 1,
+        explanation: "To 'sit on the fence' means to delay making a decision or refuse to choose between two sides.",
+        explanationBengali: "'Sit on the fence' মানে সিদ্ধান্ত না নিয়ে নিরপেক্ষ থাকা বা দুই নৌকায় পা দেওয়া।"
+    },
+    {
+        id: "idm_842", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Speak of the devil",
+        options: ["Talk about evil things", "Said when the person you are talking about appears", "To curse someone", "To pray"],
+        correctIndex: 1,
+        explanation: "'Speak of the devil' is said when a person appears just after you have been talking about them.",
+        explanationBengali: "'Speak of the devil' বলা হয় যখন যার কথা বলা হচ্ছে ঠিক তখনই সে উপস্থিত হয় (যেমমনি বুনো ওল তেমনি বাঘা তেঁতুল / নাম নিতেই হাজির)।"
+    },
+    {
+        id: "idm_843", chapter: "Idioms & Phrases", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Take with a grain of salt",
+        options: ["To eat with salt", "To believe only part of something", "To take medicine", "To cook well"],
+        correctIndex: 1,
+        explanation: "To take something 'with a grain of salt' means to view something with skepticism or not strictly literally.",
+        explanationBengali: "'Take with a grain of salt' মানে কোনো কিছু পুরোপুরি বিশ্বাস না করা বা সন্দেহের সাথে নেওয়া।"
+    },
+    {
+        id: "idm_844", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Burn the midnight oil",
+        options: ["To waste oil", "To work or study late into the night", "To cook late at night", "To create a fire"],
+        correctIndex: 1,
+        explanation: "To 'burn the midnight oil' means to read or work late into the night.",
+        explanationBengali: "'Burn the midnight oil' মানে গভীর রাত পর্যন্ত জেগে কাজ করা বা পড়াশোনা করা।"
+    },
+    {
+        id: "idm_845", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Face the music",
+        options: ["To listen to songs", "To accept the unpleasant consequences of one's actions", "To attend a concert", "To dance"],
+        correctIndex: 1,
+        explanation: "To 'face the music' means to accept responsibility for something you have done.",
+        explanationBengali: "'Face the music' মানে নিজের কৃতকর্মের ফল ভোগ করা বা সমালোচনার সম্মুখীন হওয়া।"
+    },
+    {
+        id: "idm_846", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "In the same boat",
+        options: ["Traveling together", "In the same difficult situation", "Sharing a room", "Rowing a boat"],
+        correctIndex: 1,
+        explanation: "To be 'in the same boat' means to be in the same unpleasant or difficult situation as other people.",
+        explanationBengali: "'In the same boat' মানে একই বিপদে বা একই পরিস্থিতিতে থাকা।"
+    },
+    {
+        id: "idm_847", chapter: "Idioms & Phrases", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Beat a dead horse",
+        options: ["To abuse an animal", "To waste effort on a lost cause", "To work very hard", "To ride a horse"],
+        correctIndex: 1,
+        explanation: "To 'beat a dead horse' means to waste time and effort on a matter that has already been decided.",
+        explanationBengali: "'Beat a dead horse' মানে অহেতুক চেষ্টা করা বা মীমাংসিত বিষয় নিয়ে সময় নষ্ট করা।"
+    },
+    {
+        id: "idm_848", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Bury the hatchet",
+        options: ["To hide a weapon", "To plant a tree", "To end a quarrel or conflict", "To start a war"],
+        correctIndex: 2,
+        explanation: "To 'bury the hatchet' means to end a conflict and become friends.",
+        explanationBengali: "'Bury the hatchet' মানে ঝগড়া বা শত্রুতা মিটিয়ে ফেলা।"
+    },
+    {
+        id: "idm_849", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Cost an arm and a leg",
+        options: ["To be physically painful", "To be very expensive", "To lose a limb", "To be cheap"],
+        correctIndex: 1,
+        explanation: "If something 'costs an arm and a leg', it is very expensive.",
+        explanationBengali: "'Cost an arm and a leg' মানে অত্যন্ত ব্যয়বহুল।"
+    },
+    {
+        id: "idm_850", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Cry wolf",
+        options: ["To call for help when it is not needed", "To cry loudly", "To hunt wolves", "To be afraid"],
+        correctIndex: 0,
+        explanation: "To 'cry wolf' means to raise a false alarm.",
+        explanationBengali: "'Cry wolf' মানে মিথ্যা সংকেত দেওয়া বা অকারণে ভয় দেখানো (বাঘ এসেছে গল্পের মতো)।"
+    },
+    {
+        id: "idm_851", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Feel blue",
+        options: ["To feel cold", "To feel sad or depressed", "To wear blue clothes", "To feel sick"],
+        correctIndex: 1,
+        explanation: "To 'feel blue' means to feel sad or depressed.",
+        explanationBengali: "'Feel blue' মানে মন খারাপ থাকা বা বিষণ্ন বোধ করা।"
+    },
+    {
+        id: "idm_852", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Give the cold shoulder",
+        options: ["To offer a coat", "To ignore or treat someone in an unfriendly way", "To shiver", "To support someone"],
+        correctIndex: 1,
+        explanation: "To 'give the cold shoulder' means to intentionally ignore someone or treat them in an unfriendly manner.",
+        explanationBengali: "'Give the cold shoulder' মানে অবজ্ঞা করা বা পাত্তা না দেওয়া।"
+    },
+    {
+        id: "idm_853", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Go the extra mile",
+        options: ["To walk a long distance", "To make a special effort to achieve something", "To run a marathon", "To drive fast"],
+        correctIndex: 1,
+        explanation: "To 'go the extra mile' means to do more than what is expected of you.",
+        explanationBengali: "'Go the extra mile' মানে প্রত্যাশার চেয়ে বেশি চেষ্টা করা বা বাড়তি পরিশ্রম করা।"
+    },
+    {
+        id: "idm_854", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Hit the sack",
+        options: ["To punch a bag", "To go to bed", "To quit a job", "To win a game"],
+        correctIndex: 1,
+        explanation: "To 'hit the sack' is an informal way of saying 'go to bed'.",
+        explanationBengali: "'Hit the sack' মানে ঘুমাতে যাওয়া।"
+    },
+    {
+        id: "idm_855", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Kill two birds with one stone",
+        options: ["To hunt birds", "To solve two problems with one action", "To be cruel", "To make a mistake"],
+        correctIndex: 1,
+        explanation: "To 'kill two birds with one stone' means to achieve two things with a single action.",
+        explanationBengali: "'Kill two birds with one stone' মানে এক ঢিলে দুই পাখি মারা।"
+    },
+    {
+        id: "idm_856", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Make ends meet",
+        options: ["To finish a task", "To tie two ropes", "To earn just enough money to live on", "To be rich"],
+        correctIndex: 2,
+        explanation: "To 'make ends meet' means to have just enough money to pay for the things that you need.",
+        explanationBengali: "'Make ends meet' মানে কোনোমতে দিন চালানো বা আয়-ব্যয়ের সঙ্গতি রাখা।"
+    },
+    {
+        id: "idm_857", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Let sleeping dogs lie",
+        options: ["To not disturb a situation to avoid trouble", "To let dogs sleep", "To be lazy", "To sleep late"],
+        correctIndex: 0,
+        explanation: "To 'let sleeping dogs lie' means to avoid interfering in a situation that is currently causing no problems but might do so as a result of such interference.",
+        explanationBengali: "'Let sleeping dogs lie' মানে পুরানো কাসুন্দি না ঘাঁটা বা ঝামেলা এড়াতে চুপ থাকা।"
+    },
+    {
+        id: "idm_858", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Steal someone's thunder",
+        options: ["To steal electricity", "To take credit for someone else's work or idea", "To make a loud noise", "To get angry"],
+        correctIndex: 1,
+        explanation: "To 'steal someone's thunder' means to take the credit or praise that someone else deserves.",
+        explanationBengali: "'Steal someone's thunder' মানে অন্যের কৃতিত্ব বা প্রশংসা কেড়ে নেওয়া।"
+    },
+    {
+        id: "idm_859", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Turn a blind eye",
+        options: ["To be blind", "To pretend not to notice", "To look carefully", "To help someone"],
+        correctIndex: 1,
+        explanation: "To 'turn a blind eye' means to pretend not to see or notice something wrong.",
+        explanationBengali: "'Turn a blind eye' মানে দেখেও না দেখার ভান করা।"
+    },
+    {
+        id: "idm_860", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "A hot potato",
+        options: ["A tasty food", "A controversial issue that is difficult to handle", "A warm vegetable", "A simple problem"],
+        correctIndex: 1,
+        explanation: "A 'hot potato' is a controversial issue or situation that is awkward or unpleasant to deal with.",
+        explanationBengali: "'Hot potato' মানে এমন কোনো বিষয় যা নিয়ে আলোচনা করা অস্বস্তিকর বা বিতর্কিত।"
+    },
+    {
+        id: "idm_861", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Bag and baggage",
+        options: ["With all one's belongings", "Without any luggage", "A heavy bag", "Leaving something behind"],
+        correctIndex: 0,
+        explanation: "'Bag and baggage' means with all of one's possessions.",
+        explanationBengali: "'Bag and baggage' মানে তল্পিতল্পাসহ বা সব মালপত্র নিয়ে।"
+    },
+    {
+        id: "idm_862", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "By hook or by crook",
+        options: ["Using a hook", "By any possible means, fair or unfair", "By asking nicely", "By working hard"],
+        correctIndex: 1,
+        explanation: "'By hook or by crook' means by any means possible, whether honest or dishonest.",
+        explanationBengali: "'By hook or by crook' মানে ছলে-বলে-কৌশলে বা যে কোনো উপায়ে।"
+    },
+    {
+        id: "idm_863", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Ups and downs",
+        options: ["Hills and valleys", "Good and bad times", "Going up and down", "Stairs"],
+        correctIndex: 1,
+        explanation: "'Ups and downs' refers to a mixture of good and bad things in life or a relationship.",
+        explanationBengali: "'Ups and downs' মানে উত্থান-পতন বা জীবনের সুখ-দুঃখ।"
+    },
+    {
+        id: "idm_864", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Pros and cons",
+        options: ["Professionals and convicts", "Advantages and disadvantages", "Friends and enemies", "Truth and lies"],
+        correctIndex: 1,
+        explanation: "'Pros and cons' refers to the advantages and disadvantages of something.",
+        explanationBengali: "'Pros and cons' মানে খুঁটিনাটি বা ভালো-মন্দ দিক।"
+    },
+    {
+        id: "idm_865", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Apple of discord",
+        options: ["A tasty apple", "A cause of quarrel", "A symbol of peace", "A garden fruit"],
+        correctIndex: 1,
+        explanation: "An 'apple of discord' is something that causes trouble or unhappiness.",
+        explanationBengali: "'Apple of discord' মানে বিবাদের বিষয় বা কলহের মূল।"
+    },
+    {
+        id: "idm_866", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "At the drop of a hat",
+        options: ["Without hesitation or delay", "To drop a hat", "To be clumsy", "To be very angry"],
+        correctIndex: 0,
+        explanation: "To do something 'at the drop of a hat' means to do it immediately and without hesitation.",
+        explanationBengali: "'At the drop of a hat' মানে সাথে সাথে বা কালবিলম্ব না করে।"
+    },
+    {
+        id: "idm_867", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Barking up the wrong tree",
+        options: ["Chasing a cat", "Accusing or blaming the wrong person", "Being cruel to animals", "Cutting down a tree"],
+        correctIndex: 1,
+        explanation: "'Barking up the wrong tree' means to be mistaken about something or to accuse the wrong person.",
+        explanationBengali: "'Barking up the wrong tree' মানে ভুল মানুষের ওপর দোষ চাপানো বা ভুল পথে এগোনো।"
+    },
+    {
+        id: "idm_868", chapter: "Idioms & Phrases", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Be in the doldrums",
+        options: ["To be on a ship", "To be in low spirits or stagnant", "To be very successful", "To be in a storm"],
+        correctIndex: 1,
+        explanation: "To 'be in the doldrums' means to be depressed, bored, or in a state of inactivity/stagnation.",
+        explanationBengali: "'Be in the doldrums' মানে বিষণ্ন বা নিস্তেজ অবস্থায় থাকা।"
+    },
+    {
+        id: "idm_869", chapter: "Idioms & Phrases", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Bear the palm",
+        options: ["To carry a tree", "To be victorious", "To accept punishment", "To be patient"],
+        correctIndex: 1,
+        explanation: "To 'bear the palm' means to be the winner or to be victorious.",
+        explanationBengali: "'Bear the palm' মানে জয়ী হওয়া বা শ্রেষ্ঠত্ব অর্জন করা।"
+    },
+    {
+        id: "idm_870", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Black sheep",
+        options: ["A dark wool sweater", "A unique animal", "A disgrace to the family/group", "A lucky person"],
+        correctIndex: 2,
+        explanation: "A 'black sheep' is a member of a family or group who is regarded as a disgrace to them.",
+        explanationBengali: "'Black sheep' মানে কুলাঙ্গার বা দলের কলঙ্ক।"
+    },
+    {
+        id: "idm_871", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Blow one's own trumpet",
+        options: ["To play music", "To praise oneself", "To criticize others", "To make a loud noise"],
+        correctIndex: 1,
+        explanation: "To 'blow one's own trumpet' means to talk boastfully about one's own achievements.",
+        explanationBengali: "'Blow one's own trumpet' মানে নিজের ঢাক নিজে পেটানো বা নিজের প্রশংসা নিজে করা।"
+    },
+    {
+        id: "idm_872", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Bone of contention",
+        options: ["A delicious meal", "A subject of dispute or argument", "A strong friendship", "A medical problem"],
+        correctIndex: 1,
+        explanation: "A 'bone of contention' is a subject or issue over which there is continuing disagreement.",
+        explanationBengali: "'Bone of contention' মানে বিবাদের বিষয়।"
+    },
+    {
+        id: "idm_873", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Break the news",
+        options: ["To stop a broadcast", "To tell someone bad news", "To destroy a newspaper", "To keep a secret"],
+        correctIndex: 1,
+        explanation: "To 'break the news' usually means to tell someone information that is new and often upsetting.",
+        explanationBengali: "'Break the news' মানে কোনো দুঃসংবাদ জানানো।"
+    },
+    {
+        id: "idm_874", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Burn one's bridges",
+        options: ["To build a bridge", "To destroy all possible ways of returning to a situation", "To start a fire", "To be an engineer"],
+        correctIndex: 1,
+        explanation: "To 'burn one's bridges' means to destroy all possible ways of going back to a previous situation.",
+        explanationBengali: "'Burn one's bridges' মানে ফিরে আসার পথ বন্ধ করে দেওয়া।"
+    },
+    {
+        id: "idm_875", chapter: "Idioms & Phrases", type: "vocab", difficulty: "hard", topic: "General",
+        question: "By fits and starts",
+        options: ["To exercise regularly", "Irregularly or sporadically", "Very quickly", "With great energy"],
+        correctIndex: 1,
+        explanation: "Doing something 'by fits and starts' means doing it irregularly, stopping and starting often.",
+        explanationBengali: "'By fits and starts' মানে অনিয়মিতভাবে বা খাপছাড়াভাবে।"
+    },
+    {
+        id: "idm_876", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Capital punishment",
+        options: ["A fine for money", "The death penalty", "Imprisonment for life", "Punishment in a capital city"],
+        correctIndex: 1,
+        explanation: "'Capital punishment' refers to the legal punishment of death for a crime.",
+        explanationBengali: "'Capital punishment' মানে মৃত্যুদণ্ড।"
+    },
+    {
+        id: "idm_877", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Cast pearls before swine",
+        options: ["To feed animals", "To offer valuable things to people who do not appreciate them", "To make jewelry", "To be wealthy"],
+        correctIndex: 1,
+        explanation: "To 'cast pearls before swine' means to give something valuable to someone who cannot understand its value.",
+        explanationBengali: "'Cast pearls before swine' মানে উলুবনে মুক্তা ছড়ানো (অযোগ্যকে দামী জিনিস দেওয়া)।"
+    },
+    {
+        id: "idm_878", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Chicken-hearted",
+        options: ["Generous", "Cowardly or timid", "Brave", "Cruel"],
+        correctIndex: 1,
+        explanation: "A 'chicken-hearted' person is someone who is cowardly and easily frightened.",
+        explanationBengali: "'Chicken-hearted' মানে ভীরু বা কাপুরুষ।"
+    },
+    {
+        id: "idm_879", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Come off with flying colours",
+        options: ["To fly an airplane", "To fail miserably", "To succeed with distinction", "To run away"],
+        correctIndex: 2,
+        explanation: "To 'come off with flying colours' means to be highly successful or triumphant.",
+        explanationBengali: "'Come off with flying colours' মানে অত্যন্ত সফলভাবে উত্তীর্ণ হওয়া।"
+    },
+    {
+        id: "idm_880", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Cry for the moon",
+        options: ["To howl at night", "To ask for something impossible", "To be very sad", "To want to be an astronaut"],
+        correctIndex: 1,
+        explanation: "To 'cry for the moon' means to ask for or want something that is impossible to get.",
+        explanationBengali: "'Cry for the moon' মানে অসম্ভব কিছু চাওয়া (বামন হয়ে চাঁদ ধরার স্বপ্ন)।"
+    },
+    {
+        id: "idm_881", chapter: "Idioms & Phrases", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Cut no ice",
+        options: ["To have no influence or effect", "To be very sharp", "To stop winter", "To be useless at cooking"],
+        correctIndex: 0,
+        explanation: "If an argument or idea 'cuts no ice', it has no influence or effect on someone.",
+        explanationBengali: "'Cut no ice' মানে কোনো প্রভাব ফেলতে না পারা বা গুরুত্বহীন হওয়া।"
+    },
+    {
+        id: "idm_882", chapter: "Idioms & Phrases", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Die in harness",
+        options: ["To die in a war", "To die while still working/active", "To die peacefully", "To die in an accident"],
+        correctIndex: 1,
+        explanation: "To 'die in harness' means to die while engaging in one's work, before retirement.",
+        explanationBengali: "'Die in harness' মানে কাজ করতে করতে বা চাকুরিরত অবস্থায় মারা যাওয়া।"
+    },
+    {
+        id: "idm_883", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Dog in the manger",
+        options: ["A faithful pet", "A person who selfishly stops others from using something they don't need", "A guard dog", "A wild animal"],
+        correctIndex: 1,
+        explanation: "A 'dog in the manger' refers to a person who prevents others from using something that they themselves have no use for.",
+        explanationBengali: "'Dog in the manger' মানে নিজে খাব না অন্যকেও খেতে দেব না এমন স্বভাবের লোক।"
+    },
+    {
+        id: "idm_884", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Eat humble pie",
+        options: ["To eat a bad meal", "To apologize humbly, often under pressure", "To be very hungry", "To celebrate"],
+        correctIndex: 1,
+        explanation: "To 'eat humble pie' means to be forced to apologize and admit one was wrong.",
+        explanationBengali: "'Eat humble pie' মানে অপমান হজম করে ক্ষমা চাওয়া।"
+    },
+    {
+        id: "idm_885", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Fair and square",
+        options: ["Beautiful and round", "Dishonest", "Honest and straightforward", "A market place"],
+        correctIndex: 2,
+        explanation: "To do something 'fair and square' means to do it honestly and according to the rules.",
+        explanationBengali: "'Fair and square' মানে সৎভাবে বা ন্যায়সংগতভাবে।"
+    },
+    {
+        id: "idm_886", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "A feather in one's cap",
+        options: ["A funny hat", "An achievement to be proud of", "A burden", "A sign of cowardice"],
+        correctIndex: 1,
+        explanation: "A 'feather in one's cap' is an achievement or honor that one can be proud of.",
+        explanationBengali: "'Feather in one's cap' মানে সাফল্যের পালক বা গর্বের বিষয়।"
+    },
+    {
+        id: "idm_887", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Fight tooth and nail",
+        options: ["To fight lightly", "To use weapons", "To fight very fiercely and with great effort", "To give up easily"],
+        correctIndex: 2,
+        explanation: "To 'fight tooth and nail' means to fight with great energy and determination.",
+        explanationBengali: "'Fight tooth and nail' মানে প্রাণপণ লড়াই করা।"
+    },
+    {
+        id: "idm_888", chapter: "Idioms & Phrases", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Fish in troubled waters",
+        options: ["To catch many fish", "To take advantage of a chaotic situation", "To swim in a storm", "To be in danger"],
+        correctIndex: 1,
+        explanation: "To 'fish in troubled waters' means to try to gain an advantage from a difficult or confused situation.",
+        explanationBengali: "'Fish in troubled waters' মানে ঘোলা জলে মাছ শিকার বা অন্যের বিপদে নিজের লাভ খোঁজা।"
+    },
+    {
+        id: "idm_889", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "French leave",
+        options: ["A holiday in France", "Leaving without permission or notice", "A polite goodbye", "Official leave"],
+        correctIndex: 1,
+        explanation: "To take 'French leave' means to leave work or a duty without permission.",
+        explanationBengali: "'French leave' মানে অনুমতি ছাড়া প্রস্থান বা ছুটি।"
+    },
+    {
+        id: "idm_890", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Get the sack",
+        options: ["To receive a gift", "To buy a bag", "To be dismissed from a job", "To win a prize"],
+        correctIndex: 2,
+        explanation: "To 'get the sack' means to be fired from a job.",
+        explanationBengali: "'Get the sack' মানে চাকরি থেকে বরখাস্ত হওয়া।"
+    },
+    {
+        id: "idm_891", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Gift of the gab",
+        options: ["An expensive gift", "The ability to speak eloquently", "A secret talent", "To be very rich"],
+        correctIndex: 1,
+        explanation: "Having the 'gift of the gab' means having the ability to speak easily and confidently.",
+        explanationBengali: "'Gift of the gab' মানে বাকপটুতা বা কথা বলার বিশেষ দক্ষতা।"
+    },
+    {
+        id: "idm_892", chapter: "Idioms & Phrases", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Give up the ghost",
+        options: ["To tell a ghost story", "To stop believing in ghosts", "To die or stop functioning", "To be scared"],
+        correctIndex: 2,
+        explanation: "To 'give up the ghost' is a euphemism for dying; it can also mean a machine stops working.",
+        explanationBengali: "'Give up the ghost' মানে মারা যাওয়া বা শেষ নিঃশ্বাস ত্যাগ করা।"
+    },
+    {
+        id: "idm_893", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Hand in glove",
+        options: ["Wearing gloves", "In extremely close relationship or agreement", "Fighting", "Cold hands"],
+        correctIndex: 1,
+        explanation: "To be 'hand in glove' means to be in a very close association, often implying collusion.",
+        explanationBengali: "'Hand in glove' মানে অত্যন্ত ঘনিষ্ঠ সম্পর্ক (অনেক সময় ষড়যন্ত্রে লিপ্ত বোঝাতে ব্যবহৃত হয়)।"
+    },
+    {
+        id: "idm_894", chapter: "Idioms & Phrases", type: "vocab", difficulty: "easy", topic: "General",
+        question: "Hard and fast",
+        options: ["Difficult and quick", "Strict and cannot be changed", "Loose and flexible", "Running fast"],
+        correctIndex: 1,
+        explanation: "'Hard and fast' rules are fixed and definite; they cannot be altered.",
+        explanationBengali: "'Hard and fast' মানে ধরাবাঁধা বা কঠোর (নিয়ম)।"
+    },
+    {
+        id: "idm_895", chapter: "Idioms & Phrases", type: "vocab", difficulty: "hard", topic: "General",
+        question: "Hobson's choice",
+        options: ["A good choice", "Multiple choices", "No real choice at all", "A difficult decision"],
+        correctIndex: 2,
+        explanation: "'Hobson's choice' is a situation where you have no real choice because there is only one option available.",
+        explanationBengali: "'Hobson's choice' মানে এমন অবস্থা যেখানে আসলে কোনো বিকল্প নেই (হয় এটা নাও, নয়তো কিছুই না)।"
+    },
+    {
+        id: "idm_896", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Hold water",
+        options: ["To carry a bucket", "To appear to be valid or reasonable", "To be leaky", "To stop a flood"],
+        correctIndex: 1,
+        explanation: "If an argument or theory 'holds water', it appears to be valid, sound, or reasonable.",
+        explanationBengali: "'Hold water' মানে যুক্তিসঙ্গত বা ধোপে টেকা।"
+    },
+    {
+        id: "idm_897", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Hue and cry",
+        options: ["Colors and tears", "A loud public outcry", "Silent protest", "A whisper"],
+        correctIndex: 1,
+        explanation: "'Hue and cry' refers to a loud clamor or public outcry.",
+        explanationBengali: "'Hue and cry' মানে শোরগোল বা হইচই।"
+    },
+    {
+        id: "idm_898", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "In cold blood",
+        options: ["While freezing", "Deliberately and without emotion", "Accidentally", "In winter"],
+        correctIndex: 1,
+        explanation: "To do something 'in cold blood' means to do it deliberately and ruthlessly, without showing any emotion.",
+        explanationBengali: "'In cold blood' মানে ঠান্ডা মাথায় বা নৃশংসভাবে।"
+    },
+    {
+        id: "idm_899", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Keep the wolf from the door",
+        options: ["To have a pet wolf", "To ward off starvation or financial ruin", "To hunt wolves", "To be brave"],
+        correctIndex: 1,
+        explanation: "To 'keep the wolf from the door' means to have enough money to avoid going hungry or becoming poor.",
+        explanationBengali: "'Keep the wolf from the door' মানে কোনোমতে খেয়েপরে বেঁচে থাকা বা অনাহার থেকে বাঁচা।"
+    },
+    {
+        id: "idm_900", chapter: "Idioms & Phrases", type: "vocab", difficulty: "moderate", topic: "General",
+        question: "Kith and kin",
+        options: ["Friends and enemies", "Blood relatives and friends", "Strangers", "Neighbors"],
+        correctIndex: 1,
+        explanation: "'Kith and kin' refers to one's friends, acquaintances, and relations.",
+        explanationBengali: "'Kith and kin' মানে আত্মীয়-স্বজন ও বন্ধু-বান্ধব।"
     }
 ];
+
 
 
 
