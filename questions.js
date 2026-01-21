@@ -7966,8 +7966,2483 @@ explanationBengali: "Panacea মানে সর্বরোগহর ঔষধ�
         correctIndex: 1,
         explanation: "The correct spelling is 'Tongue' (ends in -gue).",
         explanationBengali: "সঠিক বানানটি হলো 'Tongue' (জিহ্বা)।"
+    },
+    // --- Passage 1: The Amazon Rainforest ---
+    {
+        id: "rc_1001", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Environment",
+        question: "Passage: The Amazon rainforest is the world's largest tropical rainforest. It covers over 5.5 million square kilometers and is often referred to as the 'lungs of the Earth' because it produces 20% of the world's oxygen. However, deforestation poses a severe threat to its existence. Farmers clear land for agriculture, and loggers cut down trees for wood. This destruction leads to a loss of biodiversity and contributes to climate change.\n\nQuestion: Why is the Amazon rainforest called the 'lungs of the Earth'?",
+        options: ["It absorbs all the carbon dioxide", "It produces 20% of the world's oxygen", "It is shaped like a lung", "It helps the Earth breathe water"],
+        correctIndex: 1,
+        explanation: "The passage explicitly states it is called the 'lungs of the Earth' because it produces 20% of the world's oxygen.",
+        explanationBengali: "প্যাসেজে স্পষ্টভাবে বলা আছে যে এটি পৃথিবীর ২০% অক্সিজেন উৎপাদন করে, তাই একে 'lungs of the Earth' বলা হয়।"
+    },
+    {
+        id: "rc_1002", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Environment",
+        question: "Passage: The Amazon rainforest is the world's largest tropical rainforest. It covers over 5.5 million square kilometers and is often referred to as the 'lungs of the Earth' because it produces 20% of the world's oxygen. However, deforestation poses a severe threat to its existence. Farmers clear land for agriculture, and loggers cut down trees for wood. This destruction leads to a loss of biodiversity and contributes to climate change.\n\nQuestion: What is the main threat to the Amazon mentioned in the passage?",
+        options: ["Flooding", "Deforestation", "Tourism", "Mining"],
+        correctIndex: 1,
+        explanation: "The passage mentions that 'deforestation poses a severe threat to its existence'.",
+        explanationBengali: "প্যাসেজে উল্লেখ করা হয়েছে যে 'deforestation' বা বন উজাড় করা এর অস্তিত্বের জন্য মারাত্মক হুমকি।"
+    },
+    {
+        id: "rc_1003", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Environment",
+        question: "Passage: The Amazon rainforest is the world's largest tropical rainforest. It covers over 5.5 million square kilometers and is often referred to as the 'lungs of the Earth' because it produces 20% of the world's oxygen. However, deforestation poses a severe threat to its existence. Farmers clear land for agriculture, and loggers cut down trees for wood. This destruction leads to a loss of biodiversity and contributes to climate change.\n\nQuestion: Which group is mentioned as clearing land for agriculture?",
+        options: ["Loggers", "Miners", "Farmers", "Tourists"],
+        correctIndex: 2,
+        explanation: "The text states: 'Farmers clear land for agriculture'.",
+        explanationBengali: "টেক্সটে বলা আছে: 'Farmers clear land for agriculture' অর্থাৎ কৃষকরা কৃষিকাজের জন্য জমি পরিষ্কার করে।"
+    },
+    {
+        id: "rc_1004", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Environment",
+        question: "Passage: The Amazon rainforest is the world's largest tropical rainforest. It covers over 5.5 million square kilometers and is often referred to as the 'lungs of the Earth' because it produces 20% of the world's oxygen. However, deforestation poses a severe threat to its existence. Farmers clear land for agriculture, and loggers cut down trees for wood. This destruction leads to a loss of biodiversity and contributes to climate change.\n\nQuestion: What is a consequence of the destruction of the rainforest?",
+        options: ["Increase in biodiversity", "Loss of biodiversity", "Decrease in oxygen demand", "Decrease in climate change"],
+        correctIndex: 1,
+        explanation: "The passage concludes by saying destruction leads to a 'loss of biodiversity'.",
+        explanationBengali: "প্যাসেজের শেষে বলা হয়েছে যে ধ্বংসের ফলে 'loss of biodiversity' বা জীববৈচিত্র্যের ক্ষতি হয়।"
+    },
+    {
+        id: "rc_1005", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Environment",
+        question: "Passage: The Amazon rainforest is the world's largest tropical rainforest. It covers over 5.5 million square kilometers and is often referred to as the 'lungs of the Earth' because it produces 20% of the world's oxygen. However, deforestation poses a severe threat to its existence. Farmers clear land for agriculture, and loggers cut down trees for wood. This destruction leads to a loss of biodiversity and contributes to climate change.\n\nQuestion: Choose the word from the passage that means 'the variety of life in the world'.",
+        options: ["Existence", "Agriculture", "Biodiversity", "Tropical"],
+        correctIndex: 2,
+        explanation: "'Biodiversity' refers to the variety of life (plants and animals) in a particular habitat.",
+        explanationBengali: "'Biodiversity' মানে হলো জীববৈচিত্র্য, যা পৃথিবীতে প্রাণের বৈচিত্র্যকে বোঝায়।"
+    },
+
+    // --- Passage 2: The Industrial Revolution ---
+    {
+        id: "rc_1006", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "History",
+        question: "Passage: The Industrial Revolution was a period of major industrialization that took place during the late 1700s and early 1800s. It began in Great Britain and quickly spread to the world. This era saw a shift from hand production methods to machines, new chemical manufacturing, and iron production processes. While it improved the standard of living for many by making goods cheaper, it also led to poor working conditions and child labor in factories.\n\nQuestion: Where did the Industrial Revolution begin?",
+        options: ["United States", "France", "Great Britain", "Germany"],
+        correctIndex: 2,
+        explanation: "The passage states: 'It began in Great Britain'.",
+        explanationBengali: "প্যাসেজে বলা আছে: 'It began in Great Britain' (এটি গ্রেট ব্রিটেনে শুরু হয়েছিল)।"
+    },
+    {
+        id: "rc_1007", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "History",
+        question: "Passage: The Industrial Revolution was a period of major industrialization that took place during the late 1700s and early 1800s. It began in Great Britain and quickly spread to the world. This era saw a shift from hand production methods to machines, new chemical manufacturing, and iron production processes. While it improved the standard of living for many by making goods cheaper, it also led to poor working conditions and child labor in factories.\n\nQuestion: What was a positive effect of the Industrial Revolution mentioned in the text?",
+        options: ["It eliminated child labor", "It made goods cheaper", "It reduced pollution", "It stopped wars"],
+        correctIndex: 1,
+        explanation: "The text mentions it 'improved the standard of living for many by making goods cheaper'.",
+        explanationBengali: "টেক্সটে উল্লেখ করা হয়েছে যে এটি পণ্য সস্তা করে অনেকের জীবনযাত্রার মান উন্নত করেছে।"
+    },
+    {
+        id: "rc_1008", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "History",
+        question: "Passage: The Industrial Revolution was a period of major industrialization that took place during the late 1700s and early 1800s. It began in Great Britain and quickly spread to the world. This era saw a shift from hand production methods to machines, new chemical manufacturing, and iron production processes. While it improved the standard of living for many by making goods cheaper, it also led to poor working conditions and child labor in factories.\n\nQuestion: Which of the following was NOT a shift mentioned in the passage?",
+        options: ["Hand production to machines", "Iron production processes", "Digital technology", "Chemical manufacturing"],
+        correctIndex: 2,
+        explanation: "The passage mentions machines, chemical manufacturing, and iron production, but does not mention 'Digital technology'.",
+        explanationBengali: "প্যাসেজে মেশিন, রাসায়নিক উৎপাদন এবং লোহা উৎপাদনের কথা বলা হয়েছে, কিন্তু 'Digital technology'-এর কথা নেই।"
+    },
+    {
+        id: "rc_1009", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "History",
+        question: "Passage: The Industrial Revolution was a period of major industrialization that took place during the late 1700s and early 1800s. It began in Great Britain and quickly spread to the world. This era saw a shift from hand production methods to machines, new chemical manufacturing, and iron production processes. While it improved the standard of living for many by making goods cheaper, it also led to poor working conditions and child labor in factories.\n\nQuestion: What is a negative aspect of the Industrial Revolution mentioned?",
+        options: ["Expensive goods", "Lack of iron", "Poor working conditions", "Slow production"],
+        correctIndex: 2,
+        explanation: "The text states it 'led to poor working conditions and child labor'.",
+        explanationBengali: "টেক্সটে বলা হয়েছে যে এর ফলে 'poor working conditions' বা কাজের পরিবেশ খারাপ হয়েছিল।"
+    },
+    {
+        id: "rc_1010", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "History",
+        question: "Passage: The Industrial Revolution was a period of major industrialization that took place during the late 1700s and early 1800s. It began in Great Britain and quickly spread to the world. This era saw a shift from hand production methods to machines, new chemical manufacturing, and iron production processes. While it improved the standard of living for many by making goods cheaper, it also led to poor working conditions and child labor in factories.\n\nQuestion: The word 'Era' in the passage refers to:",
+        options: ["A specific machine", "A long and distinct period of history", "A chemical process", "A geographical location"],
+        correctIndex: 1,
+        explanation: "'Era' means a long and distinct period of history with a particular feature or characteristic.",
+        explanationBengali: "'Era' মানে যুগ বা ইতিহাসের একটি দীর্ঘ ও বিশেষ সময়কাল।"
+    },
+
+    // --- Passage 3: Coffee Culture ---
+    {
+        id: "rc_1011", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Culture",
+        question: "Passage: Coffee is one of the most popular beverages in the world. It is believed to have originated in Ethiopia, where a goat herder named Kaldi noticed his goats becoming energetic after eating berries from a certain tree. The drink then spread to the Middle East and eventually to Europe. Today, coffee houses are social hubs where people gather to talk, work, or relax. However, drinking too much coffee can cause anxiety and insomnia due to high caffeine content.\n\nQuestion: Where is coffee believed to have originated?",
+        options: ["Brazil", "Ethiopia", "Europe", "Middle East"],
+        correctIndex: 1,
+        explanation: "The passage states: 'It is believed to have originated in Ethiopia'.",
+        explanationBengali: "প্যাসেজে বলা আছে: 'It is believed to have originated in Ethiopia' (এটি ইথিওপিয়ায় উৎপত্তি বলে বিশ্বাস করা হয়)।"
+    },
+    {
+        id: "rc_1012", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Culture",
+        question: "Passage: Coffee is one of the most popular beverages in the world. It is believed to have originated in Ethiopia, where a goat herder named Kaldi noticed his goats becoming energetic after eating berries from a certain tree. The drink then spread to the Middle East and eventually to Europe. Today, coffee houses are social hubs where people gather to talk, work, or relax. However, drinking too much coffee can cause anxiety and insomnia due to high caffeine content.\n\nQuestion: Who was Kaldi?",
+        options: ["A coffee merchant", "A king", "A goat herder", "A famous doctor"],
+        correctIndex: 2,
+        explanation: "The text describes Kaldi as 'a goat herder named Kaldi'.",
+        explanationBengali: "টেক্সটে কালদিকে 'a goat herder' বা একজন ছাগল পালক হিসেবে বর্ণনা করা হয়েছে।"
+    },
+    {
+        id: "rc_1013", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Culture",
+        question: "Passage: Coffee is one of the most popular beverages in the world. It is believed to have originated in Ethiopia, where a goat herder named Kaldi noticed his goats becoming energetic after eating berries from a certain tree. The drink then spread to the Middle East and eventually to Europe. Today, coffee houses are social hubs where people gather to talk, work, or relax. However, drinking too much coffee can cause anxiety and insomnia due to high caffeine content.\n\nQuestion: According to the passage, what effect did the berries have on the goats?",
+        options: ["They became sleepy", "They became energetic", "They fell ill", "They became calm"],
+        correctIndex: 1,
+        explanation: "The passage says Kaldi noticed his goats 'becoming energetic'.",
+        explanationBengali: "প্যাসেজে বলা হয়েছে যে ছাগলগুলো 'energetic' বা চনমনে হয়ে উঠেছিল।"
+    },
+    {
+        id: "rc_1014", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Culture",
+        question: "Passage: Coffee is one of the most popular beverages in the world. It is believed to have originated in Ethiopia, where a goat herder named Kaldi noticed his goats becoming energetic after eating berries from a certain tree. The drink then spread to the Middle East and eventually to Europe. Today, coffee houses are social hubs where people gather to talk, work, or relax. However, drinking too much coffee can cause anxiety and insomnia due to high caffeine content.\n\nQuestion: What negative effect of coffee is mentioned?",
+        options: ["It tastes bitter", "It is expensive", "It causes anxiety and insomnia", "It causes weight gain"],
+        correctIndex: 2,
+        explanation: "The passage states drinking too much coffee can cause 'anxiety and insomnia'.",
+        explanationBengali: "প্যাসেজে উল্লেখ আছে যে অতিরিক্ত কফি পানে 'anxiety' (উদ্বেগ) এবং 'insomnia' (অনিদ্রা) হতে পারে।"
+    },
+    {
+        id: "rc_1015", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Culture",
+        question: "Passage: Coffee is one of the most popular beverages in the world. It is believed to have originated in Ethiopia, where a goat herder named Kaldi noticed his goats becoming energetic after eating berries from a certain tree. The drink then spread to the Middle East and eventually to Europe. Today, coffee houses are social hubs where people gather to talk, work, or relax. However, drinking too much coffee can cause anxiety and insomnia due to high caffeine content.\n\nQuestion: What is the meaning of 'Insomnia'?",
+        options: ["Excessive sleeping", "Inability to sleep", "Loss of appetite", "Headache"],
+        correctIndex: 1,
+        explanation: "Insomnia is a sleep disorder characterized by the inability to fall asleep or stay asleep.",
+        explanationBengali: "'Insomnia' মানে হলো অনিদ্রা বা ঘুমাতে না পারার সমস্যা।"
+    },
+
+    // --- Passage 4: Artificial Intelligence ---
+    {
+        id: "rc_1016", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Science",
+        question: "Passage: Artificial Intelligence (AI) involves creating machines that can perform tasks that typically require human intelligence. These tasks include problem-solving, understanding language, and recognizing patterns. While AI has the potential to revolutionize industries like healthcare and transportation, there are concerns about job displacement. If machines can do the work of humans faster and cheaper, many people worry that unemployment rates will rise.\n\nQuestion: What does AI stand for?",
+        options: ["Automated Information", "Artificial Intelligence", "Advanced Internet", "Automatic Interface"],
+        correctIndex: 1,
+        explanation: "The first sentence states: 'Artificial Intelligence (AI)...'",
+        explanationBengali: "প্রথম বাক্যেই বলা আছে: 'Artificial Intelligence (AI)'।"
+    },
+    {
+        id: "rc_1017", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Science",
+        question: "Passage: Artificial Intelligence (AI) involves creating machines that can perform tasks that typically require human intelligence. These tasks include problem-solving, understanding language, and recognizing patterns. While AI has the potential to revolutionize industries like healthcare and transportation, there are concerns about job displacement. If machines can do the work of humans faster and cheaper, many people worry that unemployment rates will rise.\n\nQuestion: Which industry is mentioned as potentially being revolutionized by AI?",
+        options: ["Fashion", "Healthcare", "Sports", "Music"],
+        correctIndex: 1,
+        explanation: "The text mentions 'revolutionize industries like healthcare and transportation'.",
+        explanationBengali: "টেক্সটে 'healthcare' (স্বাস্থ্যসেবা) এবং 'transportation' (পরিবহন)-এর কথা উল্লেখ করা হয়েছে।"
+    },
+    {
+        id: "rc_1018", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Science",
+        question: "Passage: Artificial Intelligence (AI) involves creating machines that can perform tasks that typically require human intelligence. These tasks include problem-solving, understanding language, and recognizing patterns. While AI has the potential to revolutionize industries like healthcare and transportation, there are concerns about job displacement. If machines can do the work of humans faster and cheaper, many people worry that unemployment rates will rise.\n\nQuestion: What is a major concern regarding AI mentioned in the passage?",
+        options: ["Machines becoming too expensive", "Job displacement", "Computers breaking down", "Loss of internet"],
+        correctIndex: 1,
+        explanation: "The passage states: 'there are concerns about job displacement'.",
+        explanationBengali: "প্যাসেজে বলা হয়েছে: 'there are concerns about job displacement' (চাকরি হারানোর উদ্বেগ আছে)।"
+    },
+    {
+        id: "rc_1019", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Science",
+        question: "Passage: Artificial Intelligence (AI) involves creating machines that can perform tasks that typically require human intelligence. These tasks include problem-solving, understanding language, and recognizing patterns. While AI has the potential to revolutionize industries like healthcare and transportation, there are concerns about job displacement. If machines can do the work of humans faster and cheaper, many people worry that unemployment rates will rise.\n\nQuestion: Why might unemployment rates rise according to the passage?",
+        options: ["Humans are lazy", "Machines can do work faster and cheaper", "There are not enough machines", "Industries are closing down"],
+        correctIndex: 1,
+        explanation: "The passage explains: 'If machines can do the work of humans faster and cheaper... unemployment rates will rise'.",
+        explanationBengali: "প্যাসেজে ব্যাখ্যা করা হয়েছে যে মেশিন যদি মানুষের চেয়ে দ্রুত ও সস্তায় কাজ করতে পারে, তবে বেকারত্ব বাড়বে।"
+    },
+    {
+        id: "rc_1020", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Science",
+        question: "Passage: Artificial Intelligence (AI) involves creating machines that can perform tasks that typically require human intelligence. These tasks include problem-solving, understanding language, and recognizing patterns. While AI has the potential to revolutionize industries like healthcare and transportation, there are concerns about job displacement. If machines can do the work of humans faster and cheaper, many people worry that unemployment rates will rise.\n\nQuestion: The word 'Displacement' in the context of jobs means:",
+        options: ["Creating new jobs", "Moving to a new place", "The act of replacing someone", "Increasing salaries"],
+        correctIndex: 2,
+        explanation: "In this context, 'job displacement' refers to workers being replaced by machines.",
+        explanationBengali: "এখানে 'job displacement' মানে হলো কর্মীদের মেশিন দ্বারা প্রতিস্থাপন করা।"
+    },
+
+    // --- Passage 5: The Ant and the Grasshopper ---
+    {
+        id: "rc_1021", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Fable",
+        question: "Passage: One summer day, a Grasshopper was hopping about, chirping and singing to its heart's content. An Ant passed by, bearing along with great toil an ear of corn he was taking to the nest. 'Why not come and chat with me,' said the Grasshopper, 'instead of toiling and moiling in that way?' 'I am helping to lay up food for the winter,' said the Ant, 'and recommend you to do the same.' The Grasshopper laughed at the idea, but when winter came, he found himself without food.\n\nQuestion: What was the Grasshopper doing in the summer?",
+        options: ["Gathering food", "Sleeping", "Singing and chirping", "Building a house"],
+        correctIndex: 2,
+        explanation: "The text says the Grasshopper was 'chirping and singing to its heart's content'.",
+        explanationBengali: "টেক্সটে বলা আছে ঘাসফড়িংটি 'chirping and singing' (গান গাইছিল ও কিচিরমিচির করছিল)।"
+    },
+    {
+        id: "rc_1022", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Fable",
+        question: "Passage: One summer day, a Grasshopper was hopping about, chirping and singing to its heart's content. An Ant passed by, bearing along with great toil an ear of corn he was taking to the nest. 'Why not come and chat with me,' said the Grasshopper, 'instead of toiling and moiling in that way?' 'I am helping to lay up food for the winter,' said the Ant, 'and recommend you to do the same.' The Grasshopper laughed at the idea, but when winter came, he found himself without food.\n\nQuestion: What was the Ant carrying?",
+        options: ["A leaf", "An ear of corn", "A piece of wood", "A drop of water"],
+        correctIndex: 1,
+        explanation: "The text states the Ant was 'bearing along... an ear of corn'.",
+        explanationBengali: "টেক্সটে বলা আছে যে পিপঁড়াটি 'an ear of corn' (ভুট্টার দানা) বহন করছিল।"
+    },
+    {
+        id: "rc_1023", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Fable",
+        question: "Passage: One summer day, a Grasshopper was hopping about, chirping and singing to its heart's content. An Ant passed by, bearing along with great toil an ear of corn he was taking to the nest. 'Why not come and chat with me,' said the Grasshopper, 'instead of toiling and moiling in that way?' 'I am helping to lay up food for the winter,' said the Ant, 'and recommend you to do the same.' The Grasshopper laughed at the idea, but when winter came, he found himself without food.\n\nQuestion: Why was the Ant working so hard?",
+        options: ["To build a nest", "To impress the Grasshopper", "To save food for the winter", "To lose weight"],
+        correctIndex: 2,
+        explanation: "The Ant said, 'I am helping to lay up food for the winter'.",
+        explanationBengali: "পিপঁড়াটি বলেছিল সে শীতের জন্য খাবার জমাচ্ছে।"
+    },
+    {
+        id: "rc_1024", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Fable",
+        question: "Passage: One summer day, a Grasshopper was hopping about, chirping and singing to its heart's content. An Ant passed by, bearing along with great toil an ear of corn he was taking to the nest. 'Why not come and chat with me,' said the Grasshopper, 'instead of toiling and moiling in that way?' 'I am helping to lay up food for the winter,' said the Ant, 'and recommend you to do the same.' The Grasshopper laughed at the idea, but when winter came, he found himself without food.\n\nQuestion: What happened to the Grasshopper when winter came?",
+        options: ["He had plenty of food", "He went to sleep", "He found himself without food", "He migrated south"],
+        correctIndex: 2,
+        explanation: "The passage concludes: 'when winter came, he found himself without food'.",
+        explanationBengali: "প্যাসেজের শেষে বলা হয়েছে: শীত যখন এল, সে দেখল তার কাছে কোনো খাবার নেই।"
+    },
+    {
+        id: "rc_1025", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Fable",
+        question: "Passage: One summer day, a Grasshopper was hopping about, chirping and singing to its heart's content. An Ant passed by, bearing along with great toil an ear of corn he was taking to the nest. 'Why not come and chat with me,' said the Grasshopper, 'instead of toiling and moiling in that way?' 'I am helping to lay up food for the winter,' said the Ant, 'and recommend you to do the same.' The Grasshopper laughed at the idea, but when winter came, he found himself without food.\n\nQuestion: What is the moral of this story?",
+        options: ["Singing is better than working", "Work today and you can reap the benefits tomorrow", "Insects are intelligent", "Summer is the best season"],
+        correctIndex: 1,
+        explanation: "The story teaches the importance of preparation and hard work (Ant) over idleness (Grasshopper).",
+        explanationBengali: "গল্পটির নীতিকথা হলো ভবিষ্যতের জন্য প্রস্তুতি নেওয়া বা পরিশ্রম করা (Work today and reap benefits tomorrow)।"
+    },
+
+    // --- Passage 6: Benefits of Reading ---
+    {
+        id: "rc_1026", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Education",
+        question: "Passage: Reading is an essential skill that provides numerous benefits. It improves focus and concentration, as reading a book requires you to pay attention to the plot for extended periods. Additionally, reading expands vocabulary and improves communication skills. Unlike watching television, which is a passive activity, reading is an active process that engages the brain. Studies show that regular reading can even reduce stress and slow down mental decline in old age.\n\nQuestion: According to the passage, how is reading different from watching television?",
+        options: ["Reading is faster", "Reading is a passive activity", "Reading is an active process", "Reading is less educational"],
+        correctIndex: 2,
+        explanation: "The passage states: 'Unlike watching television... reading is an active process'.",
+        explanationBengali: "প্যাসেজে বলা আছে: টিভি দেখার বিপরীতে, পড়া হলো একটি 'active process' বা সক্রিয় প্রক্রিয়া।"
+    },
+    {
+        id: "rc_1027", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Education",
+        question: "Passage: Reading is an essential skill that provides numerous benefits. It improves focus and concentration, as reading a book requires you to pay attention to the plot for extended periods. Additionally, reading expands vocabulary and improves communication skills. Unlike watching television, which is a passive activity, reading is an active process that engages the brain. Studies show that regular reading can even reduce stress and slow down mental decline in old age.\n\nQuestion: Which of the following is NOT mentioned as a benefit of reading?",
+        options: ["Improves focus", "Expands vocabulary", "Improves eyesight", "Reduces stress"],
+        correctIndex: 2,
+        explanation: "The passage mentions focus, vocabulary, and stress reduction, but does NOT mention 'improves eyesight'.",
+        explanationBengali: "প্যাসেজে মনোযোগ, শব্দভাণ্ডার এবং স্ট্রেস কমানোর কথা বলা হলেও দৃষ্টিশক্তি উন্নতির কথা বলা হয়নি।"
+    },
+    {
+        id: "rc_1028", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Education",
+        question: "Passage: Reading is an essential skill that provides numerous benefits. It improves focus and concentration, as reading a book requires you to pay attention to the plot for extended periods. Additionally, reading expands vocabulary and improves communication skills. Unlike watching television, which is a passive activity, reading is an active process that engages the brain. Studies show that regular reading can even reduce stress and slow down mental decline in old age.\n\nQuestion: How does reading help with communication skills?",
+        options: ["By expanding vocabulary", "By reducing stress", "By improving eyesight", "By making you speak louder"],
+        correctIndex: 0,
+        explanation: "The text says: 'reading expands vocabulary and improves communication skills'.",
+        explanationBengali: "টেক্সট অনুযায়ী, পড়া 'vocabulary' বা শব্দভাণ্ডার বৃদ্ধি করে, যা যোগাযোগ দক্ষতা বাড়ায়।"
+    },
+    {
+        id: "rc_1029", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Education",
+        question: "Passage: Reading is an essential skill that provides numerous benefits. It improves focus and concentration, as reading a book requires you to pay attention to the plot for extended periods. Additionally, reading expands vocabulary and improves communication skills. Unlike watching television, which is a passive activity, reading is an active process that engages the brain. Studies show that regular reading can even reduce stress and slow down mental decline in old age.\n\nQuestion: What happens to the brain during reading?",
+        options: ["It rests completely", "It is engaged actively", "It shuts down", "It gets confused"],
+        correctIndex: 1,
+        explanation: "The passage states reading is a process that 'engages the brain'.",
+        explanationBengali: "প্যাসেজে বলা হয়েছে যে পড়া মস্তিষ্ককে 'engage' বা ব্যস্ত রাখে (সক্রিয় করে)।"
+    },
+    {
+        id: "rc_1030", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Education",
+        question: "Passage: Reading is an essential skill that provides numerous benefits. It improves focus and concentration, as reading a book requires you to pay attention to the plot for extended periods. Additionally, reading expands vocabulary and improves communication skills. Unlike watching television, which is a passive activity, reading is an active process that engages the brain. Studies show that regular reading can even reduce stress and slow down mental decline in old age.\n\nQuestion: The word 'Decline' in the phrase 'mental decline' means:",
+        options: ["Improvement", "Deterioration or weakening", "Growth", "Stability"],
+        correctIndex: 1,
+        explanation: "'Decline' here refers to the gradual loss of mental abilities or deterioration.",
+        explanationBengali: "এখানে 'Decline' মানে হলো অবনতি বা দুর্বল হয়ে যাওয়া (মানসিক শক্তি কমে যাওয়া)।"
+    },
+    // --- Passage 7: The Solar System ---
+    {
+        id: "rc_1031", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Science",
+        question: "Passage: Our solar system consists of the Sun and everything that orbits around it, including eight planets, their moons, and smaller bodies like asteroids and comets. The Sun is a star at the center of the solar system and provides the heat and light necessary for life on Earth. Jupiter is the largest planet, while Mercury is the smallest. Earth is the only planet known to support life due to its liquid water and breathable atmosphere.\n\nQuestion: What is at the center of the solar system?",
+        options: ["Earth", "Jupiter", "The Moon", "The Sun"],
+        correctIndex: 3,
+        explanation: "The passage explicitly states: 'The Sun is a star at the center of the solar system'.",
+        explanationBengali: "প্যাসেজে স্পষ্টভাবে বলা আছে: 'The Sun is a star at the center of the solar system' (সূর্য সৌরজগতের কেন্দ্রে অবস্থিত একটি নক্ষত্র)।"
+    },
+    {
+        id: "rc_1032", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Science",
+        question: "Passage: Our solar system consists of the Sun and everything that orbits around it, including eight planets, their moons, and smaller bodies like asteroids and comets. The Sun is a star at the center of the solar system and provides the heat and light necessary for life on Earth. Jupiter is the largest planet, while Mercury is the smallest. Earth is the only planet known to support life due to its liquid water and breathable atmosphere.\n\nQuestion: Which planet is the largest in the solar system?",
+        options: ["Mars", "Earth", "Saturn", "Jupiter"],
+        correctIndex: 3,
+        explanation: "The text mentions: 'Jupiter is the largest planet'.",
+        explanationBengali: "টেক্সটে উল্লেখ করা হয়েছে: 'Jupiter is the largest planet' (বৃহস্পতি সবচেয়ে বড় গ্রহ)।"
+    },
+    {
+        id: "rc_1033", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Science",
+        question: "Passage: Our solar system consists of the Sun and everything that orbits around it, including eight planets, their moons, and smaller bodies like asteroids and comets. The Sun is a star at the center of the solar system and provides the heat and light necessary for life on Earth. Jupiter is the largest planet, while Mercury is the smallest. Earth is the only planet known to support life due to its liquid water and breathable atmosphere.\n\nQuestion: Why is Earth unique according to the passage?",
+        options: ["It is the largest planet", "It is the closest to the Sun", "It is the only planet known to support life", "It has the most moons"],
+        correctIndex: 2,
+        explanation: "The passage states Earth is unique because it is 'the only planet known to support life'.",
+        explanationBengali: "প্যাসেজে বলা হয়েছে পৃথিবী অনন্য কারণ এটিই 'একমাত্র গ্রহ যেখানে প্রাণের অস্তিত্ব আছে বলে জানা যায়'।"
+    },
+    {
+        id: "rc_1034", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Science",
+        question: "Passage: Our solar system consists of the Sun and everything that orbits around it, including eight planets, their moons, and smaller bodies like asteroids and comets. The Sun is a star at the center of the solar system and provides the heat and light necessary for life on Earth. Jupiter is the largest planet, while Mercury is the smallest. Earth is the only planet known to support life due to its liquid water and breathable atmosphere.\n\nQuestion: Which of the following is NOT mentioned as orbiting the Sun?",
+        options: ["Planets", "Asteroids", "Comets", "Other stars"],
+        correctIndex: 3,
+        explanation: "The passage lists planets, moons, asteroids, and comets, but does not mention other stars orbiting the Sun.",
+        explanationBengali: "প্যাসেজে গ্রহ, চাঁদ, গ্রহাণু এবং ধূমকেতুর কথা বলা হয়েছে, কিন্তু অন্য কোনো নক্ষত্র সূর্যকে প্রদক্ষিণ করছে এমন বলা হয়নি।"
+    },
+    {
+        id: "rc_1035", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Science",
+        question: "Passage: Our solar system consists of the Sun and everything that orbits around it, including eight planets, their moons, and smaller bodies like asteroids and comets. The Sun is a star at the center of the solar system and provides the heat and light necessary for life on Earth. Jupiter is the largest planet, while Mercury is the smallest. Earth is the only planet known to support life due to its liquid water and breathable atmosphere.\n\nQuestion: The word 'Orbit' means:",
+        options: ["To stand still", "To move around an object in a curved path", "To explode", "To shine brightly"],
+        correctIndex: 1,
+        explanation: "To orbit means to revolve or move around a celestial body in a curved path.",
+        explanationBengali: "'Orbit' মানে হলো কোনো বস্তুর চারপাশ দিয়ে একটি নির্দিষ্ট পথে ঘোরা বা প্রদক্ষিণ করা।"
+    },
+
+    // --- Passage 8: The Olympic Games ---
+    {
+        id: "rc_1036", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Sports/History",
+        question: "Passage: The Olympic Games are a major international sporting event featuring summer and winter sports competitions. The modern Olympics were inspired by the ancient Olympic Games held in Olympia, Greece, from the 8th century BC to the 4th century AD. Baron Pierre de Coubertin founded the International Olympic Committee (IOC) in 1894, leading to the first modern Games in Athens in 1896. The Olympic symbol consists of five interlocking rings, representing the unity of the five inhabited continents.\n\nQuestion: Where were the ancient Olympic Games held?",
+        options: ["Rome, Italy", "Athens, Greece", "Olympia, Greece", "Paris, France"],
+        correctIndex: 2,
+        explanation: "The passage states they were held in 'Olympia, Greece'.",
+        explanationBengali: "প্যাসেজে বলা আছে যে প্রাচীন অলিম্পিক 'অলিম্পিয়া, গ্রীস'-এ অনুষ্ঠিত হয়েছিল।"
+    },
+    {
+        id: "rc_1037", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Sports/History",
+        question: "Passage: The Olympic Games are a major international sporting event featuring summer and winter sports competitions. The modern Olympics were inspired by the ancient Olympic Games held in Olympia, Greece, from the 8th century BC to the 4th century AD. Baron Pierre de Coubertin founded the International Olympic Committee (IOC) in 1894, leading to the first modern Games in Athens in 1896. The Olympic symbol consists of five interlocking rings, representing the unity of the five inhabited continents.\n\nQuestion: Who founded the International Olympic Committee?",
+        options: ["Zeus", "Baron Pierre de Coubertin", "The King of Greece", "An unknown athlete"],
+        correctIndex: 1,
+        explanation: "The text says: 'Baron Pierre de Coubertin founded the International Olympic Committee'.",
+        explanationBengali: "টেক্সটে বলা আছে: 'ব্যারন পিয়েরে ডি কুবার্তিন আন্তর্জাতিক অলিম্পিক কমিটি প্রতিষ্ঠা করেন'।"
+    },
+    {
+        id: "rc_1038", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Sports/History",
+        question: "Passage: The Olympic Games are a major international sporting event featuring summer and winter sports competitions. The modern Olympics were inspired by the ancient Olympic Games held in Olympia, Greece, from the 8th century BC to the 4th century AD. Baron Pierre de Coubertin founded the International Olympic Committee (IOC) in 1894, leading to the first modern Games in Athens in 1896. The Olympic symbol consists of five interlocking rings, representing the unity of the five inhabited continents.\n\nQuestion: When were the first modern Olympic Games held?",
+        options: ["1894", "1900", "1896", "4th century AD"],
+        correctIndex: 2,
+        explanation: "The passage mentions the 'first modern Games in Athens in 1896'.",
+        explanationBengali: "প্যাসেজে উল্লেখ করা হয়েছে যে প্রথম আধুনিক গেমস ১৮৯৬ সালে এথেন্সে অনুষ্ঠিত হয়।"
+    },
+    {
+        id: "rc_1039", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Sports/History",
+        question: "Passage: The Olympic Games are a major international sporting event featuring summer and winter sports competitions. The modern Olympics were inspired by the ancient Olympic Games held in Olympia, Greece, from the 8th century BC to the 4th century AD. Baron Pierre de Coubertin founded the International Olympic Committee (IOC) in 1894, leading to the first modern Games in Athens in 1896. The Olympic symbol consists of five interlocking rings, representing the unity of the five inhabited continents.\n\nQuestion: What do the five rings in the Olympic symbol represent?",
+        options: ["Five ancient sports", "Five Greek gods", "Five inhabited continents", "Five centuries"],
+        correctIndex: 2,
+        explanation: "The passage explains the rings represent 'the unity of the five inhabited continents'.",
+        explanationBengali: "প্যাসেজে ব্যাখ্যা করা হয়েছে যে রিংগুলো 'পাঁচটি জনবসতিপূর্ণ মহাদেশের ঐক্য' নির্দেশ করে।"
+    },
+    {
+        id: "rc_1040", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Sports/History",
+        question: "Passage: The Olympic Games are a major international sporting event featuring summer and winter sports competitions. The modern Olympics were inspired by the ancient Olympic Games held in Olympia, Greece, from the 8th century BC to the 4th century AD. Baron Pierre de Coubertin founded the International Olympic Committee (IOC) in 1894, leading to the first modern Games in Athens in 1896. The Olympic symbol consists of five interlocking rings, representing the unity of the five inhabited continents.\n\nQuestion: Which word in the passage means 'joined together'?",
+        options: ["Inhabited", "Inspired", "Founded", "Interlocking"],
+        correctIndex: 3,
+        explanation: "Interlocking means engaging with each other by overlapping or fitting together.",
+        explanationBengali: "Interlocking মানে একে অপরের সাথে যুক্ত থাকা বা একটার ভেতর দিয়ে আরেকটা যাওয়া (যেমন অলিম্পিকের রিংগুলো)।"
+    },
+
+    // --- Passage 9: Bees and Pollination ---
+    {
+        id: "rc_1041", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Nature",
+        question: "Passage: Bees are flying insects known for their role in pollination and for producing honey and beeswax. They feed on nectar and pollen, the former primarily as an energy source and the latter primarily for protein and other nutrients. As bees travel from flower to flower collecting nectar, they transfer pollen, which allows plants to reproduce. Without bees, many crops would fail, impacting global food supplies.\n\nQuestion: What is the primary purpose of nectar for bees?",
+        options: ["Protein source", "Building hives", "Energy source", "Water source"],
+        correctIndex: 2,
+        explanation: "The passage states bees feed on nectar 'primarily as an energy source'.",
+        explanationBengali: "প্যাসেজে বলা আছে মৌমাছিরা নেক্টার খায় মূলত 'energy source' বা শক্তির উৎস হিসেবে।"
+    },
+    {
+        id: "rc_1042", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Nature",
+        question: "Passage: Bees are flying insects known for their role in pollination and for producing honey and beeswax. They feed on nectar and pollen, the former primarily as an energy source and the latter primarily for protein and other nutrients. As bees travel from flower to flower collecting nectar, they transfer pollen, which allows plants to reproduce. Without bees, many crops would fail, impacting global food supplies.\n\nQuestion: What important process do bees help with as they move between flowers?",
+        options: ["Photosynthesis", "Pollination", "Germination", "Decomposition"],
+        correctIndex: 1,
+        explanation: "The text describes bees transferring pollen, which is the process of 'pollination'.",
+        explanationBengali: "টেক্সটে বলা হয়েছে মৌমাছিরা পরাগ স্থানান্তর করে, যা 'pollination' বা পরাগায়ন প্রক্রিয়া।"
+    },
+    {
+        id: "rc_1043", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Nature",
+        question: "Passage: Bees are flying insects known for their role in pollination and for producing honey and beeswax. They feed on nectar and pollen, the former primarily as an energy source and the latter primarily for protein and other nutrients. As bees travel from flower to flower collecting nectar, they transfer pollen, which allows plants to reproduce. Without bees, many crops would fail, impacting global food supplies.\n\nQuestion: According to the passage, why are bees critical for humans?",
+        options: ["They make beeswax candles", "They are beautiful insects", "Their loss would impact global food supplies", "They eat harmful insects"],
+        correctIndex: 2,
+        explanation: "The passage warns: 'Without bees, many crops would fail, impacting global food supplies'.",
+        explanationBengali: "প্যাসেজে সতর্ক করা হয়েছে: 'Without bees, many crops would fail...' অর্থাৎ তাদের অভাবে খাদ্য সরবরাহে প্রভাব পড়বে।"
+    },
+    {
+        id: "rc_1044", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Nature",
+        question: "Passage: Bees are flying insects known for their role in pollination and for producing honey and beeswax. They feed on nectar and pollen, the former primarily as an energy source and the latter primarily for protein and other nutrients. As bees travel from flower to flower collecting nectar, they transfer pollen, which allows plants to reproduce. Without bees, many crops would fail, impacting global food supplies.\n\nQuestion: What do bees use pollen for?",
+        options: ["Energy", "Protein and nutrients", "Making the hive strong", "Flight"],
+        correctIndex: 1,
+        explanation: "The passage states pollen is used 'primarily for protein and other nutrients'.",
+        explanationBengali: "প্যাসেজে বলা আছে পরাগ মূলত 'protein and other nutrients'-এর জন্য ব্যবহৃত হয়।"
+    },
+    {
+        id: "rc_1045", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Nature",
+        question: "Passage: Bees are flying insects known for their role in pollination and for producing honey and beeswax. They feed on nectar and pollen, the former primarily as an energy source and the latter primarily for protein and other nutrients. As bees travel from flower to flower collecting nectar, they transfer pollen, which allows plants to reproduce. Without bees, many crops would fail, impacting global food supplies.\n\nQuestion: The word 'Reproduce' in relation to plants means:",
+        options: ["To grow taller", "To produce offspring or seeds", "To die", "To absorb sunlight"],
+        correctIndex: 1,
+        explanation: "Reproduce means to produce new individuals (offspring) of the same kind.",
+        explanationBengali: "'Reproduce' মানে হলো বংশবৃদ্ধি করা বা নতুন চারা/বীজ উৎপাদন করা।"
+    },
+
+    // --- Passage 10: The Wright Brothers ---
+    {
+        id: "rc_1046", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "History/Technology",
+        question: "Passage: Orville and Wilbur Wright were two American brothers, inventors, and aviation pioneers who are generally credited with inventing, building, and flying the world's first successful motor-operated airplane. They made the first controlled, sustained flight of a powered, heavier-than-air aircraft on December 17, 1903, near Kitty Hawk, North Carolina. Their background in bicycle repair helped them understand balance and control, which they applied to their flying machines.\n\nQuestion: What are the Wright brothers credited with inventing?",
+        options: ["The bicycle", "The first motor-operated airplane", "The hot air balloon", "The helicopter"],
+        correctIndex: 1,
+        explanation: "The text credits them with inventing 'the world's first successful motor-operated airplane'.",
+        explanationBengali: "টেক্সটে বলা আছে তারা 'বিশ্বের প্রথম সফল মোটর চালিত বিমান' আবিষ্কারের কৃতিত্ব পান।"
+    },
+    {
+        id: "rc_1047", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "History/Technology",
+        question: "Passage: Orville and Wilbur Wright were two American brothers, inventors, and aviation pioneers who are generally credited with inventing, building, and flying the world's first successful motor-operated airplane. They made the first controlled, sustained flight of a powered, heavier-than-air aircraft on December 17, 1903, near Kitty Hawk, North Carolina. Their background in bicycle repair helped them understand balance and control, which they applied to their flying machines.\n\nQuestion: When did the first successful flight take place?",
+        options: ["1896", "1903", "1910", "1900"],
+        correctIndex: 1,
+        explanation: "The passage specifies the date: 'December 17, 1903'.",
+        explanationBengali: "প্যাসেজে তারিখটি নির্দিষ্ট করা হয়েছে: 'December 17, 1903'।"
+    },
+    {
+        id: "rc_1048", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "History/Technology",
+        question: "Passage: Orville and Wilbur Wright were two American brothers, inventors, and aviation pioneers who are generally credited with inventing, building, and flying the world's first successful motor-operated airplane. They made the first controlled, sustained flight of a powered, heavier-than-air aircraft on December 17, 1903, near Kitty Hawk, North Carolina. Their background in bicycle repair helped them understand balance and control, which they applied to their flying machines.\n\nQuestion: How did their experience with bicycles help them?",
+        options: ["It made them rich", "It taught them about engines", "It helped them understand balance and control", "It gave them strong legs"],
+        correctIndex: 2,
+        explanation: "The passage says their background in bicycle repair 'helped them understand balance and control'.",
+        explanationBengali: "প্যাসেজে বলা হয়েছে যে সাইকেল মেরামতের অভিজ্ঞতা তাদের 'balance and control' (ভারসাম্য এবং নিয়ন্ত্রণ) বুঝতে সাহায্য করেছিল।"
+    },
+    {
+        id: "rc_1049", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "History/Technology",
+        question: "Passage: Orville and Wilbur Wright were two American brothers, inventors, and aviation pioneers who are generally credited with inventing, building, and flying the world's first successful motor-operated airplane. They made the first controlled, sustained flight of a powered, heavier-than-air aircraft on December 17, 1903, near Kitty Hawk, North Carolina. Their background in bicycle repair helped them understand balance and control, which they applied to their flying machines.\n\nQuestion: Where did the first flight take place?",
+        options: ["New York", "Kitty Hawk, North Carolina", "Paris", "London"],
+        correctIndex: 1,
+        explanation: "The flight took place 'near Kitty Hawk, North Carolina'.",
+        explanationBengali: "উড্ডয়নটি 'Kitty Hawk, North Carolina'-এর কাছে হয়েছিল।"
+    },
+    {
+        id: "rc_1050", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "History/Technology",
+        question: "Passage: Orville and Wilbur Wright were two American brothers, inventors, and aviation pioneers who are generally credited with inventing, building, and flying the world's first successful motor-operated airplane. They made the first controlled, sustained flight of a powered, heavier-than-air aircraft on December 17, 1903, near Kitty Hawk, North Carolina. Their background in bicycle repair helped them understand balance and control, which they applied to their flying machines.\n\nQuestion: What is an 'Aviation Pioneer'?",
+        options: ["Someone who repairs bikes", "Someone who helps develop the field of flight", "A pilot in the army", "A history teacher"],
+        correctIndex: 1,
+        explanation: "An aviation pioneer is someone who is among the first to develop or achieve something in the field of flying.",
+        explanationBengali: "'Aviation Pioneer' মানে এমন কেউ যিনি বিমান চালনা বা উড্ডয়ন ক্ষেত্রে নতুন কিছু উদ্ভাবন বা উন্নয়নে পথিকৃৎ।"
+    },
+
+    // --- Passage 11: Water Conservation ---
+    {
+        id: "rc_1051", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Water is essential for all life on Earth, yet less than 1% of the world's fresh water is accessible for human use. The rest is trapped in glaciers or underground. Water conservation is the practice of using water efficiently to reduce unnecessary water usage. Simple actions like fixing leaky faucets, taking shorter showers, and harvesting rainwater can make a significant difference. Conserving water helps preserve our environment and ensures that future generations have access to this vital resource.\n\nQuestion: Approximately how much fresh water is accessible for human use?",
+        options: ["10%", "50%", "Less than 1%", "100%"],
+        correctIndex: 2,
+        explanation: "The passage states: 'less than 1% of the world's fresh water is accessible'.",
+        explanationBengali: "প্যাসেজে বলা আছে: 'less than 1%' (১%-এর কম) স্বাদু পানি মানুষের ব্যবহারের জন্য সহজলভ্য।"
+    },
+    {
+        id: "rc_1052", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Environment",
+        question: "Passage: Water is essential for all life on Earth, yet less than 1% of the world's fresh water is accessible for human use. The rest is trapped in glaciers or underground. Water conservation is the practice of using water efficiently to reduce unnecessary water usage. Simple actions like fixing leaky faucets, taking shorter showers, and harvesting rainwater can make a significant difference. Conserving water helps preserve our environment and ensures that future generations have access to this vital resource.\n\nQuestion: What is water conservation?",
+        options: ["Drinking more water", "Storing water in bottles", "Using water efficiently to reduce waste", "Creating new water sources"],
+        correctIndex: 2,
+        explanation: "The text defines it as 'the practice of using water efficiently to reduce unnecessary water usage'.",
+        explanationBengali: "টেক্সটে এর সংজ্ঞা দেওয়া হয়েছে: 'using water efficiently to reduce unnecessary water usage' (অপচয় রোধে দক্ষতার সাথে পানি ব্যবহার করা)।"
+    },
+    {
+        id: "rc_1053", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Water is essential for all life on Earth, yet less than 1% of the world's fresh water is accessible for human use. The rest is trapped in glaciers or underground. Water conservation is the practice of using water efficiently to reduce unnecessary water usage. Simple actions like fixing leaky faucets, taking shorter showers, and harvesting rainwater can make a significant difference. Conserving water helps preserve our environment and ensures that future generations have access to this vital resource.\n\nQuestion: Which of the following is NOT mentioned as a way to conserve water?",
+        options: ["Fixing leaky faucets", "Taking shorter showers", "Harvesting rainwater", "Drinking only soda"],
+        correctIndex: 3,
+        explanation: "The passage mentions fixing leaks, shorter showers, and harvesting rainwater. It does not mention drinking soda.",
+        explanationBengali: "প্যাসেজে লিক মেরামত, ছোট গোসল এবং বৃষ্টির পানি সংগ্রহের কথা বলা আছে, সোডা পানের কথা নেই।"
+    },
+    {
+        id: "rc_1054", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Environment",
+        question: "Passage: Water is essential for all life on Earth, yet less than 1% of the world's fresh water is accessible for human use. The rest is trapped in glaciers or underground. Water conservation is the practice of using water efficiently to reduce unnecessary water usage. Simple actions like fixing leaky faucets, taking shorter showers, and harvesting rainwater can make a significant difference. Conserving water helps preserve our environment and ensures that future generations have access to this vital resource.\n\nQuestion: Why is conserving water important for the future?",
+        options: ["To make water cheaper", "To ensure future generations have access to it", "To fill the oceans", "To stop it from raining"],
+        correctIndex: 1,
+        explanation: "The passage says it 'ensures that future generations have access to this vital resource'.",
+        explanationBengali: "প্যাসেজে বলা হয়েছে এটি 'ensures that future generations have access to this vital resource' (ভবিষ্যৎ প্রজন্মের জন্য এই সম্পদ নিশ্চিত করে)।"
+    },
+    {
+        id: "rc_1055", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Environment",
+        question: "Passage: Water is essential for all life on Earth, yet less than 1% of the world's fresh water is accessible for human use. The rest is trapped in glaciers or underground. Water conservation is the practice of using water efficiently to reduce unnecessary water usage. Simple actions like fixing leaky faucets, taking shorter showers, and harvesting rainwater can make a significant difference. Conserving water helps preserve our environment and ensures that future generations have access to this vital resource.\n\nQuestion: The word 'Vital' means:",
+        options: ["Optional", "Dangerous", "Absolutely necessary or important", "Abundant"],
+        correctIndex: 2,
+        explanation: "Vital means absolutely necessary or essential for life/success.",
+        explanationBengali: "'Vital' মানে হলো অপরিহার্য বা অত্যন্ত গুরুত্বপূর্ণ।"
+    },
+
+    // --- Passage 12: The Internet ---
+    {
+        id: "rc_1056", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Technology",
+        question: "Passage: The Internet is a global network of computers that allows people to share information and communicate with each other. It was developed in the late 20th century, evolving from a US military project called ARPANET. Today, the Internet impacts almost every aspect of our lives, from banking and shopping to education and entertainment. While it provides vast knowledge, it also presents challenges such as cyberbullying and misinformation.\n\nQuestion: What was the predecessor of the modern Internet?",
+        options: ["SKYNET", "ARPANET", "INTRANET", "ETHERNET"],
+        correctIndex: 1,
+        explanation: "The passage states the Internet evolved from 'a US military project called ARPANET'.",
+        explanationBengali: "প্যাসেজে বলা আছে ইন্টারনেট 'ARPANET' নামক মার্কিন সামরিক প্রজেক্ট থেকে বিবর্তিত হয়েছে।"
+    },
+    {
+        id: "rc_1057", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Technology",
+        question: "Passage: The Internet is a global network of computers that allows people to share information and communicate with each other. It was developed in the late 20th century, evolving from a US military project called ARPANET. Today, the Internet impacts almost every aspect of our lives, from banking and shopping to education and entertainment. While it provides vast knowledge, it also presents challenges such as cyberbullying and misinformation.\n\nQuestion: Which of the following is a negative challenge of the Internet mentioned?",
+        options: ["Online banking", "Misinformation", "Education", "Shopping"],
+        correctIndex: 1,
+        explanation: "The passage lists 'cyberbullying and misinformation' as challenges.",
+        explanationBengali: "প্যাসেজে 'misinformation' (ভুল তথ্য) এবং সাইবার বুলিংকে চ্যালেঞ্জ হিসেবে উল্লেখ করা হয়েছে।"
+    },
+    {
+        id: "rc_1058", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Technology",
+        question: "Passage: The Internet is a global network of computers that allows people to share information and communicate with each other. It was developed in the late 20th century, evolving from a US military project called ARPANET. Today, the Internet impacts almost every aspect of our lives, from banking and shopping to education and entertainment. While it provides vast knowledge, it also presents challenges such as cyberbullying and misinformation.\n\nQuestion: What is the primary function of the Internet described in the first sentence?",
+        options: ["To play games", "To allow people to share information and communicate", "To control military weapons", "To watch movies"],
+        correctIndex: 1,
+        explanation: "The first sentence says it 'allows people to share information and communicate'.",
+        explanationBengali: "প্রথম বাক্যে বলা হয়েছে এটি 'allows people to share information and communicate' (মানুষকে তথ্য আদান-প্রদান ও যোগাযোগ করতে দেয়)।"
+    },
+    {
+        id: "rc_1059", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Technology",
+        question: "Passage: The Internet is a global network of computers that allows people to share information and communicate with each other. It was developed in the late 20th century, evolving from a US military project called ARPANET. Today, the Internet impacts almost every aspect of our lives, from banking and shopping to education and entertainment. While it provides vast knowledge, it also presents challenges such as cyberbullying and misinformation.\n\nQuestion: When was the Internet developed?",
+        options: ["18th century", "Early 19th century", "Late 20th century", "21st century"],
+        correctIndex: 2,
+        explanation: "The text states it was 'developed in the late 20th century'.",
+        explanationBengali: "টেক্সটে বলা আছে এটি 'late 20th century' (বিংশ শতাব্দীর শেষের দিকে) তৈরি হয়েছিল।"
+    },
+    {
+        id: "rc_1060", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Technology",
+        question: "Passage: The Internet is a global network of computers that allows people to share information and communicate with each other. It was developed in the late 20th century, evolving from a US military project called ARPANET. Today, the Internet impacts almost every aspect of our lives, from banking and shopping to education and entertainment. While it provides vast knowledge, it also presents challenges such as cyberbullying and misinformation.\n\nQuestion: What does 'Misinformation' mean?",
+        options: ["Too much information", "False or inaccurate information", "Missing information", "Secret information"],
+        correctIndex: 1,
+        explanation: "Misinformation refers to false or inaccurate information, often spread unintentionally.",
+        explanationBengali: "'Misinformation' মানে হলো ভুল বা মিথ্যা তথ্য।"
+    },
+    // --- Passage 13: Photosynthesis ---
+    {
+        id: "rc_1061", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Science",
+        question: "Passage: Photosynthesis is the process used by plants, algae, and certain bacteria to harness energy from sunlight and turn it into chemical energy. Here, carbon dioxide and water are converted into glucose (sugar) and oxygen. This process is crucial for life on Earth because it produces the oxygen we breathe and the food we eat. Chlorophyll, a green pigment found in plants, absorbs the light energy needed for photosynthesis to occur.\n\nQuestion: What is the main purpose of photosynthesis mentioned in the text?",
+        options: ["To create water", "To harness energy from sunlight and turn it into chemical energy", "To consume oxygen", "To produce carbon dioxide"],
+        correctIndex: 1,
+        explanation: "The text defines it as the process to 'harness energy from sunlight and turn it into chemical energy'.",
+        explanationBengali: "টেক্সটে বলা হয়েছে এর উদ্দেশ্য হলো সূর্যালোক থেকে শক্তি নিয়ে তা রাসায়নিক শক্তিতে রূপান্তর করা।"
+    },
+    {
+        id: "rc_1062", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Science",
+        question: "Passage: Photosynthesis is the process used by plants, algae, and certain bacteria to harness energy from sunlight and turn it into chemical energy. Here, carbon dioxide and water are converted into glucose (sugar) and oxygen. This process is crucial for life on Earth because it produces the oxygen we breathe and the food we eat. Chlorophyll, a green pigment found in plants, absorbs the light energy needed for photosynthesis to occur.\n\nQuestion: What two things are converted into glucose and oxygen?",
+        options: ["Sunlight and soil", "Carbon dioxide and water", "Oxygen and chemical energy", "Sugar and salt"],
+        correctIndex: 1,
+        explanation: "The passage states: 'carbon dioxide and water are converted into glucose... and oxygen'.",
+        explanationBengali: "প্যাসেজে বলা হয়েছে কার্বন ডাই অক্সাইড এবং পানি গ্লুকোজ ও অক্সিজেনে রূপান্তরিত হয়।"
+    },
+    {
+        id: "rc_1063", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Science",
+        question: "Passage: Photosynthesis is the process used by plants, algae, and certain bacteria to harness energy from sunlight and turn it into chemical energy. Here, carbon dioxide and water are converted into glucose (sugar) and oxygen. This process is crucial for life on Earth because it produces the oxygen we breathe and the food we eat. Chlorophyll, a green pigment found in plants, absorbs the light energy needed for photosynthesis to occur.\n\nQuestion: What role does Chlorophyll play?",
+        options: ["It produces water", "It absorbs light energy", "It releases carbon dioxide", "It eats the food"],
+        correctIndex: 1,
+        explanation: "The text explains that Chlorophyll 'absorbs the light energy needed'.",
+        explanationBengali: "টেক্সটে ব্যাখ্যা করা হয়েছে যে ক্লোরোফিল প্রয়োজনীয় আলোক শক্তি শোষণ করে।"
+    },
+    {
+        id: "rc_1064", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Science",
+        question: "Passage: Photosynthesis is the process used by plants, algae, and certain bacteria to harness energy from sunlight and turn it into chemical energy. Here, carbon dioxide and water are converted into glucose (sugar) and oxygen. This process is crucial for life on Earth because it produces the oxygen we breathe and the food we eat. Chlorophyll, a green pigment found in plants, absorbs the light energy needed for photosynthesis to occur.\n\nQuestion: Why is photosynthesis crucial for life on Earth?",
+        options: ["It makes plants green", "It cools the planet", "It produces oxygen and food", "It uses up all the water"],
+        correctIndex: 2,
+        explanation: "The passage says it is crucial because 'it produces the oxygen we breathe and the food we eat'.",
+        explanationBengali: "প্যাসেজে বলা হয়েছে এটি গুরুত্বপূর্ণ কারণ এটি আমাদের শ্বাস নেওয়ার অক্সিজেন এবং খাবার তৈরি করে।"
+    },
+    {
+        id: "rc_1065", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Science",
+        question: "Passage: Photosynthesis is the process used by plants, algae, and certain bacteria to harness energy from sunlight and turn it into chemical energy. Here, carbon dioxide and water are converted into glucose (sugar) and oxygen. This process is crucial for life on Earth because it produces the oxygen we breathe and the food we eat. Chlorophyll, a green pigment found in plants, absorbs the light energy needed for photosynthesis to occur.\n\nQuestion: The word 'Harness' in the passage means:",
+        options: ["To release", "To capture and use", "To destroy", "To paint"],
+        correctIndex: 1,
+        explanation: "To 'harness' energy means to capture it and use it for a specific purpose.",
+        explanationBengali: "'Harness' মানে হলো কোনো কিছুকে (এখানে শক্তিকে) কাজে লাগানো বা নিয়ন্ত্রণে আনা।"
+    },
+
+    // --- Passage 14: The Great Wall of China ---
+    {
+        id: "rc_1066", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "History",
+        question: "Passage: The Great Wall of China is a series of fortifications built across the historical northern borders of ancient Chinese states. It was constructed to protect against nomadic groups from the Eurasian Steppe. Several walls were built as early as the 7th century BC, but the most famous sections were built by the Ming Dynasty (1368–1644). It is the longest man-made structure in the world, stretching over 21,000 kilometers.\n\nQuestion: What was the primary purpose of the Great Wall?",
+        options: ["To mark the equator", "To protect against nomadic groups", "To store grain", "To act as a road"],
+        correctIndex: 1,
+        explanation: "The text states it was constructed 'to protect against nomadic groups'.",
+        explanationBengali: "টেক্সটে বলা হয়েছে এটি যাযাবর বা 'nomadic groups' থেকে রক্ষার জন্য নির্মাণ করা হয়েছিল।"
+    },
+    {
+        id: "rc_1067", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "History",
+        question: "Passage: The Great Wall of China is a series of fortifications built across the historical northern borders of ancient Chinese states. It was constructed to protect against nomadic groups from the Eurasian Steppe. Several walls were built as early as the 7th century BC, but the most famous sections were built by the Ming Dynasty (1368–1644). It is the longest man-made structure in the world, stretching over 21,000 kilometers.\n\nQuestion: Who built the most famous sections of the wall?",
+        options: ["The Qin Dynasty", "The Mongols", "The Ming Dynasty", "The Europeans"],
+        correctIndex: 2,
+        explanation: "The passage mentions: 'the most famous sections were built by the Ming Dynasty'.",
+        explanationBengali: "প্যাসেজে উল্লেখ করা হয়েছে যে সবচেয়ে বিখ্যাত অংশগুলো 'Ming Dynasty' (মিং রাজবংশ) তৈরি করেছিল।"
+    },
+    {
+        id: "rc_1068", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "History",
+        question: "Passage: The Great Wall of China is a series of fortifications built across the historical northern borders of ancient Chinese states. It was constructed to protect against nomadic groups from the Eurasian Steppe. Several walls were built as early as the 7th century BC, but the most famous sections were built by the Ming Dynasty (1368–1644). It is the longest man-made structure in the world, stretching over 21,000 kilometers.\n\nQuestion: Approximately how long is the Great Wall?",
+        options: ["1,000 kilometers", "10,000 kilometers", "Over 21,000 kilometers", "500 kilometers"],
+        correctIndex: 2,
+        explanation: "The text states it stretches 'over 21,000 kilometers'.",
+        explanationBengali: "টেক্সটে বলা আছে এটি 'over 21,000 kilometers' (২১,০০০ কিলোমিটারেরও বেশি) লম্বা।"
+    },
+    {
+        id: "rc_1069", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "History",
+        question: "Passage: The Great Wall of China is a series of fortifications built across the historical northern borders of ancient Chinese states. It was constructed to protect against nomadic groups from the Eurasian Steppe. Several walls were built as early as the 7th century BC, but the most famous sections were built by the Ming Dynasty (1368–1644). It is the longest man-made structure in the world, stretching over 21,000 kilometers.\n\nQuestion: When were the earliest walls built?",
+        options: ["1368 AD", "21st Century", "7th Century BC", "1st Century AD"],
+        correctIndex: 2,
+        explanation: "The passage mentions walls were built 'as early as the 7th century BC'.",
+        explanationBengali: "প্যাসেজে উল্লেখ আছে দেওয়ালগুলো '7th century BC' (খ্রিস্টপূর্ব সপ্তম শতাব্দী)-এর দিকে তৈরি শুরু হয়েছিল।"
+    },
+    {
+        id: "rc_1070", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "History",
+        question: "Passage: The Great Wall of China is a series of fortifications built across the historical northern borders of ancient Chinese states. It was constructed to protect against nomadic groups from the Eurasian Steppe. Several walls were built as early as the 7th century BC, but the most famous sections were built by the Ming Dynasty (1368–1644). It is the longest man-made structure in the world, stretching over 21,000 kilometers.\n\nQuestion: What is a 'Fortification'?",
+        options: ["A type of farm", "A defensive wall or building", "A marketplace", "A temple"],
+        correctIndex: 1,
+        explanation: "A fortification is a defensive wall or other reinforcement built to strengthen a place against attack.",
+        explanationBengali: "'Fortification' মানে হলো দুর্গ বা প্রতিরক্ষামূলক দেওয়াল।"
+    },
+
+    // --- Passage 15: Marie Curie ---
+    {
+        id: "rc_1071", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Biography",
+        question: "Passage: Marie Curie was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two different scientific fields (Physics and Chemistry). She discovered two elements: polonium and radium. Her work laid the foundation for modern X-ray technology.\n\nQuestion: Marie Curie was the first woman to achieve what?",
+        options: ["Become a doctor", "Fly a plane", "Win a Nobel Prize", "Discover gold"],
+        correctIndex: 2,
+        explanation: "The text states she was 'the first woman to win a Nobel Prize'.",
+        explanationBengali: "টেক্সটে বলা আছে তিনি ছিলেন 'Nobel Prize' জয়ী প্রথম নারী।"
+    },
+    {
+        id: "rc_1072", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Biography",
+        question: "Passage: Marie Curie was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two different scientific fields (Physics and Chemistry). She discovered two elements: polonium and radium. Her work laid the foundation for modern X-ray technology.\n\nQuestion: Which two elements did Marie Curie discover?",
+        options: ["Gold and Silver", "Oxygen and Hydrogen", "Polonium and Radium", "Uranium and Plutonium"],
+        correctIndex: 2,
+        explanation: "The passage specifies she discovered 'polonium and radium'.",
+        explanationBengali: "প্যাসেজে নির্দিষ্ট করে বলা হয়েছে তিনি 'polonium' এবং 'radium' আবিষ্কার করেন।"
+    },
+    {
+        id: "rc_1073", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Biography",
+        question: "Passage: Marie Curie was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two different scientific fields (Physics and Chemistry). She discovered two elements: polonium and radium. Her work laid the foundation for modern X-ray technology.\n\nQuestion: In which two fields did she win the Nobel Prize?",
+        options: ["Physics and Chemistry", "Literature and Peace", "Medicine and Physics", "Chemistry and Biology"],
+        correctIndex: 0,
+        explanation: "The passage states she won in 'Physics and Chemistry'.",
+        explanationBengali: "প্যাসেজে বলা আছে তিনি 'Physics' (পদার্থবিজ্ঞান) এবং 'Chemistry' (রসায়ন)-এ পুরস্কার পান।"
+    },
+    {
+        id: "rc_1074", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Biography",
+        question: "Passage: Marie Curie was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two different scientific fields (Physics and Chemistry). She discovered two elements: polonium and radium. Her work laid the foundation for modern X-ray technology.\n\nQuestion: Her work laid the foundation for which modern technology?",
+        options: ["Internet", "X-ray", "Computers", "Nuclear weapons"],
+        correctIndex: 1,
+        explanation: "The text concludes: 'Her work laid the foundation for modern X-ray technology'.",
+        explanationBengali: "টেক্সটের শেষে বলা আছে তার কাজ 'X-ray' প্রযুক্তির ভিত্তি স্থাপন করেছিল।"
+    },
+    {
+        id: "rc_1075", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Biography",
+        question: "Passage: Marie Curie was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person and the only woman to win the Nobel Prize twice, and the only person to win the Nobel Prize in two different scientific fields (Physics and Chemistry). She discovered two elements: polonium and radium. Her work laid the foundation for modern X-ray technology.\n\nQuestion: What does 'Pioneering' mean?",
+        options: ["Copying others", "Being one of the first to develop something", "Dangerous", "Secret"],
+        correctIndex: 1,
+        explanation: "Pioneering means involving new ideas or methods; being one of the first to do something.",
+        explanationBengali: "'Pioneering' মানে হলো অগ্রগামী বা কোনো কিছুতে পথপ্রদর্শক হওয়া।"
+    },
+
+    // --- Passage 16: The Importance of Sleep ---
+    {
+        id: "rc_1076", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Health",
+        question: "Passage: Sleep is a vital biological function that allows your body and mind to recharge, leaving you refreshed and alert when you wake up. Healthy sleep helps the body remain healthy and stave off diseases. Without enough sleep, the brain cannot function properly, impairing your ability to concentrate, think clearly, and process memories. Most adults need between 7 and 9 hours of sleep per night to function at their best.\n\nQuestion: What is the main benefit of sleep mentioned in the first sentence?",
+        options: ["It helps you lose weight", "It allows body and mind to recharge", "It makes you taller", "It cures all diseases"],
+        correctIndex: 1,
+        explanation: "The first sentence says sleep 'allows your body and mind to recharge'.",
+        explanationBengali: "প্রথম বাক্যেই বলা আছে ঘুম 'allows your body and mind to recharge' (শরীর ও মনকে সতেজ হতে সাহায্য করে)।"
+    },
+    {
+        id: "rc_1077", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Health",
+        question: "Passage: Sleep is a vital biological function that allows your body and mind to recharge, leaving you refreshed and alert when you wake up. Healthy sleep helps the body remain healthy and stave off diseases. Without enough sleep, the brain cannot function properly, impairing your ability to concentrate, think clearly, and process memories. Most adults need between 7 and 9 hours of sleep per night to function at their best.\n\nQuestion: What happens to the brain without enough sleep?",
+        options: ["It becomes smarter", "It cannot function properly", "It shuts down completely", "It grows larger"],
+        correctIndex: 1,
+        explanation: "The text states: 'Without enough sleep, the brain cannot function properly'.",
+        explanationBengali: "টেক্সটে বলা আছে: পর্যাপ্ত ঘুম ছাড়া মস্তিষ্ক 'cannot function properly' (ঠিকমতো কাজ করতে পারে না)।"
+    },
+    {
+        id: "rc_1078", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Health",
+        question: "Passage: Sleep is a vital biological function that allows your body and mind to recharge, leaving you refreshed and alert when you wake up. Healthy sleep helps the body remain healthy and stave off diseases. Without enough sleep, the brain cannot function properly, impairing your ability to concentrate, think clearly, and process memories. Most adults need between 7 and 9 hours of sleep per night to function at their best.\n\nQuestion: How many hours of sleep do most adults need?",
+        options: ["5 to 6 hours", "10 to 12 hours", "7 to 9 hours", "3 to 4 hours"],
+        correctIndex: 2,
+        explanation: "The passage specifies 'between 7 and 9 hours'.",
+        explanationBengali: "প্যাসেজে নির্দিষ্ট করে বলা হয়েছে '7 and 9 hours' (৭ থেকে ৯ ঘণ্টা)।"
+    },
+    {
+        id: "rc_1079", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Health",
+        question: "Passage: Sleep is a vital biological function that allows your body and mind to recharge, leaving you refreshed and alert when you wake up. Healthy sleep helps the body remain healthy and stave off diseases. Without enough sleep, the brain cannot function properly, impairing your ability to concentrate, think clearly, and process memories. Most adults need between 7 and 9 hours of sleep per night to function at their best.\n\nQuestion: Which ability is impaired by lack of sleep?",
+        options: ["Ability to eat", "Ability to sleep", "Ability to concentrate", "Ability to breathe"],
+        correctIndex: 2,
+        explanation: "The text mentions it impairs the 'ability to concentrate'.",
+        explanationBengali: "টেক্সটে বলা আছে এটি 'ability to concentrate' (মনোযোগ দেওয়ার ক্ষমতা) কমিয়ে দেয়।"
+    },
+    {
+        id: "rc_1080", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Health",
+        question: "Passage: Sleep is a vital biological function that allows your body and mind to recharge, leaving you refreshed and alert when you wake up. Healthy sleep helps the body remain healthy and stave off diseases. Without enough sleep, the brain cannot function properly, impairing your ability to concentrate, think clearly, and process memories. Most adults need between 7 and 9 hours of sleep per night to function at their best.\n\nQuestion: What does the phrase 'stave off' mean?",
+        options: ["To invite", "To avert or prevent", "To cure", "To create"],
+        correctIndex: 1,
+        explanation: "To 'stave off' something means to avert, delay, or prevent something bad from affecting you.",
+        explanationBengali: "'Stave off' মানে হলো কোনো কিছু (সাধারণত খারাপ কিছু) প্রতিরোধ করা বা দূরে রাখা।"
+    },
+
+    // --- Passage 17: Climate Change ---
+    {
+        id: "rc_1081", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels like coal, oil, and gas. Burning fossil fuels generates greenhouse gas emissions that act like a blanket wrapped around the Earth, trapping the sun's heat and raising temperatures.\n\nQuestion: What is the main driver of climate change since the 1800s?",
+        options: ["Solar flares", "Volcanic eruptions", "Human activities", "Ocean currents"],
+        correctIndex: 2,
+        explanation: "The passage states: 'human activities have been the main driver of climate change'.",
+        explanationBengali: "প্যাসেজে বলা আছে: 'human activities' (মানুষের কর্মকাণ্ড) হলো প্রধান কারণ।"
+    },
+    {
+        id: "rc_1082", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Environment",
+        question: "Passage: Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels like coal, oil, and gas. Burning fossil fuels generates greenhouse gas emissions that act like a blanket wrapped around the Earth, trapping the sun's heat and raising temperatures.\n\nQuestion: Which of the following is cited as a fossil fuel?",
+        options: ["Wood", "Coal", "Solar energy", "Water"],
+        correctIndex: 1,
+        explanation: "The text lists 'coal, oil, and gas' as fossil fuels.",
+        explanationBengali: "টেক্সটে 'coal' (কয়লা), তেল এবং গ্যাসকে জীবাশ্ম জ্বালানি হিসেবে উল্লেখ করা হয়েছে।"
+    },
+    {
+        id: "rc_1083", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels like coal, oil, and gas. Burning fossil fuels generates greenhouse gas emissions that act like a blanket wrapped around the Earth, trapping the sun's heat and raising temperatures.\n\nQuestion: How do greenhouse gases affect the Earth?",
+        options: ["They cool the Earth", "They act like a blanket trapping heat", "They clean the air", "They create rain"],
+        correctIndex: 1,
+        explanation: "The passage explains they 'act like a blanket... trapping the sun's heat'.",
+        explanationBengali: "প্যাসেজে ব্যাখ্যা করা হয়েছে যে এগুলো 'act like a blanket' (কম্বলের মতো কাজ করে) এবং তাপ আটকে রাখে।"
+    },
+    {
+        id: "rc_1084", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels like coal, oil, and gas. Burning fossil fuels generates greenhouse gas emissions that act like a blanket wrapped around the Earth, trapping the sun's heat and raising temperatures.\n\nQuestion: What happens when the sun's heat is trapped?",
+        options: ["Temperatures rise", "Temperatures fall", "It snows", "Wind stops"],
+        correctIndex: 0,
+        explanation: "The text concludes that trapping heat results in 'raising temperatures'.",
+        explanationBengali: "টেক্সটের শেষে বলা আছে তাপ আটকে পড়ার ফলে 'raising temperatures' বা তাপমাত্রা বৃদ্ধি পায়।"
+    },
+    {
+        id: "rc_1085", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Environment",
+        question: "Passage: Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, but since the 1800s, human activities have been the main driver of climate change, primarily due to the burning of fossil fuels like coal, oil, and gas. Burning fossil fuels generates greenhouse gas emissions that act like a blanket wrapped around the Earth, trapping the sun's heat and raising temperatures.\n\nQuestion: The word 'Emissions' in this context means:",
+        options: ["Money spent", "Gases released into the air", "Missions to space", "Rules"],
+        correctIndex: 1,
+        explanation: "Emissions refer to the production and discharge of something, especially gas or radiation.",
+        explanationBengali: "'Emissions' মানে হলো নির্গমন (এখানে বাতাসে গ্যাস ছড়ানো বোঝানো হয়েছে)।"
+    },
+
+    // --- Passage 18: The Titanic ---
+    {
+        id: "rc_1086", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "History",
+        question: "Passage: The RMS Titanic was a British passenger liner that sank in the North Atlantic Ocean in the early morning hours of 15 April 1912, after colliding with an iceberg during her maiden voyage from Southampton to New York City. At the time, it was the largest ship afloat. The disaster resulted in the deaths of more than 1,500 people, making it one of the deadliest peacetime maritime disasters in history. The ship carried insufficient lifeboats for everyone on board.\n\nQuestion: Where was the Titanic heading?",
+        options: ["Southampton", "London", "New York City", "Paris"],
+        correctIndex: 2,
+        explanation: "The passage states it was on a voyage 'from Southampton to New York City'.",
+        explanationBengali: "প্যাসেজে বলা আছে এটি সাউদাম্পটন থেকে 'New York City' (নিউ ইয়র্ক সিটি)-তে যাচ্ছিল।"
+    },
+    {
+        id: "rc_1087", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "History",
+        question: "Passage: The RMS Titanic was a British passenger liner that sank in the North Atlantic Ocean in the early morning hours of 15 April 1912, after colliding with an iceberg during her maiden voyage from Southampton to New York City. At the time, it was the largest ship afloat. The disaster resulted in the deaths of more than 1,500 people, making it one of the deadliest peacetime maritime disasters in history. The ship carried insufficient lifeboats for everyone on board.\n\nQuestion: What caused the Titanic to sink?",
+        options: ["A storm", "A bomb", "Collision with an iceberg", "Engine failure"],
+        correctIndex: 2,
+        explanation: "The text states it sank 'after colliding with an iceberg'.",
+        explanationBengali: "টেক্সটে বলা আছে এটি 'iceberg' (হিমশৈল)-এর সাথে সংঘর্ষের পর ডুবে যায়।"
+    },
+    {
+        id: "rc_1088", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "History",
+        question: "Passage: The RMS Titanic was a British passenger liner that sank in the North Atlantic Ocean in the early morning hours of 15 April 1912, after colliding with an iceberg during her maiden voyage from Southampton to New York City. At the time, it was the largest ship afloat. The disaster resulted in the deaths of more than 1,500 people, making it one of the deadliest peacetime maritime disasters in history. The ship carried insufficient lifeboats for everyone on board.\n\nQuestion: What was a major safety failure mentioned in the passage?",
+        options: ["The captain was asleep", "The ship had leaks", "Insufficient lifeboats", "The radio was broken"],
+        correctIndex: 2,
+        explanation: "The passage notes: 'The ship carried insufficient lifeboats for everyone on board'.",
+        explanationBengali: "প্যাসেজে উল্লেখ আছে: 'The ship carried insufficient lifeboats' (জাহাজে পর্যাপ্ত লাইফবোট ছিল না)।"
+    },
+    {
+        id: "rc_1089", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "History",
+        question: "Passage: The RMS Titanic was a British passenger liner that sank in the North Atlantic Ocean in the early morning hours of 15 April 1912, after colliding with an iceberg during her maiden voyage from Southampton to New York City. At the time, it was the largest ship afloat. The disaster resulted in the deaths of more than 1,500 people, making it one of the deadliest peacetime maritime disasters in history. The ship carried insufficient lifeboats for everyone on board.\n\nQuestion: How many people died in the disaster according to the text?",
+        options: ["Less than 100", "Exactly 1,000", "More than 1,500", "All passengers"],
+        correctIndex: 2,
+        explanation: "The text states it resulted in the deaths of 'more than 1,500 people'.",
+        explanationBengali: "টেক্সটে বলা আছে 'more than 1,500 people' (দেড় হাজারেরও বেশি মানুষ) মারা গিয়েছিল।"
+    },
+    {
+        id: "rc_1090", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "History",
+        question: "Passage: The RMS Titanic was a British passenger liner that sank in the North Atlantic Ocean in the early morning hours of 15 April 1912, after colliding with an iceberg during her maiden voyage from Southampton to New York City. At the time, it was the largest ship afloat. The disaster resulted in the deaths of more than 1,500 people, making it one of the deadliest peacetime maritime disasters in history. The ship carried insufficient lifeboats for everyone on board.\n\nQuestion: What does 'Maiden voyage' mean?",
+        options: ["The last voyage", "The first voyage", "A dangerous voyage", "A solo voyage"],
+        correctIndex: 1,
+        explanation: "A 'maiden voyage' is the first journey made by a ship or aircraft.",
+        explanationBengali: "'Maiden voyage' মানে হলো কোনো জাহাজ বা বিমানের প্রথম যাত্রা।"
+    },
+
+    // --- Passage 19: The Moon Landing ---
+    {
+        id: "rc_1091", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "History",
+        question: "Passage: On July 20, 1969, American astronauts Neil Armstrong and Buzz Aldrin became the first humans to land on the Moon. They traveled aboard the Apollo 11 spacecraft. Armstrong was the first to step onto the lunar surface, famously declaring, 'That's one small step for man, one giant leap for mankind.' They spent about two and a half hours outside the spacecraft, collecting lunar material to bring back to Earth.\n\nQuestion: Who was the first human to step on the Moon?",
+        options: ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"],
+        correctIndex: 1,
+        explanation: "The passage states: 'Armstrong was the first to step onto the lunar surface'.",
+        explanationBengali: "প্যাসেজে বলা আছে: 'Armstrong was the first...' (আর্মস্ট্রং প্রথম চাঁদের পৃষ্ঠে পা রাখেন)।"
+    },
+    {
+        id: "rc_1092", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "History",
+        question: "Passage: On July 20, 1969, American astronauts Neil Armstrong and Buzz Aldrin became the first humans to land on the Moon. They traveled aboard the Apollo 11 spacecraft. Armstrong was the first to step onto the lunar surface, famously declaring, 'That's one small step for man, one giant leap for mankind.' They spent about two and a half hours outside the spacecraft, collecting lunar material to bring back to Earth.\n\nQuestion: What was the name of the spacecraft?",
+        options: ["Sputnik 1", "Apollo 11", "Challenger", "Voyager"],
+        correctIndex: 1,
+        explanation: "They traveled aboard the 'Apollo 11 spacecraft'.",
+        explanationBengali: "তারা 'Apollo 11' মহাকাশযানে করে গিয়েছিল।"
+    },
+    {
+        id: "rc_1093", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "History",
+        question: "Passage: On July 20, 1969, American astronauts Neil Armstrong and Buzz Aldrin became the first humans to land on the Moon. They traveled aboard the Apollo 11 spacecraft. Armstrong was the first to step onto the lunar surface, famously declaring, 'That's one small step for man, one giant leap for mankind.' They spent about two and a half hours outside the spacecraft, collecting lunar material to bring back to Earth.\n\nQuestion: What did Armstrong say upon stepping on the Moon?",
+        options: ["We come in peace", "I can see my house", "That's one small step for man, one giant leap for mankind", "Hello Moon"],
+        correctIndex: 2,
+        explanation: "The famous quote is: 'That's one small step for man, one giant leap for mankind.'",
+        explanationBengali: "বিখ্যাত উক্তিটি হলো: 'That's one small step for man, one giant leap for mankind.'"
+    },
+    {
+        id: "rc_1094", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "History",
+        question: "Passage: On July 20, 1969, American astronauts Neil Armstrong and Buzz Aldrin became the first humans to land on the Moon. They traveled aboard the Apollo 11 spacecraft. Armstrong was the first to step onto the lunar surface, famously declaring, 'That's one small step for man, one giant leap for mankind.' They spent about two and a half hours outside the spacecraft, collecting lunar material to bring back to Earth.\n\nQuestion: How long did they spend outside the spacecraft?",
+        options: ["10 hours", "About two and a half hours", "One day", "15 minutes"],
+        correctIndex: 1,
+        explanation: "The text says they spent 'about two and a half hours' outside.",
+        explanationBengali: "টেক্সটে বলা আছে তারা বাইরে 'about two and a half hours' (প্রায় আড়াই ঘণ্টা) কাটিয়েছিল।"
+    },
+    {
+        id: "rc_1095", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "History",
+        question: "Passage: On July 20, 1969, American astronauts Neil Armstrong and Buzz Aldrin became the first humans to land on the Moon. They traveled aboard the Apollo 11 spacecraft. Armstrong was the first to step onto the lunar surface, famously declaring, 'That's one small step for man, one giant leap for mankind.' They spent about two and a half hours outside the spacecraft, collecting lunar material to bring back to Earth.\n\nQuestion: What does 'Lunar' refer to?",
+        options: ["The Sun", "Mars", "The Moon", "Earth"],
+        correctIndex: 2,
+        explanation: "'Lunar' is an adjective that relates to the Moon.",
+        explanationBengali: "'Lunar' শব্দটি চাঁদ বা চন্দ্র সম্পর্কিত।"
+    },
+
+    // --- Passage 20: Renewable Energy ---
+    {
+        id: "rc_1096", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Renewable energy comes from sources that replenish themselves naturally, such as sunlight, wind, rain, tides, waves, and geothermal heat. Unlike fossil fuels, which are finite and pollute the environment, renewable energy sources are clean and sustainable. Transitioning to renewable energy is considered essential to reducing carbon emissions and combating climate change. Solar panels and wind turbines are common technologies used to harvest this energy.\n\nQuestion: What defines renewable energy sources?",
+        options: ["They are man-made", "They replenish themselves naturally", "They are expensive", "They come from underground"],
+        correctIndex: 1,
+        explanation: "The text defines them as sources that 'replenish themselves naturally'.",
+        explanationBengali: "টেক্সটে বলা হয়েছে এগুলো এমন উৎস যা 'replenish themselves naturally' (প্রাকৃতিকভাবে পুনরায় পূর্ণ হয়)।"
+    },
+    {
+        id: "rc_1097", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Renewable energy comes from sources that replenish themselves naturally, such as sunlight, wind, rain, tides, waves, and geothermal heat. Unlike fossil fuels, which are finite and pollute the environment, renewable energy sources are clean and sustainable. Transitioning to renewable energy is considered essential to reducing carbon emissions and combating climate change. Solar panels and wind turbines are common technologies used to harvest this energy.\n\nQuestion: Which of the following is NOT a renewable energy source?",
+        options: ["Wind", "Sunlight", "Fossil fuels", "Tides"],
+        correctIndex: 2,
+        explanation: "Fossil fuels are contrasted against renewable energy; they are finite.",
+        explanationBengali: "জীবাশ্ম জ্বালানি বা 'Fossil fuels' নবায়নযোগ্য নয়; এগুলো ফুরিয়ে যায়।"
+    },
+    {
+        id: "rc_1098", chapter: "Reading Comprehension", type: "comprehension", difficulty: "easy", topic: "Environment",
+        question: "Passage: Renewable energy comes from sources that replenish themselves naturally, such as sunlight, wind, rain, tides, waves, and geothermal heat. Unlike fossil fuels, which are finite and pollute the environment, renewable energy sources are clean and sustainable. Transitioning to renewable energy is considered essential to reducing carbon emissions and combating climate change. Solar panels and wind turbines are common technologies used to harvest this energy.\n\nQuestion: Why are fossil fuels considered bad in the passage?",
+        options: ["They are too cheap", "They replenish too fast", "They are finite and pollute the environment", "They are renewable"],
+        correctIndex: 2,
+        explanation: "The passage states fossil fuels are 'finite and pollute the environment'.",
+        explanationBengali: "প্যাসেজে বলা আছে জীবাশ্ম জ্বালানি 'finite' (সীমিত) এবং পরিবেশ দূষিত করে।"
+    },
+    {
+        id: "rc_1099", chapter: "Reading Comprehension", type: "comprehension", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Renewable energy comes from sources that replenish themselves naturally, such as sunlight, wind, rain, tides, waves, and geothermal heat. Unlike fossil fuels, which are finite and pollute the environment, renewable energy sources are clean and sustainable. Transitioning to renewable energy is considered essential to reducing carbon emissions and combating climate change. Solar panels and wind turbines are common technologies used to harvest this energy.\n\nQuestion: What technologies are mentioned for harvesting renewable energy?",
+        options: ["Cars and trucks", "Solar panels and wind turbines", "Coal mines", "Oil rigs"],
+        correctIndex: 1,
+        explanation: "The text mentions 'Solar panels and wind turbines'.",
+        explanationBengali: "টেক্সটে 'Solar panels and wind turbines' (সৌর প্যানেল এবং বায়ু কল)-এর কথা উল্লেখ করা হয়েছে।"
+    },
+    {
+        id: "rc_1100", chapter: "Reading Comprehension", type: "comprehension", difficulty: "hard", topic: "Environment",
+        question: "Passage: Renewable energy comes from sources that replenish themselves naturally, such as sunlight, wind, rain, tides, waves, and geothermal heat. Unlike fossil fuels, which are finite and pollute the environment, renewable energy sources are clean and sustainable. Transitioning to renewable energy is considered essential to reducing carbon emissions and combating climate change. Solar panels and wind turbines are common technologies used to harvest this energy.\n\nQuestion: What does 'Finite' mean?",
+        options: ["Unlimited", "Clean", "Limited or having an end", "Natural"],
+        correctIndex: 2,
+        explanation: "Finite means having limits or bounds; it will eventually run out.",
+        explanationBengali: "'Finite' মানে হলো সীমিত বা যা শেষ হয়ে যাবে।"
+    },
+    // --- Passage 1: Education ---
+    {
+        id: "cloze_1101", chapter: "Cloze Test", type: "grammar", difficulty: "moderate", topic: "Education",
+        question: "Passage: Education is the most powerful weapon which you can use to (1) ______ the world. It involves the (2) ______ of knowledge, skills, values, beliefs, and habits. Educational methods include storytelling, discussion, teaching, training, and directed research. Education frequently takes (3) ______ under the guidance of educators, however learners can also educate themselves. Education can take place in formal or informal (4) ______ and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called (5) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 1.",
+        options: ["destroy", "change", "ignore", "hide"],
+        correctIndex: 1,
+        explanation: "The famous quote by Nelson Mandela is 'Education is the most powerful weapon which you can use to change the world.'",
+        explanationBengali: "নেলসন ম্যান্ডেলার বিখ্যাত উক্তি অনুযায়ী, শিক্ষা হলো পৃথিবীকে 'change' (পরিবর্তন) করার সবচেয়ে শক্তিশালী হাতিয়ার।"
+    },
+    {
+        id: "cloze_1102", chapter: "Cloze Test", type: "grammar", difficulty: "hard", topic: "Education",
+        question: "Passage: Education is the most powerful weapon which you can use to (1) ______ the world. It involves the (2) ______ of knowledge, skills, values, beliefs, and habits. Educational methods include storytelling, discussion, teaching, training, and directed research. Education frequently takes (3) ______ under the guidance of educators, however learners can also educate themselves. Education can take place in formal or informal (4) ______ and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called (5) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 2.",
+        options: ["loss", "acquisition", "disposal", "rejection"],
+        correctIndex: 1,
+        explanation: "'Acquisition' fits best as education involves acquiring or gaining knowledge.",
+        explanationBengali: "শিক্ষা বলতে জ্ঞান 'acquisition' (অর্জন) বোঝায়।"
+    },
+    {
+        id: "cloze_1103", chapter: "Cloze Test", type: "grammar", difficulty: "easy", topic: "Education",
+        question: "Passage: Education is the most powerful weapon which you can use to (1) ______ the world. It involves the (2) ______ of knowledge, skills, values, beliefs, and habits. Educational methods include storytelling, discussion, teaching, training, and directed research. Education frequently takes (3) ______ under the guidance of educators, however learners can also educate themselves. Education can take place in formal or informal (4) ______ and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called (5) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 3.",
+        options: ["part", "place", "time", "shape"],
+        correctIndex: 1,
+        explanation: "The phrase 'takes place' means to happen or occur.",
+        explanationBengali: "'Takes place' একটি phrase যার অর্থ ঘটা বা অনুষ্ঠিত হওয়া।"
+    },
+    {
+        id: "cloze_1104", chapter: "Cloze Test", type: "grammar", difficulty: "moderate", topic: "Education",
+        question: "Passage: Education is the most powerful weapon which you can use to (1) ______ the world. It involves the (2) ______ of knowledge, skills, values, beliefs, and habits. Educational methods include storytelling, discussion, teaching, training, and directed research. Education frequently takes (3) ______ under the guidance of educators, however learners can also educate themselves. Education can take place in formal or informal (4) ______ and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called (5) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 4.",
+        options: ["clothes", "meetings", "settings", "books"],
+        correctIndex: 2,
+        explanation: "'Settings' refers to the environment or context (formal or informal) where education happens.",
+        explanationBengali: "'Settings' বলতে পরিবেশ বা স্থান বোঝায় (আনুষ্ঠানিক বা অনানুষ্ঠানিক)।"
+    },
+    {
+        id: "cloze_1105", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Education",
+        question: "Passage: Education is the most powerful weapon which you can use to (1) ______ the world. It involves the (2) ______ of knowledge, skills, values, beliefs, and habits. Educational methods include storytelling, discussion, teaching, training, and directed research. Education frequently takes (3) ______ under the guidance of educators, however learners can also educate themselves. Education can take place in formal or informal (4) ______ and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called (5) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 5.",
+        options: ["biology", "geology", "pedagogy", "theology"],
+        correctIndex: 2,
+        explanation: "'Pedagogy' is the method and practice of teaching.",
+        explanationBengali: "'Pedagogy' মানে হলো শিক্ষাদান পদ্ধতি বা শিক্ষকতা বিজ্ঞান।"
+    },
+
+    // --- Passage 2: Health & Exercise ---
+    {
+        id: "cloze_1106", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Health",
+        question: "Passage: Regular exercise is beneficial for health. It protects from diseases like obesity and heart disease. Riding a bicycle is a great way to reduce health risks associated with a (6) ______ lifestyle. Cycling is a low-impact exercise suitable for all ages. It is mainly an (7) ______ activity, working the heart and lungs. It improves overall (8) ______ levels. Cycling helps control weight by raising the metabolic rate. You can change the (9) ______ to suit your needs. It is (10) ______ on bones and joints compared to running.\n\nQuestion: Select the most appropriate option to fill in blank No. 6.",
+        options: ["sedentary", "active", "healthy", "nomadic"],
+        correctIndex: 0,
+        explanation: "A 'sedentary' lifestyle (sitting a lot, little exercise) carries health risks that exercise reduces.",
+        explanationBengali: "'Sedentary' lifestyle (বসে থাকা বা অলস জীবনযাপন) স্বাস্থ্যের জন্য ঝুঁকিপূর্ণ।"
+    },
+    {
+        id: "cloze_1107", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        question: "Passage: Regular exercise is beneficial for health. It protects from diseases like obesity and heart disease. Riding a bicycle is a great way to reduce health risks associated with a (6) ______ lifestyle. Cycling is a low-impact exercise suitable for all ages. It is mainly an (7) ______ activity, working the heart and lungs. It improves overall (8) ______ levels. Cycling helps control weight by raising the metabolic rate. You can change the (9) ______ to suit your needs. It is (10) ______ on bones and joints compared to running.\n\nQuestion: Select the most appropriate option to fill in blank No. 7.",
+        options: ["anaerobic", "aerobic", "static", "mental"],
+        correctIndex: 1,
+        explanation: "Cycling is an 'aerobic' activity because it stimulates the heart and breathing rate to increase oxygen intake.",
+        explanationBengali: "সাইক্লিং হলো একটি 'aerobic' ব্যায়াম যা হৃদপিণ্ড এবং ফুসফুসের কাজ বাড়ায়।"
+    },
+    {
+        id: "cloze_1108", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Health",
+        question: "Passage: Regular exercise is beneficial for health. It protects from diseases like obesity and heart disease. Riding a bicycle is a great way to reduce health risks associated with a (6) ______ lifestyle. Cycling is a low-impact exercise suitable for all ages. It is mainly an (7) ______ activity, working the heart and lungs. It improves overall (8) ______ levels. Cycling helps control weight by raising the metabolic rate. You can change the (9) ______ to suit your needs. It is (10) ______ on bones and joints compared to running.\n\nQuestion: Select the most appropriate option to fill in blank No. 8.",
+        options: ["fitness", "stress", "anger", "hunger"],
+        correctIndex: 0,
+        explanation: "Exercise improves overall 'fitness' levels.",
+        explanationBengali: "ব্যায়াম সামগ্রিক 'fitness' (শারীরিক সক্ষমতা) বাড়ায়।"
+    },
+    {
+        id: "cloze_1109", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        question: "Passage: Regular exercise is beneficial for health. It protects from diseases like obesity and heart disease. Riding a bicycle is a great way to reduce health risks associated with a (6) ______ lifestyle. Cycling is a low-impact exercise suitable for all ages. It is mainly an (7) ______ activity, working the heart and lungs. It improves overall (8) ______ levels. Cycling helps control weight by raising the metabolic rate. You can change the (9) ______ to suit your needs. It is (10) ______ on bones and joints compared to running.\n\nQuestion: Select the most appropriate option to fill in blank No. 9.",
+        options: ["weather", "intensity", "color", "price"],
+        correctIndex: 1,
+        explanation: "You can change the 'intensity' of the exercise (how hard you ride) to suit your needs.",
+        explanationBengali: "আপনি নিজের প্রয়োজন অনুযায়ী শরীরচর্চার 'intensity' (তীব্রতা) পরিবর্তন করতে পারেন।"
+    },
+    {
+        id: "cloze_1110", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        question: "Passage: Regular exercise is beneficial for health. It protects from diseases like obesity and heart disease. Riding a bicycle is a great way to reduce health risks associated with a (6) ______ lifestyle. Cycling is a low-impact exercise suitable for all ages. It is mainly an (7) ______ activity, working the heart and lungs. It improves overall (8) ______ levels. Cycling helps control weight by raising the metabolic rate. You can change the (9) ______ to suit your needs. It is (10) ______ on bones and joints compared to running.\n\nQuestion: Select the most appropriate option to fill in blank No. 10.",
+        options: ["harder", "worse", "gentler", "heavier"],
+        correctIndex: 2,
+        explanation: "Cycling is 'gentler' on the joints because it is low-impact.",
+        explanationBengali: "দৌড়ানোর তুলনায় সাইক্লিং হাড় এবং জয়েন্টের জন্য 'gentler' (সহনশীল/নরম), কারণ এটি low-impact।"
+    },
+
+    // --- Passage 3: Pollution ---
+    {
+        id: "cloze_1111", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Pollution is the introduction of harmful materials into the environment. These harmful materials are called (11) ______. Pollution control means the control of emissions and effluents into air, water or soil. Without pollution control, the waste products from human activities will degrade the (12) ______. To reduce pollution, we must (13) ______ sustainable practices. Governments enact laws to limit pollution. Individuals can also help by reducing waste, reusing items, and (14) ______. We all have a role to play in preserving our planet for future (15) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 11.",
+        options: ["products", "nutrients", "pollutants", "vitamins"],
+        correctIndex: 2,
+        explanation: "Harmful materials that cause pollution are called 'pollutants'.",
+        explanationBengali: "পরিবেশ দূষণকারী ক্ষতিকর উপাদানগুলোকে 'pollutants' বলা হয়।"
+    },
+    {
+        id: "cloze_1112", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Environment",
+        question: "Passage: Pollution is the introduction of harmful materials into the environment. These harmful materials are called (11) ______. Pollution control means the control of emissions and effluents into air, water or soil. Without pollution control, the waste products from human activities will degrade the (12) ______. To reduce pollution, we must (13) ______ sustainable practices. Governments enact laws to limit pollution. Individuals can also help by reducing waste, reusing items, and (14) ______. We all have a role to play in preserving our planet for future (15) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 12.",
+        options: ["economy", "environment", "machines", "buildings"],
+        correctIndex: 1,
+        explanation: "Pollution degrades the 'environment' (air, water, soil).",
+        explanationBengali: "দূষণ 'environment' বা পরিবেশের ক্ষতি করে।"
+    },
+    {
+        id: "cloze_1113", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Pollution is the introduction of harmful materials into the environment. These harmful materials are called (11) ______. Pollution control means the control of emissions and effluents into air, water or soil. Without pollution control, the waste products from human activities will degrade the (12) ______. To reduce pollution, we must (13) ______ sustainable practices. Governments enact laws to limit pollution. Individuals can also help by reducing waste, reusing items, and (14) ______. We all have a role to play in preserving our planet for future (15) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 13.",
+        options: ["ignore", "adopt", "destroy", "forget"],
+        correctIndex: 1,
+        explanation: "We must 'adopt' (start using) sustainable practices to help the planet.",
+        explanationBengali: "আমাদের টেকসই পদ্ধতিগুলো 'adopt' (গ্রহণ) করতে হবে।"
+    },
+    {
+        id: "cloze_1114", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Pollution is the introduction of harmful materials into the environment. These harmful materials are called (11) ______. Pollution control means the control of emissions and effluents into air, water or soil. Without pollution control, the waste products from human activities will degrade the (12) ______. To reduce pollution, we must (13) ______ sustainable practices. Governments enact laws to limit pollution. Individuals can also help by reducing waste, reusing items, and (14) ______. We all have a role to play in preserving our planet for future (15) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 14.",
+        options: ["sleeping", "eating", "recycling", "driving"],
+        correctIndex: 2,
+        explanation: "'Recycling' is the third part of the 3 Rs (Reduce, Reuse, Recycle).",
+        explanationBengali: "বর্জ্য কমানোর অন্যতম উপায় হলো 'recycling' (পুনঃপ্রক্রিয়াজাতকরণ)।"
+    },
+    {
+        id: "cloze_1115", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Environment",
+        question: "Passage: Pollution is the introduction of harmful materials into the environment. These harmful materials are called (11) ______. Pollution control means the control of emissions and effluents into air, water or soil. Without pollution control, the waste products from human activities will degrade the (12) ______. To reduce pollution, we must (13) ______ sustainable practices. Governments enact laws to limit pollution. Individuals can also help by reducing waste, reusing items, and (14) ______. We all have a role to play in preserving our planet for future (15) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 15.",
+        options: ["past", "generations", "days", "insects"],
+        correctIndex: 1,
+        explanation: "We preserve the planet for future 'generations'.",
+        explanationBengali: "আমরা ভবিষ্যৎ 'generations' (প্রজন্মের) জন্য পৃথিবীকে রক্ষা করি।"
+    },
+
+    // --- Passage 4: Technology ---
+    {
+        id: "cloze_1116", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Technology",
+        question: "Passage: The internet has revolutionized the way we live. However, it also has its (16) ______, such as cybercrime and misinformation. It is important to use this tool (17) ______ and be aware of potential dangers. By harnessing its potential while mitigating risks, we can ensure that the internet benefits (18) ______. The future belongs to those willing to (19) ______ to new technologies. The (20) ______ of connected technology is limitless.\n\nQuestion: Select the most appropriate option to fill in blank No. 16.",
+        options: ["benefits", "drawbacks", "joys", "profits"],
+        correctIndex: 1,
+        explanation: "The sentence contrasts with 'However', implying negative aspects. 'Drawbacks' fits best.",
+        explanationBengali: "'However' দিয়ে বিপরীত অর্থ বোঝানো হয়েছে, তাই 'drawbacks' (অসুবিধা) সঠিক উত্তর।"
+    },
+    {
+        id: "cloze_1117", chapter: "Cloze Test", type: "grammar", difficulty: "moderate", topic: "Technology",
+        question: "Passage: The internet has revolutionized the way we live. However, it also has its (16) ______, such as cybercrime and misinformation. It is important to use this tool (17) ______ and be aware of potential dangers. By harnessing its potential while mitigating risks, we can ensure that the internet benefits (18) ______. The future belongs to those willing to (19) ______ to new technologies. The (20) ______ of connected technology is limitless.\n\nQuestion: Select the most appropriate option to fill in blank No. 17.",
+        options: ["recklessly", "responsibly", "badly", "secretly"],
+        correctIndex: 1,
+        explanation: "We should use powerful tools like the internet 'responsibly'.",
+        explanationBengali: "ইন্টারনেটের মতো শক্তিশালী মাধ্যম 'responsibly' (দায়িত্বশীলভাবে) ব্যবহার করা উচিত।"
+    },
+    {
+        id: "cloze_1118", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Technology",
+        question: "Passage: The internet has revolutionized the way we live. However, it also has its (16) ______, such as cybercrime and misinformation. It is important to use this tool (17) ______ and be aware of potential dangers. By harnessing its potential while mitigating risks, we can ensure that the internet benefits (18) ______. The future belongs to those willing to (19) ______ to new technologies. The (20) ______ of connected technology is limitless.\n\nQuestion: Select the most appropriate option to fill in blank No. 18.",
+        options: ["nobody", "machines", "humanity", "robots"],
+        correctIndex: 2,
+        explanation: "The goal is for technology to benefit 'humanity' or society.",
+        explanationBengali: "প্রযুক্তির উদ্দেশ্য হলো 'humanity' (মানবজাতি) বা সমাজের উপকার করা।"
+    },
+    {
+        id: "cloze_1119", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Technology",
+        question: "Passage: The internet has revolutionized the way we live. However, it also has its (16) ______, such as cybercrime and misinformation. It is important to use this tool (17) ______ and be aware of potential dangers. By harnessing its potential while mitigating risks, we can ensure that the internet benefits (18) ______. The future belongs to those willing to (19) ______ to new technologies. The (20) ______ of connected technology is limitless.\n\nQuestion: Select the most appropriate option to fill in blank No. 19.",
+        options: ["adapt", "fight", "surrender", "ignore"],
+        correctIndex: 0,
+        explanation: "Success in the future requires us to 'adapt' to changes.",
+        explanationBengali: "ভবিষ্যতে সফল হতে হলে আমাদের নতুন প্রযুক্তির সাথে 'adapt' (মানিয়ে নেওয়া) করতে হবে।"
+    },
+    {
+        id: "cloze_1120", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Technology",
+        question: "Passage: The internet has revolutionized the way we live. However, it also has its (16) ______, such as cybercrime and misinformation. It is important to use this tool (17) ______ and be aware of potential dangers. By harnessing its potential while mitigating risks, we can ensure that the internet benefits (18) ______. The future belongs to those willing to (19) ______ to new technologies. The (20) ______ of connected technology is limitless.\n\nQuestion: Select the most appropriate option to fill in blank No. 20.",
+        options: ["cost", "potential", "weight", "danger"],
+        correctIndex: 1,
+        explanation: "The context discusses future possibilities, so 'potential' fits best.",
+        explanationBengali: "প্রযুক্তির 'potential' (সম্ভাবনা) অসীম।"
+    },
+
+    // --- Passage 5: Happiness ---
+    {
+        id: "cloze_1121", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Psychology",
+        question: "Passage: Happiness is a state of mind. Two people can be in the same situation, yet one is happy and the other is not. This is because happiness is a (21) ______. Happiness requires effort and practice, but the rewards are (22) ______. Happiness is not something we have to chase, but something that naturally (23) ______ from within us. To be happy is to be (24) ______ with what one has. In contentment lies the secret to a (25) ______ life.\n\nQuestion: Select the most appropriate option to fill in blank No. 21.",
+        options: ["punishment", "choice", "burden", "accident"],
+        correctIndex: 1,
+        explanation: "The text implies we can decide our outlook, making happiness a 'choice'.",
+        explanationBengali: "সুখ একটি 'choice' (পছন্দ বা নির্বাচন), কারণ আমরা পরিস্থিতিকে কীভাবে দেখব তা আমাদের ওপর নির্ভর করে।"
+    },
+    {
+        id: "cloze_1122", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Psychology",
+        question: "Passage: Happiness is a state of mind. Two people can be in the same situation, yet one is happy and the other is not. This is because happiness is a (21) ______. Happiness requires effort and practice, but the rewards are (22) ______. Happiness is not something we have to chase, but something that naturally (23) ______ from within us. To be happy is to be (24) ______ with what one has. In contentment lies the secret to a (25) ______ life.\n\nQuestion: Select the most appropriate option to fill in blank No. 22.",
+        options: ["immense", "tiny", "painful", "boring"],
+        correctIndex: 0,
+        explanation: "The rewards of happiness are great or 'immense'.",
+        explanationBengali: "সুখের ফলাফল 'immense' (বিশাল/অঢেল)।"
+    },
+    {
+        id: "cloze_1123", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Psychology",
+        question: "Passage: Happiness is a state of mind. Two people can be in the same situation, yet one is happy and the other is not. This is because happiness is a (21) ______. Happiness requires effort and practice, but the rewards are (22) ______. Happiness is not something we have to chase, but something that naturally (23) ______ from within us. To be happy is to be (24) ______ with what one has. In contentment lies the secret to a (25) ______ life.\n\nQuestion: Select the most appropriate option to fill in blank No. 23.",
+        options: ["escapes", "arises", "runs", "hides"],
+        correctIndex: 1,
+        explanation: "'Arises' or emanates fits the context of coming from within.",
+        explanationBengali: "সুখ আমাদের ভেতর থেকে 'arises' (জেগে ওঠে/উৎপন্ন হয়)।"
+    },
+    {
+        id: "cloze_1124", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Psychology",
+        question: "Passage: Happiness is a state of mind. Two people can be in the same situation, yet one is happy and the other is not. This is because happiness is a (21) ______. Happiness requires effort and practice, but the rewards are (22) ______. Happiness is not something we have to chase, but something that naturally (23) ______ from within us. To be happy is to be (24) ______ with what one has. In contentment lies the secret to a (25) ______ life.\n\nQuestion: Select the most appropriate option to fill in blank No. 24.",
+        options: ["angry", "greedy", "content", "jealous"],
+        correctIndex: 2,
+        explanation: "To be happy is to be 'content' (satisfied) with what one has.",
+        explanationBengali: "সুখী হওয়ার অর্থ হলো যা আছে তা নিয়েই 'content' (সন্তুষ্ট) থাকা।"
+    },
+    {
+        id: "cloze_1125", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Psychology",
+        question: "Passage: Happiness is a state of mind. Two people can be in the same situation, yet one is happy and the other is not. This is because happiness is a (21) ______. Happiness requires effort and practice, but the rewards are (22) ______. Happiness is not something we have to chase, but something that naturally (23) ______ from within us. To be happy is to be (24) ______ with what one has. In contentment lies the secret to a (25) ______ life.\n\nQuestion: Select the most appropriate option to fill in blank No. 25.",
+        options: ["miserable", "short", "fulfilling", "dangerous"],
+        correctIndex: 2,
+        explanation: "A life of contentment is a 'fulfilling' one.",
+        explanationBengali: "সন্তুষ্টিই হলো একটি 'fulfilling' (পরিপূর্ণ) জীবনের চাবিকাঠি।"
+    },
+
+    // --- Passage 6: Discipline ---
+    {
+        id: "cloze_1126", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Self-Improvement",
+        question: "Passage: Discipline is the bridge between goals and accomplishment. Self-discipline often requires (26) ______ gratification to achieve a greater reward later. It is the key to unlocking our full (27) ______. Discipline will lead us to (28) ______. Discipline acts as a (29) ______ against chaotic habits. Therefore, cultivating discipline is a (30) ______ for a successful life.\n\nQuestion: Select the most appropriate option to fill in blank No. 26.",
+        options: ["seeking", "delaying", "finding", "demanding"],
+        correctIndex: 1,
+        explanation: "Self-discipline involves 'delaying' gratification (waiting for rewards).",
+        explanationBengali: "আত্মসংযম মানে হলো তাৎক্ষণিক সুখ বা পুরস্কার 'delaying' (বিলম্বিত) করা।"
+    },
+    {
+        id: "cloze_1127", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Self-Improvement",
+        question: "Passage: Discipline is the bridge between goals and accomplishment. Self-discipline often requires (26) ______ gratification to achieve a greater reward later. It is the key to unlocking our full (27) ______. Discipline will lead us to (28) ______. Discipline acts as a (29) ______ against chaotic habits. Therefore, cultivating discipline is a (30) ______ for a successful life.\n\nQuestion: Select the most appropriate option to fill in blank No. 27.",
+        options: ["potential", "house", "wallet", "anger"],
+        correctIndex: 0,
+        explanation: "Discipline helps us realize or unlock our full 'potential'.",
+        explanationBengali: "শৃঙ্খলা আমাদের পূর্ণ 'potential' (সম্ভাবনা) বিকাশে সাহায্য করে।"
+    },
+    {
+        id: "cloze_1128", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Self-Improvement",
+        question: "Passage: Discipline is the bridge between goals and accomplishment. Self-discipline often requires (26) ______ gratification to achieve a greater reward later. It is the key to unlocking our full (27) ______. Discipline will lead us to (28) ______. Discipline acts as a (29) ______ against chaotic habits. Therefore, cultivating discipline is a (30) ______ for a successful life.\n\nQuestion: Select the most appropriate option to fill in blank No. 28.",
+        options: ["failure", "success", "jail", "confusion"],
+        correctIndex: 1,
+        explanation: "The context implies positive outcomes, so 'success' fits best.",
+        explanationBengali: "শৃঙ্খলা আমাদের 'success' (সাফল্য)-এর দিকে নিয়ে যায়।"
+    },
+    {
+        id: "cloze_1129", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Self-Improvement",
+        question: "Passage: Discipline is the bridge between goals and accomplishment. Self-discipline often requires (26) ______ gratification to achieve a greater reward later. It is the key to unlocking our full (27) ______. Discipline will lead us to (28) ______. Discipline acts as a (29) ______ against chaotic habits. Therefore, cultivating discipline is a (30) ______ for a successful life.\n\nQuestion: Select the most appropriate option to fill in blank No. 29.",
+        options: ["magnet", "door", "shield", "friend"],
+        correctIndex: 2,
+        explanation: "Discipline protects us like a 'shield' against bad habits.",
+        explanationBengali: "শৃঙ্খলা বিশৃঙ্খল অভ্যাসের বিরুদ্ধে একটি 'shield' (ঢাল) হিসেবে কাজ করে।"
+    },
+    {
+        id: "cloze_1130", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Self-Improvement",
+        question: "Passage: Discipline is the bridge between goals and accomplishment. Self-discipline often requires (26) ______ gratification to achieve a greater reward later. It is the key to unlocking our full (27) ______. Discipline will lead us to (28) ______. Discipline acts as a (29) ______ against chaotic habits. Therefore, cultivating discipline is a (30) ______ for a successful life.\n\nQuestion: Select the most appropriate option to fill in blank No. 30.",
+        options: ["luxury", "hobby", "necessity", "joke"],
+        correctIndex: 2,
+        explanation: "The passage concludes that discipline is essential, or a 'necessity'.",
+        explanationBengali: "সফল জীবনের জন্য শৃঙ্খলা একটি 'necessity' (প্রয়োজনীয়তা/আবশ্যিক বিষয়)।"
+    },
+    // --- Passage 7: Friendship ---
+    {
+        id: "cloze_1131", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Relationships",
+        question: "Passage: True friendship is a (31) ______ gift. A real friend is someone who stands by you in (32) ______ times. They listen to your problems without (33) ______. Friendship is built on trust and mutual (34) ______. Having a strong support system can improve your mental (35) ______ significantly.\n\nQuestion: Select the most appropriate option to fill in blank No. 31.",
+        options: ["useless", "precious", "cheap", "boring"],
+        correctIndex: 1,
+        explanation: "Friendship is valuable, so 'precious' is the correct adjective.",
+        explanationBengali: "বন্ধুত্ব মূল্যবান, তাই 'precious' (মহামূল্যবান) শব্দটি সঠিক।"
+    },
+    {
+        id: "cloze_1132", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Relationships",
+        question: "Passage: True friendship is a (31) ______ gift. A real friend is someone who stands by you in (32) ______ times. They listen to your problems without (33) ______. Friendship is built on trust and mutual (34) ______. Having a strong support system can improve your mental (35) ______ significantly.\n\nQuestion: Select the most appropriate option to fill in blank No. 32.",
+        options: ["fun", "difficult", "bright", "sunny"],
+        correctIndex: 1,
+        explanation: "True friends stand by you during hard or 'difficult' times.",
+        explanationBengali: "প্রকৃত বন্ধুরা 'difficult' (কঠিন) সময়ে পাশে থাকে।"
+    },
+    {
+        id: "cloze_1133", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Relationships",
+        question: "Passage: True friendship is a (31) ______ gift. A real friend is someone who stands by you in (32) ______ times. They listen to your problems without (33) ______. Friendship is built on trust and mutual (34) ______. Having a strong support system can improve your mental (35) ______ significantly.\n\nQuestion: Select the most appropriate option to fill in blank No. 33.",
+        options: ["judging", "smiling", "helping", "sleeping"],
+        correctIndex: 0,
+        explanation: "A good friend listens without 'judging' or criticizing.",
+        explanationBengali: "ভালো বন্ধু 'judging' (বিচার বা সমালোচনা) না করেই সমস্যার কথা শোনে।"
+    },
+    {
+        id: "cloze_1134", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Relationships",
+        question: "Passage: True friendship is a (31) ______ gift. A real friend is someone who stands by you in (32) ______ times. They listen to your problems without (33) ______. Friendship is built on trust and mutual (34) ______. Having a strong support system can improve your mental (35) ______ significantly.\n\nQuestion: Select the most appropriate option to fill in blank No. 34.",
+        options: ["money", "fear", "respect", "doubt"],
+        correctIndex: 2,
+        explanation: "Friendship relies on trust and 'respect' for each other.",
+        explanationBengali: "বন্ধুত্ব বিশ্বাস এবং পারস্পরিক 'respect' (শ্রদ্ধা)-র ওপর গড়ে ওঠে।"
+    },
+    {
+        id: "cloze_1135", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Relationships",
+        question: "Passage: True friendship is a (31) ______ gift. A real friend is someone who stands by you in (32) ______ times. They listen to your problems without (33) ______. Friendship is built on trust and mutual (34) ______. Having a strong support system can improve your mental (35) ______ significantly.\n\nQuestion: Select the most appropriate option to fill in blank No. 35.",
+        options: ["health", "wealth", "height", "speed"],
+        correctIndex: 0,
+        explanation: "Social support is linked to better mental 'health'.",
+        explanationBengali: "ভালো বন্ধু বা সাপোর্ট সিস্টেম মানসিক 'health' (স্বাস্থ্য) ভালো রাখতে সাহায্য করে।"
+    },
+
+    // --- Passage 8: Global Warming ---
+    {
+        id: "cloze_1136", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Global warming is a serious issue affecting our (36) ______. It is caused by the increase of greenhouse gases in the (37) ______. Melting ice caps are leading to a rise in sea (38) ______. We must take immediate action to (39) ______ our carbon footprint. Using renewable energy sources is a step in the right (40) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 36.",
+        options: ["pocket", "planet", "room", "school"],
+        correctIndex: 1,
+        explanation: "Global warming affects the entire 'planet'.",
+        explanationBengali: "গ্লোবাল ওয়ার্মিং আমাদের 'planet' (গ্রহ/পৃথিবী)-কে প্রভাবিত করছে।"
+    },
+    {
+        id: "cloze_1137", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Global warming is a serious issue affecting our (36) ______. It is caused by the increase of greenhouse gases in the (37) ______. Melting ice caps are leading to a rise in sea (38) ______. We must take immediate action to (39) ______ our carbon footprint. Using renewable energy sources is a step in the right (40) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 37.",
+        options: ["water", "soil", "atmosphere", "basket"],
+        correctIndex: 2,
+        explanation: "Greenhouse gases accumulate in the 'atmosphere'.",
+        explanationBengali: "গ্রিনহাউস গ্যাসগুলো 'atmosphere' (বায়ুমণ্ডল)-এ জমা হয়।"
+    },
+    {
+        id: "cloze_1138", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Environment",
+        question: "Passage: Global warming is a serious issue affecting our (36) ______. It is caused by the increase of greenhouse gases in the (37) ______. Melting ice caps are leading to a rise in sea (38) ______. We must take immediate action to (39) ______ our carbon footprint. Using renewable energy sources is a step in the right (40) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 38.",
+        options: ["levels", "waves", "sand", "fish"],
+        correctIndex: 0,
+        explanation: "Melting ice causes a rise in sea 'levels'.",
+        explanationBengali: "বরফ গলার ফলে সমুদ্রের 'levels' (উচ্চতা/স্তর) বেড়ে যায়।"
+    },
+    {
+        id: "cloze_1139", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Global warming is a serious issue affecting our (36) ______. It is caused by the increase of greenhouse gases in the (37) ______. Melting ice caps are leading to a rise in sea (38) ______. We must take immediate action to (39) ______ our carbon footprint. Using renewable energy sources is a step in the right (40) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 39.",
+        options: ["increase", "reduce", "buy", "eat"],
+        correctIndex: 1,
+        explanation: "We need to 'reduce' (lower) our carbon footprint to help the environment.",
+        explanationBengali: "পরিবেশ বাঁচাতে আমাদের কার্বন ফুটপ্রিন্ট 'reduce' (কমানো) করতে হবে।"
+    },
+    {
+        id: "cloze_1140", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Global warming is a serious issue affecting our (36) ______. It is caused by the increase of greenhouse gases in the (37) ______. Melting ice caps are leading to a rise in sea (38) ______. We must take immediate action to (39) ______ our carbon footprint. Using renewable energy sources is a step in the right (40) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 40.",
+        options: ["place", "time", "corner", "direction"],
+        correctIndex: 3,
+        explanation: "Doing something positive is a step in the right 'direction'.",
+        explanationBengali: "'Step in the right direction' একটি phrase যার অর্থ সঠিক পথে পদক্ষেপ নেওয়া।"
+    },
+
+    // --- Passage 9: Reading ---
+    {
+        id: "cloze_1141", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Education",
+        question: "Passage: Reading books opens up a world of (41) ______. It allows us to travel to different places without leaving our (42) ______. Books can be our best friends and (43) ______. They teach us valuable lessons and (44) ______ our vocabulary. Developing a reading habit is one of the best (45) ______ one can cultivate.\n\nQuestion: Select the most appropriate option to fill in blank No. 41.",
+        options: ["darkness", "imagination", "silence", "pain"],
+        correctIndex: 1,
+        explanation: "Books stimulate our 'imagination'.",
+        explanationBengali: "বই আমাদের 'imagination' (কল্পনাশক্তি)-র জগত খুলে দেয়।"
+    },
+    {
+        id: "cloze_1142", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Education",
+        question: "Passage: Reading books opens up a world of (41) ______. It allows us to travel to different places without leaving our (42) ______. Books can be our best friends and (43) ______. They teach us valuable lessons and (44) ______ our vocabulary. Developing a reading habit is one of the best (45) ______ one can cultivate.\n\nQuestion: Select the most appropriate option to fill in blank No. 42.",
+        options: ["jobs", "shoes", "homes", "planets"],
+        correctIndex: 2,
+        explanation: "Reading allows mental travel without leaving our 'homes'.",
+        explanationBengali: "বই পড়লে আমরা ঘরে বসেই ('homes') অন্য জায়গায় ভ্রমণ করতে পারি (কল্পনায়)।"
+    },
+    {
+        id: "cloze_1143", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Education",
+        question: "Passage: Reading books opens up a world of (41) ______. It allows us to travel to different places without leaving our (42) ______. Books can be our best friends and (43) ______. They teach us valuable lessons and (44) ______ our vocabulary. Developing a reading habit is one of the best (45) ______ one can cultivate.\n\nQuestion: Select the most appropriate option to fill in blank No. 43.",
+        options: ["enemies", "toys", "obstacles", "guides"],
+        correctIndex: 3,
+        explanation: "Books act as 'guides' in life.",
+        explanationBengali: "বই আমাদের বন্ধু এবং 'guides' (পথপ্রদর্শক) হতে পারে।"
+    },
+    {
+        id: "cloze_1144", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Education",
+        question: "Passage: Reading books opens up a world of (41) ______. It allows us to travel to different places without leaving our (42) ______. Books can be our best friends and (43) ______. They teach us valuable lessons and (44) ______ our vocabulary. Developing a reading habit is one of the best (45) ______ one can cultivate.\n\nQuestion: Select the most appropriate option to fill in blank No. 44.",
+        options: ["lose", "improve", "hide", "destroy"],
+        correctIndex: 1,
+        explanation: "Reading helps 'improve' or expand vocabulary.",
+        explanationBengali: "বই পড়া আমাদের শব্দভাণ্ডার 'improve' (উন্নত) করে।"
+    },
+    {
+        id: "cloze_1145", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Education",
+        question: "Passage: Reading books opens up a world of (41) ______. It allows us to travel to different places without leaving our (42) ______. Books can be our best friends and (43) ______. They teach us valuable lessons and (44) ______ our vocabulary. Developing a reading habit is one of the best (45) ______ one can cultivate.\n\nQuestion: Select the most appropriate option to fill in blank No. 45.",
+        options: ["fears", "hobbies", "chores", "sins"],
+        correctIndex: 1,
+        explanation: "Reading is a positive 'hobby'.",
+        explanationBengali: "বই পড়া একটি চমৎকার 'hobby' (শখ)।"
+    },
+
+    // --- Passage 10: Success ---
+    {
+        id: "cloze_1146", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        question: "Passage: Failure is often a stepping stone to (46) ______. Many successful people have faced numerous (47) ______ before achieving their goals. It is important not to give (48) ______ when things get tough. Instead, we should learn from our mistakes and (49) ______ forward. Persistence is the key to (50) ______ any obstacle.\n\nQuestion: Select the most appropriate option to fill in blank No. 46.",
+        options: ["ruin", "success", "sleep", "anger"],
+        correctIndex: 1,
+        explanation: "Failure leads to 'success' if we learn from it.",
+        explanationBengali: "ব্যর্থতা হলো 'success' (সাফল্য)-এর সিঁড়ি।"
+    },
+    {
+        id: "cloze_1147", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        question: "Passage: Failure is often a stepping stone to (46) ______. Many successful people have faced numerous (47) ______ before achieving their goals. It is important not to give (48) ______ when things get tough. Instead, we should learn from our mistakes and (49) ______ forward. Persistence is the key to (50) ______ any obstacle.\n\nQuestion: Select the most appropriate option to fill in blank No. 47.",
+        options: ["meals", "challenges", "gifts", "prizes"],
+        correctIndex: 1,
+        explanation: "Successful people face 'challenges' or failures.",
+        explanationBengali: "সফল মানুষদের অনেক 'challenges' (চ্যালেঞ্জ)-এর মুখোমুখি হতে হয়।"
+    },
+    {
+        id: "cloze_1148", chapter: "Cloze Test", type: "grammar", difficulty: "easy", topic: "Success",
+        question: "Passage: Failure is often a stepping stone to (46) ______. Many successful people have faced numerous (47) ______ before achieving their goals. It is important not to give (48) ______ when things get tough. Instead, we should learn from our mistakes and (49) ______ forward. Persistence is the key to (50) ______ any obstacle.\n\nQuestion: Select the most appropriate option to fill in blank No. 48.",
+        options: ["in", "out", "up", "away"],
+        correctIndex: 2,
+        explanation: "'Give up' means to quit.",
+        explanationBengali: "'Give up' (হাল ছেড়ে দেওয়া) করা উচিত নয়।"
+    },
+    {
+        id: "cloze_1149", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Success",
+        question: "Passage: Failure is often a stepping stone to (46) ______. Many successful people have faced numerous (47) ______ before achieving their goals. It is important not to give (48) ______ when things get tough. Instead, we should learn from our mistakes and (49) ______ forward. Persistence is the key to (50) ______ any obstacle.\n\nQuestion: Select the most appropriate option to fill in blank No. 49.",
+        options: ["look", "move", "hide", "stop"],
+        correctIndex: 1,
+        explanation: "We should 'move' forward after mistakes.",
+        explanationBengali: "ভুল থেকে শিক্ষা নিয়ে আমাদের সামনে 'move' (এগিয়ে) যাওয়া উচিত।"
+    },
+    {
+        id: "cloze_1150", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        question: "Passage: Failure is often a stepping stone to (46) ______. Many successful people have faced numerous (47) ______ before achieving their goals. It is important not to give (48) ______ when things get tough. Instead, we should learn from our mistakes and (49) ______ forward. Persistence is the key to (50) ______ any obstacle.\n\nQuestion: Select the most appropriate option to fill in blank No. 50.",
+        options: ["creating", "watching", "overcoming", "buying"],
+        correctIndex: 2,
+        explanation: "Persistence helps in 'overcoming' obstacles.",
+        explanationBengali: "অধ্যবসায় যেকোনো বাধা 'overcoming' (জয় করতে) সাহায্য করে।"
+    },
+
+    // --- Passage 11: Travel ---
+    {
+        id: "cloze_1151", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Culture",
+        question: "Passage: Travelling exposes us to new (51) ______ and traditions. It helps break down stereotypes and fosters (52) ______. When we visit a new place, we should try the local (53) ______. Meeting new people broadens our (54) ______. Ultimately, travel makes us more (55) ______ individuals.\n\nQuestion: Select the most appropriate option to fill in blank No. 51.",
+        options: ["toys", "cultures", "rooms", "games"],
+        correctIndex: 1,
+        explanation: "Travel exposes us to new 'cultures'.",
+        explanationBengali: "ভ্রমণ আমাদের নতুন 'cultures' (সংস্কৃতি)-র সাথে পরিচয় করিয়ে দেয়।"
+    },
+    {
+        id: "cloze_1152", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Culture",
+        question: "Passage: Travelling exposes us to new (51) ______ and traditions. It helps break down stereotypes and fosters (52) ______. When we visit a new place, we should try the local (53) ______. Meeting new people broadens our (54) ______. Ultimately, travel makes us more (55) ______ individuals.\n\nQuestion: Select the most appropriate option to fill in blank No. 52.",
+        options: ["hatred", "war", "understanding", "silence"],
+        correctIndex: 2,
+        explanation: "Travel fosters 'understanding' between people.",
+        explanationBengali: "ভ্রমণ মানুষের মধ্যে 'understanding' (বোঝাপড়া) বাড়ায়।"
+    },
+    {
+        id: "cloze_1153", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Culture",
+        question: "Passage: Travelling exposes us to new (51) ______ and traditions. It helps break down stereotypes and fosters (52) ______. When we visit a new place, we should try the local (53) ______. Meeting new people broadens our (54) ______. Ultimately, travel makes us more (55) ______ individuals.\n\nQuestion: Select the most appropriate option to fill in blank No. 53.",
+        options: ["water", "air", "plastic", "cuisine"],
+        correctIndex: 3,
+        explanation: "We should try the local 'cuisine' (food).",
+        explanationBengali: "নতুন জায়গায় গেলে সেখানকার স্থানীয় 'cuisine' (খাবার) চেখে দেখা উচিত।"
+    },
+    {
+        id: "cloze_1154", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Culture",
+        question: "Passage: Travelling exposes us to new (51) ______ and traditions. It helps break down stereotypes and fosters (52) ______. When we visit a new place, we should try the local (53) ______. Meeting new people broadens our (54) ______. Ultimately, travel makes us more (55) ______ individuals.\n\nQuestion: Select the most appropriate option to fill in blank No. 54.",
+        options: ["horizons", "height", "weight", "hair"],
+        correctIndex: 0,
+        explanation: "Broadening one's 'horizons' means expanding one's range of interests and knowledge.",
+        explanationBengali: "নতুন মানুষের সাথে মেশা আমাদের 'horizons' (চিন্তার জগত) প্রসারিত করে।"
+    },
+    {
+        id: "cloze_1155", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Culture",
+        question: "Passage: Travelling exposes us to new (51) ______ and traditions. It helps break down stereotypes and fosters (52) ______. When we visit a new place, we should try the local (53) ______. Meeting new people broadens our (54) ______. Ultimately, travel makes us more (55) ______ individuals.\n\nQuestion: Select the most appropriate option to fill in blank No. 55.",
+        options: ["narrow", "open-minded", "angry", "rich"],
+        correctIndex: 1,
+        explanation: "Travel makes people more 'open-minded' and accepting.",
+        explanationBengali: "ভ্রমণ আমাদের আরও 'open-minded' (উদারমনা) করে তোলে।"
+    },
+
+    // --- Passage 12: Healthy Eating ---
+    {
+        id: "cloze_1156", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        question: "Passage: A balanced diet is essential for a healthy (56) ______. We should eat plenty of fruits and (57) ______. It is important to avoid (58) ______ food which is high in sugar and fat. Drinking enough water keeps us (59) ______. Good nutrition gives us the energy to (60) ______ our daily tasks.\n\nQuestion: Select the most appropriate option to fill in blank No. 56.",
+        options: ["car", "body", "wallet", "phone"],
+        correctIndex: 1,
+        explanation: "A balanced diet helps maintain a healthy 'body'.",
+        explanationBengali: "সুষম আহার সুস্থ 'body' (শরীর)-এর জন্য অপরিহার্য।"
+    },
+    {
+        id: "cloze_1157", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Health",
+        question: "Passage: A balanced diet is essential for a healthy (56) ______. We should eat plenty of fruits and (57) ______. It is important to avoid (58) ______ food which is high in sugar and fat. Drinking enough water keeps us (59) ______. Good nutrition gives us the energy to (60) ______ our daily tasks.\n\nQuestion: Select the most appropriate option to fill in blank No. 57.",
+        options: ["stones", "plastic", "vegetables", "toys"],
+        correctIndex: 2,
+        explanation: "Fruits and 'vegetables' are part of a healthy diet.",
+        explanationBengali: "আমাদের প্রচুর ফল এবং 'vegetables' (শাকসবজি) খাওয়া উচিত।"
+    },
+    {
+        id: "cloze_1158", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        question: "Passage: A balanced diet is essential for a healthy (56) ______. We should eat plenty of fruits and (57) ______. It is important to avoid (58) ______ food which is high in sugar and fat. Drinking enough water keeps us (59) ______. Good nutrition gives us the energy to (60) ______ our daily tasks.\n\nQuestion: Select the most appropriate option to fill in blank No. 58.",
+        options: ["junk", "fresh", "organic", "raw"],
+        correctIndex: 0,
+        explanation: "We should avoid 'junk' food because it is unhealthy.",
+        explanationBengali: "আমাদের 'junk' (অস্বাস্থ্যকর) খাবার এড়িয়ে চলা উচিত।"
+    },
+    {
+        id: "cloze_1159", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        question: "Passage: A balanced diet is essential for a healthy (56) ______. We should eat plenty of fruits and (57) ______. It is important to avoid (58) ______ food which is high in sugar and fat. Drinking enough water keeps us (59) ______. Good nutrition gives us the energy to (60) ______ our daily tasks.\n\nQuestion: Select the most appropriate option to fill in blank No. 59.",
+        options: ["hydrated", "dry", "angry", "sleepy"],
+        correctIndex: 0,
+        explanation: "Water keeps the body 'hydrated'.",
+        explanationBengali: "পানি পান করলে শরীর 'hydrated' (আর্দ্র/সতেজ) থাকে।"
+    },
+    {
+        id: "cloze_1160", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        question: "Passage: A balanced diet is essential for a healthy (56) ______. We should eat plenty of fruits and (57) ______. It is important to avoid (58) ______ food which is high in sugar and fat. Drinking enough water keeps us (59) ______. Good nutrition gives us the energy to (60) ______ our daily tasks.\n\nQuestion: Select the most appropriate option to fill in blank No. 60.",
+        options: ["ignore", "perform", "hide", "watch"],
+        correctIndex: 1,
+        explanation: "Energy is needed to 'perform' daily tasks.",
+        explanationBengali: "সঠিক পুষ্টি আমাদের দৈনন্দিন কাজ 'perform' (সম্পাদন) করার শক্তি যোগায়।"
+    },
+    // --- Passage 13: Trees ---
+    {
+        id: "cloze_1161", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Environment",
+        question: "Passage: Trees are vital for our survival. They provide us with (61) ______ like oxygen. They absorb harmful (62) ______ dioxide from the air. Trees also prevent soil (63) ______. Many animals depend on trees for (64) ______ and food. We must stop deforestation and start (65) ______ more trees.\n\nQuestion: Select the most appropriate option to fill in blank No. 61.",
+        options: ["money", "essentials", "plastic", "noise"],
+        correctIndex: 1,
+        explanation: "Oxygen is an 'essential' need for life.",
+        explanationBengali: "অক্সিজেন জীবনের জন্য একটি 'essential' (অপরিহার্য) উপাদান।"
+    },
+    {
+        id: "cloze_1162", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Environment",
+        question: "Passage: Trees are vital for our survival. They provide us with (61) ______ like oxygen. They absorb harmful (62) ______ dioxide from the air. Trees also prevent soil (63) ______. Many animals depend on trees for (64) ______ and food. We must stop deforestation and start (65) ______ more trees.\n\nQuestion: Select the most appropriate option to fill in blank No. 62.",
+        options: ["sulfur", "carbon", "nitrogen", "helium"],
+        correctIndex: 1,
+        explanation: "Trees absorb 'carbon' dioxide.",
+        explanationBengali: "গাছপালা বাতাস থেকে ক্ষতিকর 'carbon' ডাই অক্সাইড শোষণ করে।"
+    },
+    {
+        id: "cloze_1163", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Trees are vital for our survival. They provide us with (61) ______ like oxygen. They absorb harmful (62) ______ dioxide from the air. Trees also prevent soil (63) ______. Many animals depend on trees for (64) ______ and food. We must stop deforestation and start (65) ______ more trees.\n\nQuestion: Select the most appropriate option to fill in blank No. 63.",
+        options: ["production", "erosion", "growth", "color"],
+        correctIndex: 1,
+        explanation: "Tree roots hold soil together, preventing soil 'erosion'.",
+        explanationBengali: "গাছের শিকড় মাটি ধরে রাখে, ফলে ভূমিক্ষয় বা soil 'erosion' রোধ হয়।"
+    },
+    {
+        id: "cloze_1164", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Trees are vital for our survival. They provide us with (61) ______ like oxygen. They absorb harmful (62) ______ dioxide from the air. Trees also prevent soil (63) ______. Many animals depend on trees for (64) ______ and food. We must stop deforestation and start (65) ______ more trees.\n\nQuestion: Select the most appropriate option to fill in blank No. 64.",
+        options: ["clothes", "education", "shelter", "money"],
+        correctIndex: 2,
+        explanation: "Trees provide 'shelter' (homes) for many animals.",
+        explanationBengali: "অনেক প্রাণী বাসস্থান বা 'shelter'-এর জন্য গাছের ওপর নির্ভরশীল।"
+    },
+    {
+        id: "cloze_1165", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Trees are vital for our survival. They provide us with (61) ______ like oxygen. They absorb harmful (62) ______ dioxide from the air. Trees also prevent soil (63) ______. Many animals depend on trees for (64) ______ and food. We must stop deforestation and start (65) ______ more trees.\n\nQuestion: Select the most appropriate option to fill in blank No. 65.",
+        options: ["cutting", "planting", "selling", "burning"],
+        correctIndex: 1,
+        explanation: "To combat deforestation, we must start 'planting' trees.",
+        explanationBengali: "বন উজাড় রোধ করতে আমাদের আরও গাছ 'planting' (রোপণ) করা উচিত।"
+    },
+
+    // --- Passage 14: Smartphones ---
+    {
+        id: "cloze_1166", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Technology",
+        question: "Passage: Smartphones have become an integral part of our lives. They allow us to stay (66) ______ with friends and family. We can access vast amounts of (67) ______ with a single tap. However, excessive use can lead to (68) ______ and eye strain. It is important to find a (69) ______ between digital and real life. We should not let phones (70) ______ our daily interactions.\n\nQuestion: Select the most appropriate option to fill in blank No. 66.",
+        options: ["angry", "connected", "lost", "hidden"],
+        correctIndex: 1,
+        explanation: "Smartphones keep us 'connected' with others.",
+        explanationBengali: "স্মার্টফোন আমাদের বন্ধু ও পরিবারের সাথে 'connected' (যুক্ত) থাকতে সাহায্য করে।"
+    },
+    {
+        id: "cloze_1167", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Technology",
+        question: "Passage: Smartphones have become an integral part of our lives. They allow us to stay (66) ______ with friends and family. We can access vast amounts of (67) ______ with a single tap. However, excessive use can lead to (68) ______ and eye strain. It is important to find a (69) ______ between digital and real life. We should not let phones (70) ______ our daily interactions.\n\nQuestion: Select the most appropriate option to fill in blank No. 67.",
+        options: ["water", "food", "information", "air"],
+        correctIndex: 2,
+        explanation: "The internet on phones provides access to 'information'.",
+        explanationBengali: "এক ক্লিকেই আমরা প্রচুর 'information' (তথ্য) পেতে পারি।"
+    },
+    {
+        id: "cloze_1168", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Technology",
+        question: "Passage: Smartphones have become an integral part of our lives. They allow us to stay (66) ______ with friends and family. We can access vast amounts of (67) ______ with a single tap. However, excessive use can lead to (68) ______ and eye strain. It is important to find a (69) ______ between digital and real life. We should not let phones (70) ______ our daily interactions.\n\nQuestion: Select the most appropriate option to fill in blank No. 68.",
+        options: ["addiction", "happiness", "fitness", "wealth"],
+        correctIndex: 0,
+        explanation: "Too much phone use leads to 'addiction'.",
+        explanationBengali: "অতিরিক্ত ব্যবহারের ফলে 'addiction' (আসক্তি) এবং চোখের সমস্যা হতে পারে।"
+    },
+    {
+        id: "cloze_1169", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Technology",
+        question: "Passage: Smartphones have become an integral part of our lives. They allow us to stay (66) ______ with friends and family. We can access vast amounts of (67) ______ with a single tap. However, excessive use can lead to (68) ______ and eye strain. It is important to find a (69) ______ between digital and real life. We should not let phones (70) ______ our daily interactions.\n\nQuestion: Select the most appropriate option to fill in blank No. 69.",
+        options: ["fight", "balance", "wall", "gap"],
+        correctIndex: 1,
+        explanation: "We need a 'balance' between online and offline life.",
+        explanationBengali: "ডিজিটাল এবং বাস্তব জীবনের মধ্যে একটি 'balance' (ভারসাম্য) বজায় রাখা জরুরি।"
+    },
+    {
+        id: "cloze_1170", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Technology",
+        question: "Passage: Smartphones have become an integral part of our lives. They allow us to stay (66) ______ with friends and family. We can access vast amounts of (67) ______ with a single tap. However, excessive use can lead to (68) ______ and eye strain. It is important to find a (69) ______ between digital and real life. We should not let phones (70) ______ our daily interactions.\n\nQuestion: Select the most appropriate option to fill in blank No. 70.",
+        options: ["improve", "replace", "create", "support"],
+        correctIndex: 1,
+        explanation: "Phones should not 'replace' face-to-face interactions.",
+        explanationBengali: "ফোনের কারণে যেন আমাদের দৈনন্দিন মেলামেশা 'replace' (প্রতিস্থাপিত/বন্ধ) না হয়ে যায়।"
+    },
+
+    // --- Passage 15: Hard Work vs Luck ---
+    {
+        id: "cloze_1171", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Success",
+        question: "Passage: Many people believe that success is a matter of luck. However, true success is usually the result of (71) ______ work. While luck may provide an (72) ______, it is effort that sustains it. Those who rely solely on luck often face (73) ______. Hard work builds character and (74) ______. Therefore, we should focus on our efforts rather than waiting for a (75) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 71.",
+        options: ["hard", "easy", "lazy", "quick"],
+        correctIndex: 0,
+        explanation: "The phrase is 'hard work'.",
+        explanationBengali: "প্রকৃত সাফল্য সাধারণত 'hard' (কঠোর) পরিশ্রমের ফল।"
+    },
+    {
+        id: "cloze_1172", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        question: "Passage: Many people believe that success is a matter of luck. However, true success is usually the result of (71) ______ work. While luck may provide an (72) ______, it is effort that sustains it. Those who rely solely on luck often face (73) ______. Hard work builds character and (74) ______. Therefore, we should focus on our efforts rather than waiting for a (75) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 72.",
+        options: ["obstacle", "opportunity", "excuse", "enemy"],
+        correctIndex: 1,
+        explanation: "Luck can give you a chance or 'opportunity'.",
+        explanationBengali: "ভাগ্য হয়তো একটি 'opportunity' (সুযোগ) এনে দিতে পারে, কিন্তু তা ধরে রাখতে পরিশ্রম লাগে।"
+    },
+    {
+        id: "cloze_1173", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        question: "Passage: Many people believe that success is a matter of luck. However, true success is usually the result of (71) ______ work. While luck may provide an (72) ______, it is effort that sustains it. Those who rely solely on luck often face (73) ______. Hard work builds character and (74) ______. Therefore, we should focus on our efforts rather than waiting for a (75) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 73.",
+        options: ["victory", "fame", "disappointment", "wealth"],
+        correctIndex: 2,
+        explanation: "Relying only on luck often leads to failure or 'disappointment'.",
+        explanationBengali: "শুধুমাত্র ভাগ্যের ওপর নির্ভর করলে প্রায়ই 'disappointment' (হতাশা) জুটতে পারে।"
+    },
+    {
+        id: "cloze_1174", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        question: "Passage: Many people believe that success is a matter of luck. However, true success is usually the result of (71) ______ work. While luck may provide an (72) ______, it is effort that sustains it. Those who rely solely on luck often face (73) ______. Hard work builds character and (74) ______. Therefore, we should focus on our efforts rather than waiting for a (75) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 74.",
+        options: ["laziness", "fear", "discipline", "greed"],
+        correctIndex: 2,
+        explanation: "Hard work creates habits of 'discipline'.",
+        explanationBengali: "কঠোর পরিশ্রম চরিত্র এবং 'discipline' (শৃঙ্খলা) গঠন করে।"
+    },
+    {
+        id: "cloze_1175", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        question: "Passage: Many people believe that success is a matter of luck. However, true success is usually the result of (71) ______ work. While luck may provide an (72) ______, it is effort that sustains it. Those who rely solely on luck often face (73) ______. Hard work builds character and (74) ______. Therefore, we should focus on our efforts rather than waiting for a (75) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 75.",
+        options: ["miracle", "disaster", "storm", "bus"],
+        correctIndex: 0,
+        explanation: "We shouldn't wait for a lucky 'miracle'.",
+        explanationBengali: "আমাদের উচিত পরিশ্রম করা, কোনো 'miracle' (অলৌকিক ঘটনা)-র জন্য অপেক্ষা না করা।"
+    },
+
+    // --- Passage 16: Yoga ---
+    {
+        id: "cloze_1176", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        question: "Passage: Yoga is an ancient practice that originated in India. It combines physical postures, breathing exercises, and (76) ______. Regular practice promotes flexibility and (77) ______. It is known to reduce stress and improve mental (78) ______. Yoga is suitable for people of all (79) ______. It is a holistic approach to (80) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 76.",
+        options: ["sleeping", "meditation", "fighting", "running"],
+        correctIndex: 1,
+        explanation: "Yoga includes postures, breathing, and 'meditation'.",
+        explanationBengali: "যোগব্যায়ামে শারীরিক কসরত, শ্বাস-প্রশ্বাস এবং 'meditation' (ধ্যান) অন্তর্ভুক্ত।"
+    },
+    {
+        id: "cloze_1177", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        question: "Passage: Yoga is an ancient practice that originated in India. It combines physical postures, breathing exercises, and (76) ______. Regular practice promotes flexibility and (77) ______. It is known to reduce stress and improve mental (78) ______. Yoga is suitable for people of all (79) ______. It is a holistic approach to (80) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 77.",
+        options: ["anger", "strength", "height", "weight"],
+        correctIndex: 1,
+        explanation: "Yoga improves flexibility and physical 'strength'.",
+        explanationBengali: "নিয়মিত যোগাভ্যাস নমনীয়তা এবং 'strength' (শক্তি) বাড়ায়।"
+    },
+    {
+        id: "cloze_1178", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        question: "Passage: Yoga is an ancient practice that originated in India. It combines physical postures, breathing exercises, and (76) ______. Regular practice promotes flexibility and (77) ______. It is known to reduce stress and improve mental (78) ______. Yoga is suitable for people of all (79) ______. It is a holistic approach to (80) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 78.",
+        options: ["chaos", "clarity", "illness", "noise"],
+        correctIndex: 1,
+        explanation: "Yoga calms the mind, leading to mental 'clarity'.",
+        explanationBengali: "যোগব্যায়াম মানসিক চাপ কমায় এবং মানসিক 'clarity' (স্বচ্ছতা/প্রশান্তি) আনে।"
+    },
+    {
+        id: "cloze_1179", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Health",
+        question: "Passage: Yoga is an ancient practice that originated in India. It combines physical postures, breathing exercises, and (76) ______. Regular practice promotes flexibility and (77) ______. It is known to reduce stress and improve mental (78) ______. Yoga is suitable for people of all (79) ______. It is a holistic approach to (80) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 79.",
+        options: ["ages", "sizes", "colors", "names"],
+        correctIndex: 0,
+        explanation: "Yoga is good for people of all 'ages'.",
+        explanationBengali: "সব 'ages' (বয়সের) মানুষের জন্য যোগব্যায়াম উপযুক্ত।"
+    },
+    {
+        id: "cloze_1180", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Health",
+        question: "Passage: Yoga is an ancient practice that originated in India. It combines physical postures, breathing exercises, and (76) ______. Regular practice promotes flexibility and (77) ______. It is known to reduce stress and improve mental (78) ______. Yoga is suitable for people of all (79) ______. It is a holistic approach to (80) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 80.",
+        options: ["wealth", "fame", "well-being", "fashion"],
+        correctIndex: 2,
+        explanation: "Yoga is a holistic approach to overall 'well-being'.",
+        explanationBengali: "এটি সার্বিক 'well-being' (সুস্থতা/কল্যাণ)-এর একটি সামগ্রিক পদ্ধতি।"
+    },
+
+    // --- Passage 17: Plastic Pollution ---
+    {
+        id: "cloze_1181", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Plastic pollution is a growing environmental crisis. Single-use plastics often end up in the (81) ______, harming marine life. These plastics take hundreds of years to (82) ______. Animals often mistake plastic for (83) ______ and eat it. To combat this, we should switch to (84) ______ alternatives. Small changes in our habits can make a big (85) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 81.",
+        options: ["deserts", "forests", "oceans", "mountains"],
+        correctIndex: 2,
+        explanation: "Marine life is harmed when plastic ends up in 'oceans'.",
+        explanationBengali: "প্লাস্টিক বর্জ্য 'oceans' (সমুদ্রে) গিয়ে পড়ে, যা সামুদ্রিক প্রাণীদের ক্ষতি করে।"
+    },
+    {
+        id: "cloze_1182", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Plastic pollution is a growing environmental crisis. Single-use plastics often end up in the (81) ______, harming marine life. These plastics take hundreds of years to (82) ______. Animals often mistake plastic for (83) ______ and eat it. To combat this, we should switch to (84) ______ alternatives. Small changes in our habits can make a big (85) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 82.",
+        options: ["grow", "decompose", "fly", "swim"],
+        correctIndex: 1,
+        explanation: "Plastic does not rot easily; it takes years to 'decompose'.",
+        explanationBengali: "প্লাস্টিক 'decompose' (পচে যাওয়া/নিঃশেষ হওয়া) হতে শত শত বছর সময় নেয়।"
+    },
+    {
+        id: "cloze_1183", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Environment",
+        question: "Passage: Plastic pollution is a growing environmental crisis. Single-use plastics often end up in the (81) ______, harming marine life. These plastics take hundreds of years to (82) ______. Animals often mistake plastic for (83) ______ and eat it. To combat this, we should switch to (84) ______ alternatives. Small changes in our habits can make a big (85) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 83.",
+        options: ["water", "food", "air", "toys"],
+        correctIndex: 1,
+        explanation: "Animals mistake plastic for 'food'.",
+        explanationBengali: "প্রাণীরা ভুল করে প্লাস্টিককে 'food' (খাবার) মনে করে খেয়ে ফেলে।"
+    },
+    {
+        id: "cloze_1184", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Plastic pollution is a growing environmental crisis. Single-use plastics often end up in the (81) ______, harming marine life. These plastics take hundreds of years to (82) ______. Animals often mistake plastic for (83) ______ and eat it. To combat this, we should switch to (84) ______ alternatives. Small changes in our habits can make a big (85) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 84.",
+        options: ["toxic", "expensive", "reusable", "heavy"],
+        correctIndex: 2,
+        explanation: "We should use 'reusable' bags and bottles instead of plastic.",
+        explanationBengali: "আমাদের 'reusable' (পুনরায় ব্যবহারযোগ্য) বিকল্প বেছে নেওয়া উচিত।"
+    },
+    {
+        id: "cloze_1185", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Environment",
+        question: "Passage: Plastic pollution is a growing environmental crisis. Single-use plastics often end up in the (81) ______, harming marine life. These plastics take hundreds of years to (82) ______. Animals often mistake plastic for (83) ______ and eat it. To combat this, we should switch to (84) ______ alternatives. Small changes in our habits can make a big (85) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 85.",
+        options: ["noise", "mess", "difference", "problem"],
+        correctIndex: 2,
+        explanation: "Small changes can make a big 'difference'.",
+        explanationBengali: "ছোট ছোট পরিবর্তন বড় 'difference' (পার্থক্য) গড়ে দিতে পারে।"
+    },
+
+    // --- Passage 18: Libraries ---
+    {
+        id: "cloze_1186", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Education",
+        question: "Passage: Libraries are storehouses of knowledge. They provide a quiet environment for (86) ______ and learning. Public libraries offer free access to books and (87) ______. They serve as community hubs where people can (88) ______. Despite the digital age, libraries remain (89) ______. They play a crucial role in promoting (90) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 86.",
+        options: ["dancing", "sleeping", "reading", "shouting"],
+        correctIndex: 2,
+        explanation: "Libraries are places for 'reading'.",
+        explanationBengali: "লাইব্রেরি হলো 'reading' (পড়াশোনা) করার জন্য শান্ত একটি জায়গা।"
+    },
+    {
+        id: "cloze_1187", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Education",
+        question: "Passage: Libraries are storehouses of knowledge. They provide a quiet environment for (86) ______ and learning. Public libraries offer free access to books and (87) ______. They serve as community hubs where people can (88) ______. Despite the digital age, libraries remain (89) ______. They play a crucial role in promoting (90) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 87.",
+        options: ["food", "clothes", "resources", "tickets"],
+        correctIndex: 2,
+        explanation: "Libraries offer books and other 'resources' like internet/archives.",
+        explanationBengali: "বইয়ের পাশাপাশি লাইব্রেরি বিভিন্ন 'resources' (সম্পদ/তথ্যভাণ্ডার) প্রদান করে।"
+    },
+    {
+        id: "cloze_1188", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Education",
+        question: "Passage: Libraries are storehouses of knowledge. They provide a quiet environment for (86) ______ and learning. Public libraries offer free access to books and (87) ______. They serve as community hubs where people can (88) ______. Despite the digital age, libraries remain (89) ______. They play a crucial role in promoting (90) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 88.",
+        options: ["fight", "gather", "hide", "cook"],
+        correctIndex: 1,
+        explanation: "Libraries act as hubs where the community can 'gather'.",
+        explanationBengali: "লাইব্রেরি এমন একটি কেন্দ্র যেখানে মানুষ 'gather' (একত্রিত) হতে পারে।"
+    },
+    {
+        id: "cloze_1189", chapter: "Cloze Test", type: "vocab", difficulty: "hard", topic: "Education",
+        question: "Passage: Libraries are storehouses of knowledge. They provide a quiet environment for (86) ______ and learning. Public libraries offer free access to books and (87) ______. They serve as community hubs where people can (88) ______. Despite the digital age, libraries remain (89) ______. They play a crucial role in promoting (90) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 89.",
+        options: ["useless", "relevant", "closed", "expensive"],
+        correctIndex: 1,
+        explanation: "Even with the internet, libraries are still 'relevant'.",
+        explanationBengali: "ডিজিটাল যুগেও লাইব্রেরি তার গুরুত্ব হারায়নি, এটি এখনও 'relevant' (প্রাসঙ্গিক)।"
+    },
+    {
+        id: "cloze_1190", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Education",
+        question: "Passage: Libraries are storehouses of knowledge. They provide a quiet environment for (86) ______ and learning. Public libraries offer free access to books and (87) ______. They serve as community hubs where people can (88) ______. Despite the digital age, libraries remain (89) ______. They play a crucial role in promoting (90) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 90.",
+        options: ["literacy", "illiteracy", "poverty", "noise"],
+        correctIndex: 0,
+        explanation: "Libraries promote reading and 'literacy'.",
+        explanationBengali: "লাইব্রেরি 'literacy' (সাক্ষরতা/শিক্ষার হার) বাড়াতে গুরুত্বপূর্ণ ভূমিকা পালন করে।"
+    },
+
+    // --- Passage 19: Teamwork ---
+    {
+        id: "cloze_1191", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        question: "Passage: Teamwork is the ability to work together toward a common (91) ______. It requires good communication and mutual (92) ______. When team members support each other, they can achieve (93) ______ results. Teamwork divides the effort and multiplies the (94) ______. It is an essential skill in the modern (95) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 91.",
+        options: ["enemy", "goal", "secret", "vacation"],
+        correctIndex: 1,
+        explanation: "Teams work towards a common 'goal'.",
+        explanationBengali: "দলবদ্ধ কাজের উদ্দেশ্য হলো একটি সাধারণ 'goal' (লক্ষ্য) অর্জন করা।"
+    },
+    {
+        id: "cloze_1192", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        question: "Passage: Teamwork is the ability to work together toward a common (91) ______. It requires good communication and mutual (92) ______. When team members support each other, they can achieve (93) ______ results. Teamwork divides the effort and multiplies the (94) ______. It is an essential skill in the modern (95) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 92.",
+        options: ["hatred", "suspicion", "respect", "silence"],
+        correctIndex: 2,
+        explanation: "Teamwork requires 'respect' for team members.",
+        explanationBengali: "টিমওয়ার্কের জন্য পারস্পরিক 'respect' (শ্রদ্ধাবোধ) প্রয়োজন।"
+    },
+    {
+        id: "cloze_1193", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        question: "Passage: Teamwork is the ability to work together toward a common (91) ______. It requires good communication and mutual (92) ______. When team members support each other, they can achieve (93) ______ results. Teamwork divides the effort and multiplies the (94) ______. It is an essential skill in the modern (95) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 93.",
+        options: ["average", "poor", "remarkable", "hidden"],
+        correctIndex: 2,
+        explanation: "Working together leads to 'remarkable' or great results.",
+        explanationBengali: "সবাই মিলে কাজ করলে 'remarkable' (অসাধারণ) ফলাফল পাওয়া যায়।"
+    },
+    {
+        id: "cloze_1194", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        question: "Passage: Teamwork is the ability to work together toward a common (91) ______. It requires good communication and mutual (92) ______. When team members support each other, they can achieve (93) ______ results. Teamwork divides the effort and multiplies the (94) ______. It is an essential skill in the modern (95) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 94.",
+        options: ["failure", "confusion", "success", "work"],
+        correctIndex: 2,
+        explanation: "Teamwork makes 'success' larger or multiplies it.",
+        explanationBengali: "টিমওয়ার্ক পরিশ্রম ভাগ করে নেয় কিন্তু 'success' (সাফল্য)-কে বহুগুণ বাড়িয়ে দেয়।"
+    },
+    {
+        id: "cloze_1195", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Success",
+        question: "Passage: Teamwork is the ability to work together toward a common (91) ______. It requires good communication and mutual (92) ______. When team members support each other, they can achieve (93) ______ results. Teamwork divides the effort and multiplies the (94) ______. It is an essential skill in the modern (95) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 95.",
+        options: ["jungle", "workplace", "history", "dream"],
+        correctIndex: 1,
+        explanation: "Teamwork is vital in the modern 'workplace'.",
+        explanationBengali: "আধুনিক 'workplace' (কর্মক্ষেত্রে) টিমওয়ার্ক একটি অপরিহার্য দক্ষতা।"
+    },
+
+    // --- Passage 20: Childhood ---
+    {
+        id: "cloze_1196", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Life",
+        question: "Passage: Childhood is often considered the best phase of life. It is a time of innocence and (96) ______. Children are free from the (97) ______ of adult life. They spend their time playing and (98) ______ new things. The memories made during childhood are often (99) ______. It is the foundation upon which our adult personality is (100) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 96.",
+        options: ["joy", "pain", "work", "darkness"],
+        correctIndex: 0,
+        explanation: "Childhood is associated with innocence and 'joy'.",
+        explanationBengali: "শৈশব হলো নির্দোষতা এবং 'joy' (আনন্দ)-এর সময়।"
+    },
+    {
+        id: "cloze_1197", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Life",
+        question: "Passage: Childhood is often considered the best phase of life. It is a time of innocence and (96) ______. Children are free from the (97) ______ of adult life. They spend their time playing and (98) ______ new things. The memories made during childhood are often (99) ______. It is the foundation upon which our adult personality is (100) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 97.",
+        options: ["joys", "games", "burdens", "toys"],
+        correctIndex: 2,
+        explanation: "Children don't have the 'burdens' or worries of adults.",
+        explanationBengali: "শিশুরা বড়দের জীবনের 'burdens' (বোঝা/দুশ্চিন্তা) থেকে মুক্ত থাকে।"
+    },
+    {
+        id: "cloze_1198", chapter: "Cloze Test", type: "vocab", difficulty: "easy", topic: "Life",
+        question: "Passage: Childhood is often considered the best phase of life. It is a time of innocence and (96) ______. Children are free from the (97) ______ of adult life. They spend their time playing and (98) ______ new things. The memories made during childhood are often (99) ______. It is the foundation upon which our adult personality is (100) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 98.",
+        options: ["buying", "exploring", "fearing", "forgetting"],
+        correctIndex: 1,
+        explanation: "Children are curious and spend time 'exploring'.",
+        explanationBengali: "শিশুরা খেলাধুলা করে এবং নতুন জিনিস 'exploring' (অন্বেষণ) করে সময় কাটায়।"
+    },
+    {
+        id: "cloze_1199", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Life",
+        question: "Passage: Childhood is often considered the best phase of life. It is a time of innocence and (96) ______. Children are free from the (97) ______ of adult life. They spend their time playing and (98) ______ new things. The memories made during childhood are often (99) ______. It is the foundation upon which our adult personality is (100) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 99.",
+        options: ["erased", "cherished", "ignored", "painful"],
+        correctIndex: 1,
+        explanation: "We usually treasure or 'cherish' childhood memories.",
+        explanationBengali: "শৈশবের স্মৃতিগুলো আমরা 'cherished' (লালন) করি বা মনে রাখি।"
+    },
+    {
+        id: "cloze_1200", chapter: "Cloze Test", type: "vocab", difficulty: "moderate", topic: "Life",
+        question: "Passage: Childhood is often considered the best phase of life. It is a time of innocence and (96) ______. Children are free from the (97) ______ of adult life. They spend their time playing and (98) ______ new things. The memories made during childhood are often (99) ______. It is the foundation upon which our adult personality is (100) ______.\n\nQuestion: Select the most appropriate option to fill in blank No. 100.",
+        options: ["built", "destroyed", "lost", "hidden"],
+        correctIndex: 0,
+        explanation: "Childhood experiences 'build' our personality.",
+        explanationBengali: "এটি সেই ভিত্তি যার ওপর আমাদের ব্যক্তিত্ব 'built' (গড়ে ওঠে)।"
+    },
+    {
+        id: "pj_1201", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. He was a very greedy man.\nB. Once there lived a rich merchant in a village.\nC. One day, he lost his bag of gold coins.\nD. He searched for it everywhere but couldn't find it.",
+        options: ["BADC", "BACD", "ACBD", "CBAD"],
+        correctIndex: 1,
+        explanation: "Sentence B introduces the main character (the rich merchant). Sentence A describes his nature (greedy). Sentence C tells what happened (lost bag). Sentence D describes the consequence (searched for it). So, BACD is the logical order.",
+        explanationBengali: "B বাক্যটি মূল চরিত্র (ধনী বনিক) পরিচয় করিয়ে দেয়। A তার স্বভাব (লোভী) বর্ণনা করে। C তে ঘটনার বর্ণনা (স্বর্ণমুদ্রার থলে হারানো) এবং D তে তার ফলাফল (খোঁজাখুঁজি) বলা হয়েছে। তাই সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1202", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It is essential for life on Earth.\nB. However, human activities are polluting it.\nC. Water is a precious resource.\nD. We must take steps to conserve it for future generations.",
+        options: ["CABD", "ACBD", "CBAD", "BCAD"],
+        correctIndex: 0,
+        explanation: "C introduces the topic (Water). A explains its importance. B introduces a contrast/problem (pollution). D suggests a solution (conservation). CABD is the coherent flow.",
+        explanationBengali: "C বাক্যটি বিষয় (পানি) উপস্থাপন করে। A এর গুরুত্ব বোঝায়। B সমস্যা (দূষণ) তুলে ধরে এবং D সমাধান (সংরক্ষণ) নির্দেশ করে। সঠিক ক্রম CABD।"
+    },
+    {
+        id: "pj_1203", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. They help us communicate with people across the globe.\nB. Mobile phones have revolutionized the way we live.\nC. However, excessive use can lead to addiction.\nD. We can also access information instantly.",
+        options: ["BADC", "BCAD", "ABCD", "ACBD"],
+        correctIndex: 0,
+        explanation: "B is the opening sentence introducing mobile phones. A and D list the benefits (communication, information). C introduces the downside (addiction) using 'However'. BADC is the correct order.",
+        explanationBengali: "B মোবাইল ফোন সম্পর্কে মূল ধারণা দেয়। A এবং D এর সুবিধাগুলো বর্ণনা করে। C 'However' দিয়ে এর কুফল (আসক্তি) তুলে ধরে। তাই সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1204", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. Then, pour the egg mixture into a hot pan.\nB. First, break two eggs into a bowl.\nC. Finally, serve the omelet with toast.\nD. Whisk them well with salt and pepper.",
+        options: ["BDAC", "BADC", "ABCD", "DCBA"],
+        correctIndex: 0,
+        explanation: "This describes a process. B is the first step (break eggs). D follows (whisk them). A is next (pour into pan). C is the final step (serve). BDAC is the correct sequence.",
+        explanationBengali: "এটি একটি প্রক্রিয়া। B প্রথম ধাপ (ডিম ভাঙা)। D তার পরের ধাপ (মেশানো)। A হলো ভাজা এবং C হলো পরিবেশন করা। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1205", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. The lion woke up and roared in anger.\nB. A mouse was playing on a sleeping lion.\nC. The mouse begged for forgiveness.\nD. The lion caught the mouse in his paw.",
+        options: ["BADC", "BCAD", "ACBD", "ABCD"],
+        correctIndex: 0,
+        explanation: "B sets the scene (mouse playing on lion). A describes the lion's reaction (woke up). D follows (caught the mouse). C is the mouse's reaction (begged). BADC fits the story.",
+        explanationBengali: "B গল্পের শুরু (সিংহের ওপর ইঁদুরের খেলা)। A সিংহের প্রতিক্রিয়া (জেগে ওঠা)। D সিংহ ইঁদুরটিকে ধরে ফেলে। C ইঁদুরটি ক্ষমা চায়। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1206", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. This helps in reducing the amount of waste in landfills.\nB. Recycling is a simple way to help the environment.\nC. It involves processing used materials into new products.\nD. By doing so, we conserve natural resources.",
+        options: ["BCAD", "BCDA", "CBAD", "ACBD"],
+        correctIndex: 0,
+        explanation: "B introduces 'Recycling'. C defines what it involves. A explains a benefit (reducing waste). D explains another benefit (conserving resources). BCAD is the logical flow.",
+        explanationBengali: "B রিসাইক্লিং বা পুনর্ব্যবহার বিষয়টি আনে। C এর সংজ্ঞা দেয়। A একটি সুবিধা (বর্জ্য কমানো) এবং D আরেকটি সুবিধা (সম্পদ রক্ষা) বর্ণনা করে। সঠিক ক্রম BCAD।"
+    },
+    {
+        id: "pj_1207", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. But as he grew older, he became weak.\nB. He used to hunt daily to feed his family.\nC. A woodcutter lived in a small hut near the forest.\nD. He could no longer walk long distances.",
+        options: ["CBAD", "CABD", "BCAD", "ACBD"],
+        correctIndex: 0,
+        explanation: "C introduces the character (woodcutter). B describes his past routine. A introduces a change (getting old). D describes the result of aging. CBAD is correct.",
+        explanationBengali: "C চরিত্র (কাঠুরিয়া) পরিচয় করিয়ে দেয়। B তার অতীতের কাজ বর্ণনা করে। A পরিবর্তন (বৃদ্ধ হওয়া) এবং D তার ফলাফল (হাঁটতে না পারা) নির্দেশ করে। সঠিক ক্রম CBAD।"
+    },
+    {
+        id: "pj_1208", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. She went to the library to borrow some books.\nB. Mary loves reading books.\nC. She spent hours reading them at home.\nD. She selected a novel and a history book.",
+        options: ["BADC", "BACD", "ABCD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B states Mary's interest. A tells what she did (went to library). D tells what she chose. C tells what she did afterwards (read at home). BADC is the order.",
+        explanationBengali: "B মেরির শখ (বই পড়া) জানায়। A সে লাইব্রেরিতে গেল। D সে বই পছন্দ করল। C সে বাড়িতে এসে পড়ল। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1209", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. The climate of the world is changing rapidly.\nB. This phenomenon is known as Global Warming.\nC. It is primarily caused by the increase in greenhouse gases.\nD. The rise in temperature affects agriculture and sea levels.",
+        options: ["ABCD", "ACBD", "ABDC", "ADBC"],
+        correctIndex: 0,
+        explanation: "A introduces the changing climate. B names it (Global Warming). C explains the cause. D explains the effects. ABCD is a logical sequence.",
+        explanationBengali: "A জলবায়ু পরিবর্তন বিষয়টি আনে। B এর নাম দেয় (গ্লোবাল ওয়ার্মিং)। C এর কারণ ব্যাখ্যা করে। D এর প্রভাব বর্ণনা করে। সঠিক ক্রম ABCD।"
+    },
+    {
+        id: "pj_1210", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. However, his arrogance led to his downfall.\nB. Alexander the Great was a king of Macedon.\nC. He conquered many lands and created a vast empire.\nD. He is considered one of history's most successful military commanders.",
+        options: ["BDCA", "BCDA", "CBDA", "ABCD"],
+        correctIndex: 0,
+        explanation: "B introduces Alexander. D describes his reputation. C lists his achievements. A introduces a contrast/negative point ('However'). BDCA fits best.",
+        explanationBengali: "B আলেকজান্ডারের পরিচয় দেয়। D তার খ্যাতি বর্ণনা করে। C তার জয়গুলো উল্লেখ করে। A 'However' দিয়ে তার পতনের কারণ বলে। সঠিক ক্রম BDCA।"
+    },
+    {
+        id: "pj_1211", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It was a bright sunny morning.\nB. They decided to go for a picnic by the river.\nC. The family packed their lunch and set off.\nD. Upon reaching, they spread a mat under a big tree.",
+        options: ["ABCD", "ABDC", "BACD", "ACBD"],
+        correctIndex: 0,
+        explanation: "A sets the weather/atmosphere. B states the plan (picnic). C describes the preparation/departure. D describes arrival. ABCD is chronological.",
+        explanationBengali: "A আবহাওয়া বর্ণনা করে। B পরিকল্পনার কথা বলে। C প্রস্তুতি ও যাত্রা শুরু। D গন্তব্যে পৌঁছানো। সঠিক ক্রম ABCD।"
+    },
+    {
+        id: "pj_1212", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. Without it, nothing can survive.\nB. The sun is the ultimate source of energy for life on Earth.\nC. Plants use sunlight to make food.\nD. Animals, in turn, depend on plants for their energy.",
+        options: ["BADC", "BCDA", "BACD", "ABCD"],
+        correctIndex: 2,
+        explanation: "B introduces the Sun. A emphasizes its importance. C explains how plants use it. D explains how animals benefit indirectly. BACD is the logical flow.",
+        explanationBengali: "B সূর্যকে শক্তির উৎস হিসেবে পরিচয় করায়। A এর অপরিহার্যতা বোঝায়। C উদ্ভিদ কীভাবে ব্যবহার করে তা বলে। D প্রাণীরা কীভাবে উদ্ভিদের ওপর নির্ভর করে তা বলে। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1213", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. Finally, he reached the top of the mountain.\nB. Rahul started climbing early in the morning.\nC. The view from the top was breathtaking.\nD. He faced many difficulties on the way up.",
+        options: ["BDAC", "BADC", "BCAD", "ACBD"],
+        correctIndex: 0,
+        explanation: "B is the start of the journey. D describes the journey (difficulties). A is the conclusion of the climb. C is the reward/result. BDAC is correct.",
+        explanationBengali: "B যাত্রা শুরু। D যাত্রাপথের বাধা। A চূড়ায় পৌঁছানো। C সেখানকার দৃশ্য উপভোগ। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1214", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. This shift has led to a decrease in physical activity.\nB. Technology has changed how children play today.\nC. Instead of outdoor games, they prefer video games.\nD. Consequently, childhood obesity is on the rise.",
+        options: ["BCAD", "BCDA", "CBAD", "ABCD"],
+        correctIndex: 0,
+        explanation: "B introduces the topic (Technology and play). C gives an example (video games vs outdoor). A explains the result of C (less activity). D gives the final consequence (obesity). BCAD.",
+        explanationBengali: "B প্রযুক্তির প্রভাব নিয়ে কথা বলে। C উদাহরণ দেয় (ভিডিও গেম)। A এর ফলে শারীরিক কসরত কমার কথা বলে। D চূড়ান্ত ফলাফল (স্থূলতা) নির্দেশ করে। সঠিক ক্রম BCAD।"
+    },
+    {
+        id: "pj_1215", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. He opened the box and found a map inside.\nB. John found an old dusty box in the attic.\nC. The map led to a hidden treasure in the garden.\nD. He cleaned the dust off the box.",
+        options: ["BDAC", "BADC", "DBAC", "ACBD"],
+        correctIndex: 0,
+        explanation: "B is the discovery. D is the action taken (cleaning). A is opening it. C is what was found inside. BDAC is the correct sequence.",
+        explanationBengali: "B বাক্স খুঁজে পাওয়া। D ধুলো পরিষ্কার করা। A বাক্স খোলা। C মানচিত্রের রহস্য। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1216", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. Discipline helps us achieve our goals.\nB. It teaches us self-control and responsibility.\nC. Success is often the result of a disciplined life.\nD. Without discipline, life becomes chaotic.",
+        options: ["ADBC", "ABCD", "ACBD", "CBAD"],
+        correctIndex: 0,
+        explanation: "A introduces the benefit of discipline. D provides a contrast (without it). B adds more benefits. C concludes with the link to success. ADBC flows well.",
+        explanationBengali: "A শৃঙ্খলার উপকারিতা বলে। D এর অভাবের কুফল বলে। B আরও গুণাবলী যোগ করে। C সাফল্যের সাথে এর সম্পর্ক টানে। সঠিক ক্রম ADBC।"
+    },
+    {
+        id: "pj_1217", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. She bought some fresh vegetables.\nB. Then she went to the grocery store.\nC. Mother made a shopping list.\nD. She cooked a delicious dinner with them.",
+        options: ["CBAD", "CABD", "BCAD", "ABCD"],
+        correctIndex: 0,
+        explanation: "C starts the process (making list). B is going to the store. A is buying items. D is using items to cook. CBAD is the correct order.",
+        explanationBengali: "C ফর্দ তৈরি করা। B দোকানে যাওয়া। A সবজি কেনা। D রান্না করা। সঠিক ক্রম CBAD।"
+    },
+    {
+        id: "pj_1218", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. But today, it is threatened by pollution and encroachment.\nB. The Ganges is considered a holy river in India.\nC. Efforts are being made to clean and restore it.\nD. Millions of people depend on it for their daily needs.",
+        options: ["BDAC", "BADC", "ACBD", "CBAD"],
+        correctIndex: 0,
+        explanation: "B introduces the Ganges. D explains its importance. A introduces the problem ('But'). C mentions the solution/action. BDAC is the logical structure.",
+        explanationBengali: "B গঙ্গা নদীর পরিচয় দেয়। D এর গুরুত্ব বোঝায়। A সমস্যা (দূষণ) তুলে ধরে। C সমাধান বা চেষ্টার কথা বলে। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1219", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. They have a long trunk and large ears.\nB. Elephants are the largest land animals.\nC. They use their trunks to pick up food and water.\nD. Elephants live in herds led by a matriarch.",
+        options: ["BADC", "BACD", "ACBD", "BCAD"],
+        correctIndex: 1,
+        explanation: "B introduces the subject (Elephants). A describes physical features. C explains the function of the trunk (mentioned in A). D adds social behavior. BACD is coherent.",
+        explanationBengali: "B হাতি সম্পর্কে মূল বাক্য। A শারীরিক গঠন বর্ণনা করে। C শুঁড়ের কাজ ব্যাখ্যা করে। D তাদের দলবদ্ধ জীবন সম্পর্কে বলে। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1220", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. He practiced every day after school.\nB. Tom wanted to win the school singing competition.\nC. Finally, he won the first prize.\nD. His hard work paid off on the day of the contest.",
+        options: ["BADC", "BACD", "ACBD", "BDAC"],
+        correctIndex: 0,
+        explanation: "B sets the goal. A describes the effort. D describes the performance/result day. C is the final outcome. BADC is the correct order.",
+        explanationBengali: "B লক্ষ্য নির্ধারণ। A প্রচেষ্টা। D ফলাফলের দিন। C পুরস্কার জয়। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1221", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. It enables us to learn from the past and plan for the future.\nB. Memory is a fascinating faculty of the human brain.\nC. However, it can sometimes be unreliable.\nD. We rely on it for our sense of identity.",
+        options: ["BADC", "BDAC", "BACD", "BCAD"],
+        correctIndex: 1,
+        explanation: "B introduces Memory. D explains its importance (identity). A adds another function (learning). C introduces a limitation ('However'). BDAC is the correct flow.",
+        explanationBengali: "B স্মৃতিশক্তির পরিচয় দেয়। D এর গুরুত্ব (পরিচয়) বলে। A আরেকটি কাজ (শিক্ষা) উল্লেখ করে। C এর সীমাবদ্ধতা (অবিশ্বাসযোগ্যতা) তুলে ধরে। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1222", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. Suddenly, the tire of the car punctured.\nB. They had to stop and change the tire.\nC. The Smith family was driving to the beach.\nD. They resumed their journey after an hour.",
+        options: ["CABD", "CADB", "CBAD", "ACBD"],
+        correctIndex: 0,
+        explanation: "C establishes the context (driving). A is the incident (puncture). B is the immediate action (stop/change). D is the continuation. CABD is correct.",
+        explanationBengali: "C ভ্রমণের শুরু। A সমস্যা (পাংচার)। B সমাধান (চাকা বদলানো)। D আবার যাত্রা শুরু। সঠিক ক্রম CABD।"
+    },
+    {
+        id: "pj_1223", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. It has a long neck to reach high branches.\nB. The giraffe is a unique animal found in Africa.\nC. This allows it to eat leaves that other animals cannot reach.\nD. It is the tallest living terrestrial animal.",
+        options: ["BDAC", "BADC", "ADBC", "ACBD"],
+        correctIndex: 0,
+        explanation: "B introduces the Giraffe. D mentions a key feature (tallest). A explains the neck. C explains the benefit of the neck. BDAC is logical.",
+        explanationBengali: "B জিরাফের পরিচয়। D উচ্চতা উল্লেখ করে। A লম্বা গলার কথা বলে। C গলার সুবিধা ব্যাখ্যা করে। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1224", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. Such disasters remind us of the power of nature.\nB. The earthquake struck the city at midnight.\nC. Buildings collapsed and many people were trapped.\nD. Rescue teams arrived immediately to help the victims.",
+        options: ["BCDA", "BACD", "CBAD", "DBCA"],
+        correctIndex: 0,
+        explanation: "B describes the event. C describes the damage. D describes the response. A is a concluding reflection. BCDA follows the event timeline.",
+        explanationBengali: "B ঘটনা (ভূমিকম্প)। C ক্ষয়ক্ষতি। D উদ্ধারকাজ। A উপসংহার বা শিক্ষা। সঠিক ক্রম BCDA।"
+    },
+    {
+        id: "pj_1225", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. He planted a mango seed in his garden.\nB. Years later, it grew into a big tree bearing sweet fruits.\nC. A young boy named Ali loved mangoes.\nD. He watered it daily and took care of it.",
+        options: ["CADB", "CABD", "CBAD", "ACBD"],
+        correctIndex: 0,
+        explanation: "C introduces Ali. A tells what he did (planted seed). D tells how he cared for it. B is the result (tree). CADB is the correct order.",
+        explanationBengali: "C আলীর পরিচয়। A বীজ রোপণ। D যত্ন নেওয়া। B ফল লাভ। সঠিক ক্রম CADB।"
+    },
+    {
+        id: "pj_1226", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. First, you need to boil some water.\nB. Then add tea leaves and sugar.\nC. Making tea is a simple process.\nD. Finally, add milk and strain it into a cup.",
+        options: ["CABD", "CBAD", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "C introduces the topic (making tea). A is the first step. B is the second step. D is the final step. CABD is correct.",
+        explanationBengali: "C বিষয়বস্তু (চা বানানো)। A প্রথম ধাপ (পানি ফোটানো)। B দ্বিতীয় ধাপ (চা পাতা ও চিনি)। D শেষ ধাপ (দুধ ও পরিবেশন)। সঠিক ক্রম CABD।"
+    },
+    {
+        id: "pj_1227", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. They provide habitat for thousands of marine species.\nB. Coral reefs are often called the rainforests of the sea.\nC. Protecting them is vital for ocean biodiversity.\nD. However, rising sea temperatures are causing them to bleach.",
+        options: ["BADC", "BACD", "ACBD", "CBAD"],
+        correctIndex: 0,
+        explanation: "B introduces Coral Reefs. A explains their value (habitat). D introduces the threat (bleaching). C gives the conclusion/call to action. BADC is correct.",
+        explanationBengali: "B কোরাল রিফের পরিচয়। A এর গুরুত্ব। D সমস্যা (তাপমাত্রা বৃদ্ধি)। C রক্ষার আহ্বান। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1228", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. He ran as fast as he could to catch it.\nB. But he missed it by a few seconds.\nC. Ravi realized he was late for the bus.\nD. He had to wait another hour for the next one.",
+        options: ["CABD", "CBAD", "ACBD", "CADB"],
+        correctIndex: 0,
+        explanation: "C is the realization (late). A is the action (ran). B is the result (missed). D is the consequence (wait). CABD is the sequence.",
+        explanationBengali: "C দেরি হওয়ার অনুভূতি। A দৌড়। B মিস করা। D অপেক্ষা করা। সঠিক ক্রম CABD।"
+    },
+    {
+        id: "pj_1229", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. The dog wagged its tail happily.\nB. A stranger approached the gate.\nC. The dog barked loudly at him.\nD. But when the stranger offered a biscuit, it calmed down.",
+        options: ["BCDA", "CBAD", "BACD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B describes the event (stranger). C is the dog's first reaction (barking). D is the change (biscuit). A is the final reaction (wagging tail). BCDA is correct.",
+        explanationBengali: "B আগন্তুক আসা। C কুকুরের ঘেউ ঘেউ। D বিস্কুট দেওয়া। A কুকুরের শান্ত হওয়া। সঠিক ক্রম BCDA।"
+    },
+    {
+        id: "pj_1230", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It is a source of entertainment and information.\nB. Television has become a common household appliance.\nC. Too much TV can be harmful to children.\nD. Parents should monitor what their kids watch.",
+        options: ["BADC", "BACD", "ACBD", "ABCD"],
+        correctIndex: 1,
+        explanation: "B introduces TV. A gives its positive uses. C gives a negative aspect. D suggests a solution for parents. BACD is the logical flow.",
+        explanationBengali: "B টিভির প্রচলন। A এর ব্যবহার। C এর কুফল। D সমাধানের উপায়। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1231", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. He saw some bunches of grapes hanging from a vine.\nB. Once a fox was very hungry.\nC. He jumped again and again but could not reach them.\nD. He went away saying, \"The grapes are sour.\"",
+        options: ["BACD", "BADC", "ABCD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces the hungry fox. A tells what he saw (grapes). C tells his action (jumped). D is the conclusion (gave up). BACD is the logical story.",
+        explanationBengali: "B ক্ষুধার্ত শিয়ালের কথা বলে। A সে আঙুর দেখল। C সে লাফ দিল কিন্তু নাগাল পেল না। D সে চলে গেল। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1232", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. Pour hot water into a cup.\nB. Add a teaspoon of instant coffee powder.\nC. Stir well and serve hot.\nD. Add sugar and milk according to taste.",
+        options: ["ABDC", "BADC", "ABCD", "ADBC"],
+        correctIndex: 0,
+        explanation: "A starts the process (hot water). B adds coffee. D adds sugar/milk. C is the final step (stir and serve). ABDC is correct.",
+        explanationBengali: "A গরম পানি ঢালা। B কফি দেওয়া। D চিনি ও দুধ মেশানো। C নেড়ে পরিবেশন করা। সঠিক ক্রম ABDC।"
+    },
+    {
+        id: "pj_1233", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It has transformed the world into a global village.\nB. The Internet is a revolutionary technology.\nC. However, it also brings cyber security threats.\nD. People can communicate instantly across borders.",
+        options: ["BADC", "BACD", "ADBC", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces the Internet. A describes its global impact. D gives a specific benefit (communication). C introduces the negative side ('However'). BADC follows logic.",
+        explanationBengali: "B ইন্টারনেটের পরিচয়। A পৃথিবীকে গ্লোবাল ভিলেজ বানানো। D যোগাযোগের সুবিধা। C সাইবার নিরাপত্তার ঝুঁকি। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1234", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. This poses a severe threat to marine life.\nB. Plastic pollution has become a global crisis.\nC. Millions of tons of plastic end up in the oceans.\nD. We must reduce single-use plastics immediately.",
+        options: ["BCAD", "BCDA", "CBAD", "ACBD"],
+        correctIndex: 0,
+        explanation: "B introduces the crisis. C explains where the plastic goes (oceans). A explains the consequence (threat to marine life). D is the solution. BCAD is the sequence.",
+        explanationBengali: "B প্লাস্টিক দূষণ সমস্যা। C সাগরে প্লাস্টিক জমা হওয়া। A জলজ প্রাণীর ক্ষতি। D সমাধান (প্লাস্টিক কমানো)। সঠিক ক্রম BCAD।"
+    },
+    {
+        id: "pj_1235", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. This sedentary lifestyle leads to health issues.\nB. Modern life is becoming increasingly comfortable.\nC. Regular exercise is necessary to combat this.\nD. People spend hours sitting in front of screens.",
+        options: ["BDAC", "BADC", "ACBD", "CBAD"],
+        correctIndex: 0,
+        explanation: "B sets the context (modern life). D gives an example (sitting). A explains the result (health issues). C gives the solution (exercise). BDAC is correct.",
+        explanationBengali: "B আধুনিক জীবন। D স্ক্রিনের সামনে বসে থাকা। A স্বাস্থ্য সমস্যা। C সমাধান (ব্যায়াম)। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1236", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. He is known as the Father of the Nation.\nB. Mahatma Gandhi was born in Porbandar, India.\nC. He led India to independence through non-violence.\nD. He studied law in England before returning to India.",
+        options: ["BDCA", "BCDA", "CDAB", "DCBA"],
+        correctIndex: 0,
+        explanation: "B is the birth. D is education. C is his achievement (independence). A is his title (Father of Nation). BDCA is chronological.",
+        explanationBengali: "B জন্ম। D পড়াশোনা। C স্বাধীনতা সংগ্রাম। A উপাধি (জাতির পিতা)। সঠিক ক্রম BDCA।"
+    },
+    {
+        id: "pj_1237", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. Strong winds began to blow, shaking the trees.\nB. Suddenly, the sky turned dark with clouds.\nC. Then, heavy rain started pouring down.\nD. Everyone ran indoors to find shelter.",
+        options: ["BACD", "BCAD", "ABCD", "BADC"],
+        correctIndex: 0,
+        explanation: "B starts with the sky changing. A describes the wind. C describes the rain. D describes the people's reaction. BACD creates the scene.",
+        explanationBengali: "B আকাশ কালো হওয়া। A বাতাস বইতে শুরু করা। C বৃষ্টি নামা। D মানুষের আশ্রয় নেওয়া। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1238", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It expands our vocabulary and knowledge.\nB. Reading is a habit that should be cultivated early.\nC. Therefore, parents should encourage children to read.\nD. Books open up new worlds to the reader.",
+        options: ["BADC", "BDAC", "ADBC", "BCDA"],
+        correctIndex: 1,
+        explanation: "B introduces reading. D explains a benefit (new worlds). A explains another benefit (vocabulary). C is the conclusion/recommendation. BDAC flows well.",
+        explanationBengali: "B পড়ার অভ্যাস। D নতুন জগত উন্মোচন। A শব্দভাণ্ডার বৃদ্ধি। C বাবা-মায়ের উৎসাহ দেওয়া উচিত। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1239", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It has no atmosphere or water.\nB. The Moon is Earth's only natural satellite.\nC. Neil Armstrong was the first human to walk on it.\nD. Yet, it fascinates scientists and astronomers.",
+        options: ["BADC", "BACD", "ACBD", "BCDA"],
+        correctIndex: 0,
+        explanation: "B introduces the Moon. A describes its condition (no atmosphere). D provides a contrast ('Yet'). C mentions the landing. BADC works best.",
+        explanationBengali: "B চাঁদের পরিচয়। A এর পরিবেশ (বায়ুমণ্ডল নেই)। D বিজ্ঞানীদের আগ্রহ। C নীল আর্মস্ট্রংয়ের অবতরণ। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1240", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. Users can share photos and opinions instantly.\nB. Social media platforms connect people globally.\nC. However, it is important to use them wisely.\nD. Misuse can lead to privacy issues and cyberbullying.",
+        options: ["BADC", "BACD", "ABCD", "BCDA"],
+        correctIndex: 0,
+        explanation: "B introduces social media. A describes its function. D describes the risks (misuse). C gives a warning/advice. BADC is logical.",
+        explanationBengali: "B সোশ্যাল মিডিয়ার কাজ (সংযোগ)। A ছবি/মতামত শেয়ার। D অপব্যবহারের ঝুঁকি। C সতর্কতার সাথে ব্যবহার। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1241", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. He saw a pot with very little water at the bottom.\nB. A thirsty crow was flying in search of water.\nC. The water level rose, and he quenched his thirst.\nD. He dropped stones into the pot one by one.",
+        options: ["BADC", "BADC", "BACD", "BCDA"],
+        correctIndex: 0,
+        explanation: "B introduces the crow. A is finding the pot. D is the action (dropping stones). C is the result (drinking). BADC fits the fable.",
+        explanationBengali: "B তৃষ্ণার্ত কাক। A কলসি দেখা। D পাথর ফেলা। C পানি পান করা। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1242", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. You can browse through thousands of products.\nB. Online shopping offers great convenience.\nC. Finally, the item is delivered to your doorstep.\nD. Once selected, you can pay digitally.",
+        options: ["BADC", "BACD", "ABDC", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces online shopping. A describes browsing. D describes payment. C describes delivery. BADC is the process order.",
+        explanationBengali: "B অনলাইন শপিংয়ের সুবিধা। A পণ্য দেখা। D পেমেন্ট করা। C হোম ডেলিভারি। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1243", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. He revised all his lessons thoroughly.\nB. Ravi had an important exam the next day.\nC. He woke up early and went to school confidently.\nD. He felt relieved when he saw the easy question paper.",
+        options: ["BADC", "BACD", "ACBD", "BCAD"],
+        correctIndex: 1,
+        explanation: "B establishes the context (exam). A is the preparation. C is going to the exam. D is the reaction during the exam. BACD is correct.",
+        explanationBengali: "B পরীক্ষার কথা। A রিভিশন দেওয়া। C পরীক্ষা দিতে যাওয়া। D প্রশ্ন দেখে খুশি হওয়া। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1244", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. Solar panels capture this energy.\nB. It is a renewable and eco-friendly power source.\nC. The sun radiates a vast amount of energy.\nD. This energy is then converted into electricity.",
+        options: ["CABD", "CBAD", "CADB", "CDAB"],
+        correctIndex: 2,
+        explanation: "C introduces the Sun's energy. A explains capturing it. D explains conversion. B describes the nature of this source. CADB is logical.",
+        explanationBengali: "C সূর্যের শক্তি। A সোলার প্যানেল দিয়ে তা ধরা। D বিদ্যুতে রূপান্তর। B এর পরিবেশবান্ধব গুণ। সঠিক ক্রম CADB।"
+    },
+    {
+        id: "pj_1245", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. He started crying loudly.\nB. A small boy went to a fair with his parents.\nC. A policeman helped him find his parents.\nD. In the crowd, he accidentally let go of his father's hand.",
+        options: ["BDAC", "BADC", "BCAD", "BACD"],
+        correctIndex: 0,
+        explanation: "B introduces the situation. D is the incident (lost). A is the reaction (crying). C is the resolution. BDAC is the story.",
+        explanationBengali: "B মেলায় যাওয়া। D হাত ফসকে হারিয়ে যাওয়া। A কান্না করা। C পুলিশ সাহায্য করা। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1246", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It is the language of international business and science.\nB. English is considered a global language.\nC. Learning it opens up many career opportunities.\nD. Therefore, proficiency in English is a valuable skill.",
+        options: ["BADC", "BACD", "ABCD", "BCAD"],
+        correctIndex: 1,
+        explanation: "B introduces English. A explains its scope. C explains the benefit. D is the conclusion. BACD flows logically.",
+        explanationBengali: "B ইংরেজির গুরুত্ব। A আন্তর্জাতিক ব্যবহার। C ক্যারিয়ারের সুযোগ। D উপসংহার। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1247", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. Then, she planted some rose seeds.\nB. First, she dug the soil in the garden.\nC. Beautiful flowers bloomed after a few weeks.\nD. She watered them regularly.",
+        options: ["BADC", "BACD", "ACBD", "ABCD"],
+        correctIndex: 0,
+        explanation: "B is the first step (digging). A is planting. D is maintenance (watering). C is the result. BADC is the correct sequence.",
+        explanationBengali: "B মাটি খোঁড়া। A বীজ বোনা। D পানি দেওয়া। C ফুল ফোটা। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1248", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. Lack of sleep can lead to health problems.\nB. Sleep is essential for the body to repair itself.\nC. Most adults need about 7 to 8 hours of sleep.\nD. It refreshes the mind and improves concentration.",
+        options: ["BDAC", "BDCA", "BCAD", "BADC"],
+        correctIndex: 3,
+        explanation: "B emphasizes importance. D adds benefits. A mentions consequence of lack. C gives the recommendation. BADC is a good flow.",
+        explanationBengali: "B ঘুমের প্রয়োজনীয়তা। D এর উপকারিতা। A না ঘুমানোর কুফল। C ঘুমের সময়সীমা। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1249", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. This causes severe traffic jams and pollution.\nB. Urban areas are witnessing a rapid increase in vehicles.\nC. Public transport needs to be improved to solve this.\nD. Commuters spend hours stuck on the roads.",
+        options: ["BADC", "BACD", "ADBC", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces the increase in vehicles. A describes the result (jams). D elaborates on the problem (time lost). C offers a solution. BADC is logical.",
+        explanationBengali: "B যানবাহনের সংখ্যা বৃদ্ধি। A এর ফলে জ্যাম ও দূষণ। D মানুষের ভোগান্তি। C গণপরিবহন উন্নয়ন সমাধান। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1250", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. They share our joys and sorrows.\nB. Friendship is one of the most beautiful bonds.\nC. We should always cherish true friends.\nD. Trust and understanding are the pillars of friendship.",
+        options: ["BADC", "BACD", "ADBC", "BCDA"],
+        correctIndex: 0,
+        explanation: "B introduces friendship. A describes what friends do. D describes the foundation. C is the concluding advice. BADC works best.",
+        explanationBengali: "B বন্ধুত্বের সৌন্দর্য। A সুখ-দুঃখ ভাগ করে নেওয়া। D বিশ্বাস ও বোঝাপড়া। C বন্ধুদের কদর করা। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1251", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. We bought tickets at the entrance.\nB. Last Sunday, we visited the city zoo.\nC. We saw lions, tigers, and monkeys there.\nD. We returned home in the evening, tired but happy.",
+        options: ["BACD", "BADC", "BCAD", "ABCD"],
+        correctIndex: 0,
+        explanation: "B establishes the visit. A is buying tickets. C is seeing animals. D is returning home. BACD is chronological.",
+        explanationBengali: "B চিড়িয়াখানায় যাওয়া। A টিকিট কেনা। C প্রাণী দেখা। D বাড়ি ফেরা। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1252", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. It gives citizens the right to vote and elect leaders.\nB. Democracy is defined as a government by the people.\nC. This ensures that the government remains accountable.\nD. Free and fair elections are the core of democracy.",
+        options: ["BADC", "BACD", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B defines Democracy. A explains the mechanism (voting). D reinforces the importance of elections. C explains the outcome (accountability). BADC flows well.",
+        explanationBengali: "B গণতন্ত্রের সংজ্ঞা। A ভোটাধিকার। D নির্বাচনের গুরুত্ব। C সরকারের জবাবদিহিতা। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1253", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It can then be stored in tanks for later use.\nB. Rainwater harvesting is an effective method to save water.\nC. This involves collecting rain from rooftops.\nD. It helps in recharging groundwater levels.",
+        options: ["BCAD", "BCDA", "CBAD", "ACBD"],
+        correctIndex: 0,
+        explanation: "B introduces the topic. C explains the process. A explains storage. D explains a long-term benefit. BCAD is the correct order.",
+        explanationBengali: "B বৃষ্টির পানি সংরক্ষণ। C ছাদ থেকে সংগ্রহ। A ট্যাঙ্কে জমা রাখা। D ভূগর্ভস্থ পানি বৃদ্ধি। সঠিক ক্রম BCAD।"
+    },
+    {
+        id: "pj_1254", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. The driver lost control at a sharp turn.\nB. A red sports car was speeding down the highway.\nC. An ambulance was called immediately.\nD. It crashed into a tree on the roadside.",
+        options: ["BADC", "BADC", "BCAD", "BACD"],
+        correctIndex: 0,
+        explanation: "B sets the scene (speeding car). A describes the loss of control. D describes the crash. C describes the aftermath (ambulance). BADC is chronological.",
+        explanationBengali: "B দ্রুতগামী গাড়ি। A নিয়ন্ত্রণ হারানো। D গাছে ধাক্কা লাগা। C অ্যাম্বুলেন্স ডাকা। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1255", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It consists of hardware and software components.\nB. A computer is an electronic device that processes data.\nC. Today, computers are indispensable in every field.\nD. It can perform complex calculations in seconds.",
+        options: ["BADC", "BACD", "BDAC", "BCAD"],
+        correctIndex: 2,
+        explanation: "B defines the computer. D explains its speed/capability. A explains its composition. C concludes with its importance today. BDAC fits well.",
+        explanationBengali: "B কম্পিউটারের সংজ্ঞা। D এর গতি ও কাজ। A হার্ডওয়্যার ও সফটওয়্যার। C বর্তমান গুরুত্ব। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1256", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. The fresh morning air felt good.\nB. I woke up early at 6 AM.\nC. I put on my jogging shoes and went to the park.\nD. After an hour of walking, I felt energetic.",
+        options: ["BCAD", "BADC", "CBAD", "ACBD"],
+        correctIndex: 0,
+        explanation: "B waking up. C going to park. A feeling the air. D result of the walk. BCAD is the sequence.",
+        explanationBengali: "B ঘুম থেকে ওঠা। C পার্কে যাওয়া। A সকালের বাতাস। D হাঁটার পর অনুভূতি। সঠিক ক্রম BCAD।"
+    },
+    {
+        id: "pj_1257", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. This results in a decrease in the purchasing power of money.\nB. Inflation refers to the sustained increase in prices.\nC. The common man finds it difficult to manage expenses.\nD. Governments try to control it through monetary policies.",
+        options: ["BACD", "BADC", "ABCD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B defines Inflation. A explains the immediate effect (purchasing power drops). C explains the social effect. D mentions the solution. BACD is correct.",
+        explanationBengali: "B মুদ্রাস্ফীতির সংজ্ঞা। A টাকার মান কমে যাওয়া। C সাধারণ মানুষের কষ্ট। D সরকারের পদক্ষেপ। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1258", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. People decorate their houses with diyas and rangoli.\nB. Diwali is known as the festival of lights.\nC. Sweets and gifts are exchanged among friends.\nD. It marks the victory of good over evil.",
+        options: ["BDAC", "BADC", "CDAB", "ACBD"],
+        correctIndex: 0,
+        explanation: "B introduces Diwali. D gives its significance. A describes decorations. C describes social customs. BDAC is a good descriptive order.",
+        explanationBengali: "B দীপাবলির পরিচয়। D এর তাৎপর্য। A ঘর সাজানো। C মিষ্টি বিতরণ। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1259", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. A dove sitting on a tree dropped a leaf into the water.\nB. An ant slipped and fell into the river.\nC. The ant climbed onto the leaf and was saved.\nD. It was struggling to stay afloat.",
+        options: ["BDAC", "BADC", "ADBC", "BCDA"],
+        correctIndex: 0,
+        explanation: "B is the accident. D describes the struggle. A is the help from the dove. C is the rescue. BDAC is the story.",
+        explanationBengali: "B পিঁপড়ে পানিতে পড়া। D বাঁচার চেষ্টা। A ঘুঘুর পাতা ফেলা। C পিঁপড়ের বেঁচে যাওয়া। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1260", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. With hard work and dedication, you can achieve your dreams.\nB. After finishing school, you must choose a career path.\nC. Success comes to those who persist.\nD. It is a decision that shapes your future.",
+        options: ["BDAC", "BADC", "ACBD", "CBAD"],
+        correctIndex: 0,
+        explanation: "B introduces the career choice. D explains its importance. A explains how to succeed. C emphasizes persistence. BDAC flows logically.",
+        explanationBengali: "B ক্যারিয়ার বেছে নেওয়া। D এর গুরুত্ব। A সফল হওয়ার উপায়। C অধ্যবসায়ের গুরুত্ব। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1261", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. He saw his own reflection in the water.\nB. A dog was crossing a bridge with a bone in his mouth.\nC. Thinking it was another dog with a bone, he barked.\nD. His bone fell into the river and was lost.",
+        options: ["BADC", "BACD", "ACBD", "BCAD"],
+        correctIndex: 1,
+        explanation: "B introduces the dog crossing the bridge. A describes seeing the reflection. C explains the dog's mistake. D is the result (losing the bone). BACD is the correct order.",
+        explanationBengali: "B কুকুরটির সেতু পার হওয়া। A নিজের প্রতিবিম্ব দেখা। C ভুল করে ঘেউ ঘেউ করা। D হাড়টি পড়ে যাওয়া। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1262", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It helps in digestion and keeps the skin glowing.\nB. Water is essential for maintaining good health.\nC. Doctors recommend drinking at least 8 glasses a day.\nD. Dehydration can lead to fatigue and headaches.",
+        options: ["BACD", "BADC", "ABCD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B states the importance of water. A lists its benefits. C gives a recommendation. D warns about the lack of it. BACD flows logically.",
+        explanationBengali: "B পানির গুরুত্ব। A এর উপকারিতা। C ডাক্তারের পরামর্শ। D পানিশূন্যতার কুফল। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1263", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. They cut down trees to clear land for farming.\nB. Forests are being destroyed at an alarming rate.\nC. This leads to a loss of habitat for wildlife.\nD. Humans are the primary cause of this destruction.",
+        options: ["BADC", "BDAC", "ACBD", "BCAD"],
+        correctIndex: 1,
+        explanation: "B introduces the destruction of forests. D identifies humans as the cause. A explains how humans do it. C describes the consequence. BDAC is correct.",
+        explanationBengali: "B বন ধ্বংসের কথা। D এর জন্য মানুষ দায়ী। A মানুষ কীভাবে বন কাটে। C এর ফলে বন্যপ্রাণীর আবাসস্থল ধ্বংস। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1264", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. She placed two slices of bread on a plate.\nB. Sita decided to make a sandwich for lunch.\nC. Then, she spread butter and jam on them.\nD. Finally, she put the slices together and ate it.",
+        options: ["BADC", "BACD", "ABCD", "BCAD"],
+        correctIndex: 1,
+        explanation: "B states the intention. A is the first step (bread). C is the second step (spreading). D is the final step. BACD is chronological.",
+        explanationBengali: "B স্যান্ডউইচ বানানোর সিদ্ধান্ত। A রুটি নেওয়া। C মাখন ও জ্যাম লাগানো। D খাওয়া। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1265", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It connects people from different cultures.\nB. Tourism is a major industry in many countries.\nC. However, unchecked tourism can harm local ecosystems.\nD. It generates revenue and creates jobs.",
+        options: ["BADC", "BDAC", "ADBC", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces tourism. A describes a social benefit. D describes an economic benefit. C introduces the negative aspect ('However'). BADC works best.",
+        explanationBengali: "B পর্যটন শিল্পের পরিচয়। A সাংস্কৃতিক সুবিধা। D অর্থনৈতিক সুবিধা। C পরিবেশগত ক্ষতি। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1266", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. This discovery changed the course of medical history.\nB. Alexander Fleming was working in his laboratory.\nC. He noticed that a mold had killed some bacteria.\nD. This led to the development of Penicillin.",
+        options: ["BCDA", "BDCA", "CBDA", "BCAD"],
+        correctIndex: 0,
+        explanation: "B sets the scene. C is the observation. D is the specific invention (Penicillin). A is the impact on history. BCDA is the correct sequence.",
+        explanationBengali: "B ল্যাবরেটরিতে কাজ করা। C ছত্রাক লক্ষ্য করা। D পেনিসিলিন আবিষ্কার। A ইতিহাসের মোড় ঘুরে যাওয়া। সঠিক ক্রম BCDA।"
+    },
+    {
+        id: "pj_1267", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. He ran into a nearby cave to hide.\nB. A sudden storm caught the traveler unaware.\nC. Inside, he found a warm fire burning.\nD. Thunder roared and rain lashed down.",
+        options: ["BDAC", "BADC", "BCAD", "ABCD"],
+        correctIndex: 0,
+        explanation: "B introduces the storm. D describes the severity. A shows the traveler's reaction (hiding). C describes what he found inside. BDAC is logical.",
+        explanationBengali: "B ঝড়ের কবলে পড়া। D ঝড়ের তীব্রতা। A গুহায় আশ্রয় নেওয়া। C ভেতরে আগুন দেখা। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1268", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. The hare, confident of winning, took a nap.\nB. The tortoise continued walking slowly but steadily.\nC. A hare and a tortoise decided to race.\nD. In the end, the tortoise won the race.",
+        options: ["CABD", "CBAD", "ACBD", "CADB"],
+        correctIndex: 0,
+        explanation: "C starts the story (race). A describes the hare's action. B describes the tortoise's action. D is the result. CABD fits the fable.",
+        explanationBengali: "C দৌড় প্রতিযোগিতা। A খরগোশের ঘুম। B কচ্ছপের ধীর গতিতে চলা। D কচ্ছপের জয়। সঠিক ক্রম CABD।"
+    },
+    {
+        id: "pj_1269", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. They are built using blocks of ice and snow.\nB. Igloos are dome-shaped shelters found in the Arctic.\nC. The entrance is usually a tunnel to keep out the cold.\nD. Inside, animal skins are used for warmth.",
+        options: ["BACD", "BADC", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B defines Igloos. A explains the material. C describes the entrance. D describes the interior. BACD is the best descriptive order.",
+        explanationBengali: "B ইগলুর সংজ্ঞা। A তৈরির উপকরণ। C প্রবেশপথের বর্ণনা। D ভেতরের পরিবেশ। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1270", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. This helps in retaining moisture in the soil.\nB. Mulching is a technique used in gardening.\nC. It involves covering the soil with organic material.\nD. Additionally, it suppresses weed growth.",
+        options: ["BCAD", "BCDA", "CBAD", "ACBD"],
+        correctIndex: 0,
+        explanation: "B introduces Mulching. C explains the process. A explains the primary benefit (moisture). D adds another benefit (weeds). BCAD is correct.",
+        explanationBengali: "B মালচিং পদ্ধতির পরিচয়। C প্রক্রিয়াটি কী। A এর প্রধান সুবিধা (আর্দ্রতা ধরে রাখা)। D অতিরিক্ত সুবিধা (আগাছা দমন)। সঠিক ক্রম BCAD।"
+    },
+    {
+        id: "pj_1271", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. He worked hard day and night to earn money.\nB. A poor farmer lived in a small village.\nC. Eventually, he bought a tractor and expanded his farm.\nD. He wanted to provide a better life for his children.",
+        options: ["BADC", "BACD", "BDAC", "BCAD"],
+        correctIndex: 2,
+        explanation: "B introduces the farmer. D explains his motivation. A describes his effort. C is the outcome/success. BDAC flows well.",
+        explanationBengali: "B কৃষকের পরিচয়। D তার লক্ষ্য। A কঠোর পরিশ্রম। C সাফল্য (ট্রাক্টর কেনা)। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1272", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. Then, apply shampoo to your hair.\nB. Wet your hair thoroughly with water.\nC. Rinse it off completely.\nD. Dry your hair with a soft towel.",
+        options: ["BACD", "BADC", "ABCD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B is the first step (wetting). A is applying shampoo. C is rinsing. D is drying. BACD is the sequence.",
+        explanationBengali: "B চুল ভেজানো। A শ্যাম্পু লাগানো। C ধুয়ে ফেলা। D তোয়ালে দিয়ে মোছা। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1273", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It provides a platform for artists to showcase talent.\nB. Cinema is a powerful medium of storytelling.\nC. However, commercialization often compromises quality.\nD. It influences culture and public opinion.",
+        options: ["BADC", "BACD", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces Cinema. A and D describe its positive roles/effects. C introduces the negative aspect ('However'). BADC is logical.",
+        explanationBengali: "B সিনেমার পরিচয়। A ও D এর প্রভাব ও গুরুত্ব। C বাণিজ্যিকীকরণের কুফল। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1274", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. They act as the lungs of the Earth.\nB. The Amazon Rainforest produces 20% of the world's oxygen.\nC. Protecting it is crucial for fighting climate change.\nD. Yet, deforestation threatens its very existence.",
+        options: ["BADC", "BACD", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces the Amazon. A gives a metaphor for its function. D introduces the threat. C concludes with the need for protection. BADC fits best.",
+        explanationBengali: "B আমাজন বনের পরিচয়। A একে পৃথিবীর ফুসফুস বলা। D ধ্বংসের হুমকি। C রক্ষার প্রয়োজনীয়তা। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1275", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. She practiced her lines in front of a mirror.\nB. The school play was just a week away.\nC. On the day of the show, she performed perfectly.\nD. Lily was nervous about her role.",
+        options: ["BDAC", "BADC", "BCAD", "BACD"],
+        correctIndex: 0,
+        explanation: "B sets the time context. D introduces the character's feeling. A is the preparation. C is the result. BDAC is correct.",
+        explanationBengali: "B নাটকের সময় ঘনিয়ে আসা। D লিলির ভয়। A প্রস্তুতি (আয়নার সামনে প্র্যাকটিস)। C সফল অভিনয়। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1276", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It is rich in vitamins and minerals.\nB. Spinach is a leafy green vegetable.\nC. Popeye, the cartoon character, made it famous.\nD. Eating it improves eyesight and boosts immunity.",
+        options: ["BADC", "BACD", "ACBD", "BCAD"],
+        correctIndex: 1,
+        explanation: "B introduces Spinach. A describes its nutrients. D explains the health benefits. C adds a cultural fact. BACD is a good flow.",
+        explanationBengali: "B পালং শাকের পরিচয়। A পুষ্টিগুণ। D উপকারিতা। C কার্টুন চরিত্রের উল্লেখ। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1277", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. He quickly climbed up a tree to save himself.\nB. A bear appeared from behind the bushes.\nC. Two friends were walking through a forest.\nD. The other friend lay down and pretended to be dead.",
+        options: ["CBAD", "CABD", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "C introduces the friends. B is the danger (bear). A describes the first friend's action. D describes the second friend's action. CBAD is the story.",
+        explanationBengali: "C দুই বন্ধু। B ভাল্লুক আসা। A প্রথম বন্ধুর গাছে ওঠা। D দ্বিতীয় বন্ধুর মড়ার মতো পড়ে থাকা। সঠিক ক্রম CBAD।"
+    },
+    {
+        id: "pj_1278", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. This leads to a vicious cycle of borrowing.\nB. Many farmers fall into a debt trap.\nC. Unpredictable weather destroys their crops.\nD. They are forced to take loans to survive.",
+        options: ["CBDA", "CDBA", "BCDA", "ACBD"],
+        correctIndex: 0,
+        explanation: "C starts with the root problem (weather). D explains the immediate result (loans). A explains the long-term consequence (cycle). B summarizes the situation (debt trap). CBDA is logical.",
+        explanationBengali: "C আবহাওয়া ও ফসল হানি। D ঋণ নেওয়া। A ঋণের চক্র। B ঋণের ফাঁদে পড়া। সঠিক ক্রম CBDA।"
+    },
+    {
+        id: "pj_1279", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It allows us to access information instantly.\nB. The smartphone is a marvel of modern technology.\nC. However, it can also be a major distraction.\nD. We can connect with anyone, anywhere.",
+        options: ["BADC", "BACD", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces the smartphone. A and D list its capabilities. C presents the drawback ('However'). BADC follows the standard structure.",
+        explanationBengali: "B স্মার্টফোনের পরিচয়। A ও D এর সুবিধা। C এর অসুবিধা (মনোযোগ নষ্ট)। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1280", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. She mixed flour, sugar, and eggs in a bowl.\nB. Mother decided to bake a cake for my birthday.\nC. The smell of fresh cake filled the house.\nD. She put the batter into the oven.",
+        options: ["BADC", "BACD", "ABCD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B is the decision. A is the mixing. D is baking. C is the result (smell). BADC is the correct sequence.",
+        explanationBengali: "B কেক বানানোর সিদ্ধান্ত। A উপকরণ মেশানো। D ওভেনে দেওয়া। C কেকের সুগন্ধ। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1281", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It pumps blood to all parts of the body.\nB. The heart is a muscular organ.\nC. Keeping it healthy requires exercise and good diet.\nD. This blood carries oxygen and nutrients.",
+        options: ["BADC", "BACD", "ADBC", "BCAD"],
+        correctIndex: 0,
+        explanation: "B defines the heart. A describes its function. D explains what the blood carries. C gives advice for health. BADC is correct.",
+        explanationBengali: "B হৃদপিণ্ডের পরিচয়। A এর কাজ (রক্ত পাম্প করা)। D রক্তের কাজ। C হৃদপিণ্ড সুস্থ রাখার উপায়। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1282", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. They migrate thousands of miles every year.\nB. Monarch butterflies are known for their long journeys.\nC. Scientists are still studying how they navigate.\nD. They fly from Canada to Mexico for the winter.",
+        options: ["BADC", "BACD", "ADBC", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces the butterfly and its journey. A gives the distance. D specifies the route. C mentions the scientific mystery. BADC is logical.",
+        explanationBengali: "B মনার্ক প্রজাপতির পরিচয়। A দীর্ঘ ভ্রমণের কথা। D নির্দিষ্ট রুট (কানাডা থেকে মেক্সিকো)। C বিজ্ঞানীদের গবেষণা। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1283", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. He found a golden egg in its nest.\nB. A farmer had a magical goose.\nC. He thought the goose must be full of gold inside.\nD. Greedily, he killed the goose but found nothing.",
+        options: ["BACD", "BADC", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces the farmer and goose. A is the daily event. C is the greedy thought. D is the foolish action. BACD is the fable.",
+        explanationBengali: "B কৃষক ও রাজহাঁস। A সোনার ডিম পাওয়া। C কৃষকের লোভ। D হাঁস মেরে ফেলা। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1284", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. This makes it difficult for pedestrians to walk.\nB. In many cities, sidewalks are occupied by vendors.\nC. City authorities are trying to clear these areas.\nD. They are forced to walk on the busy roads.",
+        options: ["BADC", "BACD", "ADBC", "BCAD"],
+        correctIndex: 0,
+        explanation: "B states the problem (vendors). A explains the effect on pedestrians. D elaborates on the effect (walking on roads). C mentions the authority's action. BADC is correct.",
+        explanationBengali: "B ফুটপাত দখল। A হাঁটার অসুবিধা। D রাস্তায় হাঁটা। C কর্তৃপক্ষের পদক্ষেপ। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1285", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. He discovered the law of gravity.\nB. Isaac Newton was sitting under an apple tree.\nC. This incident led to a groundbreaking scientific theory.\nD. Suddenly, an apple fell on his head.",
+        options: ["BDAC", "BADC", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B sets the scene. D is the event (apple falling). A is the immediate realization/discovery. C explains the long-term impact. BDAC is correct.",
+        explanationBengali: "B নিউটন আপেল গাছের নিচে। D আপেল পড়া। A মাধ্যাকর্ষণ আবিষ্কার। C বৈজ্ঞানিক তত্ত্ব। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1286", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It promotes physical and mental well-being.\nB. Sports play a crucial role in character building.\nC. Team sports teach cooperation and leadership.\nD. Everyone should participate in some form of sport.",
+        options: ["BACD", "BADC", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces the topic (Sports). A gives health benefits. C gives social benefits. D is the recommendation. BACD follows a good structure.",
+        explanationBengali: "B খেলাধুলার ভূমিকা। A শারীরিক ও মানসিক উপকারিতা। C দলগত খেলার শিক্ষা। D সবার অংশগ্রহণ করা উচিত। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1287", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. She watered the plants in the garden.\nB. It was a hot summer afternoon.\nC. The plants looked fresh and green afterwards.\nD. Meena noticed the flowers were drooping.",
+        options: ["BDAC", "BADC", "BCAD", "ACBD"],
+        correctIndex: 0,
+        explanation: "B sets the time. D identifies the problem. A is the action. C is the result. BDAC is chronological.",
+        explanationBengali: "B গরম দুপুর। D মিনা দেখল গাছগুলো ঝিমিয়ে পড়েছে। A সে পানি দিল। C গাছগুলো সতেজ হলো। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1288", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. They act as a barrier against coastal erosion.\nB. Mangroves are unique ecosystems found in intertidal zones.\nC. Their roots provide a nursery for young fish.\nD. Sadly, they are being cleared for aquaculture.",
+        options: ["BACD", "BADC", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B defines Mangroves. A explains a protective function. C explains an ecological function. D introduces the threat. BACD is logical.",
+        explanationBengali: "B ম্যানগ্রোভের পরিচয়। A ভূমিক্ষয় রোধ। C মাছের প্রজনন ক্ষেত্র। D ধ্বংসের কারণ। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1289", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. He used his trunk to spray water on them.\nB. An elephant saw some children playing in the heat.\nC. The children laughed and enjoyed the shower.\nD. He walked to the nearby river and filled his trunk.",
+        options: ["BDAC", "BADC", "BCAD", "ABCD"],
+        correctIndex: 0,
+        explanation: "B introduces the scene. D describes the elephant's preparation. A is the action (spraying). C is the reaction. BDAC is the story.",
+        explanationBengali: "B হাতির বাচ্চাদের দেখা। D নদী থেকে পানি নেওয়া। A পানি ছিটানো। C বাচ্চাদের আনন্দ। সঠিক ক্রম BDAC।"
+    },
+    {
+        id: "pj_1290", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. This leads to cleaner air and a healthier planet.\nB. Trees absorb carbon dioxide and release oxygen.\nC. Planting trees is one of the easiest ways to save the earth.\nD. We should organize tree plantation drives regularly.",
+        options: ["CBAD", "CABD", "ABCD", "BCAD"],
+        correctIndex: 0,
+        explanation: "C introduces the importance of planting trees. B explains the scientific reason. A explains the benefit. D suggests action. CBAD is correct.",
+        explanationBengali: "C গাছ লাগানোর গুরুত্ব। B এর বৈজ্ঞানিক কারণ। A পরিবেশের উপকারিতা। D নিয়মিত গাছ লাগানোর আহ্বান। সঠিক ক্রম CBAD।"
+    },
+    {
+        id: "pj_1291", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. He searched everywhere but couldn't find it.\nB. A merchant lost his purse in the market.\nC. A kind stranger found it and returned it to him.\nD. The merchant was overjoyed and thanked him.",
+        options: ["BADC", "BACD", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B is the loss. A is the search. C is the recovery. D is the gratitude. BADC is the sequence.",
+        explanationBengali: "B বনিকের ব্যাগ হারানো। A খোঁজাখুঁজি। C অপরিচিত ব্যক্তির ফেরত দেওয়া। D বনিকের ধন্যবাদ জানানো। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1292", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It keeps the body fit and the mind alert.\nB. Swimming is an excellent form of exercise.\nC. However, one should learn it under expert supervision.\nD. It engages all the major muscle groups.",
+        options: ["BADC", "BACD", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces swimming. A mentions general benefits. D gives specific physical details. C gives a safety warning. BADC works best.",
+        explanationBengali: "B সাঁতারের পরিচয়। A উপকারিতা। D পেশীর ব্যায়াম। C সতর্কবাণী। সঠিক ক্রম BADC।"
+    },
+    {
+        id: "pj_1293", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. This helps to reduce the volume of waste sent to landfills.\nB. Waste management is a critical issue in urban areas.\nC. Segregation of waste at source is the first step.\nD. Organic waste can then be composted.",
+        options: ["BCDA", "BCAD", "CBAD", "ACBD"],
+        correctIndex: 0,
+        explanation: "B introduces the problem. C suggests the first step. D explains what to do with organic waste. A explains the result of these actions. BCDA is logical.",
+        explanationBengali: "B বর্জ্য ব্যবস্থাপনা সমস্যা। C বর্জ্য পৃথকীকরণ। D জৈব বর্জ্যের ব্যবহার। A এর সুফল। সঠিক ক্রম BCDA।"
+    },
+    {
+        id: "pj_1294", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. They are known for their loyalty and intelligence.\nB. Dogs have been human companions for thousands of years.\nC. They can be trained to perform various tasks.\nD. From guarding homes to guiding the blind, they do it all.",
+        options: ["BACD", "BADC", "ABCD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces the dog-human relationship. A describes qualities. C mentions trainability. D lists specific tasks. BACD is the correct flow.",
+        explanationBengali: "B কুকুর ও মানুষের সম্পর্ক। A গুণাবলী (বিশ্বস্ততা)। C প্রশিক্ষণ। D কাজের উদাহরণ। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1295", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. The audience applauded loudly.\nB. The magician took a rabbit out of his hat.\nC. He bowed to the audience with a smile.\nD. The show began with a card trick.",
+        options: ["DBAC", "DABC", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "D starts the show. B is the main trick. A is the audience reaction. C is the magician's closing. DBAC follows the event.",
+        explanationBengali: "D শো শুরু। B খরগোশ বের করা। A হাততালি। C জাদুকরের অভিবাদন। সঠিক ক্রম DBAC।"
+    },
+    {
+        id: "pj_1296", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It is essential for the growth of any nation.\nB. Education empowers individuals to make better choices.\nC. Without it, progress is slow and difficult.\nD. Governments must prioritize funding for schools.",
+        options: ["BADC", "BACD", "ABCD", "BCAD"],
+        correctIndex: 1,
+        explanation: "B introduces the value of education. A explains its impact on a nation. C explains the negative consequence of lacking it. D suggests government action. BACD is logical.",
+        explanationBengali: "B শিক্ষার শক্তি। A জাতির উন্নতি। C শিক্ষার অভাবের কুফল। D সরকারের করণীয়। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1297", chapter: "Para Jumble", type: "jumble", difficulty: "hard", topic: "Sentence Rearrangement",
+        question: "A. They are massive clouds of gas and dust.\nB. Nebulas are among the most beautiful objects in space.\nC. Stars are born within these clouds.\nD. Gravity pulls the gas together until it ignites.",
+        options: ["BACD", "BADC", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces Nebulas. A defines them. C explains their function (star birth). D explains the process of star birth. BACD is correct.",
+        explanationBengali: "B নেবুলার পরিচয়। A এর গঠন। C তারার জন্ম। D জন্ম প্রক্রিয়া। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1298", chapter: "Para Jumble", type: "jumble", difficulty: "easy", topic: "Sentence Rearrangement",
+        question: "A. She packed her bag with clothes and snacks.\nB. Rina was going on a school trip.\nC. She woke up early in the morning.\nD. Her mother dropped her at the bus station.",
+        options: ["BACD", "BCAD", "ACBD", "BADC"],
+        correctIndex: 1,
+        explanation: "B establishes the trip. C is waking up. A is packing. D is leaving. BCAD is the chronological order.",
+        explanationBengali: "B স্কুল ট্রিপ। C ঘুম থেকে ওঠা। A ব্যাগ গোছানো। D বাস স্টেশনে যাওয়া। সঠিক ক্রম BCAD।"
+    },
+    {
+        id: "pj_1299", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. It causes soil pollution and harms wildlife.\nB. Plastic waste takes hundreds of years to decompose.\nC. We should switch to biodegradable alternatives.\nD. Using paper or cloth bags is a good start.",
+        options: ["BACD", "BADC", "ACBD", "BCAD"],
+        correctIndex: 0,
+        explanation: "B introduces the problem (decomposition). A explains the harm. C suggests a solution. D gives a specific example. BACD is correct.",
+        explanationBengali: "B প্লাস্টিকের স্থায়িত্ব। A দূষণ ও ক্ষতি। C বিকল্প খোঁজা। D কাগজের ব্যাগ ব্যবহার। সঠিক ক্রম BACD।"
+    },
+    {
+        id: "pj_1300", chapter: "Para Jumble", type: "jumble", difficulty: "moderate", topic: "Sentence Rearrangement",
+        question: "A. He used the prize money to help the poor.\nB. A lottery ticket changed the life of a poor man.\nC. He won the first prize of one million dollars.\nD. Everyone in the village praised his generosity.",
+        options: ["BCAD", "BADC", "CBAD", "ACBD"],
+        correctIndex: 0,
+        explanation: "B introduces the lottery ticket. C states the win. A describes what he did with the money. D is the social reaction. BCAD is the story.",
+        explanationBengali: "B লটারি টিকিট। C পুরস্কার জয়। A গরিবদের সাহায্য। D মানুষের প্রশংসা। সঠিক ক্রম BCAD।"
     }
 ];
+
 
 
 
